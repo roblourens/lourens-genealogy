@@ -56,6 +56,13 @@ export function createMapView(ctx: AppContext): ViewController {
 			<div style="margin-top:10px;font-size:11.5px;color:var(--muted-text);line-height:1.45">
 				Arcs run from each parent's origin to their child's. Click a line's branch to toggle it.
 			</div>
+			<button class="border-toggle" id="map-borders" type="button" role="switch" aria-checked="false" disabled>
+				<span class="bt-track"><span class="bt-knob"></span></span>
+				<span class="bt-label">Historical borders</span>
+			</button>
+			<div class="border-credit" id="map-border-credit">
+				Period maps from <a href="https://github.com/aourednik/historical-basemaps" target="_blank" rel="noopener">historical-basemaps</a>
+			</div>
 		</div>
 		<div class="view-intro-pill">Watch four immigrant lines cross from the Netherlands &amp; Germany into the American Midwest. Drag the timeline to move through the centuries.</div>
 		<button class="map-clear-hint" id="map-clear-hint" type="button">Tracking one family line · click to reset</button>
@@ -474,6 +481,61 @@ export function createMapView(ctx: AppContext): ViewController {
 			const hits = map.queryRenderedFeatures(e.point, { layers: ['arc-hit', 'node-circle'] });
 			if (!hits.length) clearSelection();
 		});
+
+		// Historical-borders overlay. Empty + hidden until the user enables the toggle; the
+		// data (period world maps cropped to Europe) is fetched lazily on first enable. All
+		// three layers sit below 'arc-glow' so the migration arcs and dots stay on top.
+		map.addSource('hist-borders', { type: 'geojson', data: fc([]) });
+		map.addLayer(
+			{
+				id: 'hist-fill',
+				type: 'fill',
+				source: 'hist-borders',
+				layout: { visibility: 'none' },
+				paint: { 'fill-color': ['coalesce', ['get', '_fill'], '#7a6f86'], 'fill-opacity': 0.16 },
+			},
+			'arc-glow',
+		);
+		map.addLayer(
+			{
+				id: 'hist-line',
+				type: 'line',
+				source: 'hist-borders',
+				layout: { 'line-join': 'round', visibility: 'none' },
+				paint: {
+					'line-color': '#e6c98a',
+					'line-width': ['interpolate', ['linear'], ['zoom'], 2, 0.7, 5, 1.6],
+					'line-opacity': 0.55,
+				},
+			},
+			'arc-glow',
+		);
+		map.addLayer(
+			{
+				id: 'hist-label',
+				type: 'symbol',
+				source: 'hist-borders',
+				layout: {
+					visibility: 'none',
+					'text-field': ['get', 'NAME'],
+					'text-font': ['DIN Pro Italic', 'Arial Unicode MS Regular'],
+					'text-size': ['interpolate', ['linear'], ['zoom'], 2.5, 9.5, 5, 14],
+					'text-transform': 'uppercase',
+					'text-letter-spacing': 0.08,
+					'text-max-width': 7,
+					'text-padding': 6,
+				},
+				paint: {
+					'text-color': '#f1e3c4',
+					'text-halo-color': 'rgba(18,14,9,0.9)',
+					'text-halo-width': 1.4,
+					'text-opacity': 0.85,
+				},
+			},
+			'arc-glow',
+		);
+
+		bordersBtn.disabled = false;
 	});
 
 	// ---- Lineage highlight ----
@@ -739,6 +801,91 @@ export function createMapView(ctx: AppContext): ViewController {
 		}),
 	);
 
+	// ---- Historical borders overlay ----
+	interface BordersDoc {
+		years: number[];
+		snapshots: Record<string, GeoJSON.FeatureCollection>;
+	}
+	const bordersBtn = el.querySelector('#map-borders') as HTMLButtonElement;
+	const borderCredit = el.querySelector('#map-border-credit') as HTMLElement;
+	const btLabel = bordersBtn.querySelector('.bt-label') as HTMLElement;
+	let bordersDoc: BordersDoc | null = null;
+	let bordersOn = false;
+	let borderYearShown: number | null = null;
+	// Muted, warm tones so each polity reads as its own patch without fighting the arcs.
+	const BORDER_PALETTE = [
+		'#8a7a5c', '#6f7f6a', '#7a6f86', '#86766a', '#6a7a86',
+		'#867a6f', '#7f846a', '#6a8678', '#866a72', '#6f8678',
+	];
+	function colorForName(name: string): string {
+		let h = 0;
+		for (let i = 0; i < name.length; i++) h = (h * 31 + name.charCodeAt(i)) >>> 0;
+		return BORDER_PALETTE[h % BORDER_PALETTE.length];
+	}
+	/** Most recent snapshot year at or before the displayed timeline year. */
+	function snapshotYearFor(displayYear: number): number | null {
+		if (!bordersDoc) return null;
+		let pick = bordersDoc.years[0];
+		for (const y of bordersDoc.years) {
+			if (y <= displayYear) pick = y;
+			else break;
+		}
+		return pick ?? null;
+	}
+	function paintBorderSnapshot(snapYear: number): void {
+		const raw = bordersDoc?.snapshots[String(snapYear)];
+		if (!raw) return;
+		const feats = raw.features.map((f) => ({
+			...f,
+			properties: { ...f.properties, _fill: colorForName(String(f.properties?.NAME ?? '')) },
+		})) as GeoJSON.Feature[];
+		(map.getSource('hist-borders') as mapboxgl.GeoJSONSource | undefined)?.setData(fc(feats));
+	}
+	function updateBorders(displayYear: number): void {
+		if (!bordersOn) return;
+		const sy = snapshotYearFor(displayYear);
+		if (sy == null || sy === borderYearShown) return;
+		borderYearShown = sy;
+		paintBorderSnapshot(sy);
+		btLabel.textContent = `Borders \u00b7 ${sy}`;
+	}
+	function setBorderLayers(visible: boolean): void {
+		for (const id of ['hist-fill', 'hist-line', 'hist-label']) {
+			if (map.getLayer(id)) map.setLayoutProperty(id, 'visibility', visible ? 'visible' : 'none');
+		}
+		// Fade the modern country outlines back when period borders are in front.
+		if (map.getLayer('admin-0-boundary')) {
+			map.setPaintProperty('admin-0-boundary', 'line-opacity', visible ? 0.12 : 0.9);
+		}
+		if (map.getLayer('admin-0-boundary-bg')) {
+			map.setPaintProperty('admin-0-boundary-bg', 'line-opacity', visible ? 0.1 : 0.6);
+		}
+	}
+	bordersBtn.addEventListener('click', async () => {
+		if (!bordersOn && !bordersDoc) {
+			bordersBtn.classList.add('is-loading');
+			try {
+				const res = await fetch('data/borders.json');
+				bordersDoc = res.ok ? ((await res.json()) as BordersDoc) : null;
+			} catch {
+				bordersDoc = null;
+			}
+			bordersBtn.classList.remove('is-loading');
+			if (!bordersDoc) return;
+		}
+		bordersOn = !bordersOn;
+		bordersBtn.classList.toggle('is-on', bordersOn);
+		bordersBtn.setAttribute('aria-checked', String(bordersOn));
+		borderCredit.classList.toggle('is-on', bordersOn);
+		setBorderLayers(bordersOn);
+		if (bordersOn) {
+			borderYearShown = null;
+			updateBorders(sliderYear);
+		} else {
+			btLabel.textContent = 'Historical borders';
+		}
+	});
+
 	// Timeline.
 	const slider = el.querySelector('#map-slider') as HTMLInputElement;
 	const yearLabel = el.querySelector('#map-year') as HTMLElement;
@@ -746,6 +893,7 @@ export function createMapView(ctx: AppContext): ViewController {
 	const setYear = (y: number, label?: string): void => {
 		sliderYear = y;
 		yearLabel.textContent = label ?? (y >= 2000 ? 'All years' : `to ${y}`);
+		updateBorders(y);
 		applyNodeFilter();
 		applyNodeCounts();
 		if (y < committedYear) {

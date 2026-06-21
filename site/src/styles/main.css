@@ -1381,6 +1381,89 @@ body {
 	color: var(--ink-soft);
 }
 
+.border-toggle {
+	margin-top: 12px;
+	display: flex;
+	align-items: center;
+	gap: 9px;
+	width: 100%;
+	padding: 7px 4px 2px;
+	background: none;
+	border: none;
+	border-top: 1px solid var(--line);
+	color: var(--ink-soft);
+	font-family: var(--sans);
+	font-size: 12px;
+	cursor: pointer;
+	text-align: left;
+}
+
+.border-toggle:disabled {
+	opacity: 0.45;
+	cursor: default;
+}
+
+.border-toggle .bt-track {
+	position: relative;
+	flex-shrink: 0;
+	width: 30px;
+	height: 16px;
+	border-radius: 999px;
+	background: rgba(255, 255, 255, 0.12);
+	border: 1px solid var(--line-strong);
+	transition: background 0.2s ease;
+}
+
+.border-toggle .bt-knob {
+	position: absolute;
+	top: 1px;
+	left: 1px;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background: var(--muted-text);
+	transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.border-toggle.is-on .bt-track {
+	background: rgba(214, 184, 120, 0.35);
+	border-color: var(--gold);
+}
+
+.border-toggle.is-on .bt-knob {
+	transform: translateX(14px);
+	background: var(--gold);
+}
+
+.border-toggle.is-on .bt-label {
+	color: var(--gold-2);
+}
+
+.border-toggle.is-loading .bt-label::after {
+	content: '\2026';
+}
+
+.border-credit {
+	display: none;
+	margin-top: 4px;
+	font-size: 10.5px;
+	line-height: 1.4;
+	color: var(--muted-text);
+}
+
+.border-credit.is-on {
+	display: block;
+}
+
+.border-credit a {
+	color: var(--gold-2);
+	text-decoration: none;
+}
+
+.border-credit a:hover {
+	text-decoration: underline;
+}
+
 .mapboxgl-popup-content {
 	background: var(--panel) !important;
 	color: var(--ink) !important;
