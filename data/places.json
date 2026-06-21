@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T16:02:07.570Z",
+  "generatedAt": "2026-06-21T16:23:16.273Z",
   "places": {
     "Altoona, Polk, Iowa, USA": {
       "place": "Altoona, Polk, Iowa, USA",
@@ -243,11 +243,11 @@
     },
     "Eda, Gelderland, Netherlands": {
       "place": "Eda, Gelderland, Netherlands",
-      "lat": 52.1014041,
-      "lng": 5.9515701,
-      "displayName": "Gelderland, Nederland",
-      "country": "Nederland",
-      "source": "nominatim"
+      "lat": 52.0716826,
+      "lng": 5.7455106,
+      "displayName": "Ede, Gelderland, Nederland (GEDCOM typo: Eda)",
+      "country": "Netherlands",
+      "source": "override"
     },
     "Ede, Gelderland, The Netherlands": {
       "place": "Ede, Gelderland, The Netherlands",

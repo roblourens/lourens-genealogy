@@ -2,32 +2,127 @@
   "_comment": "Manual coordinate corrections for places Nominatim missed or resolved incorrectly. Keyed by the exact raw GEDCOM place string. Set a value to null to exclude a place from the map. Applied by tools/geocode.ts after automatic geocoding.",
   "overrides": {
     "Unknown": null,
-    "Basse Kingdom of Hannover": { "lat": 52.5547, "lng": 9.4575, "displayName": "Basse, Neustadt am Rübenberge, Lower Saxony, Germany" },
-    "Berel, Lower Saxony (area between Hannover, Hildesheim and Braunschweig)": { "lat": 52.1003, "lng": 10.3686, "displayName": "Berel, Lower Saxony, Germany" },
-    "Braunschweig, Hohennassel, Germany": { "lat": 52.1622, "lng": 10.3608, "displayName": "Hohenassel, Lower Saxony, Germany" },
-    "Esperke, bei Neustadt am Ruebenberge, Kingdom of Hannover": { "lat": 52.6219, "lng": 9.7806, "displayName": "Esperke, Neustadt am Rübenberge, Lower Saxony, Germany" },
-    "Gerkesklooster, Gem Achtkarspelen": { "lat": 53.2406, "lng": 6.1606, "displayName": "Gerkesklooster, Achtkarspelen, Friesland, Netherlands" },
-    "Gerkesklooster, gem Achtkarspelen": { "lat": 53.2406, "lng": 6.1606, "displayName": "Gerkesklooster, Achtkarspelen, Friesland, Netherlands" },
-    "Gruenberg, Schlesien, Germany (Prussia)": { "lat": 51.9355, "lng": 15.5062, "displayName": "Zielona Góra (Grünberg), Poland" },
-    "Indianapolis, Marion Cointy, Indiana": { "lat": 39.7684, "lng": -86.1581, "displayName": "Indianapolis, Marion County, Indiana, USA" },
-    "Kingdom of Hannover": { "lat": 52.374, "lng": 9.738, "displayName": "Hannover, Lower Saxony, Germany" },
-    "Nordholz, Amt Buckkeburg, Furstenthum Schaumburg Lippe - Germany": { "lat": 52.2645, "lng": 9.0497, "displayName": "Nordholz, Bückeburg, Schaumburg, Lower Saxony, Germany" },
-    "Pella, Marion County, Iowa, USA     in census": { "lat": 41.4081, "lng": -92.9166, "displayName": "Pella, Marion County, Iowa, USA" },
-    "Rijperkerk, Hardegarijp, Tietjerksteradiel (Friesland)": { "lat": 53.2092, "lng": 5.9417, "displayName": "Ryptsjerk (Rijperkerk), Tytsjerksteradiel, Friesland, Netherlands" },
-    "Schoonrewoerd, Zuid Holland": { "lat": 51.9381, "lng": 5.1003, "displayName": "Schoonrewoerd, Gelderland, Netherlands" },
-    "Tzummarum, Minnertsga, Barradeel, Franekeradeel (Friesland)": { "lat": 53.2706, "lng": 5.5394, "displayName": "Tzummarum, Waadhoeke, Friesland, Netherlands" },
-    "Wronke, Posen, Germany (Prussia)": { "lat": 52.7075, "lng": 16.3811, "displayName": "Wronki (Wronke), Greater Poland, Poland" },
-    "Zeddam, Nederduits Gereformeerde Gemeente": { "lat": 51.9028, "lng": 6.2581, "displayName": "Zeddam, Gelderland, Netherlands" },
-    "Zetten (gedoopt 31-10-1717)": { "lat": 51.9292, "lng": 5.7375, "displayName": "Zetten, Gelderland, Netherlands" },
-    "Veenendaal, Gelders Eda, the, Netherlands": { "lat": 52.0264, "lng": 5.5544, "displayName": "Veenendaal, Utrecht, Netherlands" },
-    "Vuren": { "lat": 51.8250, "lng": 5.0483, "displayName": "Vuren, Gelderland, Netherlands" },
+    "Basse Kingdom of Hannover": {
+      "lat": 52.5547,
+      "lng": 9.4575,
+      "displayName": "Basse, Neustadt am Rübenberge, Lower Saxony, Germany"
+    },
+    "Berel, Lower Saxony (area between Hannover, Hildesheim and Braunschweig)": {
+      "lat": 52.1003,
+      "lng": 10.3686,
+      "displayName": "Berel, Lower Saxony, Germany"
+    },
+    "Braunschweig, Hohennassel, Germany": {
+      "lat": 52.1622,
+      "lng": 10.3608,
+      "displayName": "Hohenassel, Lower Saxony, Germany"
+    },
+    "Esperke, bei Neustadt am Ruebenberge, Kingdom of Hannover": {
+      "lat": 52.6219,
+      "lng": 9.7806,
+      "displayName": "Esperke, Neustadt am Rübenberge, Lower Saxony, Germany"
+    },
+    "Gerkesklooster, Gem Achtkarspelen": {
+      "lat": 53.2406,
+      "lng": 6.1606,
+      "displayName": "Gerkesklooster, Achtkarspelen, Friesland, Netherlands"
+    },
+    "Gerkesklooster, gem Achtkarspelen": {
+      "lat": 53.2406,
+      "lng": 6.1606,
+      "displayName": "Gerkesklooster, Achtkarspelen, Friesland, Netherlands"
+    },
+    "Gruenberg, Schlesien, Germany (Prussia)": {
+      "lat": 51.9355,
+      "lng": 15.5062,
+      "displayName": "Zielona Góra (Grünberg), Poland"
+    },
+    "Indianapolis, Marion Cointy, Indiana": {
+      "lat": 39.7684,
+      "lng": -86.1581,
+      "displayName": "Indianapolis, Marion County, Indiana, USA"
+    },
+    "Kingdom of Hannover": {
+      "lat": 52.374,
+      "lng": 9.738,
+      "displayName": "Hannover, Lower Saxony, Germany"
+    },
+    "Nordholz, Amt Buckkeburg, Furstenthum Schaumburg Lippe - Germany": {
+      "lat": 52.2645,
+      "lng": 9.0497,
+      "displayName": "Nordholz, Bückeburg, Schaumburg, Lower Saxony, Germany"
+    },
+    "Pella, Marion County, Iowa, USA     in census": {
+      "lat": 41.4081,
+      "lng": -92.9166,
+      "displayName": "Pella, Marion County, Iowa, USA"
+    },
+    "Rijperkerk, Hardegarijp, Tietjerksteradiel (Friesland)": {
+      "lat": 53.2092,
+      "lng": 5.9417,
+      "displayName": "Ryptsjerk (Rijperkerk), Tytsjerksteradiel, Friesland, Netherlands"
+    },
+    "Schoonrewoerd, Zuid Holland": {
+      "lat": 51.9381,
+      "lng": 5.1003,
+      "displayName": "Schoonrewoerd, Gelderland, Netherlands"
+    },
+    "Tzummarum, Minnertsga, Barradeel, Franekeradeel (Friesland)": {
+      "lat": 53.2706,
+      "lng": 5.5394,
+      "displayName": "Tzummarum, Waadhoeke, Friesland, Netherlands"
+    },
+    "Wronke, Posen, Germany (Prussia)": {
+      "lat": 52.7075,
+      "lng": 16.3811,
+      "displayName": "Wronki (Wronke), Greater Poland, Poland"
+    },
+    "Zeddam, Nederduits Gereformeerde Gemeente": {
+      "lat": 51.9028,
+      "lng": 6.2581,
+      "displayName": "Zeddam, Gelderland, Netherlands"
+    },
+    "Zetten (gedoopt 31-10-1717)": {
+      "lat": 51.9292,
+      "lng": 5.7375,
+      "displayName": "Zetten, Gelderland, Netherlands"
+    },
+    "Veenendaal, Gelders Eda, the, Netherlands": {
+      "lat": 52.0264,
+      "lng": 5.5544,
+      "displayName": "Veenendaal, Utrecht, Netherlands"
+    },
+    "Vuren": {
+      "lat": 51.825,
+      "lng": 5.0483,
+      "displayName": "Vuren, Gelderland, Netherlands"
+    },
     "Theresia, Prussia, Germany": null,
     "Dommerwoud, Pruisen (D)": null,
     "Onbekend": null,
     "unbekannt": null,
     "Unbekannt, Germany": null,
-    "Onbekend or Renswoude, Utrecht, Netherlands": { "lat": 52.0740, "lng": 5.5393, "displayName": "Renswoude, Utrecht, Netherlands" },
-    "Mariënthal (D)": { "lat": 51.7309, "lng": 6.7349, "displayName": "Marienthal, Hamminkeln, Kreis Wesel, Nordrhein-Westfalen, Germany" },
-    "Prussia": { "lat": 52.5200, "lng": 13.4050, "displayName": "Berlin (capital of the historic Kingdom of Prussia)", "country": "Germany" }
+    "Onbekend or Renswoude, Utrecht, Netherlands": {
+      "lat": 52.074,
+      "lng": 5.5393,
+      "displayName": "Renswoude, Utrecht, Netherlands"
+    },
+    "Mariënthal (D)": {
+      "lat": 51.7309,
+      "lng": 6.7349,
+      "displayName": "Marienthal, Hamminkeln, Kreis Wesel, Nordrhein-Westfalen, Germany"
+    },
+    "Prussia": {
+      "lat": 52.52,
+      "lng": 13.405,
+      "displayName": "Berlin (capital of the historic Kingdom of Prussia)",
+      "country": "Germany"
+    },
+    "Eda, Gelderland, Netherlands": {
+      "lat": 52.0716826,
+      "lng": 5.7455106,
+      "displayName": "Ede, Gelderland, Nederland (GEDCOM typo: Eda)",
+      "country": "Netherlands"
+    }
   }
 }
