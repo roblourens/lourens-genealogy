@@ -1,15 +1,27 @@
 ---
 name: gedcom-reimport
-description: Re-import an updated Ancestry GEDCOM into the family-tree site, research the newly-added people, surface data found online that is NOT in the GEDCOM (for porting back to Ancestry), and rebuild/QA the site. Use whenever the owner says they updated/exported a new "Lourens Family Tree.ged", added people on Ancestry, or wants the site refreshed from the latest GEDCOM.
+description: Re-import an updated Ancestry GEDCOM into the family-tree site, research the newly-added people, find images and famous-person connections for them, surface data found online that is NOT in the GEDCOM (for porting back to Ancestry), and rebuild/QA the site. Use whenever the owner says they updated/exported a new "Lourens Family Tree.ged", added people on Ancestry, or wants the site refreshed from the latest GEDCOM.
 ---
 
 # Re-importing an updated GEDCOM
 
 This repo is a static Vite + TypeScript site that visualizes a family tree exported from
 Ancestry.com. The owner periodically updates `Lourens Family Tree.ged` with new people/data
-from Ancestry. This skill is the repeatable workflow for pulling those changes in: re-parse the
-data, research the new people (cited, no fabrication), and report back anything discovered online
-that ISN'T in the GEDCOM so the owner can add it to Ancestry.
+from Ancestry. This skill is the complete, repeatable workflow for every GEDCOM update:
+
+1. **Locate** the genuinely-latest export and copy it in (Step 0 — don't skip; the new file is
+   often still in `~/Downloads`, and a wrong/old copy can be destructive).
+2. **Ingest** — re-parse, geocode, merge, build.
+3. **Diff & bucket** the newly-added people into the four family branches.
+4. **Research** each new person (cited, no fabrication): bios, occupations, records.
+5. **Images** — find freely-licensed Wikimedia images for new people/places/connections.
+6. **Famous connections** — check whether new surnames plausibly link to famous people.
+7. **Gaps report** — surface data found online that ISN'T in the GEDCOM, for porting to Ancestry.
+8. **QA & commit.**
+
+If an update turns out to contain **no new people** (e.g. only edited dates/sources on existing
+people, or no change at all), say so plainly and skip the research/image/connection steps — see
+Step 0. Never fabricate a re-import.
 
 ## Mental model
 
@@ -43,6 +55,30 @@ shipped — only the generated JSON. Research is stored append-only in
 | `npm run dev` | vite dev server on **:5180** |
 
 ## Step-by-step
+
+### 0. Locate the genuinely-latest export (do this first)
+The owner exports from Ancestry and the file usually lands in `~/Downloads/Lourens Family Tree.ged`,
+NOT in the repo. The repo copy may already be newer than a stale download. Before importing,
+figure out which file is actually the latest and confirm it really adds something:
+```bash
+# Compare the repo copy against any Downloads copy: mtime, INDI (people) count
+for f in "Lourens Family Tree.ged" ~/Downloads/"Lourens Family Tree.ged"; do
+  [ -f "$f" ] && echo "$(stat -f '%Sm' -t '%Y-%m-%d %H:%M:%S' "$f")  INDI=$(grep -c '^0 @I' "$f")  $f"
+done
+```
+Decision rules:
+- **The newest, largest export wins.** A *smaller* INDI count than the repo copy almost always
+  means an older/partial export — importing it would DELETE people. Never import a smaller file
+  without explicit owner confirmation.
+- If the latest file is in `~/Downloads`, copy it into the repo (`cp ~/Downloads/"Lourens Family
+  Tree.ged" .`) before parsing.
+- After parsing, **diff to confirm real change** (Step 2). If `git diff "Lourens Family Tree.ged"`
+  is empty and the parsed people are byte-identical (0 added, 0 changed by `hash`), there is
+  nothing to import — tell the owner the repo already has the latest (cite the timestamp + count)
+  and ask where the new export is. Do not run research on an unchanged tree.
+- An update can also change data on *existing* people (not add new ones). Detect that by comparing
+  per-person `hash` against `git show HEAD:data/tree.json` (see Step 2). Re-research changed people
+  too if the change is substantive (new place/occupation/dates).
 
 ### 1. Snapshot the current people, then re-parse
 Capture the existing IDs BEFORE parsing so you can diff:
@@ -79,6 +115,17 @@ for(const k in buckets)console.log(k,buckets[k].length);
 ```
 Branch colors (used across the site): lourens `#d98a4e`, roorda `#5aa9b8`, stuenkel `#8a7fc9`,
 brueggemann `#b8657f`, root `#e6c878`.
+
+Also detect people whose *data changed* (not just additions) by comparing content hashes against
+the committed tree:
+```bash
+git show HEAD:data/tree.json > research-work/tree-old.json
+node -e '
+const o=new Map(require("./research-work/tree-old.json").people.map(p=>[p.id,p.hash]));
+const changed=require("./data/tree.json").people.filter(p=>o.has(p.id)&&o.get(p.id)!==p.hash);
+console.log("changed existing people:",changed.length); changed.forEach(p=>console.log("  ",p.id,p.name));
+'
+```
 
 ### 3. Build rich research chunks
 Give each research agent FULL existing context per person (so it can tell what's already known
@@ -126,20 +173,60 @@ npm run merge && npm run build
 (`data/enrichment-partial/*.json` is globbed by the merge — any number of files is fine.)
 
 ### 6. Build the Ancestry gaps report
-Combine `research-work/out-gaps-*.json` into one owner-facing report at
-`research-work/ancestry-gaps.md` — grouped by person, every finding with its confidence and
-source link. This is gitignored scratch; surface it to the owner in chat (or copy to the session
-artifacts dir). Lead with the highest-confidence, most actionable findings (occupations, exact
-dates, unrecorded children/spouses, new record sources).
+Combine `research-work/out-gaps-*.json` into one owner-facing report committed at
+**`research/ancestry-gaps.md`** (note: `research/` is committed; `research-work/` is gitignored
+scratch). Group by person, sort findings confirmed → probable → possible, render each with its
+type, confidence badge, and source link, and flag findings that **conflict** with existing tree
+values. Lead with the most actionable (occupations, exact dates, unrecorded children/spouses, new
+record sources). Surface the headline numbers to the owner in chat.
 
-### 7. QA with Playwright, then commit
+### 7. Find images (Wikimedia)
+Look for freely-licensed images for the new people, their key places, and any famous connections.
+Manifest is `data/images.json`; files live in `data/images/` and are served because
+`site/public/data` symlinks to `../../data`. The person panel (`person.ts`) and connection cards
+(`connections.ts`) auto-render images keyed by personId or connection id — no code change needed.
+
+Dispatch a background agent (repo-relative paths only) that:
+- Searches **Wikimedia Commons** (and only clearly free licenses: public domain, CC0, CC BY,
+  CC BY-SA) for portraits of famous connections, coats of arms, and place/context images
+  (churches, towns, states/stinsen) relevant to new people and connections.
+- **Downloads** each into `data/images/<key>-<n>.jpg` (`key` = a personId like `I2727...` for
+  place-context on a person, or a connection id like `roorda-frisian-nobility`).
+- **Appends** to `data/images.json` preserving existing entries, each:
+```json
+{ "localPath": "data/images/<key>-1.jpg", "sourceUrl": "https://commons.wikimedia.org/...",
+  "caption": "...", "credit": "Author / institution", "license": "CC BY-SA 4.0",
+  "kind": "portrait|coat-of-arms|context" }
+```
+Never invent a person's photo — pre-photography ancestors get *place/context* images only, clearly
+captioned as context, not as a likeness. Validate: every `localPath` exists and is a real JPEG
+(`b[0]===0xFF && b[1]===0xD8`).
+
+### 8. Check for famous connections
+For distinctive/rare surnames among the new people, research whether they plausibly connect to a
+famous person of that name. Manifest is `data/connections.json` (rendered on the Connections page,
+sorted by confidence). Dispatch a background agent that, for each candidate surname:
+- Researches the famous namesake AND the family's region/era, and judges the link honestly.
+- **Appends** a connection entry (preserve existing; `relatedPersonIds` MUST be real tree ids):
+```json
+{ "id": "kebab-id", "surname": "Roorda", "famousPerson": "...", "famousDescription": "...",
+  "relatedPersonIds": ["I2727..."], "confidence": "confirmed|plausible|speculative",
+  "reasoning": "honest assessment — what's documented vs. what's a shared-surname guess",
+  "citations": [{ "label": "...", "url": "https://..." }] }
+```
+Confidence rubric: `confirmed` = a documented genealogical link; `plausible` = same rare surname,
+overlapping region & era, real possibility but unproven; `speculative` = shared surname + fun
+"what if", no established link. **Be honest** — most are plausible/speculative and the UI says so.
+Never inflate confidence. Validate every `relatedPersonIds` exists in `data/tree.json`.
+
+### 9. QA with Playwright, then commit
 Dev server on :5180. Drive it with `playwright-cli` (see the `playwright-cli` skill). Verify all
 views render with the new counts and **no console errors**: Tree, Migration Map (arcs + arrows +
 line-click highlight), Timeline ("River of Lifetimes"), Statistics, Connections (with images),
 and a Person panel (bio + image gallery). Then:
 ```bash
 git add -A   # research-work/ is gitignored and won't be committed
-git commit -m "Re-import GEDCOM (N people): research M new ancestors + Ancestry gaps report"
+git commit -m "Re-import GEDCOM (N people): research M new ancestors + images + connections + gaps"
 ```
 Use the co-author trailer: `Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>`.
 
@@ -162,3 +249,12 @@ Use the co-author trailer: `Co-authored-by: Copilot <223556219+Copilot@users.nor
   `data/place-overrides.json` only if a gap is visually noticeable on the map.
 - **Don't take external actions** (create repos, push public data, file issues/PRs) without the
   owner explicitly asking — the tree contains living relatives' data.
+- **"I updated the GEDCOM" ≠ there's new data.** The newest export is often still in `~/Downloads`
+  and the repo copy may already be newer. Always run Step 0: compare mtime + INDI count, never
+  import a smaller file, and if nothing actually changed, report that (with timestamp + count) and
+  ask where the new file is — don't run a no-op research pass.
+- **Images**: only free licenses (PD/CC0/CC BY/CC BY-SA), always store `credit` + `license`, and
+  never present a context image (church/town) as a person's likeness. Pre-photography people get
+  context images only.
+- **Connections**: be honest about confidence — most are `plausible`/`speculative`. Validate every
+  `relatedPersonIds` against the tree, or the card silently references a missing person.
