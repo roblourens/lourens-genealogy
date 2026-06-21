@@ -95,31 +95,54 @@ export function isVaguePlace(place: string | undefined | null): boolean {
 	return !!place && VAGUE_PLACES.has(place.trim().toLowerCase());
 }
 
+/**
+ * When a person's place is only a state/country centroid (e.g. "Nebraska"), find a
+ * more specific place of theirs IN THE SAME COUNTRY to use instead (e.g. their Fremont
+ * residence). Returns undefined when no same-country specific place exists. The
+ * same-country guard is essential: it lets us tighten "Nebraska" -> Fremont without
+ * wrongly relocating an emigrant from their homeland birth ("Holland") to the foreign
+ * town where they later died ("Iowa"), which would draw a backwards migration arc.
+ */
+export function refinedVaguePlace(
+	data: AppData,
+	person: Person,
+	vaguePlace: string,
+): string | undefined {
+	const country = data.places[vaguePlace]?.country;
+	for (const ev of person.events) {
+		if (!ev.place || isVaguePlace(ev.place)) continue;
+		const pt = data.places[ev.place];
+		if (pt && (!country || pt.country === country)) return ev.place;
+	}
+	return undefined;
+}
+
 export function firstPlacePoint(
 	data: AppData,
 	person: Person,
 	prefer: LifeEvent['type'][] = ['birth', 'residence', 'death'],
 ): { lat: number; lng: number; place: string } | null {
-	// Two passes: first honour the preference order but skip vague state/country centroids,
-	// then fall back to allowing them so people whose only place is "Germany" still appear.
-	for (const allowVague of [false, true]) {
-		for (const type of prefer) {
-			for (const ev of person.events) {
-				if (ev.type !== type || !ev.place) continue;
-				if (!allowVague && isVaguePlace(ev.place)) continue;
-				const pt = data.places[ev.place];
-				if (pt) return { lat: pt.lat, lng: pt.lng, place: ev.place };
-			}
-		}
-		// Any event with a known point (still respecting the vague gate).
-		for (const ev of person.events) {
-			if (!ev.place) continue;
-			if (!allowVague && isVaguePlace(ev.place)) continue;
-			const pt = data.places[ev.place];
-			if (pt) return { lat: pt.lat, lng: pt.lng, place: ev.place };
+	// Anchor on the origin-most event in preference order (birth first), vague or not.
+	let primary: string | undefined;
+	for (const type of prefer) {
+		const ev = person.events.find((e) => e.type === type && e.place && data.places[e.place]);
+		if (ev?.place) {
+			primary = ev.place;
+			break;
 		}
 	}
-	return null;
+	if (!primary) {
+		primary = person.events.find((e) => e.place && data.places[e.place])?.place;
+	}
+	if (!primary) return null;
+
+	// A bare state/country centroid is tightened to a same-country specific place if one exists.
+	if (isVaguePlace(primary)) {
+		const refined = refinedVaguePlace(data, person, primary);
+		if (refined) primary = refined;
+	}
+	const pt = data.places[primary]!;
+	return { lat: pt.lat, lng: pt.lng, place: primary };
 }
 
 export function escapeHtml(s: string): string {

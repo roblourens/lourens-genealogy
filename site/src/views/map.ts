@@ -3,7 +3,7 @@ import type { Person } from '../../../shared/types';
 import type { AppContext, ViewController } from '../main';
 import type { BranchKey } from '../data';
 import { BRANCHES } from '../data';
-import { branchColor, escapeHtml, firstPlacePoint, isVaguePlace, lifespanLabel, shortPlace } from '../util';
+import { branchColor, escapeHtml, firstPlacePoint, isVaguePlace, lifespanLabel, refinedVaguePlace, shortPlace } from '../util';
 
 const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN as string | undefined;
 const ROOT_BIRTH = 1988;
@@ -100,17 +100,15 @@ export function createMapView(ctx: AppContext): ViewController {
 	>();
 	for (const p of data.people) {
 		const est = estYear(p);
-		// If this person has any specific (non-vague) geocoded place, drop their vague
-		// state/country-centroid events so we don't scatter dots in the middle of Nebraska
-		// or Germany for someone we can actually place in a town.
-		const hasSpecific = p.events.some(
-			(ev) => ev.place && !isVaguePlace(ev.place) && data.places[ev.place],
-		);
 		for (const ev of p.events) {
 			if (!ev.place) continue;
-			if (hasSpecific && isVaguePlace(ev.place)) continue;
 			const gp = data.places[ev.place];
 			if (!gp) continue;
+			// Drop a state/country-centroid event only when the person has a specific place
+			// in the SAME country (e.g. "Nebraska" -> their Fremont dot). An emigrant whose
+			// only specific place is abroad keeps their vague homeland dot, so their move
+			// across the ocean still shows.
+			if (isVaguePlace(ev.place) && refinedVaguePlace(data, p, ev.place)) continue;
 			const key = `${gp.lat.toFixed(3)},${gp.lng.toFixed(3)}`;
 			let node = nodeMap.get(key);
 			if (!node) {
