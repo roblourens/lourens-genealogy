@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>The Lourens Family Tree</title>
+		<link
+			rel="icon"
+			href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231a1410'/%3E%3Ctext x='16' y='23' font-size='22' text-anchor='middle' fill='%23e6c878'%3E%E2%9D%A6%3C/text%3E%3C/svg%3E"
+		/>
+		<meta
+			name="description"
+			content="An interactive journey through the Lourens, Roorda, Stuenkel & Brueggemann family lines."
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v3.9.0/mapbox-gl.css" />
+	</head>
+	<body>
+		<div id="app">
+			<header class="topbar">
+				<div class="brand">
+					<span class="brand-mark">❦</span>
+					<div class="brand-text">
+						<h1>The Lourens Family Tree</h1>
+						<p id="brand-sub">Four lines, twelve generations, four centuries</p>
+					</div>
+				</div>
+				<nav class="tabs" id="tabs">
+					<button class="tab is-active" data-view="tree">Tree</button>
+					<button class="tab" data-view="map">Migration Map</button>
+					<button class="tab" data-view="stats">Statistics</button>
+					<button class="tab" data-view="connections">Connections</button>
+				</nav>
+				<div class="search">
+					<input id="search-input" type="search" placeholder="Search a name…" autocomplete="off" />
+					<div id="search-results" class="search-results" hidden></div>
+				</div>
+			</header>
+
+			<main id="view-root" class="view-root">
+				<div class="loading" id="loading">
+					<div class="spinner"></div>
+					<p>Gathering the generations…</p>
+				</div>
+			</main>
+
+			<aside id="person-panel" class="person-panel" hidden></aside>
+			<div id="panel-scrim" class="panel-scrim" hidden></div>
+		</div>
+		<script type="module" src="/src/main.ts"></script>
+	</body>
+</html>

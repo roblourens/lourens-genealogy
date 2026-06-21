@@ -1,0 +1,177 @@
+{
+  "generatedAt": "2026-06-20T21:53:23-07:00",
+  "connections": [
+    {
+      "id": "roorda-frisian-nobility",
+      "surname": "Roorda",
+      "famousPerson": "The Roorda Frisian noble family",
+      "famousDescription": "An old Frisian hoofdeling/noble family associated with Roorda State at Genum and other Roorda branches in Friesland.",
+      "relatedPersonIds": [
+        "I272780757103"
+      ],
+      "confidence": "plausible",
+      "reasoning": "The digest has Rinse Johan Roorda born about 1600, and the broader tree context places the Roorda line in Friesland. Roorda is a distinctive Frisian surname. Stinsen in Friesland describes the Roordas of Genum as an important noble family, documented in records from 1397, with branches at Genum, Tzummarum, and Cubaard. This makes a shared-family-origin possibility plausible, but no source found here proves that this specific 1600 Rinse Johan Roorda descends from, or connects into, the noble Genum/Tzummarum/Cubaard lines.",
+      "citations": [
+        {
+          "label": "Stinsen in Friesland: Roorda State at Genum",
+          "url": "http://www.stinseninfriesland.nl/RoordaStateGenum.htm"
+        },
+        {
+          "label": "Wikipedia: Van Eysinga family",
+          "url": "https://nl.wikipedia.org/wiki/Van_Eysinga"
+        }
+      ]
+    },
+    {
+      "id": "scharnhorst-prussian-general",
+      "surname": "Scharnhorst",
+      "famousPerson": "Gerhard von Scharnhorst",
+      "famousDescription": "Hanoverian-born Prussian general, first Chief of the Prussian General Staff, and major reformer of the Prussian army during the Napoleonic era.",
+      "relatedPersonIds": [
+        "I272780755818"
+      ],
+      "confidence": "plausible",
+      "reasoning": "The digest's Ludwig Scharnhorst was born in 1792 in Empede, Hannover. Gerhard von Scharnhorst was born in 1755 at Bordenau, now part of Neustadt am Rübenberge near Hanover. Empede and Bordenau are in the same small Hanover/Neustadt area, and Scharnhorst is a relatively distinctive surname. A collateral relationship is therefore geographically and temporally plausible. What is not proven: no fetched source links Ludwig to Gerhard's documented family, and Gerhard received his nobility by patent after entering Prussian service rather than inheriting a von line.",
+      "citations": [
+        {
+          "label": "Wikipedia: Gerhard von Scharnhorst",
+          "url": "https://en.wikipedia.org/wiki/Gerhard_von_Scharnhorst"
+        },
+        {
+          "label": "Deutsche Biographie: Gerhard von Scharnhorst",
+          "url": "https://www.deutsche-biographie.de/gnd118606557.html"
+        }
+      ]
+    },
+    {
+      "id": "sipma-frisian-linguist",
+      "surname": "Sipma",
+      "famousPerson": "Pieter Sipma",
+      "famousDescription": "Frisian teacher, philologist, and one of the founders of modern Frisian language studies; first chair of the Fryske Akademy.",
+      "relatedPersonIds": [
+        "I272780757011"
+      ],
+      "confidence": "plausible",
+      "reasoning": "The digest's Claes Gosses Sipma was born in 1638 in Suawoude, Tytsjerksteradiel, Friesland. Pieter Sipma was born in 1872 at Dronryp and worked in Friesland as a major Frisian-language scholar. Sipma is a distinctive Frisian surname and both people belong to the same province, though separated by more than two centuries. This is plausible as a shared Frisian family-name connection, but no direct genealogical chain between Claes and Pieter was found.",
+      "citations": [
+        {
+          "label": "DBNL: Pieter Sipma biography",
+          "url": "https://www.dbnl.org/tekst/_jaa003196301_01/_jaa003196301_01_0019.php"
+        },
+        {
+          "label": "Wikipedy: Pieter Sipma",
+          "url": "https://fy.wikipedia.org/wiki/Pieter_Sipma"
+        }
+      ]
+    },
+    {
+      "id": "sprengel-pollination-botanist",
+      "surname": "Sprengel",
+      "famousPerson": "Christian Konrad Sprengel",
+      "famousDescription": "German botanist, theologian, and teacher whose work on flower pollination helped found floral biology and pollination ecology.",
+      "relatedPersonIds": [
+        "I272780755919"
+      ],
+      "confidence": "speculative",
+      "reasoning": "The digest's Johann Diederich Sprengel was born in 1726 in Esperke, Hannover. Christian Konrad Sprengel was born in 1750 in Brandenburg an der Havel, with a clerical/teaching family background. The surname is distinctive and both men belong to 18th-century northern German Protestant regions, so it is a fun lead. It remains speculative because Brandenburg and Hannover are different regions and no source found here connects the families.",
+      "citations": [
+        {
+          "label": "Wikipedia: Christian Konrad Sprengel",
+          "url": "https://en.wikipedia.org/wiki/Christian_Konrad_Sprengel"
+        },
+        {
+          "label": "Britannica: Christian Konrad Sprengel",
+          "url": "https://www.britannica.com/biography/Christian-Konrad-Sprengel"
+        }
+      ]
+    },
+    {
+      "id": "brueggemann-theologian",
+      "surname": "Brueggemann",
+      "famousPerson": "Walter Brueggemann",
+      "famousDescription": "Influential American Protestant Old Testament scholar and theologian known for The Prophetic Imagination and many biblical commentaries.",
+      "relatedPersonIds": [
+        "I272780754178"
+      ],
+      "confidence": "speculative",
+      "reasoning": "The digest's Fredrick Wilhelm Gottlieb Bruggemann was born in 1820 in Nordholz, Schaumburg-Lippe/Germany, and the family includes later Brueggemanns in Indiana. Walter Brueggemann was born in Nebraska in 1933 and came from a German Evangelical pastor's family in the American Midwest. The shared uncommon surname plus German-American Protestant-minister context is interesting, but the fetched sources do not identify Walter's German ancestral village or connect him to Nordholz/Schaumburg-Lippe. Treat as a long-shot surname-and-community echo, not a documented link.",
+      "citations": [
+        {
+          "label": "Walter Brueggemann official biography",
+          "url": "https://www.walterbrueggemann.com/about/"
+        },
+        {
+          "label": "Wikipedia: Walter Brueggemann",
+          "url": "https://en.wikipedia.org/wiki/Walter_Brueggemann"
+        }
+      ]
+    },
+    {
+      "id": "schnitzler-viennese-writer",
+      "surname": "Schnitzler",
+      "famousPerson": "Arthur Schnitzler",
+      "famousDescription": "Austrian physician, author, and dramatist; a major figure of Viennese Modernism.",
+      "relatedPersonIds": [
+        "I272780753495"
+      ],
+      "confidence": "speculative",
+      "reasoning": "The digest's Gerhardus Gerhard Schnitzler was born in 1740 at Wickrathberg, with another Schnitzler later at Zeddam in the Netherlands. Arthur Schnitzler was born in Vienna in 1862; his father Johann came from Nagykanizsa in Hungary and a Jewish family that had changed its name from Zimmermann to Schnitzler. The surname match is fun but weak: different region, later era, and Arthur's paternal surname history points to Hungary/Vienna rather than the lower Rhine/Dutch border area. No genealogical link is established.",
+      "citations": [
+        {
+          "label": "Arthur Schnitzler Portal: biographical sketch",
+          "url": "https://www.arthur-schnitzler.org/bio-bibliography/biographical-sketch/"
+        },
+        {
+          "label": "Wikipedia: Arthur Schnitzler",
+          "url": "https://en.wikipedia.org/wiki/Arthur_Schnitzler"
+        },
+        {
+          "label": "Wikipedia: Johann Schnitzler",
+          "url": "https://en.wikipedia.org/wiki/Johann_Schnitzler"
+        }
+      ]
+    },
+    {
+      "id": "mahler-composer",
+      "surname": "Mahler",
+      "famousPerson": "Gustav Mahler",
+      "famousDescription": "Austro-Bohemian composer and conductor, one of the most frequently performed symphonists of the late Romantic era.",
+      "relatedPersonIds": [
+        "I272780755805"
+      ],
+      "confidence": "speculative",
+      "reasoning": "The digest's Margaret Katherine Dorothea Mahler was born in 1784 in Basse, Kingdom of Hannover. Gustav Mahler's family came from Jewish communities in Bohemia, with the Mahler surname appearing in a Jewish register at Chmelná near Vlašim in 1793. The surname is famous but occupational and not very rare; the geography and religious/community context do not overlap with the known Hannover ancestor. This is a clearly speculative shared-surname connection only.",
+      "citations": [
+        {
+          "label": "Mahler.cz: Gustav Mahler's family",
+          "url": "https://www.mahler.cz/en/about-gustav-mahler/gustav-mahler-s-family"
+        },
+        {
+          "label": "Wikipedia: Gustav Mahler",
+          "url": "https://en.wikipedia.org/wiki/Gustav_Mahler"
+        }
+      ]
+    },
+    {
+      "id": "harnisch-educator",
+      "surname": "Harnisch",
+      "famousPerson": "Christian Wilhelm Harnisch",
+      "famousDescription": "German Protestant theologian, pedagogue, and educational writer associated with Pestalozzian reform and Heimatkunde in Prussian education.",
+      "relatedPersonIds": [
+        "I272780754522"
+      ],
+      "confidence": "speculative",
+      "reasoning": "The digest's Gottfried Daniel Harnisch was born about 1791 in Prussia. Christian Wilhelm Harnisch was born in 1787 at Wilsnack in the Prignitz and became a notable Prussian educator and theologian. The surname is not common and the birth years are close in broad Prussian territory, so the overlap is worth noting. However, the ancestor's place is too vague and no fetched source links Gottfried Daniel to Christian Wilhelm's Wilsnack family, so this remains speculative.",
+      "citations": [
+        {
+          "label": "Magdeburger Biographisches Lexikon: Wilhelm Christian Harnisch",
+          "url": "https://mbl.ub.ovgu.de/Biografien/1471.htm"
+        },
+        {
+          "label": "German Wikipedia: Wilhelm Harnisch (Pädagoge)",
+          "url": "https://de.wikipedia.org/wiki/Wilhelm_Harnisch_(P%C3%A4dagoge)"
+        }
+      ]
+    }
+  ]
+}

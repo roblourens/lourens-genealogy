@@ -1,0 +1,1504 @@
+{
+  "generatedAt": "2026-06-21T04:58:29.044Z",
+  "added": [
+    {
+      "id": "I272780690463",
+      "name": "Rob Lourens"
+    },
+    {
+      "id": "I272780690537",
+      "name": "Diane Stuenkel"
+    },
+    {
+      "id": "I272780690556",
+      "name": "Doug Lourens"
+    },
+    {
+      "id": "I272780690661",
+      "name": "Lydia Nora Brueggemann"
+    },
+    {
+      "id": "I272780690668",
+      "name": "Edmund Henry Stuenkel"
+    },
+    {
+      "id": "I272780690692",
+      "name": "Joyce Kathryn Roorda"
+    },
+    {
+      "id": "I272780690720",
+      "name": "Larry Lourens"
+    },
+    {
+      "id": "I272780690838",
+      "name": "Lydia Sophie Emelia Noack"
+    },
+    {
+      "id": "I272780690866",
+      "name": "Anton Wilhelm Brueggemann"
+    },
+    {
+      "id": "I272780691115",
+      "name": "Wilda Brueggemann"
+    },
+    {
+      "id": "I272780691116",
+      "name": "Ruth C Brueggemann"
+    },
+    {
+      "id": "I272780691117",
+      "name": "Carol W Brueggemann"
+    },
+    {
+      "id": "I272780691118",
+      "name": "Esther W Brueggemann"
+    },
+    {
+      "id": "I272780691119",
+      "name": "Robert E Brueggemann"
+    },
+    {
+      "id": "I272780691120",
+      "name": "Richard W Brueggemann"
+    },
+    {
+      "id": "I272780691877",
+      "name": "Ben Lourens"
+    },
+    {
+      "id": "I272780691885",
+      "name": "Gertrude Margaret Van Dusseldoy"
+    },
+    {
+      "id": "I272780692340",
+      "name": "Albertus Lourens"
+    },
+    {
+      "id": "I272780692368",
+      "name": "Aartje Snetselaar"
+    },
+    {
+      "id": "I272780692629",
+      "name": "Geurt Snetselaar"
+    },
+    {
+      "id": "I272780692686",
+      "name": "Peter Lourens"
+    },
+    {
+      "id": "I272780692937",
+      "name": "Johannes Lourens"
+    },
+    {
+      "id": "I272780751822",
+      "name": "Hendrika Jeurs"
+    },
+    {
+      "id": "I272780753012",
+      "name": "Adriana van Beijnum"
+    },
+    {
+      "id": "I272780753018",
+      "name": "Henricus (Hendrik, Hend)# Louwerens"
+    },
+    {
+      "id": "I272780753115",
+      "name": "Joannes Hermannus (Herman)# Louwerens (Hüsgen, Genant Laurenz)"
+    },
+    {
+      "id": "I272780753135",
+      "name": "Derk van Beijnum"
+    },
+    {
+      "id": "I272780753154",
+      "name": "Jacoba Dropsu"
+    },
+    {
+      "id": "I272780753199",
+      "name": "Jannetje Jacobsen"
+    },
+    {
+      "id": "I272780753205",
+      "name": "Breunis Snitselaar"
+    },
+    {
+      "id": "I272780753219",
+      "name": "Aartje Mora"
+    },
+    {
+      "id": "I272780753226",
+      "name": "Berend Jacobsen"
+    },
+    {
+      "id": "I272780753231",
+      "name": "Lisabeth Boshuis"
+    },
+    {
+      "id": "I272780753255",
+      "name": "Claas Willemsen Boshuisen"
+    },
+    {
+      "id": "I272780753264",
+      "name": "Jannetje Jochemsdr van Langelaar"
+    },
+    {
+      "id": "I272780753298",
+      "name": "Gerritje Aartsen"
+    },
+    {
+      "id": "I272780753344",
+      "name": "Hilda Visser Van Dusseldorp"
+    },
+    {
+      "id": "I272780753370",
+      "name": "Gysbert G. Van Dusseldorf"
+    },
+    {
+      "id": "I272780753417",
+      "name": "Wienandt SCHNITZLER"
+    },
+    {
+      "id": "I272780753422",
+      "name": "Geertrui Hendriks Versteeg"
+    },
+    {
+      "id": "I272780753431",
+      "name": "Jochem van Langelaar"
+    },
+    {
+      "id": "I272780753488",
+      "name": "N.N."
+    },
+    {
+      "id": "I272780753495",
+      "name": "Gerhardus Gerhard (Gradus) Schnitzler"
+    },
+    {
+      "id": "I272780753501",
+      "name": "Margarietha Jansen"
+    },
+    {
+      "id": "I272780753585",
+      "name": "Edward Charles Roorda"
+    },
+    {
+      "id": "I272780753642",
+      "name": "Wilhemina Hackert"
+    },
+    {
+      "id": "I272780753758",
+      "name": "Johanna DeWild"
+    },
+    {
+      "id": "I272780753770",
+      "name": "Peter Hackert"
+    },
+    {
+      "id": "I272780753823",
+      "name": "Cornelia \"Kate\" vanderWilt"
+    },
+    {
+      "id": "I272780753828",
+      "name": "Epp Robert Roorda"
+    },
+    {
+      "id": "I272780753843",
+      "name": "Govertje \"Grace\" Den Burger"
+    },
+    {
+      "id": "I272780753865",
+      "name": "Jan \"John\" Vander Wilt"
+    },
+    {
+      "id": "I272780753875",
+      "name": "Jan or John den Burger"
+    },
+    {
+      "id": "I272780753948",
+      "name": "Bertha A Gabbert"
+    },
+    {
+      "id": "I272780753962",
+      "name": "Edmund Henry Stuenkel Sr"
+    },
+    {
+      "id": "I272780753980",
+      "name": "Frederich Wilhelm Brueggemann"
+    },
+    {
+      "id": "I272780754164",
+      "name": "Theodore Helene Lizetta Weyel"
+    },
+    {
+      "id": "I272780754178",
+      "name": "Fredrick Wilhelm Gottlieb Bruggemann"
+    },
+    {
+      "id": "I272780754230",
+      "name": "Christine Marie Marting"
+    },
+    {
+      "id": "I272780754239",
+      "name": "Charles Moritz Noack Rev"
+    },
+    {
+      "id": "I272780754245",
+      "name": "Caroline Henrietta Harnisch"
+    },
+    {
+      "id": "I272780754264",
+      "name": "Johann Adolph Harnisch"
+    },
+    {
+      "id": "I272780754268",
+      "name": "Christine Johanna Hagemann"
+    },
+    {
+      "id": "I272780754280",
+      "name": "Elizabeth Weyel"
+    },
+    {
+      "id": "I272780754292",
+      "name": "Philip Anton Weyel Rev"
+    },
+    {
+      "id": "I272780754308",
+      "name": "Johann Heinrich Christian Hagemann"
+    },
+    {
+      "id": "I272780754322",
+      "name": "Dietrich Louis August Stuenkel"
+    },
+    {
+      "id": "I272780754337",
+      "name": "Maria Dorothea Christine Stuenkel"
+    },
+    {
+      "id": "I272780754347",
+      "name": "Heinrich Emil Gabbert Sr"
+    },
+    {
+      "id": "I272780754400",
+      "name": "Caroline Schmidt"
+    },
+    {
+      "id": "I272780754421",
+      "name": "Heinrich Dietrich \"Henry\" Stuenkel"
+    },
+    {
+      "id": "I272780754448",
+      "name": "Sophia Louise Elizabeth Scharnhorst"
+    },
+    {
+      "id": "I272780754467",
+      "name": "Heinrich Dietrich \"Henry\" Stuenkel"
+    },
+    {
+      "id": "I272780754477",
+      "name": "Sophie Charlotte Frerking"
+    },
+    {
+      "id": "I272780754497",
+      "name": "Carl Wilhelm Noack"
+    },
+    {
+      "id": "I272780754499",
+      "name": "Auguste Luise Amalie Prietzel"
+    },
+    {
+      "id": "I272780754508",
+      "name": "Johanne Wilhelmine Henrietta Stanze"
+    },
+    {
+      "id": "I272780754517",
+      "name": "Johann Christian Noack"
+    },
+    {
+      "id": "I272780754522",
+      "name": "Gottfried Daniel Harnisch"
+    },
+    {
+      "id": "I272780754526",
+      "name": "Johanna Friederike Koch"
+    },
+    {
+      "id": "I272780754534",
+      "name": "Johann Heinrich Christian Hagemann"
+    },
+    {
+      "id": "I272780754546",
+      "name": "Dorothee Grautel"
+    },
+    {
+      "id": "I272780754558",
+      "name": "Dorothee Marie \"Doretha\" Sprengel"
+    },
+    {
+      "id": "I272780754564",
+      "name": "Johann Frederick Ludwig Stuenkel"
+    },
+    {
+      "id": "I272780754617",
+      "name": "Jan van Beijnum"
+    },
+    {
+      "id": "I272780754621",
+      "name": "Adriana de Hoog"
+    },
+    {
+      "id": "I272780754625",
+      "name": "Andries Dropsie"
+    },
+    {
+      "id": "I272780754730",
+      "name": "Henrick van Beijnum"
+    },
+    {
+      "id": "I272780754763",
+      "name": "Dirckje Adriaans"
+    },
+    {
+      "id": "I272780754767",
+      "name": "Jan van Beijnum"
+    },
+    {
+      "id": "I272780754779",
+      "name": "Elisabeth"
+    },
+    {
+      "id": "I272780755032",
+      "name": "John Epke Roorda"
+    },
+    {
+      "id": "I272780755053",
+      "name": "Adriana Jane jansd vanMAREN"
+    },
+    {
+      "id": "I272780755066",
+      "name": "Klaas Hendrik de Fockert Hackert"
+    },
+    {
+      "id": "I272780755090",
+      "name": "Cornelia (Hakkert) Hackert"
+    },
+    {
+      "id": "I272780755153",
+      "name": "Hendrik de Wild"
+    },
+    {
+      "id": "I272780755187",
+      "name": "Gerritje Van der Streek"
+    },
+    {
+      "id": "I272780755198",
+      "name": "Gottlieb Schmidt"
+    },
+    {
+      "id": "I272780755517",
+      "name": "Aart Evertzen Aartszen"
+    },
+    {
+      "id": "I272780755528",
+      "name": "Jacoba Hartman"
+    },
+    {
+      "id": "I272780755805",
+      "name": "Margaret Katherine Dorothea \"Mary\" Mahler"
+    },
+    {
+      "id": "I272780755818",
+      "name": "Ludwig Scharnhorst"
+    },
+    {
+      "id": "I272780755828",
+      "name": "Louise Gasdorff"
+    },
+    {
+      "id": "I272780755891",
+      "name": "Johann Dietrich Frerking"
+    },
+    {
+      "id": "I272780755897",
+      "name": "Johann Heinrich Sprengel"
+    },
+    {
+      "id": "I272780755912",
+      "name": "Anna Margareta Raben"
+    },
+    {
+      "id": "I272780755919",
+      "name": "Johann Diederich Sprengel"
+    },
+    {
+      "id": "I272780755926",
+      "name": "Anna Elisabeth Marie Ilsabein Sprengel"
+    },
+    {
+      "id": "I272780756016",
+      "name": "Susanna Regina Wenger"
+    },
+    {
+      "id": "I272780756019",
+      "name": "Arthur Prietzel"
+    },
+    {
+      "id": "I272780756026",
+      "name": "Johanne Heinrich Stanze"
+    },
+    {
+      "id": "I272780756040",
+      "name": "Ilse Dorothee Vornkahl"
+    },
+    {
+      "id": "I272780756071",
+      "name": "Johann Conrad Stanze"
+    },
+    {
+      "id": "I272780756095",
+      "name": "Johann Heinrich Vornkahl"
+    },
+    {
+      "id": "I272780756102",
+      "name": "Ilse Elisabeth Fasterling"
+    },
+    {
+      "id": "I272780756185",
+      "name": "Epke Alberts Roorda"
+    },
+    {
+      "id": "I272780756195",
+      "name": "Froukje Wijgers Vander Lune"
+    },
+    {
+      "id": "I272780756243",
+      "name": "Jan van Maren"
+    },
+    {
+      "id": "I272780756253",
+      "name": "Areke \"Adriana\" van der Linden"
+    },
+    {
+      "id": "I272780756325",
+      "name": "Albert Egberts Vanden Akker"
+    },
+    {
+      "id": "I272780756335",
+      "name": "Hinke Izaak Roorda"
+    },
+    {
+      "id": "I272780756344",
+      "name": "Wyger Pieters Van Der Lune"
+    },
+    {
+      "id": "I272780756349",
+      "name": "Antje Gerrits Kooi"
+    },
+    {
+      "id": "I272780756370",
+      "name": "Hendrik Van Maaren"
+    },
+    {
+      "id": "I272780756378",
+      "name": "Adriana Willemstijn"
+    },
+    {
+      "id": "I272780756387",
+      "name": "Lucas Vander Linden"
+    },
+    {
+      "id": "I272780756395",
+      "name": "Gerryt Cornelis Jepma"
+    },
+    {
+      "id": "I272780756397",
+      "name": "Vroukje Jans"
+    },
+    {
+      "id": "I272780756402",
+      "name": "Martinus van Maaren"
+    },
+    {
+      "id": "I272780756417",
+      "name": "Johanna van der Wal"
+    },
+    {
+      "id": "I272780756592",
+      "name": "Areke Aartje van Brakel"
+    },
+    {
+      "id": "I272780756595",
+      "name": "Leendert Gysbertzoon van der Linden"
+    },
+    {
+      "id": "I272780756618",
+      "name": "Anneke van Bruggen"
+    },
+    {
+      "id": "I272780756624",
+      "name": "Justinus Jan Joost Willemstijn"
+    },
+    {
+      "id": "I272780756649",
+      "name": "Jantje Versteeg"
+    },
+    {
+      "id": "I272780756655",
+      "name": "Arij Janse Willemstijn"
+    },
+    {
+      "id": "I272780756667",
+      "name": "Maijke Jansdr Van Gameren"
+    },
+    {
+      "id": "I272780756670",
+      "name": "Peter Ariezn (Aryens) van der Wal"
+    },
+    {
+      "id": "I272780756687",
+      "name": "Elisabeth (Lijsbet) van Bemmel"
+    },
+    {
+      "id": "I272780756692",
+      "name": "Hendrik van Maren"
+    },
+    {
+      "id": "I272780756722",
+      "name": "Antje Romkes"
+    },
+    {
+      "id": "I272780756733",
+      "name": "Cornelis Ysebrands Jepma"
+    },
+    {
+      "id": "I272780756769",
+      "name": "Riemke Douwes"
+    },
+    {
+      "id": "I272780756775",
+      "name": "Romke Claesen"
+    },
+    {
+      "id": "I272780756795",
+      "name": "Aukjen Jans"
+    },
+    {
+      "id": "I272780756828",
+      "name": "Pytter Fransen"
+    },
+    {
+      "id": "I272780756855",
+      "name": "Anke Melis"
+    },
+    {
+      "id": "I272780756862",
+      "name": "Jan Wygers"
+    },
+    {
+      "id": "I272780756866",
+      "name": "Ebeltje Asjes"
+    },
+    {
+      "id": "I272780756899",
+      "name": "Wyger Jans"
+    },
+    {
+      "id": "I272780756913",
+      "name": "Janke Ruurts"
+    },
+    {
+      "id": "I272780756917",
+      "name": "Ijzak (Izaak) Rinses Roorda"
+    },
+    {
+      "id": "I272780756924",
+      "name": "Wytske Jeppes"
+    },
+    {
+      "id": "I272780756937",
+      "name": "Rinse Jans Roorda"
+    },
+    {
+      "id": "I272780756942",
+      "name": "Doetie Bauckes Allinga"
+    },
+    {
+      "id": "I272780756946",
+      "name": "Johan Rinses Roorda"
+    },
+    {
+      "id": "I272780757007",
+      "name": "Antje Romkes"
+    },
+    {
+      "id": "I272780757011",
+      "name": "Claes Gosses Sipma"
+    },
+    {
+      "id": "I272780757018",
+      "name": "Sietske Cornelis"
+    },
+    {
+      "id": "I272780757036",
+      "name": "Ijsbrand Gerrits"
+    },
+    {
+      "id": "I272780757047",
+      "name": "Trijntie Reyners"
+    },
+    {
+      "id": "I272780757059",
+      "name": "Trijntje Doekedr"
+    },
+    {
+      "id": "I272780757064",
+      "name": "Baucke Clases Allinga"
+    },
+    {
+      "id": "I272780757103",
+      "name": "Rinse Johan Roorda"
+    },
+    {
+      "id": "I272780757118",
+      "name": "Styntje Eedes"
+    },
+    {
+      "id": "I272780757126",
+      "name": "Frans Fockes Hummersma"
+    }
+  ],
+  "changed": [],
+  "removed": [],
+  "stale": [],
+  "needResearch": [
+    {
+      "id": "I272780690463",
+      "name": "Rob Lourens",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780690537",
+      "name": "Diane Stuenkel",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780690556",
+      "name": "Doug Lourens",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780690661",
+      "name": "Lydia Nora Brueggemann",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780690668",
+      "name": "Edmund Henry Stuenkel",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780690692",
+      "name": "Joyce Kathryn Roorda",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780690720",
+      "name": "Larry Lourens",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780690838",
+      "name": "Lydia Sophie Emelia Noack",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780690866",
+      "name": "Anton Wilhelm Brueggemann",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780691115",
+      "name": "Wilda Brueggemann",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780691116",
+      "name": "Ruth C Brueggemann",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780691117",
+      "name": "Carol W Brueggemann",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780691118",
+      "name": "Esther W Brueggemann",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780691119",
+      "name": "Robert E Brueggemann",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780691120",
+      "name": "Richard W Brueggemann",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780691877",
+      "name": "Ben Lourens",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780691885",
+      "name": "Gertrude Margaret Van Dusseldoy",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780692340",
+      "name": "Albertus Lourens",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780692368",
+      "name": "Aartje Snetselaar",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780692629",
+      "name": "Geurt Snetselaar",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780692686",
+      "name": "Peter Lourens",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780692937",
+      "name": "Johannes Lourens",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780751822",
+      "name": "Hendrika Jeurs",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780753012",
+      "name": "Adriana van Beijnum",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780753018",
+      "name": "Henricus (Hendrik, Hend)# Louwerens",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780753115",
+      "name": "Joannes Hermannus (Herman)# Louwerens (Hüsgen, Genant Laurenz)",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780753135",
+      "name": "Derk van Beijnum",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780753154",
+      "name": "Jacoba Dropsu",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780753199",
+      "name": "Jannetje Jacobsen",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780753205",
+      "name": "Breunis Snitselaar",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780753219",
+      "name": "Aartje Mora",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780753226",
+      "name": "Berend Jacobsen",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780753231",
+      "name": "Lisabeth Boshuis",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780753255",
+      "name": "Claas Willemsen Boshuisen",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780753264",
+      "name": "Jannetje Jochemsdr van Langelaar",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780753298",
+      "name": "Gerritje Aartsen",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780753344",
+      "name": "Hilda Visser Van Dusseldorp",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780753370",
+      "name": "Gysbert G. Van Dusseldorf",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780753417",
+      "name": "Wienandt SCHNITZLER",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780753422",
+      "name": "Geertrui Hendriks Versteeg",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780753431",
+      "name": "Jochem van Langelaar",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780753488",
+      "name": "N.N.",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780753495",
+      "name": "Gerhardus Gerhard (Gradus) Schnitzler",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780753501",
+      "name": "Margarietha Jansen",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780753585",
+      "name": "Edward Charles Roorda",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780753642",
+      "name": "Wilhemina Hackert",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780753758",
+      "name": "Johanna DeWild",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780753770",
+      "name": "Peter Hackert",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780753823",
+      "name": "Cornelia \"Kate\" vanderWilt",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780753828",
+      "name": "Epp Robert Roorda",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780753843",
+      "name": "Govertje \"Grace\" Den Burger",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780753865",
+      "name": "Jan \"John\" Vander Wilt",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780753875",
+      "name": "Jan or John den Burger",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780753948",
+      "name": "Bertha A Gabbert",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780753962",
+      "name": "Edmund Henry Stuenkel Sr",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780753980",
+      "name": "Frederich Wilhelm Brueggemann",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780754164",
+      "name": "Theodore Helene Lizetta Weyel",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780754178",
+      "name": "Fredrick Wilhelm Gottlieb Bruggemann",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780754230",
+      "name": "Christine Marie Marting",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780754239",
+      "name": "Charles Moritz Noack Rev",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780754245",
+      "name": "Caroline Henrietta Harnisch",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780754264",
+      "name": "Johann Adolph Harnisch",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780754268",
+      "name": "Christine Johanna Hagemann",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780754280",
+      "name": "Elizabeth Weyel",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780754292",
+      "name": "Philip Anton Weyel Rev",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780754308",
+      "name": "Johann Heinrich Christian Hagemann",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780754322",
+      "name": "Dietrich Louis August Stuenkel",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780754337",
+      "name": "Maria Dorothea Christine Stuenkel",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780754347",
+      "name": "Heinrich Emil Gabbert Sr",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780754400",
+      "name": "Caroline Schmidt",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780754421",
+      "name": "Heinrich Dietrich \"Henry\" Stuenkel",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780754448",
+      "name": "Sophia Louise Elizabeth Scharnhorst",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780754467",
+      "name": "Heinrich Dietrich \"Henry\" Stuenkel",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780754477",
+      "name": "Sophie Charlotte Frerking",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780754497",
+      "name": "Carl Wilhelm Noack",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780754499",
+      "name": "Auguste Luise Amalie Prietzel",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780754508",
+      "name": "Johanne Wilhelmine Henrietta Stanze",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780754517",
+      "name": "Johann Christian Noack",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780754522",
+      "name": "Gottfried Daniel Harnisch",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780754526",
+      "name": "Johanna Friederike Koch",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780754534",
+      "name": "Johann Heinrich Christian Hagemann",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780754546",
+      "name": "Dorothee Grautel",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780754558",
+      "name": "Dorothee Marie \"Doretha\" Sprengel",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780754564",
+      "name": "Johann Frederick Ludwig Stuenkel",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780754617",
+      "name": "Jan van Beijnum",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780754621",
+      "name": "Adriana de Hoog",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780754625",
+      "name": "Andries Dropsie",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780754730",
+      "name": "Henrick van Beijnum",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780754763",
+      "name": "Dirckje Adriaans",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780754767",
+      "name": "Jan van Beijnum",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780754779",
+      "name": "Elisabeth",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780755032",
+      "name": "John Epke Roorda",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780755053",
+      "name": "Adriana Jane jansd vanMAREN",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780755066",
+      "name": "Klaas Hendrik de Fockert Hackert",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780755090",
+      "name": "Cornelia (Hakkert) Hackert",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780755153",
+      "name": "Hendrik de Wild",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780755187",
+      "name": "Gerritje Van der Streek",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780755198",
+      "name": "Gottlieb Schmidt",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780755517",
+      "name": "Aart Evertzen Aartszen",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780755528",
+      "name": "Jacoba Hartman",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780755805",
+      "name": "Margaret Katherine Dorothea \"Mary\" Mahler",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780755818",
+      "name": "Ludwig Scharnhorst",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780755828",
+      "name": "Louise Gasdorff",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780755891",
+      "name": "Johann Dietrich Frerking",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780755897",
+      "name": "Johann Heinrich Sprengel",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780755912",
+      "name": "Anna Margareta Raben",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780755919",
+      "name": "Johann Diederich Sprengel",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780755926",
+      "name": "Anna Elisabeth Marie Ilsabein Sprengel",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780756016",
+      "name": "Susanna Regina Wenger",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780756019",
+      "name": "Arthur Prietzel",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780756026",
+      "name": "Johanne Heinrich Stanze",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780756040",
+      "name": "Ilse Dorothee Vornkahl",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780756071",
+      "name": "Johann Conrad Stanze",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780756095",
+      "name": "Johann Heinrich Vornkahl",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780756102",
+      "name": "Ilse Elisabeth Fasterling",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780756185",
+      "name": "Epke Alberts Roorda",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780756195",
+      "name": "Froukje Wijgers Vander Lune",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780756243",
+      "name": "Jan van Maren",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780756253",
+      "name": "Areke \"Adriana\" van der Linden",
+      "hasResearch": true
+    },
+    {
+      "id": "I272780756325",
+      "name": "Albert Egberts Vanden Akker",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780756335",
+      "name": "Hinke Izaak Roorda",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780756344",
+      "name": "Wyger Pieters Van Der Lune",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780756349",
+      "name": "Antje Gerrits Kooi",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780756370",
+      "name": "Hendrik Van Maaren",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780756378",
+      "name": "Adriana Willemstijn",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780756387",
+      "name": "Lucas Vander Linden",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780756395",
+      "name": "Gerryt Cornelis Jepma",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780756397",
+      "name": "Vroukje Jans",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780756402",
+      "name": "Martinus van Maaren",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780756417",
+      "name": "Johanna van der Wal",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780756592",
+      "name": "Areke Aartje van Brakel",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780756595",
+      "name": "Leendert Gysbertzoon van der Linden",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780756618",
+      "name": "Anneke van Bruggen",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780756624",
+      "name": "Justinus Jan Joost Willemstijn",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780756649",
+      "name": "Jantje Versteeg",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780756655",
+      "name": "Arij Janse Willemstijn",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780756667",
+      "name": "Maijke Jansdr Van Gameren",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780756670",
+      "name": "Peter Ariezn (Aryens) van der Wal",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780756687",
+      "name": "Elisabeth (Lijsbet) van Bemmel",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780756692",
+      "name": "Hendrik van Maren",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780756722",
+      "name": "Antje Romkes",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780756733",
+      "name": "Cornelis Ysebrands Jepma",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780756769",
+      "name": "Riemke Douwes",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780756775",
+      "name": "Romke Claesen",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780756795",
+      "name": "Aukjen Jans",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780756828",
+      "name": "Pytter Fransen",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780756855",
+      "name": "Anke Melis",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780756862",
+      "name": "Jan Wygers",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780756866",
+      "name": "Ebeltje Asjes",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780756899",
+      "name": "Wyger Jans",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780756913",
+      "name": "Janke Ruurts",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780756917",
+      "name": "Ijzak (Izaak) Rinses Roorda",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780756924",
+      "name": "Wytske Jeppes",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780756937",
+      "name": "Rinse Jans Roorda",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780756942",
+      "name": "Doetie Bauckes Allinga",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780756946",
+      "name": "Johan Rinses Roorda",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780757007",
+      "name": "Antje Romkes",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780757011",
+      "name": "Claes Gosses Sipma",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780757018",
+      "name": "Sietske Cornelis",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780757036",
+      "name": "Ijsbrand Gerrits",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780757047",
+      "name": "Trijntie Reyners",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780757059",
+      "name": "Trijntje Doekedr",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780757064",
+      "name": "Baucke Clases Allinga",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780757103",
+      "name": "Rinse Johan Roorda",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780757118",
+      "name": "Styntje Eedes",
+      "hasResearch": false
+    },
+    {
+      "id": "I272780757126",
+      "name": "Frans Fockes Hummersma",
+      "hasResearch": false
+    }
+  ]
+}

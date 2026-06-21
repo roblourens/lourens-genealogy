@@ -1,0 +1,1341 @@
+{
+  "generatedAt": "2026-06-21T04:58:28.905Z",
+  "places": {
+    "Altoona, Polk, Iowa, USA": {
+      "place": "Altoona, Polk, Iowa, USA",
+      "lat": 41.6437308,
+      "lng": -93.4696031,
+      "displayName": "Altoona, Polk County, Iowa, 50009, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Arlington Heights, Cook, Illinois, USA": {
+      "place": "Arlington Heights, Cook, Illinois, USA",
+      "lat": 42.0811563,
+      "lng": -87.9802164,
+      "displayName": "Arlington Heights, Wheeling Township, Cook County, Illinois, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Barneveld": {
+      "place": "Barneveld",
+      "lat": 52.1715067,
+      "lng": 5.6454392,
+      "displayName": "Barneveld, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Barneveld, Gelderland, Nederland": {
+      "place": "Barneveld, Gelderland, Nederland",
+      "lat": 52.1715067,
+      "lng": 5.6454392,
+      "displayName": "Barneveld, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Barneveld, Gelderland, The Netherlands": {
+      "place": "Barneveld, Gelderland, The Netherlands",
+      "lat": 52.1715067,
+      "lng": 5.6454392,
+      "displayName": "Barneveld, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Barneveld,Gelderland,,Netherlands": {
+      "place": "Barneveld,Gelderland,,Netherlands",
+      "lat": 52.1715067,
+      "lng": 5.6454392,
+      "displayName": "Barneveld, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Berel, Burgdorf, Region Hannover, Lower Saxony": {
+      "place": "Berel, Burgdorf, Region Hannover, Lower Saxony",
+      "lat": 52.4438008,
+      "lng": 10.0078364,
+      "displayName": "Burgdorf, Region Hannover, Niedersachsen, 31303, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Berel, Wolfenbuttel, Niedersachsen, Germany": {
+      "place": "Berel, Wolfenbuttel, Niedersachsen, Germany",
+      "lat": 52.1646173,
+      "lng": 10.2176555,
+      "displayName": "Berel, Burgdorf, Samtgemeinde Baddeckenstedt, Landkreis Wolfenbüttel, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Blija, Ferwerderadiel, Friesland, Netherlands": {
+      "place": "Blija, Ferwerderadiel, Friesland, Netherlands",
+      "lat": 53.3306784,
+      "lng": 5.8260129,
+      "displayName": "Grofvuil Gemeentewerf Ferwerderadiel, 41, Kleasterwei, Ferwert, Noardeast-Fryslân, Fryslân, Nederland, 9172 GN, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Blija, Ferwerderadiel, Fryslân | Friesland, Pays-Bas": {
+      "place": "Blija, Ferwerderadiel, Fryslân | Friesland, Pays-Bas",
+      "lat": 53.3306784,
+      "lng": 5.8260129,
+      "displayName": "Grofvuil Gemeentewerf Ferwerderadiel, 41, Kleasterwei, Ferwert, Noardeast-Fryslân, Fryslân, Nederland, 9172 GN, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Bolsward, Friesland, Netherlands": {
+      "place": "Bolsward, Friesland, Netherlands",
+      "lat": 53.0620178,
+      "lng": 5.5228964,
+      "displayName": "Bolsward, Súdwest-Fryslân, Fryslân, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Buitenpost": {
+      "place": "Buitenpost",
+      "lat": 53.2540348,
+      "lng": 6.1442343,
+      "displayName": "Buitenpost, Achtkarspelen, Fryslân, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Buitenpost, Achtkarspelen, Friesland, Netherlands": {
+      "place": "Buitenpost, Achtkarspelen, Friesland, Netherlands",
+      "lat": 53.2540348,
+      "lng": 6.1442343,
+      "displayName": "Buitenpost, Achtkarspelen, Fryslân, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Buitenpost, Fryslân, Netherlands": {
+      "place": "Buitenpost, Fryslân, Netherlands",
+      "lat": 53.2540348,
+      "lng": 6.1442343,
+      "displayName": "Buitenpost, Achtkarspelen, Fryslân, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Buried in Graceland Cemetery, Pella, Marion Co., Iowa": {
+      "place": "Buried in Graceland Cemetery, Pella, Marion Co., Iowa",
+      "lat": 41.4073138,
+      "lng": -92.9174074,
+      "displayName": "Pella, Lake Prairie Township, Marion County, Iowa, 50219, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Burum, Kollumerland C.A., Friesland, Netherlands": {
+      "place": "Burum, Kollumerland C.A., Friesland, Netherlands",
+      "lat": 53.260859,
+      "lng": 6.064934,
+      "displayName": "Kollumerland c.a., Foarwei, Kollumersweach, Noardeast-Fryslân, Fryslân, Nederland, 9298 JS, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Camp, Camp, Polk, Iowa, USA": {
+      "place": "Camp, Camp, Polk, Iowa, USA",
+      "lat": 41.7213167,
+      "lng": -93.7437642,
+      "displayName": "Camp Dodge, Johnston, Polk County, Iowa, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Chicago, Cook County, Illinois, United States of America": {
+      "place": "Chicago, Cook County, Illinois, United States of America",
+      "lat": 41.8755616,
+      "lng": -87.6244212,
+      "displayName": "Chicago, South Chicago Township, Cook County, Illinois, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Concordia,  Lafayette County, Missouri, USA": {
+      "place": "Concordia,  Lafayette County, Missouri, USA",
+      "lat": 38.9824542,
+      "lng": -93.5685013,
+      "displayName": "Concordia, Lafayette County, Missouri, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Concordia, Lafayette County, Missouri, USA": {
+      "place": "Concordia, Lafayette County, Missouri, USA",
+      "lat": 38.9824542,
+      "lng": -93.5685013,
+      "displayName": "Concordia, Lafayette County, Missouri, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Concordia, Lafayette, Missouri, United States": {
+      "place": "Concordia, Lafayette, Missouri, United States",
+      "lat": 38.9824542,
+      "lng": -93.5685013,
+      "displayName": "Concordia, Lafayette County, Missouri, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Dantumawouda, Dantumadeel, Friesland, Netherlands": {
+      "place": "Dantumawouda, Dantumadeel, Friesland, Netherlands",
+      "lat": 53.0923689,
+      "lng": 5.777043,
+      "displayName": "Fryslân, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Dantumawoude, Friesland, Netherlands": {
+      "place": "Dantumawoude, Friesland, Netherlands",
+      "lat": 53.0923689,
+      "lng": 5.777043,
+      "displayName": "Fryslân, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Davis Township, Lafayette County, Missouri, USA": {
+      "place": "Davis Township, Lafayette County, Missouri, USA",
+      "lat": 39.0603689,
+      "lng": -93.8151868,
+      "displayName": "Lafayette County, Missouri, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "De Horne, Buitenpost, Achtkarspelen (Friesland)": {
+      "place": "De Horne, Buitenpost, Achtkarspelen (Friesland)",
+      "lat": 53.2540348,
+      "lng": 6.1442343,
+      "displayName": "Buitenpost, Achtkarspelen, Fryslân, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "De Horne, Buitenpost, Achtkarspelen, Friesland, Netherlands": {
+      "place": "De Horne, Buitenpost, Achtkarspelen, Friesland, Netherlands",
+      "lat": 53.2540348,
+      "lng": 6.1442343,
+      "displayName": "Buitenpost, Achtkarspelen, Fryslân, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Des Moines, Iowa, USA": {
+      "place": "Des Moines, Iowa, USA",
+      "lat": 41.5868654,
+      "lng": -93.6249494,
+      "displayName": "Des Moines, Polk County, Iowa, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Des Moines, Polk, Iowa, USA": {
+      "place": "Des Moines, Polk, Iowa, USA",
+      "lat": 41.5868654,
+      "lng": -93.6249494,
+      "displayName": "Des Moines, Polk County, Iowa, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Dolton, Cook, Illinois, USA": {
+      "place": "Dolton, Cook, Illinois, USA",
+      "lat": 41.6389236,
+      "lng": -87.607268,
+      "displayName": "Dolton, Thornton Township, Cook County, Illinois, 60419, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Dämmerwald (D)": {
+      "place": "Dämmerwald (D)",
+      "lat": 51.7178848,
+      "lng": 6.797862,
+      "displayName": "Dämmerwald, Schermbeck, Kreis Wesel, Nordrhein-Westfalen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Eda, Gelderland, Netherlands": {
+      "place": "Eda, Gelderland, Netherlands",
+      "lat": 52.1014041,
+      "lng": 5.9515701,
+      "displayName": "Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Ede, Gelderland, The Netherlands": {
+      "place": "Ede, Gelderland, The Netherlands",
+      "lat": 52.0716826,
+      "lng": 5.7455106,
+      "displayName": "Ede, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Ede, Gelderland, the Netherlands": {
+      "place": "Ede, Gelderland, the Netherlands",
+      "lat": 52.0716826,
+      "lng": 5.7455106,
+      "displayName": "Ede, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Empede, Hannover, Niedersachsen, Germany": {
+      "place": "Empede, Hannover, Niedersachsen, Germany",
+      "lat": 52.5362616,
+      "lng": 9.4653495,
+      "displayName": "Empede, Mariensee, Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Esperke, Hannover, Germany": {
+      "place": "Esperke, Hannover, Germany",
+      "lat": 52.6331081,
+      "lng": 9.6086458,
+      "displayName": "Esperke, Helstorf, Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Esperke, Hannover, Niedersachsen, Germany": {
+      "place": "Esperke, Hannover, Niedersachsen, Germany",
+      "lat": 52.6331081,
+      "lng": 9.6086458,
+      "displayName": "Esperke, Helstorf, Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Esperke, Lower Saxony, Germany": {
+      "place": "Esperke, Lower Saxony, Germany",
+      "lat": 52.6331081,
+      "lng": 9.6086458,
+      "displayName": "Esperke, Helstorf, Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Esperke, Niedersachsen, Germany": {
+      "place": "Esperke, Niedersachsen, Germany",
+      "lat": 52.6331081,
+      "lng": 9.6086458,
+      "displayName": "Esperke, Helstorf, Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Frankfurt, Will County, Illinois": {
+      "place": "Frankfurt, Will County, Illinois",
+      "lat": 41.4194058,
+      "lng": -87.9994754,
+      "displayName": "Will County, Illinois, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Freedom Township, Lafayette County, Missouri, USA": {
+      "place": "Freedom Township, Lafayette County, Missouri, USA",
+      "lat": 39.0603689,
+      "lng": -93.8151868,
+      "displayName": "Lafayette County, Missouri, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Fremont, , NE": {
+      "place": "Fremont, , NE",
+      "lat": 41.4338363,
+      "lng": -96.4960449,
+      "displayName": "Fremont, Dodge County, Nebraska, 68025, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Fremont, Dodge, Nebraska, USA": {
+      "place": "Fremont, Dodge, Nebraska, USA",
+      "lat": 41.4338363,
+      "lng": -96.4960449,
+      "displayName": "Fremont, Dodge County, Nebraska, 68025, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Fremont, Fremont, Dodge, Nebraska, USA": {
+      "place": "Fremont, Fremont, Dodge, Nebraska, USA",
+      "lat": 41.4338363,
+      "lng": -96.4960449,
+      "displayName": "Fremont, Dodge County, Nebraska, 68025, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Fremont, Nebraska, USA": {
+      "place": "Fremont, Nebraska, USA",
+      "lat": 41.4338363,
+      "lng": -96.4960449,
+      "displayName": "Fremont, Dodge County, Nebraska, 68025, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Friesland, Netherlands": {
+      "place": "Friesland, Netherlands",
+      "lat": 53.0923689,
+      "lng": 5.777043,
+      "displayName": "Fryslân, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Garderen, Barneveld, Gelderland, Netherlands": {
+      "place": "Garderen, Barneveld, Gelderland, Netherlands",
+      "lat": 52.2331839,
+      "lng": 5.714073,
+      "displayName": "Garderen, Barneveld, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Gelderland, Netherlands": {
+      "place": "Gelderland, Netherlands",
+      "lat": 52.1014041,
+      "lng": 5.9515701,
+      "displayName": "Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Gellicum": {
+      "place": "Gellicum",
+      "lat": 51.8777048,
+      "lng": 5.154988,
+      "displayName": "Gellicum, West Betuwe, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Gellicum, Geldermalsen, Gelderland, Netherlands": {
+      "place": "Gellicum, Geldermalsen, Gelderland, Netherlands",
+      "lat": 51.8825577,
+      "lng": 5.2714789,
+      "displayName": "Geldermalsen, Genteldijk, Stationswijk, Geldermalsen, West Betuwe, Gelderland, Nederland, 4191 LD, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Gerkesklooster": {
+      "place": "Gerkesklooster",
+      "lat": 53.2403934,
+      "lng": 6.207652,
+      "displayName": "Gerkesklooster, Achtkarspelen, Fryslân, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Germany": {
+      "place": "Germany",
+      "lat": 51.1638175,
+      "lng": 10.4478313,
+      "displayName": "Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Hallum": {
+      "place": "Hallum",
+      "lat": 53.305006,
+      "lng": 5.7854458,
+      "displayName": "Hallum, Noardeast-Fryslân, Fryslân, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Hallum, Ferwerderadiel, Friesland, Netherlands": {
+      "place": "Hallum, Ferwerderadiel, Friesland, Netherlands",
+      "lat": 53.3306784,
+      "lng": 5.8260129,
+      "displayName": "Grofvuil Gemeentewerf Ferwerderadiel, 41, Kleasterwei, Ferwert, Noardeast-Fryslân, Fryslân, Nederland, 9172 GN, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Hallum, Ferwerderadiel, Fryslân | Friesland, Pays-Bas": {
+      "place": "Hallum, Ferwerderadiel, Fryslân | Friesland, Pays-Bas",
+      "lat": 53.3306784,
+      "lng": 5.8260129,
+      "displayName": "Grofvuil Gemeentewerf Ferwerderadiel, 41, Kleasterwei, Ferwert, Noardeast-Fryslân, Fryslân, Nederland, 9172 GN, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Hallum, Fryslân | Friesland, Pays-Bas": {
+      "place": "Hallum, Fryslân | Friesland, Pays-Bas",
+      "lat": 53.305006,
+      "lng": 5.7854458,
+      "displayName": "Hallum, Noardeast-Fryslân, Fryslân, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Hanover, Germany": {
+      "place": "Hanover, Germany",
+      "lat": 52.3744779,
+      "lng": 9.7385532,
+      "displayName": "Hannover, Region Hannover, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Harvey, Marion, Iowa, USA": {
+      "place": "Harvey, Marion, Iowa, USA",
+      "lat": 41.3176626,
+      "lng": -92.9240923,
+      "displayName": "Harvey, Clay Township, Marion County, Iowa, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Herborn, Hesse-Nassau, Germany": {
+      "place": "Herborn, Hesse-Nassau, Germany",
+      "lat": 50.682175,
+      "lng": 8.3001008,
+      "displayName": "Tagungshaus Schloss Herborn, 36, Nassaustraße, Kirchberg, Altstadt, Herborn, Lahn-Dill-Kreis, Hessen, 35745, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Herwijnen, Gelderland, Netherlands": {
+      "place": "Herwijnen, Gelderland, Netherlands",
+      "lat": 51.8267226,
+      "lng": 5.1296799,
+      "displayName": "Herwijnen, West Betuwe, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Herwijnen, Lingewaal, Gelderland, Netherlands": {
+      "place": "Herwijnen, Lingewaal, Gelderland, Netherlands",
+      "lat": 52.1014041,
+      "lng": 5.9515701,
+      "displayName": "Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Hoenderloo, Apeldoorn, Gelderland, Netherlands": {
+      "place": "Hoenderloo, Apeldoorn, Gelderland, Netherlands",
+      "lat": 52.1176966,
+      "lng": 5.87625,
+      "displayName": "Hoenderloo, Apeldoorn, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Hohenassel, Braunschweig, Germany": {
+      "place": "Hohenassel, Braunschweig, Germany",
+      "lat": 52.2646577,
+      "lng": 10.5236066,
+      "displayName": "Braunschweig, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Hohenassel, Braunschweig, Lower Saxony, Germany": {
+      "place": "Hohenassel, Braunschweig, Lower Saxony, Germany",
+      "lat": 52.2646577,
+      "lng": 10.5236066,
+      "displayName": "Braunschweig, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Hohenassel, Braunschweig, Niedersachsen, Allemagne": {
+      "place": "Hohenassel, Braunschweig, Niedersachsen, Allemagne",
+      "lat": 52.2646577,
+      "lng": 10.5236066,
+      "displayName": "Braunschweig, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Hohenassel, Braunschweig, Niedersachsen, Germany": {
+      "place": "Hohenassel, Braunschweig, Niedersachsen, Germany",
+      "lat": 52.2646577,
+      "lng": 10.5236066,
+      "displayName": "Braunschweig, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Hohenassel, Burgdorf, Region Hannover, Lower Saxony, Germany": {
+      "place": "Hohenassel, Burgdorf, Region Hannover, Lower Saxony, Germany",
+      "lat": 52.4438008,
+      "lng": 10.0078364,
+      "displayName": "Burgdorf, Region Hannover, Niedersachsen, 31303, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Hohenassel, Wolfenbuttel, Niedersachsen, Germany": {
+      "place": "Hohenassel, Wolfenbuttel, Niedersachsen, Germany",
+      "lat": 52.1363923,
+      "lng": 10.2180736,
+      "displayName": "Hohenassel, Burgdorf-Bahnhof, Burgdorf, Samtgemeinde Baddeckenstedt, Landkreis Wolfenbüttel, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Holland": {
+      "place": "Holland",
+      "lat": 52.2434979,
+      "lng": 5.6343227,
+      "displayName": "Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Indianapolis, Marion County, Indiana": {
+      "place": "Indianapolis, Marion County, Indiana",
+      "lat": 39.7683331,
+      "lng": -86.1583502,
+      "displayName": "Indianapolis, Marion County, Indiana, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Indianapolis, Marion, Indiana, USA": {
+      "place": "Indianapolis, Marion, Indiana, USA",
+      "lat": 39.7683331,
+      "lng": -86.1583502,
+      "displayName": "Indianapolis, Marion County, Indiana, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Iowa?": {
+      "place": "Iowa?",
+      "lat": 41.9216734,
+      "lng": -93.3122705,
+      "displayName": "Iowa, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Karge, Karge, Bomst, Posen, Germany": {
+      "place": "Karge, Karge, Bomst, Posen, Germany",
+      "lat": 50.6435158,
+      "lng": 11.6905074,
+      "displayName": "Posen, Knau, Neustadt an der Orla, Saale-Orla-Kreis, Thüringen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Kleinsachsenheim, Ludwigsburg, Baden-Württemberg, Germany": {
+      "place": "Kleinsachsenheim, Ludwigsburg, Baden-Württemberg, Germany",
+      "lat": 48.9700957,
+      "lng": 9.0695757,
+      "displayName": "Kleinsachsenheim, Sachsenheim, Landkreis Ludwigsburg, Baden-Württemberg, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Kollum, Kollumerland C.A., Friesland, Netherlands": {
+      "place": "Kollum, Kollumerland C.A., Friesland, Netherlands",
+      "lat": 53.260859,
+      "lng": 6.064934,
+      "displayName": "Kollumerland c.a., Foarwei, Kollumersweach, Noardeast-Fryslân, Fryslân, Nederland, 9298 JS, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Laagnieuwkoop, Utrecht, Netherlands": {
+      "place": "Laagnieuwkoop, Utrecht, Netherlands",
+      "lat": 52.0907006,
+      "lng": 5.1215634,
+      "displayName": "Utrecht, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Lafayette County, Missouri, USA": {
+      "place": "Lafayette County, Missouri, USA",
+      "lat": 39.0603689,
+      "lng": -93.8151868,
+      "displayName": "Lafayette County, Missouri, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Lake Prairie Township, Marion, Iowa, USA": {
+      "place": "Lake Prairie Township, Marion, Iowa, USA",
+      "lat": 41.404742,
+      "lng": -92.9287725,
+      "displayName": "Lake Prairie Township, Marion County, Iowa, 50219, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Lake Prairie Twp., Marion, Iowa, USA": {
+      "place": "Lake Prairie Twp., Marion, Iowa, USA",
+      "lat": 41.404742,
+      "lng": -92.9287725,
+      "displayName": "Lake Prairie Township, Marion County, Iowa, 50219, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Lake Prairie, Marion, Iowa, United States": {
+      "place": "Lake Prairie, Marion, Iowa, United States",
+      "lat": 41.404742,
+      "lng": -92.9287725,
+      "displayName": "Lake Prairie Township, Marion County, Iowa, 50219, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Linn, Washington, Kansas, USA": {
+      "place": "Linn, Washington, Kansas, USA",
+      "lat": 39.680002,
+      "lng": -97.084192,
+      "displayName": "Linn, Washington County, Kansas, 66953, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Lunteren, Ede, Gelderland, Netherlands": {
+      "place": "Lunteren, Ede, Gelderland, Netherlands",
+      "lat": 52.0864617,
+      "lng": 5.6190737,
+      "displayName": "Lunteren, Ede, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Lunteren, Gelderland, the Netherlands": {
+      "place": "Lunteren, Gelderland, the Netherlands",
+      "lat": 52.0864617,
+      "lng": 5.6190737,
+      "displayName": "Lunteren, Ede, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Marion County, Iowa, USA": {
+      "place": "Marion County, Iowa, USA",
+      "lat": 41.3144108,
+      "lng": -93.1010141,
+      "displayName": "Marion County, Iowa, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Mariënthal (D)": {
+      "place": "Mariënthal (D)",
+      "lat": 50.1665429,
+      "lng": 16.5614577,
+      "displayName": "Niemojów, gmina Międzylesie, powiat kłodzki, województwo dolnośląskie, Polska",
+      "country": "Polska",
+      "source": "nominatim"
+    },
+    "Metel, Hannover, Germany": {
+      "place": "Metel, Hannover, Germany",
+      "lat": 52.5488369,
+      "lng": 9.5529301,
+      "displayName": "Metel, Otternhagen, Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Metel, Neustadt, Hanover, Region Hannover, Lower Saxony, Germany": {
+      "place": "Metel, Neustadt, Hanover, Region Hannover, Lower Saxony, Germany",
+      "lat": 52.5488369,
+      "lng": 9.5529301,
+      "displayName": "Metel, Otternhagen, Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Milwaukee, Milwaukee County, Wisconsin, United States of America": {
+      "place": "Milwaukee, Milwaukee County, Wisconsin, United States of America",
+      "lat": 43.0386475,
+      "lng": -87.9090751,
+      "displayName": "Milwaukee, Milwaukee County, Wisconsin, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Moordrecht, Moordrecht, Zuid-Holland, Netherlands": {
+      "place": "Moordrecht, Moordrecht, Zuid-Holland, Netherlands",
+      "lat": 51.9865065,
+      "lng": 4.6698314,
+      "displayName": "Moordrecht, Zuidplas, Zuid-Holland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Munnekezijl, Friesland, Netherlands": {
+      "place": "Munnekezijl, Friesland, Netherlands",
+      "lat": 53.3036082,
+      "lng": 6.2717691,
+      "displayName": "Munnekezijl, Noardeast-Fryslân, Fryslân, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Nebraska": {
+      "place": "Nebraska",
+      "lat": 41.7370229,
+      "lng": -99.5873816,
+      "displayName": "Nebraska, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Netherlands": {
+      "place": "Netherlands",
+      "lat": 52.2434979,
+      "lng": 5.6343227,
+      "displayName": "Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Niedernstöcken, Niedersachsen, Germany": {
+      "place": "Niedernstöcken, Niedersachsen, Germany",
+      "lat": 52.6449794,
+      "lng": 9.5742323,
+      "displayName": "Niedernstöcken, Mandelsloh, Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Of Vuren, Gelderland, The Netherlands": {
+      "place": "Of Vuren, Gelderland, The Netherlands",
+      "lat": 51.822228,
+      "lng": 5.0294868,
+      "displayName": "Sky of Hope - WO2 & Vliegeniersmuseum, Waaldijk, Vuren, West Betuwe, Gelderland, Nederland, 4213 LB, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Olderbrock, Gelderland, Netherlands": {
+      "place": "Olderbrock, Gelderland, Netherlands",
+      "lat": 52.1014041,
+      "lng": 5.9515701,
+      "displayName": "Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Osmond, Pierce, Nebraska, USA": {
+      "place": "Osmond, Pierce, Nebraska, USA",
+      "lat": 42.3598843,
+      "lng": -97.5968066,
+      "displayName": "Osmond, Pierce County, Nebraska, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Oudkerk, Fryslân | Friesland, Pays-Bas": {
+      "place": "Oudkerk, Fryslân | Friesland, Pays-Bas",
+      "lat": 53.2642155,
+      "lng": 5.8911567,
+      "displayName": "Aldtsjerk, Tytsjerksteradiel, Fryslân, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Palmer, Washington, Kansas, USA": {
+      "place": "Palmer, Washington, Kansas, USA",
+      "lat": 39.631945,
+      "lng": -97.140304,
+      "displayName": "Palmer, Washington County, Kansas, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Pella, Iowa, USA": {
+      "place": "Pella, Iowa, USA",
+      "lat": 41.4073138,
+      "lng": -92.9174074,
+      "displayName": "Pella, Lake Prairie Township, Marion County, Iowa, 50219, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Pella, Marion Co., Iowa, USA": {
+      "place": "Pella, Marion Co., Iowa, USA",
+      "lat": 41.4073138,
+      "lng": -92.9174074,
+      "displayName": "Pella, Lake Prairie Township, Marion County, Iowa, 50219, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Pella, Marion County, Iowa, USA": {
+      "place": "Pella, Marion County, Iowa, USA",
+      "lat": 41.4073138,
+      "lng": -92.9174074,
+      "displayName": "Pella, Lake Prairie Township, Marion County, Iowa, 50219, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Pella, Marion County, Iowa, United States of America": {
+      "place": "Pella, Marion County, Iowa, United States of America",
+      "lat": 41.4073138,
+      "lng": -92.9174074,
+      "displayName": "Pella, Lake Prairie Township, Marion County, Iowa, 50219, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Pella, Marion, Iowa, USA": {
+      "place": "Pella, Marion, Iowa, USA",
+      "lat": 41.4073138,
+      "lng": -92.9174074,
+      "displayName": "Pella, Lake Prairie Township, Marion County, Iowa, 50219, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Pella, Marion, Iowa, United States": {
+      "place": "Pella, Marion, Iowa, United States",
+      "lat": 41.4073138,
+      "lng": -92.9174074,
+      "displayName": "Pella, Lake Prairie Township, Marion County, Iowa, 50219, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Prairie City, Jasper, Iowa, USA": {
+      "place": "Prairie City, Jasper, Iowa, USA",
+      "lat": 41.5987705,
+      "lng": -93.2360739,
+      "displayName": "Prairie City, Des Moines Township, Jasper County, Iowa, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Prussia": {
+      "place": "Prussia",
+      "lat": 41.3738765,
+      "lng": -94.506357,
+      "displayName": "Prussia, Prussia Township, Adair County, Iowa, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Randwijk, Heteren, Gelderland, Netherlands": {
+      "place": "Randwijk, Heteren, Gelderland, Netherlands",
+      "lat": 51.9664939,
+      "lng": 5.7302078,
+      "displayName": "Zilverschoon Randwijk Steenbakkerij, 5, Renkumse Veerweg, Heteren, Overbetuwe, Gelderland, Nederland, 6666 LE, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Rheden": {
+      "place": "Rheden",
+      "lat": 52.031367,
+      "lng": 6.0605043,
+      "displayName": "Rheden, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Rhenen": {
+      "place": "Rhenen",
+      "lat": 51.9608761,
+      "lng": 5.5722196,
+      "displayName": "Rhenen, Utrecht, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Rhenen, Utrecht, Nederland": {
+      "place": "Rhenen, Utrecht, Nederland",
+      "lat": 51.9608761,
+      "lng": 5.5722196,
+      "displayName": "Rhenen, Utrecht, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Rhenoy, Gelderland, Netherlands": {
+      "place": "Rhenoy, Gelderland, Netherlands",
+      "lat": 51.88398,
+      "lng": 5.155117,
+      "displayName": "Rhenoy, West Betuwe, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Rhenoy, Geldermalsen, Gelderland, Netherlands": {
+      "place": "Rhenoy, Geldermalsen, Gelderland, Netherlands",
+      "lat": 51.8825577,
+      "lng": 5.2714789,
+      "displayName": "Geldermalsen, Genteldijk, Stationswijk, Geldermalsen, West Betuwe, Gelderland, Nederland, 4191 LD, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Rijperkerk, Tytsjerksteradiel, Friesland, Netherlands": {
+      "place": "Rijperkerk, Tytsjerksteradiel, Friesland, Netherlands",
+      "lat": 53.2222774,
+      "lng": 5.9175056,
+      "displayName": "Ryptsjerk, Tytsjerksteradiel, Fryslân, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Rinsumageest, Dantumadeel, Friesland, Netherlands": {
+      "place": "Rinsumageest, Dantumadeel, Friesland, Netherlands",
+      "lat": 53.0923689,
+      "lng": 5.777043,
+      "displayName": "Fryslân, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Rinsumageest, Friesland, Netherlands": {
+      "place": "Rinsumageest, Friesland, Netherlands",
+      "lat": 53.0923689,
+      "lng": 5.777043,
+      "displayName": "Fryslân, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Sachsem, Saxony, Germany": {
+      "place": "Sachsem, Saxony, Germany",
+      "lat": 50.9295798,
+      "lng": 13.4585052,
+      "displayName": "Sachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Saint Louis, St. Louis City, Missouri, United States of America": {
+      "place": "Saint Louis, St. Louis City, Missouri, United States of America",
+      "lat": 38.6235406,
+      "lng": -90.2046592,
+      "displayName": "Saint Louis, Jack Buck Memorial Highway, Downtown West, Saint Louis, Missouri, 63155, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Schoonrewoerd, Leerdam, Zuid-Holland, Netherlands": {
+      "place": "Schoonrewoerd, Leerdam, Zuid-Holland, Netherlands",
+      "lat": 52.0593916,
+      "lng": 4.2950991,
+      "displayName": "Bedrijventerrein Leerdam, Groente- en Fruitmarkt, Centrum, Den Haag, Zuid-Holland, Nederland, 2525 JR, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Schwaigern, Heilbronn, Baden-Württemberg, Germany": {
+      "place": "Schwaigern, Heilbronn, Baden-Württemberg, Germany",
+      "lat": 49.1414205,
+      "lng": 9.0571085,
+      "displayName": "Schwaigern, VVG der Stadt Schwaigern, Landkreis Heilbronn, Baden-Württemberg, 74193, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "St Louis County, Missouri, USA": {
+      "place": "St Louis County, Missouri, USA",
+      "lat": 38.6398744,
+      "lng": -90.5188128,
+      "displayName": "Saint Louis County, Missouri, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "St Louis, Missouri": {
+      "place": "St Louis, Missouri",
+      "lat": 38.6254063,
+      "lng": -90.190009,
+      "displayName": "Saint Louis, Missouri, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "St Louis, St Louis, Missouri, USA": {
+      "place": "St Louis, St Louis, Missouri, USA",
+      "lat": 38.6254063,
+      "lng": -90.190009,
+      "displayName": "Saint Louis, Missouri, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "St Louis, St Louis, Missouri, United States": {
+      "place": "St Louis, St Louis, Missouri, United States",
+      "lat": 38.6254063,
+      "lng": -90.190009,
+      "displayName": "Saint Louis, Missouri, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "St. Louis, MO, Missouri, USA": {
+      "place": "St. Louis, MO, Missouri, USA",
+      "lat": 38.6254063,
+      "lng": -90.190009,
+      "displayName": "Saint Louis, Missouri, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "St. Louis, Missouri": {
+      "place": "St. Louis, Missouri",
+      "lat": 38.6254063,
+      "lng": -90.190009,
+      "displayName": "Saint Louis, Missouri, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Sterling, Johnson, Nebraska, USA": {
+      "place": "Sterling, Johnson, Nebraska, USA",
+      "lat": 40.459166,
+      "lng": -96.377514,
+      "displayName": "Sterling, Johnson County, Nebraska, 68443, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Suawoude, Tytsjerksteradiel, Friesland, Netherlands": {
+      "place": "Suawoude, Tytsjerksteradiel, Friesland, Netherlands",
+      "lat": 53.178501,
+      "lng": 5.9265687,
+      "displayName": "Suwâld, Tytsjerksteradiel, Fryslân, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Tiel, Tiel, Gelderland, Netherlands": {
+      "place": "Tiel, Tiel, Gelderland, Netherlands",
+      "lat": 51.8874333,
+      "lng": 5.4372681,
+      "displayName": "Tiel, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Tietjerk, Fryslân | Friesland, Pays-Bas": {
+      "place": "Tietjerk, Fryslân | Friesland, Pays-Bas",
+      "lat": 53.2090671,
+      "lng": 5.9153733,
+      "displayName": "Tytsjerk, Tytsjerksteradiel, Fryslân, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Veenendaal": {
+      "place": "Veenendaal",
+      "lat": 52.0259814,
+      "lng": 5.5539239,
+      "displayName": "Veenendaal, Utrecht, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Veenendaal, Gelders Eda, the, Netherlands": {
+      "place": "Veenendaal, Gelders Eda, the, Netherlands",
+      "lat": 52.0264,
+      "lng": 5.5544,
+      "displayName": "Veenendaal, Utrecht, Netherlands",
+      "country": "Netherlands",
+      "source": "override"
+    },
+    "Vuren": {
+      "place": "Vuren",
+      "lat": 51.825,
+      "lng": 5.0483,
+      "displayName": "Vuren, Gelderland, Netherlands",
+      "country": "Netherlands",
+      "source": "override"
+    },
+    "Vuren, Gelderland, Nederland": {
+      "place": "Vuren, Gelderland, Nederland",
+      "lat": 51.8246914,
+      "lng": 5.0481559,
+      "displayName": "Vuren, West Betuwe, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Vuren, Gelderland, Netherlands": {
+      "place": "Vuren, Gelderland, Netherlands",
+      "lat": 51.8246914,
+      "lng": 5.0481559,
+      "displayName": "Vuren, West Betuwe, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Vuren, Gelderland, Pays-Bas": {
+      "place": "Vuren, Gelderland, Pays-Bas",
+      "lat": 51.8246914,
+      "lng": 5.0481559,
+      "displayName": "Vuren, West Betuwe, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Vuren, Gelderland, West Betuwe, Netherlands": {
+      "place": "Vuren, Gelderland, West Betuwe, Netherlands",
+      "lat": 51.8246914,
+      "lng": 5.0481559,
+      "displayName": "Vuren, West Betuwe, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Vuren, Lingewaal, Gelderland, Netherlands": {
+      "place": "Vuren, Lingewaal, Gelderland, Netherlands",
+      "lat": 52.1014041,
+      "lng": 5.9515701,
+      "displayName": "Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Vuren, Zaltbommel, Gelderland, Netherlands": {
+      "place": "Vuren, Zaltbommel, Gelderland, Netherlands",
+      "lat": 51.782164,
+      "lng": 5.1898267,
+      "displayName": "Zaltbommel, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Wageningen": {
+      "place": "Wageningen",
+      "lat": 51.9685817,
+      "lng": 5.6682981,
+      "displayName": "Wageningen, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Wanswerd": {
+      "place": "Wanswerd",
+      "lat": 53.30182,
+      "lng": 5.8501698,
+      "displayName": "Wânswert, Noardeast-Fryslân, Fryslân, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Washington County, Kansas, USA": {
+      "place": "Washington County, Kansas, USA",
+      "lat": 39.7887478,
+      "lng": -97.0917391,
+      "displayName": "Washington County, Kansas, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Washington County, Kansas, United States of America": {
+      "place": "Washington County, Kansas, United States of America",
+      "lat": 39.7887478,
+      "lng": -97.0917391,
+      "displayName": "Washington County, Kansas, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Wickrathberg (D)": {
+      "place": "Wickrathberg (D)",
+      "lat": 51.1140768,
+      "lng": 6.4151423,
+      "displayName": "Wickrathberg, Mönchengladbach, Nordrhein-Westfalen, 41189, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Williow Springs, Cook County, Illinois": {
+      "place": "Williow Springs, Cook County, Illinois",
+      "lat": 41.8197385,
+      "lng": -87.756525,
+      "displayName": "Cook County, Illinois, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Willow Springs, Cook, Illinois, USA": {
+      "place": "Willow Springs, Cook, Illinois, USA",
+      "lat": 41.7366004,
+      "lng": -87.8693152,
+      "displayName": "Willow Springs, Lyons Township, Cook County, Illinois, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Willow Springs, Ill USA": {
+      "place": "Willow Springs, Ill USA",
+      "lat": 41.7366004,
+      "lng": -87.8693152,
+      "displayName": "Willow Springs, Lyons Township, Cook County, Illinois, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Wonsosch, Germersheim, Rhineland-Palatinate, Germany": {
+      "place": "Wonsosch, Germersheim, Rhineland-Palatinate, Germany",
+      "lat": 49.2222749,
+      "lng": 8.36659,
+      "displayName": "Germersheim, Landkreis Germersheim, Rheinland-Pfalz, 76726, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Zeddam": {
+      "place": "Zeddam",
+      "lat": 51.9029083,
+      "lng": 6.2575837,
+      "displayName": "Zeddam, Montferland, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Zeddam, the Netherlands": {
+      "place": "Zeddam, the Netherlands",
+      "lat": 51.9029083,
+      "lng": 6.2575837,
+      "displayName": "Zeddam, Montferland, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Zuilichem, Lingewaal, Gelderland, Netherlands": {
+      "place": "Zuilichem, Lingewaal, Gelderland, Netherlands",
+      "lat": 52.1014041,
+      "lng": 5.9515701,
+      "displayName": "Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Zuilichem, Zaltbommel, Gelderland, Netherlands": {
+      "place": "Zuilichem, Zaltbommel, Gelderland, Netherlands",
+      "lat": 51.8101222,
+      "lng": 5.1368031,
+      "displayName": "Zuilichem, Zaltbommel, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Basse Kingdom of Hannover": {
+      "place": "Basse Kingdom of Hannover",
+      "lat": 52.5547,
+      "lng": 9.4575,
+      "displayName": "Basse, Neustadt am Rübenberge, Lower Saxony, Germany",
+      "country": "Germany",
+      "source": "override"
+    },
+    "Berel, Lower Saxony (area between Hannover, Hildesheim and Braunschweig)": {
+      "place": "Berel, Lower Saxony (area between Hannover, Hildesheim and Braunschweig)",
+      "lat": 52.1003,
+      "lng": 10.3686,
+      "displayName": "Berel, Lower Saxony, Germany",
+      "country": "Germany",
+      "source": "override"
+    },
+    "Braunschweig, Hohennassel, Germany": {
+      "place": "Braunschweig, Hohennassel, Germany",
+      "lat": 52.1622,
+      "lng": 10.3608,
+      "displayName": "Hohenassel, Lower Saxony, Germany",
+      "country": "Germany",
+      "source": "override"
+    },
+    "Esperke, bei Neustadt am Ruebenberge, Kingdom of Hannover": {
+      "place": "Esperke, bei Neustadt am Ruebenberge, Kingdom of Hannover",
+      "lat": 52.6219,
+      "lng": 9.7806,
+      "displayName": "Esperke, Neustadt am Rübenberge, Lower Saxony, Germany",
+      "country": "Germany",
+      "source": "override"
+    },
+    "Gerkesklooster, Gem Achtkarspelen": {
+      "place": "Gerkesklooster, Gem Achtkarspelen",
+      "lat": 53.2406,
+      "lng": 6.1606,
+      "displayName": "Gerkesklooster, Achtkarspelen, Friesland, Netherlands",
+      "country": "Netherlands",
+      "source": "override"
+    },
+    "Gerkesklooster, gem Achtkarspelen": {
+      "place": "Gerkesklooster, gem Achtkarspelen",
+      "lat": 53.2406,
+      "lng": 6.1606,
+      "displayName": "Gerkesklooster, Achtkarspelen, Friesland, Netherlands",
+      "country": "Netherlands",
+      "source": "override"
+    },
+    "Gruenberg, Schlesien, Germany (Prussia)": {
+      "place": "Gruenberg, Schlesien, Germany (Prussia)",
+      "lat": 51.9355,
+      "lng": 15.5062,
+      "displayName": "Zielona Góra (Grünberg), Poland",
+      "country": "Poland",
+      "source": "override"
+    },
+    "Indianapolis, Marion Cointy, Indiana": {
+      "place": "Indianapolis, Marion Cointy, Indiana",
+      "lat": 39.7684,
+      "lng": -86.1581,
+      "displayName": "Indianapolis, Marion County, Indiana, USA",
+      "country": "USA",
+      "source": "override"
+    },
+    "Kingdom of Hannover": {
+      "place": "Kingdom of Hannover",
+      "lat": 52.374,
+      "lng": 9.738,
+      "displayName": "Hannover, Lower Saxony, Germany",
+      "country": "Germany",
+      "source": "override"
+    },
+    "Nordholz, Amt Buckkeburg, Furstenthum Schaumburg Lippe - Germany": {
+      "place": "Nordholz, Amt Buckkeburg, Furstenthum Schaumburg Lippe - Germany",
+      "lat": 52.2645,
+      "lng": 9.0497,
+      "displayName": "Nordholz, Bückeburg, Schaumburg, Lower Saxony, Germany",
+      "country": "Germany",
+      "source": "override"
+    },
+    "Pella, Marion County, Iowa, USA     in census": {
+      "place": "Pella, Marion County, Iowa, USA     in census",
+      "lat": 41.4081,
+      "lng": -92.9166,
+      "displayName": "Pella, Marion County, Iowa, USA",
+      "country": "USA",
+      "source": "override"
+    },
+    "Rijperkerk, Hardegarijp, Tietjerksteradiel (Friesland)": {
+      "place": "Rijperkerk, Hardegarijp, Tietjerksteradiel (Friesland)",
+      "lat": 53.2092,
+      "lng": 5.9417,
+      "displayName": "Ryptsjerk (Rijperkerk), Tytsjerksteradiel, Friesland, Netherlands",
+      "country": "Netherlands",
+      "source": "override"
+    },
+    "Schoonrewoerd, Zuid Holland": {
+      "place": "Schoonrewoerd, Zuid Holland",
+      "lat": 51.9381,
+      "lng": 5.1003,
+      "displayName": "Schoonrewoerd, Gelderland, Netherlands",
+      "country": "Netherlands",
+      "source": "override"
+    },
+    "Tzummarum, Minnertsga, Barradeel, Franekeradeel (Friesland)": {
+      "place": "Tzummarum, Minnertsga, Barradeel, Franekeradeel (Friesland)",
+      "lat": 53.2706,
+      "lng": 5.5394,
+      "displayName": "Tzummarum, Waadhoeke, Friesland, Netherlands",
+      "country": "Netherlands",
+      "source": "override"
+    },
+    "Wronke, Posen, Germany (Prussia)": {
+      "place": "Wronke, Posen, Germany (Prussia)",
+      "lat": 52.7075,
+      "lng": 16.3811,
+      "displayName": "Wronki (Wronke), Greater Poland, Poland",
+      "country": "Poland",
+      "source": "override"
+    },
+    "Zeddam, Nederduits Gereformeerde Gemeente": {
+      "place": "Zeddam, Nederduits Gereformeerde Gemeente",
+      "lat": 51.9028,
+      "lng": 6.2581,
+      "displayName": "Zeddam, Gelderland, Netherlands",
+      "country": "Netherlands",
+      "source": "override"
+    },
+    "Zetten (gedoopt 31-10-1717)": {
+      "place": "Zetten (gedoopt 31-10-1717)",
+      "lat": 51.9292,
+      "lng": 5.7375,
+      "displayName": "Zetten, Gelderland, Netherlands",
+      "country": "Netherlands",
+      "source": "override"
+    }
+  }
+}
