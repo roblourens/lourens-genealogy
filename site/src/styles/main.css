@@ -971,6 +971,114 @@ body {
 	white-space: nowrap;
 }
 
+/* Over-time line chart (Stats trends) */
+.trend {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin-top: 6px;
+	overflow: visible;
+}
+.trend-grid {
+	stroke: var(--line);
+	stroke-width: 1;
+	stroke-dasharray: 3 5;
+}
+.trend-ylabel {
+	fill: var(--muted-text);
+	font: 600 15px var(--sans);
+	text-anchor: end;
+	font-variant-numeric: tabular-nums;
+}
+.trend-xlabel {
+	fill: var(--ink-soft);
+	font: 600 16px var(--sans);
+	text-anchor: middle;
+	font-variant-numeric: tabular-nums;
+}
+.trend-area {
+	opacity: 0;
+}
+.trend.is-draw .trend-area {
+	animation: trendFade 0.9s ease 0.35s both;
+}
+.trend-line {
+	fill: none;
+	stroke: var(--gold);
+	stroke-width: 2.5;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke-dasharray: 4000;
+	stroke-dashoffset: 4000;
+}
+.trend.is-draw .trend-line {
+	animation: trendDraw 1.15s ease forwards;
+}
+.trend-dot {
+	fill: var(--bg);
+	stroke: var(--gold);
+	stroke-width: 2.5;
+	opacity: 0;
+}
+.trend-dot.is-active {
+	fill: var(--gold);
+	stroke: var(--gold-2);
+	stroke-width: 4;
+}
+.trend-hit {
+	fill: transparent;
+	pointer-events: all;
+	cursor: crosshair;
+}
+.trend-tip {
+	position: absolute;
+	z-index: 30;
+	pointer-events: none;
+	display: flex;
+	flex-direction: column;
+	gap: 1px;
+	padding: 7px 11px;
+	background: var(--panel);
+	border: 1px solid var(--line-strong);
+	border-radius: 8px;
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+.trend-tip strong {
+	font: 700 13px var(--sans);
+	color: var(--ink);
+}
+.trend-tip span {
+	font: 600 14px var(--sans);
+	color: var(--gold);
+	font-variant-numeric: tabular-nums;
+}
+.trend-tip em {
+	font-style: normal;
+	font-size: 11px;
+	color: var(--muted-text);
+}
+.trend.is-draw .trend-dot {
+	animation: trendFade 0.5s ease 0.85s both;
+}
+@keyframes trendDraw {
+	to {
+		stroke-dashoffset: 0;
+	}
+}
+@keyframes trendFade {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+.chart-empty {
+	color: var(--muted-text);
+	font-size: 13px;
+	padding: 12px 0;
+}
+
 .superlatives {
 	display: grid;
 	gap: 14px;

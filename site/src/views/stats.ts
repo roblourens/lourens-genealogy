@@ -91,6 +91,31 @@ export function createStatsView(ctx: AppContext): ViewController {
 	const earliestPerson = [...people].filter((p) => p.birthYear).sort((a, b) => (a.birthYear ?? 0) - (b.birthYear ?? 0))[0];
 	const oldestImmigrantOriginCountries = countryCounts;
 
+	// Parent's age at a child's birth (any child), from trusted birth years.
+	const parentAges = parentChildAges(people, data.personById);
+	const avgParentAge = parentAges.length ? Math.round(mean(parentAges.map((p) => p.age))) : 0;
+	const fatherAges = parentAges.filter((p) => p.parentSex === 'M').map((p) => p.age);
+	const motherAges = parentAges.filter((p) => p.parentSex === 'F').map((p) => p.age);
+	const avgFather = fatherAges.length ? Math.round(mean(fatherAges)) : 0;
+	const avgMother = motherAges.length ? Math.round(mean(motherAges)) : 0;
+	const parentAgeTrend = averageByPeriod(
+		parentAges.map((p) => ({ year: p.childBirthYear, value: p.age })),
+	);
+	const oldestParent = [...parentAges].sort((a, b) => b.age - a.age)[0];
+
+	// Life expectancy by birth cohort (half-century).
+	const lifeTrend = averageByPeriod(
+		withAge.filter((p) => p.birthYear).map((p) => ({ year: p.birthYear as number, value: p.ageAtDeath as number })),
+	);
+
+	// Most common first (given) names.
+	const givenNameCounts = tally(
+		people.map((p) => (p.given ?? '').trim().split(/\s+/)[0]).filter(Boolean),
+	);
+
+	// People who died in a different country than where they were born.
+	const movers = crossCountryCount(people, countryOf);
+
 	el.innerHTML = `
 	<div class="stats-inner">
 		<div class="stats-intro">
@@ -105,6 +130,8 @@ export function createStatsView(ctx: AppContext): ViewController {
 			${kpi(String(countriesSpanned), 'Countries of origin', Object.keys(oldestImmigrantOriginCountries).slice(0, 3).join(', '))}
 			${kpi(longest?.ageAtDeath ? `${longest.ageAtDeath}` : '—', 'Longest life', longest ? longest.name : '')}
 			${kpi(String(peopleWithOcc), 'With a known trade', topOccupation ? `${topOccupation[0].toLowerCase()} most common` : '')}
+			${kpi(`${avgParentAge}`, 'Avg. age at parenthood', `fathers ${avgFather} \u00b7 mothers ${avgMother}`)}
+			${kpi(String(movers.count), 'Crossed a border', movers.top ? `most often to ${movers.top}` : '')}
 			${kpi(String(data.tree.places.length), 'Distinct places')}
 		</div>
 
@@ -113,6 +140,18 @@ export function createStatsView(ctx: AppContext): ViewController {
 				<h3>Births Across the Centuries</h3>
 				<p class="chart-sub">When the people in the tree were born, grouped by half-century.</p>
 				${histogram(buckets)}
+			</div>
+
+			<div class="chart-card wide">
+				<h3>Lifespans Over the Centuries</h3>
+				<p class="chart-sub">Average age at death by the half-century a person was born — life grew longer over time. Hover a point for the count behind it.</p>
+				${trendChart(lifeTrend, { unit: ' yrs' })}
+			</div>
+
+			<div class="chart-card wide">
+				<h3>The Age of Becoming a Parent</h3>
+				<p class="chart-sub">Average age of a parent at a child's birth (${parentAges.length} parent\u2013child pairs), plotted by the child's half-century. Note: the "child" here is the descendant who continues our line in this tree \u2014 not necessarily the parent's firstborn. Hover any point for the average and the count behind it.</p>
+				${trendChart(parentAgeTrend, { unit: ' yrs' })}
 			</div>
 
 			<div class="chart-card">
@@ -125,6 +164,12 @@ export function createStatsView(ctx: AppContext): ViewController {
 				<h3>Most Common Surnames</h3>
 				<p class="chart-sub">Family names carried by the most people.</p>
 				${barList(surnameCounts, 8)}
+			</div>
+
+			<div class="chart-card">
+				<h3>Most Common First Names</h3>
+				<p class="chart-sub">Given names handed down through the generations.</p>
+				${barList(givenNameCounts, 8)}
 			</div>
 
 			<div class="chart-card">
@@ -144,6 +189,7 @@ export function createStatsView(ctx: AppContext): ViewController {
 				<p class="chart-sub">Records drawn from the tree.</p>
 				<div class="superlatives">
 					${superlative(longest?.ageAtDeath ? `${longest.ageAtDeath}` : '—', longest, 'Longest-lived ancestor')}
+					${oldestParent ? superlative(`${oldestParent.age}`, oldestParent.parent, 'Oldest parent at a birth') : ''}
 					${superlative(String(mostChildren?.childIds.length ?? 0), mostChildren, 'Most children recorded')}
 					${superlative(String(earliestPerson?.birthYear ?? '—'), earliestPerson, 'Earliest known ancestor')}
 				</div>
@@ -160,6 +206,7 @@ export function createStatsView(ctx: AppContext): ViewController {
 			el.querySelectorAll<HTMLElement>('.histo-bar[data-h]').forEach((b) => {
 				b.style.height = b.dataset.h!;
 			});
+			el.querySelectorAll<SVGElement>('.trend').forEach((s) => s.classList.add('is-draw'));
 		});
 	};
 
@@ -238,6 +285,46 @@ export function createStatsView(ctx: AppContext): ViewController {
 			occPop.hidden = true;
 			ctx.focusInTree(id);
 		}
+	});
+
+	// Trend-chart hover tooltip: hovering anywhere over a point's column shows its value.
+	const trendTip = document.createElement('div');
+	trendTip.className = 'trend-tip';
+	trendTip.hidden = true;
+	el.appendChild(trendTip);
+	const clearActiveDots = (): void =>
+		el.querySelectorAll('.trend-dot.is-active').forEach((d) => d.classList.remove('is-active'));
+	const hideTrendTip = (): void => {
+		trendTip.hidden = true;
+		clearActiveDots();
+	};
+	const showTrendTip = (rect: SVGRectElement, ev: MouseEvent): void => {
+		const d = rect.dataset;
+		trendTip.innerHTML = `<strong>${escapeHtml(d.label ?? '')}</strong><span>${escapeHtml(
+			d.value ?? '',
+		)}${escapeHtml(d.unit ?? '')}</span><em>${escapeHtml(d.n ?? '')} people</em>`;
+		trendTip.hidden = false;
+		const eb = el.getBoundingClientRect();
+		const tw = trendTip.offsetWidth;
+		const th = trendTip.offsetHeight;
+		const pad = 8;
+		let left = ev.clientX - eb.left + el.scrollLeft + 14;
+		let top = ev.clientY - eb.top + el.scrollTop + 14;
+		if (left + tw > el.scrollLeft + el.clientWidth - pad) {
+			left = ev.clientX - eb.left + el.scrollLeft - tw - 14;
+		}
+		if (top + th > el.scrollTop + el.clientHeight - pad) {
+			top = ev.clientY - eb.top + el.scrollTop - th - 14;
+		}
+		trendTip.style.left = `${left}px`;
+		trendTip.style.top = `${top}px`;
+		const svg = rect.closest('svg');
+		clearActiveDots();
+		svg?.querySelector(`.trend-dot[data-i="${d.i}"]`)?.classList.add('is-active');
+	};
+	el.querySelectorAll<SVGRectElement>('.trend-hit').forEach((r) => {
+		r.addEventListener('mousemove', (e) => showTrendTip(r, e as MouseEvent));
+		r.addEventListener('mouseleave', hideTrendTip);
 	});
 
 	let shown = false;
@@ -397,4 +484,148 @@ function superlative(val: string, person: Person | undefined, desc: string): str
 	}">${escapeHtml(person.name)}</div><div class="sl-desc">${desc}${
 		place ? ` · ${escapeHtml(place)}` : ''
 	}${lifespanLabel(person) ? ` · ${lifespanLabel(person)}` : ''}</div></div></div>`;
+}
+
+function mean(nums: number[]): number {
+	return nums.length ? nums.reduce((s, n) => s + n, 0) / nums.length : 0;
+}
+
+interface ParentAge {
+	age: number;
+	parentSex?: string;
+	childBirthYear: number;
+	parent: Person;
+}
+
+/** Age of each parent at a child's birth, for every parent-child pair with both birth years known. */
+function parentChildAges(people: Person[], byId: Map<string, Person>): ParentAge[] {
+	const out: ParentAge[] = [];
+	for (const child of people) {
+		if (!child.birthYear) continue;
+		for (const pid of child.parentIds ?? []) {
+			const parent = byId.get(pid);
+			if (!parent?.birthYear) continue;
+			const age = child.birthYear - parent.birthYear;
+			if (age < 12 || age > 70) continue; // drop implausible/erroneous pairs
+			out.push({ age, parentSex: parent.sex, childBirthYear: child.birthYear, parent });
+		}
+	}
+	return out;
+}
+
+interface TrendPoint {
+	label: string;
+	value: number;
+	n: number;
+}
+
+/** Average a series of {year,value} into half-century bins (empty bins are skipped). */
+function averageByPeriod(items: { year: number; value: number }[], span = 50): TrendPoint[] {
+	if (!items.length) return [];
+	const min = Math.floor(Math.min(...items.map((i) => i.year)) / span) * span;
+	const max = Math.floor(Math.max(...items.map((i) => i.year)) / span) * span;
+	const out: TrendPoint[] = [];
+	for (let y = min; y <= max; y += span) {
+		const vals = items.filter((i) => i.year >= y && i.year < y + span).map((i) => i.value);
+		if (!vals.length) continue;
+		out.push({ label: `${y}s`, value: mean(vals), n: vals.length });
+	}
+	return out;
+}
+
+/** Count people whose birth and death countries differ, plus the most common destination. */
+function crossCountryCount(
+	people: Person[],
+	countryOf: (place?: string) => string | null,
+): { count: number; top: string } {
+	let count = 0;
+	const dest: Record<string, number> = {};
+	for (const p of people) {
+		const b = countryOf(p.birth?.place);
+		const d = countryOf(p.death?.place);
+		if (b && d && b !== d) {
+			count++;
+			dest[d] = (dest[d] ?? 0) + 1;
+		}
+	}
+	const top = Object.entries(dest).sort((a, b) => b[1] - a[1])[0]?.[0] ?? '';
+	return { count, top };
+}
+
+/** Responsive SVG line chart for an "over time" trend (averages per period). */
+function trendChart(points: TrendPoint[], opts: { unit?: string } = {}): string {
+	if (points.length < 2) return '<p class="chart-empty">Not enough data to chart.</p>';
+	const unit = opts.unit ?? '';
+	const W = 1000;
+	const H = 280;
+	const padL = 60;
+	const padR = 28;
+	const padT = 26;
+	const padB = 48;
+	const vals = points.map((p) => p.value);
+	const yMin = Math.floor((Math.min(...vals) - 3) / 5) * 5;
+	const yMax = Math.ceil((Math.max(...vals) + 3) / 5) * 5;
+	const xFor = (i: number): number => padL + (i / (points.length - 1)) * (W - padL - padR);
+	const yFor = (v: number): number => padT + (1 - (v - yMin) / (yMax - yMin)) * (H - padT - padB);
+	const line = points
+		.map((p, i) => `${i ? 'L' : 'M'}${xFor(i).toFixed(1)},${yFor(p.value).toFixed(1)}`)
+		.join(' ');
+	const area =
+		`M${xFor(0).toFixed(1)},${(H - padB).toFixed(1)} ` +
+		points.map((p, i) => `L${xFor(i).toFixed(1)},${yFor(p.value).toFixed(1)}`).join(' ') +
+		` L${xFor(points.length - 1).toFixed(1)},${(H - padB).toFixed(1)} Z`;
+	const ticks = [yMin, Math.round((yMin + yMax) / 2), yMax];
+	const grid = ticks
+		.map((t) => {
+			const y = yFor(t);
+			return (
+				`<line class="trend-grid" x1="${padL}" y1="${y.toFixed(1)}" x2="${W - padR}" y2="${y.toFixed(1)}"></line>` +
+				`<text class="trend-ylabel" x="${padL - 10}" y="${(y + 5).toFixed(1)}">${t}</text>`
+			);
+		})
+		.join('');
+	const dots = points
+		.map(
+			(p, i) =>
+				`<circle class="trend-dot" data-i="${i}" cx="${xFor(i).toFixed(1)}" cy="${yFor(
+					p.value,
+				).toFixed(1)}" r="5"></circle>`,
+		)
+		.join('');
+	const xlabels = points
+		.map(
+			(p, i) =>
+				`<text class="trend-xlabel" x="${xFor(i).toFixed(1)}" y="${H - 16}">${escapeHtml(
+					p.label,
+				)}</text>`,
+		)
+		.join('');
+	// Invisible per-point hover bands (full plot height) so hovering anywhere over a
+	// column reveals that point's data, not just the small dot.
+	const plotTop = padT;
+	const plotH = H - padT - padB;
+	const hits = points
+		.map((p, i) => {
+			const left = i === 0 ? padL : (xFor(i - 1) + xFor(i)) / 2;
+			const right = i === points.length - 1 ? W - padR : (xFor(i) + xFor(i + 1)) / 2;
+			return `<rect class="trend-hit" x="${left.toFixed(1)}" y="${plotTop}" width="${(
+				right - left
+			).toFixed(1)}" height="${plotH}" data-i="${i}" data-label="${escapeHtml(
+				p.label,
+			)}" data-value="${p.value.toFixed(1)}" data-n="${p.n}" data-unit="${escapeHtml(unit)}"></rect>`;
+		})
+		.join('');
+	return (
+		`<svg class="trend" viewBox="0 0 ${W} ${H}" role="img" aria-label="Trend over time">` +
+		`<defs><linearGradient id="trendFill" x1="0" x2="0" y1="0" y2="1">` +
+		`<stop offset="0" stop-color="var(--gold)" stop-opacity="0.26"/>` +
+		`<stop offset="1" stop-color="var(--gold)" stop-opacity="0"/></linearGradient></defs>` +
+		grid +
+		`<path class="trend-area" d="${area}" fill="url(#trendFill)"/>` +
+		`<path class="trend-line" d="${line}"/>` +
+		dots +
+		xlabels +
+		`<g class="trend-hits">${hits}</g>` +
+		`</svg>`
+	);
 }
