@@ -71,6 +71,10 @@ export function createStatsView(ctx: AppContext): ViewController {
 	// Surnames.
 	const surnameCounts = tally(people.map((p) => p.surname ?? '').filter(Boolean));
 
+	// Occupations (from research enrichment).
+	const { counts: occupationCounts, peopleWith: peopleWithOcc } = tallyOccupations(data.enrichmentById);
+	const topOccupation = Object.entries(occupationCounts).sort((a, b) => b[1] - a[1])[0];
+
 	// Births by half-century.
 	const buckets = birthsByPeriod(birthYears);
 
@@ -96,6 +100,7 @@ export function createStatsView(ctx: AppContext): ViewController {
 			${kpi(`${avgAge}`, 'Average lifespan', `from ${withAge.length} known lives`)}
 			${kpi(String(countriesSpanned), 'Countries of origin', Object.keys(oldestImmigrantOriginCountries).slice(0, 3).join(', '))}
 			${kpi(longest?.ageAtDeath ? `${longest.ageAtDeath}` : '—', 'Longest life', longest ? longest.name : '')}
+			${kpi(String(peopleWithOcc), 'With a known trade', topOccupation ? `${topOccupation[0].toLowerCase()} most common` : '')}
 			${kpi(String(data.tree.places.length), 'Distinct places')}
 		</div>
 
@@ -116,6 +121,12 @@ export function createStatsView(ctx: AppContext): ViewController {
 				<h3>Most Common Surnames</h3>
 				<p class="chart-sub">Family names carried by the most people.</p>
 				${barList(surnameCounts, 8)}
+			</div>
+
+			<div class="chart-card">
+				<h3>What They Did for a Living</h3>
+				<p class="chart-sub">Trades and callings found through research, across ${peopleWithOcc} ancestors.</p>
+				${barList(occupationCounts, 10)}
 			</div>
 
 			<div class="chart-card">
@@ -174,6 +185,49 @@ function tally(items: string[]): Record<string, number> {
 	const out: Record<string, number> = {};
 	for (const i of items) out[i] = (out[i] ?? 0) + 1;
 	return out;
+}
+
+// Light canonicalization so historical / bilingual occupation strings collapse into common trades.
+const OCCUPATION_RULES: [RegExp, string][] = [
+	[/farmhand|farm ?servant|farm ?hand|farm laborer/i, 'Farmhand'],
+	[/farmer|^boer$|colona|colon\b|husbandman|meiermann|vollmeier|hoferb|meier /i, 'Farmer'],
+	[/day ?labou?rer|^labou?rer$|workman|arbeider/i, 'Laborer'],
+	[/pastor|minister|missionary|reverend|predikant|clergy/i, 'Lutheran pastor / minister'],
+	[/housewife|hausfrau|homemaker/i, 'Housewife / homemaker'],
+	[/domestic servant|housekeeper|housemaid|^maid$|dienst/i, 'Domestic servant'],
+	[/nurse/i, 'Nurse'],
+	[/shoemaker|cobbler/i, 'Shoemaker'],
+	[/tailor|seamstress/i, 'Tailor'],
+	[/spinner|weaver/i, 'Spinner / weaver'],
+	[/m.ller\b|miller/i, 'Miller'],
+	[/z.llner|customs officer/i, 'Customs officer'],
+	[/voerman|carter/i, 'Carter'],
+	[/soldier|army|private first class|infantry|wehrmacht/i, 'Soldier'],
+];
+
+function canonOccupation(raw: string): string {
+	const c = raw
+		.toLowerCase()
+		.replace(/\(.*?\)/g, '')
+		.replace(/\s+/g, ' ')
+		.trim();
+	for (const [re, label] of OCCUPATION_RULES) if (re.test(c)) return label;
+	return c.charAt(0).toUpperCase() + c.slice(1);
+}
+
+/** Tally distinct trades across the tree (each person counts once per occupation). */
+function tallyOccupations(
+	entries: Record<string, { occupations?: string[] }>,
+): { counts: Record<string, number>; peopleWith: number } {
+	const counts: Record<string, number> = {};
+	let peopleWith = 0;
+	for (const e of Object.values(entries)) {
+		const occ = (e.occupations ?? []).filter(Boolean);
+		if (!occ.length) continue;
+		peopleWith++;
+		for (const label of new Set(occ.map(canonOccupation))) counts[label] = (counts[label] ?? 0) + 1;
+	}
+	return { counts, peopleWith };
 }
 
 function barList(counts: Record<string, number>, limit: number): string {
