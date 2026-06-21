@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T06:27:24.414Z",
+  "generatedAt": "2026-06-21T06:51:37.364Z",
   "places": {
     "Altoona, Polk, Iowa, USA": {
       "place": "Altoona, Polk, Iowa, USA",
@@ -2279,6 +2279,486 @@
       "lng": 4.2457773,
       "displayName": "Carla's Van Zijderveld, 22B, De Savornin Lohmanplein, Bohemen, Loosduinen, Den Haag, Zuid-Holland, Nederland, 2566 AC, Nederland",
       "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Altengronau, Main-Kinzig-Kreis, Hessen, Germany": {
+      "place": "Altengronau, Main-Kinzig-Kreis, Hessen, Germany",
+      "lat": 50.2504302,
+      "lng": 9.616564,
+      "displayName": "Altengronau, Sinntal, Main-Kinzig-Kreis, Hessen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Basse , Hanover, Region Hannover, Lower Saxony, Germany": {
+      "place": "Basse , Hanover, Region Hannover, Lower Saxony, Germany",
+      "lat": 52.3708601,
+      "lng": 9.7637466,
+      "displayName": "Niedersächsisches Kultusministerium, 5, Hans-Böckler-Allee, Bult, Südstadt-Bult, Hannover, Region Hannover, Niedersachsen, 30173, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Basse, Hannover, Germany": {
+      "place": "Basse, Hannover, Germany",
+      "lat": 52.3708601,
+      "lng": 9.7637466,
+      "displayName": "Niedersächsisches Kultusministerium, 5, Hans-Böckler-Allee, Bult, Südstadt-Bult, Hannover, Region Hannover, Niedersachsen, 30173, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Basse, Hannover, Lower Saxony, Germany": {
+      "place": "Basse, Hannover, Lower Saxony, Germany",
+      "lat": 52.3708601,
+      "lng": 9.7637466,
+      "displayName": "Niedersächsisches Kultusministerium, 5, Hans-Böckler-Allee, Bult, Südstadt-Bult, Hannover, Region Hannover, Niedersachsen, 30173, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Brase, Deutschland": {
+      "place": "Brase, Deutschland",
+      "lat": 52.624981,
+      "lng": 9.5817674,
+      "displayName": "Brase, Mandelsloh, Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Brase, Hannover, Germany": {
+      "place": "Brase, Hannover, Germany",
+      "lat": 52.624981,
+      "lng": 9.5817674,
+      "displayName": "Brase, Mandelsloh, Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Brase, Hannover, Lower Saxony, Germany": {
+      "place": "Brase, Hannover, Lower Saxony, Germany",
+      "lat": 52.624981,
+      "lng": 9.5817674,
+      "displayName": "Brase, Mandelsloh, Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Brase, Neustadt am Ruebenberge, Hanover Region, Lower Saxony, Germany": {
+      "place": "Brase, Neustadt am Ruebenberge, Hanover Region, Lower Saxony, Germany",
+      "lat": 52.624981,
+      "lng": 9.5817674,
+      "displayName": "Brase, Mandelsloh, Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Brase, Neustadt am Ruebenberge, Hanover Region, Niedersachsen, Deutschland": {
+      "place": "Brase, Neustadt am Ruebenberge, Hanover Region, Niedersachsen, Deutschland",
+      "lat": 52.624981,
+      "lng": 9.5817674,
+      "displayName": "Brase, Mandelsloh, Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Brase, Region Hannover, Deutschland": {
+      "place": "Brase, Region Hannover, Deutschland",
+      "lat": 52.624981,
+      "lng": 9.5817674,
+      "displayName": "Brase, Mandelsloh, Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Brase, Region Hannover, Niedersachsen, Deutschland": {
+      "place": "Brase, Region Hannover, Niedersachsen, Deutschland",
+      "lat": 52.624981,
+      "lng": 9.5817674,
+      "displayName": "Brase, Mandelsloh, Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Elmshausen, Bergstrasse, Hessen, Allemagne": {
+      "place": "Elmshausen, Bergstrasse, Hessen, Allemagne",
+      "lat": 49.7016047,
+      "lng": 8.6722226,
+      "displayName": "Elmshausen, Lautertal (Odenwald), Kreis Bergstraße, Hessen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Engelbostel, Hannover, Lower Saxony, Germany": {
+      "place": "Engelbostel, Hannover, Lower Saxony, Germany",
+      "lat": 52.4479994,
+      "lng": 9.6598794,
+      "displayName": "Engelbostel, Langenhagen, Region Hannover, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Esperke": {
+      "place": "Esperke",
+      "lat": 52.6331081,
+      "lng": 9.6086458,
+      "displayName": "Esperke, Helstorf, Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Esperke, Germany": {
+      "place": "Esperke, Germany",
+      "lat": 52.6331081,
+      "lng": 9.6086458,
+      "displayName": "Esperke, Helstorf, Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Esperke, Hannover, Lower Saxony, Germany": {
+      "place": "Esperke, Hannover, Lower Saxony, Germany",
+      "lat": 52.6331081,
+      "lng": 9.6086458,
+      "displayName": "Esperke, Helstorf, Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Esperke, Hannover, Niedersachsen, Allemagne": {
+      "place": "Esperke, Hannover, Niedersachsen, Allemagne",
+      "lat": 52.6331081,
+      "lng": 9.6086458,
+      "displayName": "Esperke, Helstorf, Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Esperke, Neustadt am Ruebenberge, Hanover Region, Lower Saxony, Germany": {
+      "place": "Esperke, Neustadt am Ruebenberge, Hanover Region, Lower Saxony, Germany",
+      "lat": 52.6331081,
+      "lng": 9.6086458,
+      "displayName": "Esperke, Helstorf, Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Esperke, Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland": {
+      "place": "Esperke, Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland",
+      "lat": 52.6331081,
+      "lng": 9.6086458,
+      "displayName": "Esperke, Helstorf, Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Esperke, Region Hannover, Niedersachsen, Deutschland": {
+      "place": "Esperke, Region Hannover, Niedersachsen, Deutschland",
+      "lat": 52.6331081,
+      "lng": 9.6086458,
+      "displayName": "Esperke, Helstorf, Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Florsheim am Main, Main-Taunus-Kreis, Hesse, Germany": {
+      "place": "Florsheim am Main, Main-Taunus-Kreis, Hesse, Germany",
+      "lat": 50.0296,
+      "lng": 8.4265,
+      "displayName": "Flörsheim, Main-Taunus-Kreis, Hessen, 65439, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Flörsheim, Main-Taunus-Kreis, Hessen, Allemagne": {
+      "place": "Flörsheim, Main-Taunus-Kreis, Hessen, Allemagne",
+      "lat": 50.0296,
+      "lng": 8.4265,
+      "displayName": "Flörsheim, Main-Taunus-Kreis, Hessen, 65439, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Germany, Allemagne": {
+      "place": "Germany, Allemagne",
+      "lat": 50.0707444,
+      "lng": 8.2520476,
+      "displayName": "Statistisches Bundesamt, 11, Gustav-Stresemann-Ring, Südost, Wiesbaden, Hessen, 65189, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Hannover, Lower Saxony, Germany": {
+      "place": "Hannover, Lower Saxony, Germany",
+      "lat": 52.3744779,
+      "lng": 9.7385532,
+      "displayName": "Hannover, Region Hannover, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Hannover, Stadt Hannover, Niedersachsen, Germany": {
+      "place": "Hannover, Stadt Hannover, Niedersachsen, Germany",
+      "lat": 52.3536708,
+      "lng": 9.7227312,
+      "displayName": "Bibliothek der Hochschule Hannover, Zentralbibliothek, 118, Ricklinger Stadtweg, Linden-Süd, Linden-Limmer, Hannover, Region Hannover, Niedersachsen, 30459, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Helstorf, Hannover, Lower Saxony, Germany": {
+      "place": "Helstorf, Hannover, Lower Saxony, Germany",
+      "lat": 52.584655,
+      "lng": 9.5865839,
+      "displayName": "Helstorf, Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Hessen-Darmstadt, Elmshausen, Bergstraße, Hesse, Germany": {
+      "place": "Hessen-Darmstadt, Elmshausen, Bergstraße, Hesse, Germany",
+      "lat": 49.7016047,
+      "lng": 8.6722226,
+      "displayName": "Elmshausen, Lautertal (Odenwald), Kreis Bergstraße, Hessen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Hofheim am Taunus, Allemagne": {
+      "place": "Hofheim am Taunus, Allemagne",
+      "lat": 50.09494,
+      "lng": 8.42285,
+      "displayName": "Hofheim am Taunus, Main-Taunus-Kreis, Hessen, 65719, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Hofheim, Bergstraße, Hesse, Germany": {
+      "place": "Hofheim, Bergstraße, Hesse, Germany",
+      "lat": 49.6578754,
+      "lng": 8.4087311,
+      "displayName": "Hofheim, Lampertheim, Kreis Bergstraße, Hessen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Klein Gumpen, Erbach, Grand Duchy of Hesse, Hessen, Allemagne": {
+      "place": "Klein Gumpen, Erbach, Grand Duchy of Hesse, Hessen, Allemagne",
+      "lat": 50.6080651,
+      "lng": 9.0284647,
+      "displayName": "Hessen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Lutter, Hannover, Lower Saxony, Germany": {
+      "place": "Lutter, Hannover, Lower Saxony, Germany",
+      "lat": 52.6139794,
+      "lng": 9.5093277,
+      "displayName": "Lutter, Mandelsloh, Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Luttmersen, Hannover, Lower Saxony, Germany": {
+      "place": "Luttmersen, Hannover, Lower Saxony, Germany",
+      "lat": 52.5744402,
+      "lng": 9.5619785,
+      "displayName": "Luttmersen, Helstorf, Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Marxheim, Donau-Ries, Bayern, Germany": {
+      "place": "Marxheim, Donau-Ries, Bayern, Germany",
+      "lat": 48.7405104,
+      "lng": 10.9444427,
+      "displayName": "Marxheim, Landkreis Donau-Ries, Bayern, 86688, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Metel, Hannover, Niedersachsen, Germany": {
+      "place": "Metel, Hannover, Niedersachsen, Germany",
+      "lat": 52.5488369,
+      "lng": 9.5529301,
+      "displayName": "Metel, Otternhagen, Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Neustadt am Rübenberge, Niedersachsen, Germany": {
+      "place": "Neustadt am Rübenberge, Niedersachsen, Germany",
+      "lat": 52.5045772,
+      "lng": 9.4616921,
+      "displayName": "Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Niedernstöcken , Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland": {
+      "place": "Niedernstöcken , Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland",
+      "lat": 52.6449794,
+      "lng": 9.5742323,
+      "displayName": "Niedernstöcken, Mandelsloh, Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Niedernstöcken, Hannover, Lower Saxony, Germany": {
+      "place": "Niedernstöcken, Hannover, Lower Saxony, Germany",
+      "lat": 52.6449794,
+      "lng": 9.5742323,
+      "displayName": "Niedernstöcken, Mandelsloh, Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Niedernstöcken, Hannover, Niedersachsen, Germany": {
+      "place": "Niedernstöcken, Hannover, Niedersachsen, Germany",
+      "lat": 52.6449794,
+      "lng": 9.5742323,
+      "displayName": "Niedernstöcken, Mandelsloh, Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Niedernstöcken, Region Hannover, Niedersachsen, Deutschland": {
+      "place": "Niedernstöcken, Region Hannover, Niedersachsen, Deutschland",
+      "lat": 52.6449794,
+      "lng": 9.5742323,
+      "displayName": "Niedernstöcken, Mandelsloh, Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Niederstöcken, Kreis, Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland": {
+      "place": "Niederstöcken, Kreis, Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland",
+      "lat": 52.5045772,
+      "lng": 9.4616921,
+      "displayName": "Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Niederstöcken, Neustadt am Rübenberge, Region Hannover, Lower Saxony, Germany": {
+      "place": "Niederstöcken, Neustadt am Rübenberge, Region Hannover, Lower Saxony, Germany",
+      "lat": 52.6431776,
+      "lng": 9.57263,
+      "displayName": "Freiwillige Feuerwehr Niederstöcken, In der Twacht, Niedernstöcken, Mandelsloh, Neustadt am Rübenberge, Region Hannover, Niedersachsen, 31535, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Rheinland-Pfalz, Germany": {
+      "place": "Rheinland-Pfalz, Germany",
+      "lat": 49.9531599,
+      "lng": 7.310646,
+      "displayName": "Rheinland-Pfalz, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Rodewald, Nienburg, Niedersachsen, Deutschland": {
+      "place": "Rodewald, Nienburg, Niedersachsen, Deutschland",
+      "lat": 52.6627327,
+      "lng": 9.4830162,
+      "displayName": "Rodewald, Samtgemeinde Steimbke, Landkreis Nienburg/Weser, Niedersachsen, 31637, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Stöcken, Hannover, Germany": {
+      "place": "Stöcken, Hannover, Germany",
+      "lat": 52.411446,
+      "lng": 9.6615601,
+      "displayName": "Stöcken, Herrenhausen-Stöcken, Hannover, Region Hannover, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Unbekannt, Germany": {
+      "place": "Unbekannt, Germany",
+      "lat": 49.9849489,
+      "lng": 8.7082455,
+      "displayName": "unbekannt, Bogenschneise, Steinberg, Langen, Landkreis Offenbach, Hessen, 63225, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Vesbeck, Hannover, Lower Saxony, Germany": {
+      "place": "Vesbeck, Hannover, Lower Saxony, Germany",
+      "lat": 52.6032894,
+      "lng": 9.6111573,
+      "displayName": "Vesbeck, Helstorf, Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Vesbeck, Hannover, Niedersachsen, Germany": {
+      "place": "Vesbeck, Hannover, Niedersachsen, Germany",
+      "lat": 52.6032894,
+      "lng": 9.6111573,
+      "displayName": "Vesbeck, Helstorf, Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Weilbach Hessen Deutschland": {
+      "place": "Weilbach Hessen Deutschland",
+      "lat": 50.0452845,
+      "lng": 8.4357448,
+      "displayName": "Weilbach, Flörsheim, Main-Taunus-Kreis, Hessen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Weilbach jetzt OT von Flörsheim am Main, Main-Taunus-Kreis, Hessen, Allemagne": {
+      "place": "Weilbach jetzt OT von Flörsheim am Main, Main-Taunus-Kreis, Hessen, Allemagne",
+      "lat": 50.0995751,
+      "lng": 8.4264122,
+      "displayName": "Main-Taunus-Kreis, Hessen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Weilbach, Flörsheim am Main, Main-Taunus-Kreis, Hessen, Allemagne": {
+      "place": "Weilbach, Flörsheim am Main, Main-Taunus-Kreis, Hessen, Allemagne",
+      "lat": 50.0452845,
+      "lng": 8.4357448,
+      "displayName": "Weilbach, Flörsheim, Main-Taunus-Kreis, Hessen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Weilbach, Main-Taunus-Kreis, Hesse, Germany": {
+      "place": "Weilbach, Main-Taunus-Kreis, Hesse, Germany",
+      "lat": 50.0452845,
+      "lng": 8.4357448,
+      "displayName": "Weilbach, Flörsheim, Main-Taunus-Kreis, Hessen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Weilbach, Main-Taunus-Kreis, Hessen, Allemagne": {
+      "place": "Weilbach, Main-Taunus-Kreis, Hessen, Allemagne",
+      "lat": 50.0452845,
+      "lng": 8.4357448,
+      "displayName": "Weilbach, Flörsheim, Main-Taunus-Kreis, Hessen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Weilbach, Main-Taunus-Kreis, Hessen, Deutschland": {
+      "place": "Weilbach, Main-Taunus-Kreis, Hessen, Deutschland",
+      "lat": 50.0452845,
+      "lng": 8.4357448,
+      "displayName": "Weilbach, Flörsheim, Main-Taunus-Kreis, Hessen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Weilbach, Main-Taunus-Kreis, Hessen, Germany": {
+      "place": "Weilbach, Main-Taunus-Kreis, Hessen, Germany",
+      "lat": 50.0452845,
+      "lng": 8.4357448,
+      "displayName": "Weilbach, Flörsheim, Main-Taunus-Kreis, Hessen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Wicker, Hessen, Allemagne": {
+      "place": "Wicker, Hessen, Allemagne",
+      "lat": 50.0288637,
+      "lng": 8.4061469,
+      "displayName": "Wicker, Flörsheim, Main-Taunus-Kreis, Hessen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Wicker, Main-Taunus-Kreis, Hesse, Germany": {
+      "place": "Wicker, Main-Taunus-Kreis, Hesse, Germany",
+      "lat": 50.0288637,
+      "lng": 8.4061469,
+      "displayName": "Wicker, Flörsheim, Main-Taunus-Kreis, Hessen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Wicker, Main-Taunus-Kreis, Hessen, Allemagne": {
+      "place": "Wicker, Main-Taunus-Kreis, Hessen, Allemagne",
+      "lat": 50.0288637,
+      "lng": 8.4061469,
+      "displayName": "Wicker, Flörsheim, Main-Taunus-Kreis, Hessen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Wicker, Main-Taunus-Kreis, Hessen, Germany": {
+      "place": "Wicker, Main-Taunus-Kreis, Hessen, Germany",
+      "lat": 50.0288637,
+      "lng": 8.4061469,
+      "displayName": "Wicker, Flörsheim, Main-Taunus-Kreis, Hessen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Zeilsheim, Frankfurt am Main, Hesse, Germany": {
+      "place": "Zeilsheim, Frankfurt am Main, Hesse, Germany",
+      "lat": 50.0955649,
+      "lng": 8.4947834,
+      "displayName": "Zeilsheim, West, Frankfurt am Main, Hessen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "unbekannt": {
+      "place": "unbekannt",
+      "lat": 49.9849489,
+      "lng": 8.7082455,
+      "displayName": "unbekannt, Bogenschneise, Steinberg, Langen, Landkreis Offenbach, Hessen, 63225, Deutschland",
+      "country": "Deutschland",
       "source": "nominatim"
     }
   }

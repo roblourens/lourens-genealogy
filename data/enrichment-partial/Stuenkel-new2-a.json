@@ -1,0 +1,188 @@
+[
+  {
+    "personId": "I272780764717",
+    "bio": "A BVFF Datenpool Baumann.ged entry is a strong candidate for Nicolai Hart: it reports Nicolai HART born in 1605 at Flörsheim and dying 15 August 1694 at Flörsheim, with parents Georg HART and Margarethe WESTENBERGER. The same entry gives a 1638 marriage to Apollonia and lists daughters Anna Maria HART and Juliane HART; this is a compiled online tree lead, so the underlying parish entry should still be checked.",
+    "funFacts": [
+      "The candidate BVFF profile reports an age of 89 at death, unusually long-lived for a seventeenth-century parish-record ancestor.",
+      "A daughter Juliane HART is linked to Christian Georg BRECKHEIMER in a 17 January 1662 marriage on the same BVFF tree."
+    ],
+    "records": [
+      "BVFF webtrees individual page for Nicolai HART, with birth, death, parents, spouse, and children.",
+      "BVFF linked family events for daughter Juliane HART and Christian Georg BRECKHEIMER."
+    ],
+    "citations": [
+      {
+        "label": "BVFF Datenpool Baumann.ged: Nicolai HART 1605–1694",
+        "url": "https://datenpool.bvff.de/tree/Baumann.ged/individual/I17822/Nicolai-HART"
+      }
+    ]
+  },
+  {
+    "personId": "I272780764714",
+    "bio": "A BVFF candidate for Nicolai Hart's spouse names her only as Apollonia and estimates birth about 1618, not as Apollonia Cage born 1606. Because this conflicts with the GEDCOM's surname, date, place, and parents, treat it as a cautionary lead rather than proof until a parish or compiled-source citation is checked.",
+    "records": [
+      "BVFF webtrees individual page for Apollonia, spouse of Nicolai HART, with marriage and child events."
+    ],
+    "citations": [
+      {
+        "label": "BVFF Datenpool Baumann.ged: Apollonia, spouse of Nicolai HART",
+        "url": "https://datenpool.bvff.de/tree/Baumann.ged/individual/I17808/Apollonia"
+      }
+    ]
+  },
+  {
+    "personId": "I272780764728",
+    "bio": "A BVFF entry for Margarethe WESTENBERGER matches the GEDCOM's broad profile and reports birth in 1565 at Marxheim and death in 1619 at Weilbach. It adds a specific marriage to Georg HART on 23 April 1588 at Weilbach and links their son Nicolai HART; as a compiled tree lead, the cited BVFF source should be used to find the underlying church or source file.",
+    "records": [
+      "BVFF webtrees individual page for Margarethe WESTENBERGER, including marriage to Georg HART and son Nicolai HART."
+    ],
+    "citations": [
+      {
+        "label": "BVFF Datenpool Baumann.ged: Margarethe WESTENBERGER 1565–1619",
+        "url": "https://datenpool.bvff.de/tree/Baumann.ged/individual/I7561/Margarethe-WESTENBERGER"
+      }
+    ]
+  },
+  {
+    "personId": "I272780764732",
+    "bio": "A BVFF candidate for Georg HART reports birth in 1559 at Weilbach and a marriage to Margarethe WESTENBERGER on 23 April 1588 at Weilbach. The entry links their son Nicolai HART, but it does not support the GEDCOM's later death date, so the death should remain unproven from this source.",
+    "records": [
+      "BVFF webtrees individual page for Georg HART, including birth, marriage, and son Nicolai HART."
+    ],
+    "citations": [
+      {
+        "label": "BVFF Datenpool Baumann.ged: Georg HART 1559–",
+        "url": "https://datenpool.bvff.de/tree/Baumann.ged/individual/I7517/Georg-HART"
+      }
+    ]
+  },
+  {
+    "personId": "I272780764783",
+    "bio": "A BVFF candidate for Philipp HART reports birth in 1520 at Weilbach and links him with Elisabeth STEIN. The same page links parents Georg HART and Anna HABER and a son Philipp HART born in 1539, but because the GEDCOM has a different parental naming pattern, this should be treated as a candidate compiled-tree lead.",
+    "records": [
+      "BVFF webtrees individual page for Philipp HART, including parents, spouse, and son."
+    ],
+    "citations": [
+      {
+        "label": "BVFF Datenpool Baumann.ged: Philipp HART 1520–",
+        "url": "https://datenpool.bvff.de/tree/Baumann.ged/individual/I7381/Philipp-HART"
+      }
+    ]
+  },
+  {
+    "personId": "I272780764776",
+    "bio": "A BVFF entry for Elisabeth STEIN matches the GEDCOM's 1512 Weilbach birth setting, but gives the forename as Elisabeth rather than Maria Elisabetha. It links her to Philipp HART and shows a son Philipp HART born in 1539 at Weilbach; this is useful as a compiled-tree lead, not primary proof.",
+    "records": [
+      "BVFF webtrees individual page for Elisabeth STEIN, with partner Philipp HART and child-related events."
+    ],
+    "citations": [
+      {
+        "label": "BVFF Datenpool Baumann.ged: Elisabeth STEIN 1512–",
+        "url": "https://datenpool.bvff.de/tree/Baumann.ged/individual/I7711/Elisabeth-STEIN"
+      }
+    ]
+  },
+  {
+    "personId": "I272780764890",
+    "bio": "GEDBAS has a candidate Gertrud GEISELMANN entry from the Duchmann-Flettner-Seufert database, reporting birth in 1606 at Wicker bei Flörsheim am Main and death on 5 May 1661 at Wicker. It adds parents Peter GEISELMANN and Margaretha N. and a 1628 marriage to Philipp BRECKHEIMER; because GEDBAS notes that source references are not displayed, this should be treated as a lead for checking the underlying Flörsheim/Wicker material.",
+    "records": [
+      "GEDBAS individual page for Gertrud GEISELMANN in database 60689."
+    ],
+    "citations": [
+      {
+        "label": "GEDBAS: Gertrud GEISELMANN",
+        "url": "https://gedbas.genealogy.net/person/show/1275662520"
+      }
+    ]
+  },
+  {
+    "personId": "I272780764913",
+    "occupations": [
+      "Müller (miller)"
+    ],
+    "bio": "GEDBAS has a candidate Philipp BRECKHEIMER entry matching the 1604 Wicker birth and 8 June 1657 Wicker death. It adds the occupation Müller, a 1628 marriage at Wicker bei Flörsheim am Main to Gertrud GEISELMANN, and children Johann Jakob, Christian Georg, and Anna Catherina; this is a compiled tree lead with hidden source references.",
+    "funFacts": [
+      "The candidate record's occupation Müller suggests a connection to milling work in or near Wicker."
+    ],
+    "records": [
+      "GEDBAS individual page for Philipp BRECKHEIMER in database 60689."
+    ],
+    "citations": [
+      {
+        "label": "GEDBAS: Philipp BRECKHEIMER",
+        "url": "https://gedbas.genealogy.net/person/show/1275662409"
+      }
+    ]
+  },
+  {
+    "personId": "I272780764918",
+    "bio": "GEDBAS has a candidate Ayla (Adelheid) N. entry linked as Jakob BRECKHEIMER's spouse. It reports birth about 1575 at Wicker, death after 1610 at Wicker, a 1598 marriage, and six Breckheimer children; this conflicts with the GEDCOM's Flörsheim death year and should be verified before import.",
+    "records": [
+      "GEDBAS individual page for Ayla (Adelheid) N. in database 60689."
+    ],
+    "citations": [
+      {
+        "label": "GEDBAS: Ayla (Adelheid) N.",
+        "url": "https://gedbas.genealogy.net/person/show/1275670476"
+      }
+    ]
+  },
+  {
+    "personId": "I272780765447",
+    "bio": "GEDBAS has a candidate Jakob BRECKHEIMER entry matching the 1574 birth era and linking him to parents Theis (Cles) BRECKHEIMER and Elisabetha N. It reports Wicker rather than Flörsheim for birth and death, a 1598 marriage to Ayla (Adelheid) N., and several children beyond Philipp; treat it as a useful but unproven compiled-tree lead.",
+    "records": [
+      "GEDBAS individual page for Jakob BRECKHEIMER in database 60689."
+    ],
+    "citations": [
+      {
+        "label": "GEDBAS: Jakob BRECKHEIMER",
+        "url": "https://gedbas.genealogy.net/person/show/1275669232"
+      }
+    ]
+  },
+  {
+    "personId": "I272780765508",
+    "occupations": [
+      "Geschworener Feldmesser (sworn land surveyor)"
+    ],
+    "bio": "GEDBAS has a candidate Theis (Cles) BRECKHEIMER entry that reports the occupation Geschworener Feldmesser, birth about 1544 at Wicker, death before 1623 at Wicker, and a marriage about 1567 to Elisabetha N. It links sons Jakob and Johannes Hans; because it differs from the GEDCOM's 1540 birth and uses approximate dates, this should be handled as a lead.",
+    "funFacts": [
+      "The candidate record preserves a specific occupational label, Geschworener Feldmesser, rather than only dates and relationships."
+    ],
+    "records": [
+      "GEDBAS individual page for Theis (Cles) BRECKHEIMER in database 60689."
+    ],
+    "citations": [
+      {
+        "label": "GEDBAS: Theis (Cles) BRECKHEIMER",
+        "url": "https://gedbas.genealogy.net/person/show/1275662854"
+      }
+    ]
+  },
+  {
+    "personId": "I272780765536",
+    "bio": "GEDBAS has a candidate Cles BRECKHEIMER entry with birth about 1518 at Wicker bei Flörsheim and death before 1566 at Wicker. It reports a marriage before 1544 to Anna N. and a son Theis (Cles) BRECKHEIMER; the underlying sources are not displayed, so this remains a compiled-tree lead.",
+    "records": [
+      "GEDBAS individual page for Cles BRECKHEIMER in database 60689."
+    ],
+    "citations": [
+      {
+        "label": "GEDBAS: Cles BRECKHEIMER",
+        "url": "https://gedbas.genealogy.net/person/show/1275626530"
+      }
+    ]
+  },
+  {
+    "personId": "I272780765531",
+    "bio": "GEDBAS has a candidate Anna N. entry linked as the spouse of Cles BRECKHEIMER. It reports birth about 1520 at Wicker bei Flörsheim, death after 1566 at Wicker, and a marriage before 1544; this refines the GEDCOM's exact-looking death year into an after-date lead.",
+    "records": [
+      "GEDBAS individual page for Anna N. in database 60689."
+    ],
+    "citations": [
+      {
+        "label": "GEDBAS: Anna N.",
+        "url": "https://gedbas.genealogy.net/person/show/1275626541"
+      }
+    ]
+  }
+]

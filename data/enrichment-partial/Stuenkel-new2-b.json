@@ -1,0 +1,374 @@
+[
+  {
+    "personId": "I272780765582",
+    "bio": "A candidate online tree profile for Johannes/Johann Müller of Flörsheim reports a man born about 1600 and dying in Flörsheim in August 1659, but the dates vary across indexed trees, so this should be treated as a lead rather than proof (Ancestry Müller profiles; Geneal-Forum lead). The same search result reports possible parents Peter Georg Muller and Anna Geertruij Schaaff and possible spouses Apollonia Dieffenbach and Jakobina Treutel; these relationships are not yet proven against parish images.",
+    "funFacts": [
+      "The indexed lead shows significant name/date variation, including one possible record with death 20 Aug 1659 rather than the GEDCOM's 10 Aug 1659, so original Flörsheim parish records are needed before merging."
+    ],
+    "records": [
+      "Candidate Johannes/Johann Müller profile(s) for Flörsheim, Main-Taunus-Kreis, Hessen, with possible parents, spouses, and children; treated as unproven tree data."
+    ],
+    "citations": [
+      {
+        "label": "Ancestry: Johannes Müller profile lead",
+        "url": "https://www.ancestry.com/genealogy/records/johannes-m%C3%BCller-24-20y8zxk"
+      },
+      {
+        "label": "Ancestry: Johannes Muller profile lead",
+        "url": "https://www.ancestry.com/genealogy/records/johannes-muller-24-xdmwh"
+      },
+      {
+        "label": "Geneal-Forum: Müller Johann lead",
+        "url": "https://www.geneal-forum.com/tng/getperson.php?personID=I16950&tree=haraldthomas72"
+      }
+    ]
+  },
+  {
+    "personId": "I272780765681",
+    "bio": "A Stuenkel family-tree lead identifies Franz Diedrich Stuenkel and Marie Magdalene Nollke as parents of Johann Friedrick Ludwig Stuenkel of Metel. Because this is an Ancestry tree/profile lead rather than a parish image, treat it as a pointer for follow-up in Neustadt/Metel church books.",
+    "records": [
+      "Ancestry profile lead for Johann Friedrick Ludwig Stuenkel, naming parents Franz Diedrich Stuenkel and Marie Magdalene Nollke."
+    ],
+    "citations": [
+      {
+        "label": "Ancestry: Johann Friedrick Ludwig Stuenkel",
+        "url": "https://www.ancestry.com/genealogy/records/johann-friedrick-ludwig-stuenkel-24-1ssp2r7"
+      }
+    ]
+  },
+  {
+    "personId": "I272780765687",
+    "bio": "A Stuenkel family-tree lead identifies Franz Diedrich Stuenkel and Marie Magdalene Nollke as parents of Johann Friedrick Ludwig Stuenkel of Metel. This is useful as a compiled-tree lead, but needs confirmation in Metel/Neustadt parish records before being treated as proof.",
+    "records": [
+      "Ancestry profile lead for Johann Friedrick Ludwig Stuenkel, naming parents Franz Diedrich Stuenkel and Marie Magdalene Nollke."
+    ],
+    "citations": [
+      {
+        "label": "Ancestry: Johann Friedrick Ludwig Stuenkel",
+        "url": "https://www.ancestry.com/genealogy/records/johann-friedrick-ludwig-stuenkel-24-1ssp2r7"
+      }
+    ]
+  },
+  {
+    "personId": "I272780765698",
+    "bio": "An Ancestry profile lead for Franz Dietrich Stuenkel Sr. matches the GEDCOM's 15 Jan 1705 Basse birth, 12 May 1778 Metel death, parents Franz Lüdeke Stünkel and Ilse Margarethe Hackmeister, and spouse Catharina/Catherine Maria Timme. Treat this as a compiled-tree lead until checked against Basse/Metel church books.",
+    "records": [
+      "Ancestry profile lead for Franz Dietrich Stuenkel Sr. with birth, death, parents, and spouse."
+    ],
+    "citations": [
+      {
+        "label": "Ancestry: Franz Dietrich Stuenkel Sr.",
+        "url": "https://www.ancestry.com/genealogy/records/franz-dietrich-stuenkel-sr-24-10v601j"
+      }
+    ]
+  },
+  {
+    "personId": "I272780765705",
+    "bio": "A WikiTree profile lead names Catherine Marie Timme as Catharina Maria Timmer, born about 1710 in Luttmersen and married to Franz Dietrich Stuenkel. The same lead gives a 1754 death in Metel, which conflicts with the GEDCOM's 1759 death, so this should be verified before changing the tree.",
+    "records": [
+      "WikiTree profile lead for Catharina Maria Timmer/Timme with alternate surname spelling and a conflicting death year."
+    ],
+    "citations": [
+      {
+        "label": "WikiTree: Catharina Maria Timmer",
+        "url": "https://www.wikitree.com/wiki/Timmer-356"
+      }
+    ]
+  },
+  {
+    "personId": "I272780765710",
+    "bio": "The Ancestry profile lead for Franz Dietrich Stuenkel Sr. names Ilse Margarethe Hackmeister and Franz Lüdeke Stünkel as his parents. This supports the existing relationship as a compiled-tree lead, but it should be checked against Basse church-book entries.",
+    "records": [
+      "Ancestry profile lead for son Franz Dietrich Stuenkel Sr., naming Ilse Margarethe Hackmeister as mother."
+    ],
+    "citations": [
+      {
+        "label": "Ancestry: Franz Dietrich Stuenkel Sr.",
+        "url": "https://www.ancestry.com/genealogy/records/franz-dietrich-stuenkel-sr-24-10v601j"
+      }
+    ]
+  },
+  {
+    "personId": "I272780765719",
+    "bio": "The Ancestry profile lead for Franz Dietrich Stuenkel Sr. names Franz Lüdeke Stünkel and Ilse Margarethe Hackmeister as his parents. This supports the existing relationship as a compiled-tree lead, but primary Basse/Metel church records are still needed.",
+    "records": [
+      "Ancestry profile lead for son Franz Dietrich Stuenkel Sr., naming Franz Lüdeke Stünkel as father."
+    ],
+    "citations": [
+      {
+        "label": "Ancestry: Franz Dietrich Stuenkel Sr.",
+        "url": "https://www.ancestry.com/genealogy/records/franz-dietrich-stuenkel-sr-24-10v601j"
+      }
+    ]
+  },
+  {
+    "personId": "I272780765742",
+    "bio": "Frerking Family History lists Marie Elisabeth Sprengel as born 3 Feb 1756 in Esperke and married to Johann Heinrich Ludewig Frerking on 29 Apr 1785. Its source note is a MyHeritage person discovery, so the marriage date is a useful lead but should still be verified in Esperke church records.",
+    "records": [
+      "Frerking Family History person page for Marie Elisabeth Sprengel.",
+      "Frerking/Marie Elisabeth Sprengel family group sheet, marriage 29 Apr 1785 and child Johann Dietrich Frerking."
+    ],
+    "citations": [
+      {
+        "label": "Frerking Family History: Marie Elisabeth Sprengel",
+        "url": "https://www.frerking.net/geneology/getperson.php?personID=I500029&tree=tree1"
+      },
+      {
+        "label": "Frerking Family History: Frerking/Sprengel family group",
+        "url": "https://www.frerking.net/geneology/familygroup.php?familyID=F500008&tree=tree1"
+      }
+    ]
+  },
+  {
+    "personId": "I272780765747",
+    "bio": "Frerking Family History lists Johann Heinrich Ludewig Frerking as born 26 Sep 1757 in Esperke and married to Marie Elisabeth Sprengel on 29 Apr 1785. The page gives his death as 20 Oct 1830, which conflicts with the GEDCOM's 9 Feb 1793 death, so this is a high-priority discrepancy to resolve against original records.",
+    "records": [
+      "Frerking Family History person page for Johann Heinrich Ludewig Frerking.",
+      "Frerking/Sprengel family group sheet showing marriage date and child Johann Dietrich Frerking."
+    ],
+    "citations": [
+      {
+        "label": "Frerking Family History: Johann Heinrich Ludewig Frerking",
+        "url": "https://www.frerking.net/geneology/getperson.php?personID=I500028&tree=tree1"
+      },
+      {
+        "label": "Frerking Family History: Frerking/Sprengel family group",
+        "url": "https://www.frerking.net/geneology/familygroup.php?familyID=F500008&tree=tree1"
+      }
+    ]
+  },
+  {
+    "personId": "I272780765777",
+    "bio": "A likely Mandelsloh OFB candidate appears as Anna Amalia Dorothea Rabe/Rave, born in Feb 1745 in Mandelsloh (Brase) and baptized 19 Feb 1745. The candidate married Heinrich Wilhelm Rabe on 1 Sep 1769 and is listed with children including Anna Margretha Rabe; because the GEDCOM gives a 5 Jan 1745 birth and later death, this should be treated as a strong but still unresolved candidate match.",
+    "records": [
+      "OFB Mandelsloh family report for Anna Amalia Dorothea Rabe/Rave, including baptism, spouse, marriage date, children, and parents."
+    ],
+    "citations": [
+      {
+        "label": "OFB Mandelsloh: Anna Amalia Dorothea Rabe",
+        "url": "https://ofb.genealogy.net/famreport.php?ofb=mandelsloh&ID=I6896&lang=de"
+      }
+    ]
+  },
+  {
+    "personId": "I272780765781",
+    "bio": "The likely OFB Mandelsloh candidate for this family is Heinrich Wilhelm Rabe, husband of Anna Amalia Dorothea Rabe/Rave, born in Oct 1741 in Mandelsloh (Lutter). Because this birth month/year conflicts with the GEDCOM's 23 May 1740 date, use it as a candidate lead until original parish records are checked.",
+    "records": [
+      "OFB Mandelsloh family report for spouse Anna Amalia Dorothea Rabe, naming Heinrich Wilhelm Rabe, his birth place/month, marriage date, and children."
+    ],
+    "citations": [
+      {
+        "label": "OFB Mandelsloh: Anna Amalia Dorothea Rabe",
+        "url": "https://ofb.genealogy.net/famreport.php?ofb=mandelsloh&ID=I6896&lang=de"
+      }
+    ]
+  },
+  {
+    "personId": "I272780765800",
+    "bio": "Frerking Family History lists Margaret Elizabeth Dierking as wife of Johann Diedrich Frerking and mother of Johann Heinrich Ludewig Frerking. That page does not provide her birth and death dates, so it confirms the family cluster only as a compiled-tree lead.",
+    "records": [
+      "Frerking Family History person page for Margaret Elizabeth Dierking, spouse and child relationships."
+    ],
+    "citations": [
+      {
+        "label": "Frerking Family History: Margaret Elizabeth Dierking",
+        "url": "https://www.frerking.net/geneology/getperson.php?personID=I21&tree=tree1"
+      }
+    ]
+  },
+  {
+    "personId": "I272780765805",
+    "bio": "A Stuenkel family-tree lead identifies Franz Diedrich Stuenkel and Marie Magdalene Nollke as parents of Johann Friedrick Ludwig Stuenkel of Metel. This duplicate GEDCOM person should be checked against the same Ancestry lead and then against Metel parish records.",
+    "records": [
+      "Ancestry profile lead for Johann Friedrick Ludwig Stuenkel, naming parents Franz Diedrich Stuenkel and Marie Magdalene Nollke."
+    ],
+    "citations": [
+      {
+        "label": "Ancestry: Johann Friedrick Ludwig Stuenkel",
+        "url": "https://www.ancestry.com/genealogy/records/johann-friedrick-ludwig-stuenkel-24-1ssp2r7"
+      }
+    ]
+  },
+  {
+    "personId": "I272780765809",
+    "bio": "A Stuenkel family-tree lead identifies Franz Diedrich Stuenkel and Marie Magdalene Nollke as parents of Johann Friedrick Ludwig Stuenkel of Metel. This duplicate GEDCOM person should be checked against the same Ancestry lead and then against Metel parish records.",
+    "records": [
+      "Ancestry profile lead for Johann Friedrick Ludwig Stuenkel, naming parents Franz Diedrich Stuenkel and Marie Magdalene Nollke."
+    ],
+    "citations": [
+      {
+        "label": "Ancestry: Johann Friedrick Ludwig Stuenkel",
+        "url": "https://www.ancestry.com/genealogy/records/johann-friedrick-ludwig-stuenkel-24-1ssp2r7"
+      }
+    ]
+  },
+  {
+    "personId": "I272780765811",
+    "bio": "Frerking Family History lists Johann Diedrich Frerking as born 4 May 1711 in Esperke, son of Henning Frerking and Mettan Schroder Trauttmann, and husband of Margaret Elizabeth Dierking. This conflicts with the GEDCOM's 4 Mar 1711/Hannover birth, so the date/place should be resolved from original church records.",
+    "records": [
+      "Frerking Family History person page for Johann Diedrich Frerking.",
+      "Family group sheet for Henning Frerking and Mettan Schroder Trauttmann."
+    ],
+    "citations": [
+      {
+        "label": "Frerking Family History: Johann Diedrich Frerking",
+        "url": "https://www.frerking.net/geneology/getperson.php?personID=I20&tree=tree1"
+      },
+      {
+        "label": "Frerking Family History: Henning Frerking family group",
+        "url": "https://www.frerking.net/geneology/familygroup.php?familyID=F8&tree=tree1"
+      }
+    ]
+  },
+  {
+    "personId": "I272780765822",
+    "bio": "Frerking Family History lists Mettan Schroder Trauttmann as wife of Henning Frerking and mother of Johann Diedrich Frerking. The page does not supply the 1663/1750 dates in the GEDCOM, so it is mainly useful as a relationship/source lead.",
+    "records": [
+      "Frerking Family History person page for Mettan Schroder Trauttmann.",
+      "Family group sheet for Henning Frerking and Mettan Schroder Trauttmann."
+    ],
+    "citations": [
+      {
+        "label": "Frerking Family History: Mettan Schroder Trauttmann",
+        "url": "https://www.frerking.net/geneology/getperson.php?personID=I23&tree=tree1"
+      },
+      {
+        "label": "Frerking Family History: Henning Frerking family group",
+        "url": "https://www.frerking.net/geneology/familygroup.php?familyID=F8&tree=tree1"
+      }
+    ]
+  },
+  {
+    "personId": "I272780765823",
+    "bio": "Frerking Family History lists Henning Frerking as born in 1658 and dying 20 Oct 1730, with Mettan Schroder Trauttmann as spouse and Johann Diedrich Frerking as child. The page omits the Esperke place data and Henning's parents from the GEDCOM, so it should be used as a relationship/source lead rather than a full proof statement.",
+    "records": [
+      "Frerking Family History person page for Henning Frerking.",
+      "Family group sheet for Henning Frerking and Mettan Schroder Trauttmann."
+    ],
+    "citations": [
+      {
+        "label": "Frerking Family History: Henning Frerking",
+        "url": "https://www.frerking.net/geneology/getperson.php?personID=I22&tree=tree1"
+      },
+      {
+        "label": "Frerking Family History: Henning Frerking family group",
+        "url": "https://www.frerking.net/geneology/familygroup.php?familyID=F8&tree=tree1"
+      }
+    ]
+  },
+  {
+    "personId": "I272780766023",
+    "bio": "The Mandelsloh local family database identifies her as Anna Catharina Magdalena Sprengel, born 20 Feb 1719 and died 19 Dec 1792 in Mandelsloh (Brase). It records her marriage to Jürgen Heinrich Rabe on 7 Nov 1742 and lists seven children, including Anna Amalia Dorothea Rabe.",
+    "funFacts": [
+      "The OFB note says the marriage entry used only the names Catharina Magdalena and that she was a widow at death."
+    ],
+    "records": [
+      "OFB Mandelsloh family report for Anna Catharina Magdalena Sprengel, with church-book source references for marriage and death."
+    ],
+    "citations": [
+      {
+        "label": "OFB Mandelsloh: Anna Catharina Magdalena Sprengel",
+        "url": "https://ofb.genealogy.net/famreport.php?ofb=mandelsloh&ID=I4815&lang=de"
+      }
+    ]
+  },
+  {
+    "personId": "I272780766026",
+    "occupations": [
+      "Meiermann in Brase"
+    ],
+    "bio": "The Mandelsloh OFB has a strong candidate for this person as Jürgen Heinrich Rabe/Rave, born 7 Dec 1714 in Mandelsloh (Dinstorf), died 19 Jan 1789 in Mandelsloh (Brase), and married to Anna Catharina Magdalena Sprengel on 7 Nov 1742. Because the dates differ from the GEDCOM, treat the vital dates as a candidate correction until the cited Mandelsloh church-book pages are checked.",
+    "funFacts": [
+      "The OFB explicitly notes that the surname appears as both Rabe and Rave and that he lived in Brase with his wife Anna Catharina Magdalena Sprengel."
+    ],
+    "records": [
+      "OFB Mandelsloh family report for Jürgen Heinrich Rabe/Rave, with occupation, spouse, children, parents, and church-book source references."
+    ],
+    "citations": [
+      {
+        "label": "OFB Mandelsloh: Jürgen Heinrich Rabe",
+        "url": "https://ofb.genealogy.net/famreport.php?ofb=mandelsloh&ID=I1427&lang=de"
+      }
+    ]
+  },
+  {
+    "personId": "I272780766034",
+    "bio": "The Mandelsloh local family database records Magdalena Elisabeth as VOIGT (VOGES), born 20 Oct 1686 in Mandelsloh (Dinstorf), died in Mar 1745 in Mandelsloh (Brase), and buried 28 Mar 1745. It names her spouse Johan (Joachim?) Diterich Sprengel, marriage date 3 Dec 1704, and parents Cordt Voigt (Voges) and Dorothee Margrethe Hoyer (Hoier).",
+    "funFacts": [
+      "The OFB note gives her age at death as 63 years and identifies her as a wife."
+    ],
+    "records": [
+      "OFB Mandelsloh family report for Magdalena Elisabeth Voigt (Voges), with church-book source references for marriage and death."
+    ],
+    "citations": [
+      {
+        "label": "OFB Mandelsloh: Magdalena Elisabeth Voigt (Voges)",
+        "url": "https://ofb.genealogy.net/famreport.php?ofb=mandelsloh&ID=I968&lang=de"
+      }
+    ]
+  },
+  {
+    "personId": "I272780766037",
+    "occupations": [
+      "Meiermann aus Brase"
+    ],
+    "bio": "The Mandelsloh OFB records him as Johan (Joachim?) Diterich Sprengel, born 1670, died 9 Jun 1747 in Mandelsloh (Brase), and married Magdalena Elisabeth Voigt (Voges) on 3 Dec 1704. The OFB names his father as Jürgen Sprengel and lists several children in Brase.",
+    "funFacts": [
+      "The OFB death note says the death entry uses the name Joachim Dietrich Sprengel and gives his age as 77 years."
+    ],
+    "records": [
+      "OFB Mandelsloh family report for Johan (Joachim?) Diterich Sprengel, with occupation, marriage, children, father, and church-book source references."
+    ],
+    "citations": [
+      {
+        "label": "OFB Mandelsloh: Johan (Joachim?) Diterich Sprengel",
+        "url": "https://ofb.genealogy.net/famreport.php?ofb=mandelsloh&ID=I958&lang=de"
+      }
+    ]
+  },
+  {
+    "personId": "I272780766051",
+    "bio": "An Ancestry compiled-tree lead appears to match this person under the variant name Catharina Margarethe Rotermund/Rothermundt, born about 1640, married to Jürgen Georg Hans Sprengel, and died 10 May 1721 in Brase. Treat this as a possible identity/name-variant lead until original parish evidence is found.",
+    "records": [
+      "Ancestry profile lead for Catharina Margarethe Rotermund/Rothermundt."
+    ],
+    "citations": [
+      {
+        "label": "Ancestry: Catharina Margarethe Rotermund Rothermundt",
+        "url": "https://www.ancestry.com/genealogy/records/catharina-margarethe-rotermund-rothermundt-24-hrft6p"
+      }
+    ]
+  },
+  {
+    "personId": "I272780766052",
+    "occupations": [
+      "Einwohner und Meiermann von Brase"
+    ],
+    "bio": "The Mandelsloh OFB records a likely match as Jürgen Sprengel, born 1638 and died 13 May 1720 in Mandelsloh (Brase). It lists his occupation as Einwohner und Meiermann von Brase and names children including Johan (Joachim?) Diterich Sprengel, but it does not name the spouse shown in the GEDCOM.",
+    "funFacts": [
+      "The OFB records his burial on 15 May 1720 and gives his age at death as 82 years."
+    ],
+    "records": [
+      "OFB Mandelsloh family report for Jürgen Sprengel, with death, burial, occupation, children, and church-book source reference."
+    ],
+    "citations": [
+      {
+        "label": "OFB Mandelsloh: Jürgen Sprengel",
+        "url": "https://ofb.genealogy.net/famreport.php?ofb=mandelsloh&ID=I815&lang=de"
+      }
+    ]
+  },
+  {
+    "personId": "I272780766065",
+    "bio": "An Ancestry compiled-tree lead appears to match this person under the variant name Catharina Margarethe Rotermund/Rothermundt, born about 1640, married to Jürgen Georg Hans Sprengel, and died 10 May 1721 in Brase. Treat this as a possible identity/name-variant lead until original parish evidence is found.",
+    "records": [
+      "Ancestry profile lead for Catharina Margarethe Rotermund/Rothermundt."
+    ],
+    "citations": [
+      {
+        "label": "Ancestry: Catharina Margarethe Rotermund Rothermundt",
+        "url": "https://www.ancestry.com/genealogy/records/catharina-margarethe-rotermund-rothermundt-24-hrft6p"
+      }
+    ]
+  }
+]

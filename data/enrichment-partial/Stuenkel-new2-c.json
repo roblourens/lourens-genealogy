@@ -1,0 +1,226 @@
+[
+  {
+    "personId": "I272780766106",
+    "bio": "A WikiTree profile for a likely candidate, Catharina Maria Timmer, says she was born in 1710, was the daughter of Hanß Timmer, and died in 1754. Treat this as a candidate rather than proof for Catherine Marie Timme, because the death year differs from the GEDCOM's 1759 death date.",
+    "records": [
+      "WikiTree profile Timmer-356; cites Basse Protestant parish baptism, marriage, and death books as the underlying records but does not display images."
+    ],
+    "citations": [
+      {
+        "label": "Catharina Maria Timmer (1710-1754), WikiTree",
+        "url": "https://www.wikitree.com/wiki/Timmer-356"
+      }
+    ]
+  },
+  {
+    "personId": "I272780766112",
+    "bio": "A possible Online-OFB NLF match is Anna Maria Margareta Gloje, estimated born 1696 in Esperke and paired with Jürgen Lüdeke Dierking. This is not yet proven as the same woman as Anne Marie Margarethe Gleue/Gloie because the given names, spouse's middle name, and birthplace differ from the GEDCOM.",
+    "records": [
+      "Possible Online-OFB NLF family report I161953: estimated birth 1696 in Esperke; marriage 26 Oct 1719 in KB Niederstöcken; child Heinrich Jürgen Dierking."
+    ],
+    "citations": [
+      {
+        "label": "Anna Maria Margareta GLOJE, Familiendatenbank NLF",
+        "url": "https://www.online-ofb.de/famreport.php?ofb=NLF&ID=I161953&lang=de"
+      }
+    ]
+  },
+  {
+    "personId": "I272780766115",
+    "bio": "A possible Online-OFB NLF match is Jürgen Lüdeke Dierking, estimated born 1696 in Esperke, married to Anna Maria Margareta Gloje. Treat this as only a candidate for Juergen Hermann Dierking because the middle name and exact chronology do not match the GEDCOM cleanly.",
+    "records": [
+      "Possible Online-OFB NLF family report I161952: marriage 26 Oct 1719 in KB Niederstöcken; child Heinrich Jürgen Dierking born 1731 in Esperke."
+    ],
+    "citations": [
+      {
+        "label": "Jürgen Lüdeke DIERKING, Familiendatenbank NLF",
+        "url": "https://www.online-ofb.de/famreport.php?ofb=NLF&ID=I161952&lang=de"
+      }
+    ]
+  },
+  {
+    "personId": "I272780766310",
+    "bio": "Frerking Family History has a candidate profile for Catharina Dorothea Rust/Rusten, born 1700 and died 30 Oct 1767 in Esperke, Germany. The profile connects her to Johann Hoppenstat and Hanss Gartner; because the spouse spelling and child list differ from the GEDCOM, use it as a lead rather than proof.",
+    "records": [
+      "Frerking TNG profile I500190: Catharina Dorothea Rust Rusten, family with Johann Hoppenstat and child Anna Maria; second family with Hanss Gartner."
+    ],
+    "citations": [
+      {
+        "label": "Catharina Dorothea Rust Rusten, Frerking Family History",
+        "url": "https://www.frerking.net/geneology/getperson.php?personID=I500190&tree=tree1"
+      }
+    ]
+  },
+  {
+    "personId": "I272780766325",
+    "occupations": [
+      "Hoferbin"
+    ],
+    "bio": "The Online-OFB NLF family report for Catharina Dorothea Feddeler records her birth on 28 Sep 1690 in Esperke and death on 24 Apr 1743 in Esperke. It identifies her occupation/status as Hoferbin and gives a marriage to Hans Sprengel on 6 Mar 1714/15 in Esperke.",
+    "funFacts": [
+      "The report associates the couple with Gütemannshof Nr. 7."
+    ],
+    "records": [
+      "Online-OFB NLF family report I485129, sourced to NLF-Bibliothek N 0368, Schenkung Frank Rieckenberg."
+    ],
+    "citations": [
+      {
+        "label": "Catharina Dorothea FEDDELER, Familiendatenbank NLF",
+        "url": "https://www.online-ofb.de/famreport.php?ofb=NLF&ID=I485129&lang=de"
+      }
+    ]
+  },
+  {
+    "personId": "I272780766328",
+    "occupations": [
+      "Inhucker - wegen Einheirat"
+    ],
+    "bio": "The Online-OFB NLF family report for Hans Sprengel records his birth on 13 Jun 1681 in Brase and death in 1747. It describes him as an \"Inhucker\" because of marriage into the Feddeler property, and it gives his marriage to Catharina Dorothea Feddeler on 6 Mar 1714/15 in Esperke.",
+    "funFacts": [
+      "The report places his birth at Keunkenhof Nr. 1 and links the marriage household to Gütemannshof Nr. 7."
+    ],
+    "records": [
+      "Online-OFB NLF family report I485279, sourced to NLF-Bibliothek N 0368, Schenkung Frank Rieckenberg."
+    ],
+    "citations": [
+      {
+        "label": "Hans SPRENGEL, Familiendatenbank NLF",
+        "url": "https://www.online-ofb.de/famreport.php?ofb=NLF&ID=I485279&lang=de"
+      }
+    ]
+  },
+  {
+    "personId": "I272780766339",
+    "bio": "The Online-OFB NLF report for Anna Ilsabe Margarethe Gloie records birth in 1668 in Esperke and death in 1733 in Esperke. It gives her marriage to Johann Feddeler on 10 Nov 1689 in Niedernstöcken and names Johann Gloie and Anna Blomen as her parents.",
+    "records": [
+      "Online-OFB NLF family report I442587; includes burial 30 Sep 1733 in Niedernstöcken and child Ilse Magdalena Feddeler."
+    ],
+    "citations": [
+      {
+        "label": "Anna Ilsabe Margarethe GLOIE, Familiendatenbank NLF",
+        "url": "https://www.online-ofb.de/famreport.php?ofb=NLF&ID=I442587&lang=de"
+      }
+    ]
+  },
+  {
+    "personId": "I272780766341",
+    "occupations": [
+      "Colon (Hof Jüttmanns Nr. 7)"
+    ],
+    "bio": "The Online-OFB NLF report for Johann Feddeler records birth in 1651 in Esperke, baptism in 1651 at Niedernstöcken St. Gorgonius, and death in 1734 in Esperke. It identifies him as a Lutheran Colon on Hof Jüttmanns Nr. 7 and gives his marriage to Anna Ilsabe Margarethe Gloie on 10 Nov 1689 in Niedernstöcken.",
+    "funFacts": [
+      "The report says he was buried 6 Jan 1734 in Niedernstöcken and died at age 83."
+    ],
+    "records": [
+      "Online-OFB NLF family report I442586; cites NLF-Bibliothek N 0303, Stefan Rothland materials."
+    ],
+    "citations": [
+      {
+        "label": "Johann FEDDELER, Familiendatenbank NLF",
+        "url": "https://www.online-ofb.de/famreport.php?ofb=NLF&ID=I442586&lang=de"
+      }
+    ]
+  },
+  {
+    "personId": "I272780766375",
+    "occupations": [
+      "Colona, Hausfrau"
+    ],
+    "bio": "The Online-OFB NLF report for Anna Blomen records birth in 1645 in Esperke and death in 1721 in Esperke. It describes her as a Lutheran Colona and Hausfrau, gives a marriage about 1665 to Johann Gloie, and names Lüder Blomen and an unnamed mother as her parents.",
+    "records": [
+      "Online-OFB NLF family report I442870; includes baptism in 1645 and burial 18 Sep 1721 at Niedernstöcken."
+    ],
+    "citations": [
+      {
+        "label": "Anna BLOMEN, Familiendatenbank NLF",
+        "url": "https://www.online-ofb.de/famreport.php?ofb=NLF&ID=I442870&lang=de"
+      }
+    ]
+  },
+  {
+    "personId": "I272780766287",
+    "occupations": [
+      "Colon (Hof Esperke Nr. 1)"
+    ],
+    "bio": "The Online-OFB NLF report for Johann Gloie is a strong match by name, dates, and Esperke location: born 1641, died 1696 in Esperke. It identifies him as a Lutheran Colon on Hof Esperke Nr. 1 and gives an about-1665 marriage to Anna Blomen.",
+    "records": [
+      "Online-OFB NLF family report I442869; includes burial 16 Apr 1696 in Niedernstöcken and daughter Anna Ilsabe Margarethe Gloie."
+    ],
+    "citations": [
+      {
+        "label": "Johann GLOIE, Familiendatenbank NLF",
+        "url": "https://www.online-ofb.de/famreport.php?ofb=NLF&ID=I442869&lang=de"
+      }
+    ]
+  },
+  {
+    "personId": "I272780766395",
+    "occupations": [
+      "Colon (Hof Esperke Nr. 1)"
+    ],
+    "bio": "The Online-OFB NLF report for Johann Gloie matches the GEDCOM's Johann Gloyn by name variant, 1641 birth, 1696 death, and Esperke setting. It identifies him as a Lutheran Colon on Hof Esperke Nr. 1 and gives an about-1665 marriage to Anna Blomen.",
+    "records": [
+      "Online-OFB NLF family report I442869; includes burial 16 Apr 1696 in Niedernstöcken and daughter Anna Ilsabe Margarethe Gloie."
+    ],
+    "citations": [
+      {
+        "label": "Johann GLOIE, Familiendatenbank NLF",
+        "url": "https://www.online-ofb.de/famreport.php?ofb=NLF&ID=I442869&lang=de"
+      }
+    ]
+  },
+  {
+    "personId": "I272780766401",
+    "occupations": [
+      "Colona, Hausfrau"
+    ],
+    "bio": "The Online-OFB NLF report for Catharine Margarethe Wolkenhauer records birth and baptism in 1629 in Niedernstöcken and death in 1704 in Esperke. It names her husband Claus Feddeler, gives an approximate 1650 marriage, and identifies her parents as Johann Wolkenhauer and Maria Catharina Dierking.",
+    "funFacts": [
+      "The report says she was buried 6 Aug 1704 in Niedernstöcken and was 75 years old at death."
+    ],
+    "records": [
+      "Online-OFB NLF family report I442866; cites NLF-Bibliothek N 0303 Stefan Rothland materials."
+    ],
+    "citations": [
+      {
+        "label": "Catharine Margarethe WOLKENHAUER, Familiendatenbank NLF",
+        "url": "https://www.online-ofb.de/famreport.php?ofb=NLF&ID=I442866&lang=de"
+      }
+    ]
+  },
+  {
+    "personId": "I272780766411",
+    "occupations": [
+      "Colon (Hof Jüttmans Nr. 7)"
+    ],
+    "bio": "The Online-OFB NLF report for Claus Feddeler records birth/baptism in 1608 and death in 1677 in Esperke. It identifies him as a Lutheran Colon on Hof Jüttmans Nr. 7, gives burial on 11 Nov 1677 in Niedernstöcken, and gives an approximate 1650 marriage to Catharine Margarethe Wolkenhauer.",
+    "records": [
+      "Online-OFB NLF family report I442865; cites NLF-Bibliothek N 0303, Stefan Rothland: Vorfahren."
+    ],
+    "citations": [
+      {
+        "label": "Claus FEDDELER, Familiendatenbank NLF",
+        "url": "https://www.online-ofb.de/famreport.php?ofb=NLF&ID=I442865&lang=de"
+      }
+    ]
+  },
+  {
+    "personId": "I272780766423",
+    "occupations": [
+      "Vollmeier in Brase, Keuncken-Hof Nr. 1"
+    ],
+    "bio": "The Online-OFB NLF report for Jürgen Sprengel records birth in 1638 in Brase and death on 13 May 1720 in Brase. It identifies him as a Lutheran Vollmeier on Keuncken-Hof Nr. 1 and gives two partner entries: an unnamed Clausing woman and Margareta Rotermund, so the spouse data should be reviewed against the GEDCOM's Margaretha Elisabeth Rothermund.",
+    "funFacts": [
+      "The report says he was baptized and buried through Mandelsloh St. Osdag and was 82 years old at death."
+    ],
+    "records": [
+      "Online-OFB NLF family report I204121; includes father Carsten Sprengel and a sibling/child group for the Brase Sprengel family."
+    ],
+    "citations": [
+      {
+        "label": "Jürgen SPRENGEL, Familiendatenbank NLF",
+        "url": "https://www.online-ofb.de/famreport.php?ofb=NLF&ID=I204121&lang=de"
+      }
+    ]
+  }
+]
