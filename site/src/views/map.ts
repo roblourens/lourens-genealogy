@@ -50,7 +50,7 @@ export function createMapView(ctx: AppContext): ViewController {
 	el.insertAdjacentHTML(
 		'beforeend',
 		`
-		<div class="legend panel-card" id="map-legend">
+		<div class="legend panel-card is-collapsed" id="map-legend">
 			<h4>Migration by Line</h4>
 			<div id="map-legend-rows"></div>
 			<div style="margin-top:10px;font-size:11.5px;color:var(--muted-text);line-height:1.45">

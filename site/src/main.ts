@@ -92,8 +92,18 @@ async function main(): Promise<void> {
 
 	setupSearch(data, ctx);
 	setupThemePicker();
+	setupCollapsibleLegends();
 	loading.remove();
 	switchView('tree');
+}
+
+/** On small screens the floating map/tree legends collapse to a tappable chip. */
+function setupCollapsibleLegends(): void {
+	document.addEventListener('click', (e) => {
+		if (!window.matchMedia('(max-width: 640px)').matches) return;
+		const h4 = (e.target as HTMLElement).closest('.legend > h4');
+		if (h4) h4.parentElement!.classList.toggle('is-collapsed');
+	});
 }
 
 function setupThemePicker(): void {

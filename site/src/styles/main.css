@@ -541,6 +541,51 @@ body {
 	flex-shrink: 0;
 }
 
+@media (max-width: 640px) {
+	/* On phones the floating intro paragraph is dropped — touch gestures are
+	   self-evident and the narrative lives on the History/Stats pages — and the
+	   color key collapses into a tappable chip so it never covers the canvas. */
+	.view-intro-pill {
+		display: none;
+	}
+	.legend {
+		width: max-content;
+		min-width: 0;
+		max-width: min(74vw, 230px);
+		top: 14px;
+		right: 14px;
+		padding: 12px 14px;
+	}
+	.legend > h4 {
+		display: flex;
+		align-items: center;
+		gap: 12px;
+		cursor: pointer;
+		user-select: none;
+		margin: 0 0 10px;
+	}
+	.legend > h4::after {
+		content: '';
+		margin-left: auto;
+		width: 7px;
+		height: 7px;
+		border-right: 2px solid currentColor;
+		border-bottom: 2px solid currentColor;
+		transform: rotate(45deg);
+		opacity: 0.5;
+		transition: transform 0.2s ease;
+	}
+	.legend.is-collapsed > h4 {
+		margin: 0;
+	}
+	.legend.is-collapsed > h4::after {
+		transform: rotate(-45deg);
+	}
+	.legend.is-collapsed > h4 ~ * {
+		display: none;
+	}
+}
+
 /* ---------- Person panel ---------- */
 .panel-scrim {
 	position: fixed;
@@ -1911,6 +1956,14 @@ body {
 		grid-column: 1 / -1;
 		justify-self: stretch;
 		overflow-x: auto;
+		scrollbar-width: none;
+		-webkit-overflow-scrolling: touch;
+	}
+	.tabs::-webkit-scrollbar {
+		display: none;
+	}
+	.tab {
+		padding: 8px 14px;
 	}
 }
 

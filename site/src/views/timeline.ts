@@ -102,7 +102,7 @@ export function createTimelineView(ctx: AppContext): ViewController {
 			.filter((r) => active.has(r.branch))
 			.sort((a, b) => a.start - b.start || a.end - b.end);
 
-		const width = Math.max(640, scroll.clientWidth);
+		const width = scroll.clientWidth < 560 ? scroll.clientWidth : Math.max(640, scroll.clientWidth);
 		const plotW = width - PAD_L - PAD_R;
 		const height = AXIS_H + rows.length * ROW_H + 14;
 		const xOf = (year: number): number => PAD_L + ((year - minYear) / (maxYear - minYear)) * plotW;
@@ -110,7 +110,7 @@ export function createTimelineView(ctx: AppContext): ViewController {
 		const parts: string[] = [];
 
 		// Vertical decade/half-century gridlines + axis labels.
-		const tickStep = (maxYear - minYear) > 320 ? 50 : 25;
+		const tickStep = width < 560 ? 100 : (maxYear - minYear) > 320 ? 50 : 25;
 		for (let y = minYear; y <= maxYear; y += tickStep) {
 			const x = xOf(y);
 			parts.push(
