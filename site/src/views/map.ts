@@ -63,6 +63,12 @@ export function createMapView(ctx: AppContext): ViewController {
 			<button class="ctrl-btn map-play" id="map-play" title="Play">▶</button>
 			<span class="yr-label" id="map-year">All years</span>
 			<input type="range" id="map-slider" min="1550" max="2000" value="2000" step="5" />
+			<select class="map-speed" id="map-speed" title="Playback speed" aria-label="Playback speed">
+				<option value="0.5">0.5×</option>
+				<option value="1" selected>1×</option>
+				<option value="2">2×</option>
+				<option value="4">4×</option>
+			</select>
 		</div>`,
 	);
 
@@ -758,8 +764,14 @@ export function createMapView(ctx: AppContext): ViewController {
 	slider.addEventListener('input', () => setYear(Number(slider.value)));
 
 	const playBtn = el.querySelector('#map-play') as HTMLButtonElement;
+	const speedSelect = el.querySelector('#map-speed') as HTMLSelectElement;
 	let playing = false;
 	let raf = 0;
+	// Years advanced per tick, and the base delay between ticks at 1x. The selected speed
+	// multiplier shortens the delay (higher = faster). 1x is deliberately gentler than before.
+	const STEP_YEARS = 3;
+	const BASE_DELAY_MS = 90;
+	const speedFactor = (): number => Number(speedSelect.value) || 1;
 	playBtn.addEventListener('click', () => {
 		if (playing) {
 			playing = false;
@@ -772,7 +784,7 @@ export function createMapView(ctx: AppContext): ViewController {
 		let y = Number(slider.min);
 		const step = (): void => {
 			if (!playing) return;
-			y += 4;
+			y += STEP_YEARS;
 			slider.value = String(y);
 			setYear(y);
 			if (y >= Number(slider.max)) {
@@ -782,7 +794,8 @@ export function createMapView(ctx: AppContext): ViewController {
 				slider.value = '2000';
 				return;
 			}
-			raf = requestAnimationFrame(() => setTimeout(step, 60) as unknown as number);
+			const delay = BASE_DELAY_MS / speedFactor();
+			raf = requestAnimationFrame(() => setTimeout(step, delay) as unknown as number);
 		};
 		step();
 	});
