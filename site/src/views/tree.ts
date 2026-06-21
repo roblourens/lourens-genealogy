@@ -4,10 +4,21 @@ import type { AppContext, ViewController } from '../main';
 import { BRANCHES, type BranchKey } from '../data';
 import { branchColor, lifespanLabel, shortPlace } from '../util';
 
-const CARD_W = 188;
-const CARD_H = 50;
+const CARD_W = 210;
+const CARD_H = 68;
 const X_GAP = 250; // horizontal distance between generations
-const Y_GAP = 62; // vertical distance between siblings
+const Y_GAP = 84; // vertical distance between siblings
+const NAME_PAD_L = 14;
+const NAME_MAX_W = CARD_W - NAME_PAD_L - 12; // usable width for the name text
+
+// Offscreen text measurer so we can wrap names deterministically (no dependency on the SVG
+// being laid out in the DOM yet). Font must match the .node-name CSS.
+const nameMeasureCanvas = document.createElement('canvas');
+const nameMeasureCtx = nameMeasureCanvas.getContext('2d')!;
+nameMeasureCtx.font = "600 13px 'Fraunces', Georgia, 'Times New Roman', serif";
+function nameWidth(s: string): number {
+	return nameMeasureCtx.measureText(s).width;
+}
 
 export function createTreeView(ctx: AppContext): ViewController & { focus(id: string): void } {
 	const { data } = ctx;
@@ -82,26 +93,41 @@ export function createTreeView(ctx: AppContext): ViewController & { focus(id: st
 		.attr('rx', 2)
 		.attr('fill', (d) => branchColor(data.branchOf.get(d.data.id)));
 
-	node
-		.append('text')
-		.attr('class', 'node-name')
-		.attr('x', 14)
-		.attr('y', 20)
-		.text((d) => truncate(d.data.name, 24));
+	// Name (wrapped to ≤2 lines), dates, and birthplace — vertically centered in the card so both
+	// short and wrapped names look balanced.
+	node.each(function (d) {
+		const g = d3.select(this);
+		const lines = wrapName(d.data.name, NAME_MAX_W, 2);
+		const placeText = shortPlace(d.data.birth?.place) || '';
+		const lineH = 15;
+		const blockH = lines.length * lineH + 3 + 13 + (placeText ? 12 : 0);
+		let cursor = (CARD_H - blockH) / 2;
 
-	node
-		.append('text')
-		.attr('class', 'node-dates')
-		.attr('x', 14)
-		.attr('y', 35)
-		.text((d) => lifespanLabel(d.data));
+		const nameEl = g.append('text').attr('class', 'node-name');
+		lines.forEach((ln, i) => {
+			nameEl
+				.append('tspan')
+				.attr('x', NAME_PAD_L)
+				.attr('y', cursor + 11 + i * lineH)
+				.text(ln);
+		});
+		cursor += lines.length * lineH + 3;
 
-	node
-		.append('text')
-		.attr('class', 'node-place')
-		.attr('x', 14)
-		.attr('y', 46)
-		.text((d) => shortPlace(d.data.birth?.place) || '');
+		g.append('text')
+			.attr('class', 'node-dates')
+			.attr('x', NAME_PAD_L)
+			.attr('y', cursor + 10)
+			.text(lifespanLabel(d.data));
+		cursor += 13;
+
+		if (placeText) {
+			g.append('text')
+				.attr('class', 'node-place')
+				.attr('x', NAME_PAD_L)
+				.attr('y', cursor + 9)
+				.text(placeText);
+		}
+	});
 
 	// Zoom behaviour.
 	const zoom = d3
@@ -190,6 +216,40 @@ export function createTreeView(ctx: AppContext): ViewController & { focus(id: st
 	};
 }
 
-function truncate(s: string, n: number): string {
-	return s.length > n ? s.slice(0, n - 1) + '…' : s;
+/** Wrap a name into at most `maxLines` lines that fit `maxW` px; the last line is ellipsized. */
+function wrapName(name: string, maxW: number, maxLines: number): string[] {
+	const words = name.split(/\s+/).filter(Boolean);
+	if (words.length === 0) return [''];
+	const lines: string[] = [];
+	let cur = '';
+	for (let i = 0; i < words.length; i++) {
+		const w = words[i];
+		const test = cur ? `${cur} ${w}` : w;
+		if (!cur || nameWidth(test) <= maxW) {
+			cur = test;
+		} else {
+			lines.push(cur);
+			if (lines.length === maxLines - 1) {
+				// Last allowed line: pack the remaining words in and ellipsize to fit.
+				lines.push(ellipsize(words.slice(i).join(' '), maxW));
+				return lines;
+			}
+			cur = w;
+		}
+	}
+	if (cur) lines.push(ellipsize(cur, maxW));
+	return lines;
+}
+
+/** Trim a string with a trailing ellipsis so it fits within `maxW` px. */
+function ellipsize(s: string, maxW: number): string {
+	if (nameWidth(s) <= maxW) return s;
+	let lo = 0;
+	let hi = s.length;
+	while (lo < hi) {
+		const mid = (lo + hi + 1) >> 1;
+		if (nameWidth(`${s.slice(0, mid)}…`) <= maxW) lo = mid;
+		else hi = mid - 1;
+	}
+	return `${s.slice(0, lo).trimEnd()}…`;
 }
