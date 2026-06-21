@@ -180,7 +180,7 @@ export function createStatsView(ctx: AppContext): ViewController {
 	const motherAges = parentAges.filter((p) => p.parentSex === 'F').map((p) => p.age);
 	const avgFather = fatherAges.length ? Math.round(mean(fatherAges)) : 0;
 	const avgMother = motherAges.length ? Math.round(mean(motherAges)) : 0;
-	const parentAgeTrend = averageByPeriod(
+	const parentAgeDist = distByPeriod(
 		parentAges.map((p) => ({ year: p.childBirthYear, value: p.age })),
 	);
 	const oldestParent = [...parentAges].sort((a, b) => b.age - a.age)[0];
@@ -260,8 +260,8 @@ export function createStatsView(ctx: AppContext): ViewController {
 
 			<div class="chart-card wide">
 				<h3>The Age of Becoming a Parent</h3>
-				<p class="chart-sub">Average age of a parent at a child's birth (${parentAges.length} parent\u2013child pairs), plotted by the child's half-century. Note: the "child" here is the descendant who continues our line in this tree \u2014 not necessarily the parent's firstborn. Hover any point for the average and the count behind it.</p>
-				${trendChart(parentAgeTrend, { unit: ' yrs' })}
+				<p class="chart-sub">The spread of how old each parent was at a child's birth (${parentAges.length} parent\u2013child pairs), grouped by the child's half-century — box is the middle 50%, the line inside is the median, whiskers reach the youngest and oldest, and the dotted gold line tracks the mean. Note: the "child" here is the descendant who continues our line in this tree \u2014 not necessarily the parent's firstborn. <span class="chart-hint">Hover a column for the min, max, median and mean.</span></p>
+				${distChart(parentAgeDist, { unit: ' yrs' })}
 			</div>
 
 			<div class="chart-card">
@@ -689,26 +689,6 @@ function parentChildAges(people: Person[], byId: Map<string, Person>): ParentAge
 	return out;
 }
 
-interface TrendPoint {
-	label: string;
-	value: number;
-	n: number;
-}
-
-/** Average a series of {year,value} into half-century bins (empty bins are skipped). */
-function averageByPeriod(items: { year: number; value: number }[], span = 50): TrendPoint[] {
-	if (!items.length) return [];
-	const min = Math.floor(Math.min(...items.map((i) => i.year)) / span) * span;
-	const max = Math.floor(Math.max(...items.map((i) => i.year)) / span) * span;
-	const out: TrendPoint[] = [];
-	for (let y = min; y <= max; y += span) {
-		const vals = items.filter((i) => i.year >= y && i.year < y + span).map((i) => i.value);
-		if (!vals.length) continue;
-		out.push({ label: `${y}s`, value: mean(vals), n: vals.length });
-	}
-	return out;
-}
-
 interface DistPoint {
 	label: string;
 	min: number;
@@ -773,84 +753,6 @@ function crossCountryCount(
 	}
 	const top = Object.entries(dest).sort((a, b) => b[1] - a[1])[0]?.[0] ?? '';
 	return { count, top };
-}
-
-/** Responsive SVG line chart for an "over time" trend (averages per period). */
-function trendChart(points: TrendPoint[], opts: { unit?: string } = {}): string {
-	if (points.length < 2) return '<p class="chart-empty">Not enough data to chart.</p>';
-	const unit = opts.unit ?? '';
-	const W = 1000;
-	const H = 280;
-	const padL = 60;
-	const padR = 28;
-	const padT = 26;
-	const padB = 48;
-	const vals = points.map((p) => p.value);
-	const yMin = Math.floor((Math.min(...vals) - 3) / 5) * 5;
-	const yMax = Math.ceil((Math.max(...vals) + 3) / 5) * 5;
-	const xFor = (i: number): number => padL + (i / (points.length - 1)) * (W - padL - padR);
-	const yFor = (v: number): number => padT + (1 - (v - yMin) / (yMax - yMin)) * (H - padT - padB);
-	const line = points
-		.map((p, i) => `${i ? 'L' : 'M'}${xFor(i).toFixed(1)},${yFor(p.value).toFixed(1)}`)
-		.join(' ');
-	const area =
-		`M${xFor(0).toFixed(1)},${(H - padB).toFixed(1)} ` +
-		points.map((p, i) => `L${xFor(i).toFixed(1)},${yFor(p.value).toFixed(1)}`).join(' ') +
-		` L${xFor(points.length - 1).toFixed(1)},${(H - padB).toFixed(1)} Z`;
-	const ticks = [yMin, Math.round((yMin + yMax) / 2), yMax];
-	const grid = ticks
-		.map((t) => {
-			const y = yFor(t);
-			return (
-				`<line class="trend-grid" x1="${padL}" y1="${y.toFixed(1)}" x2="${W - padR}" y2="${y.toFixed(1)}"></line>` +
-				`<text class="trend-ylabel" x="${padL - 10}" y="${(y + 5).toFixed(1)}">${t}</text>`
-			);
-		})
-		.join('');
-	const dots = points
-		.map(
-			(p, i) =>
-				`<circle class="trend-dot" data-i="${i}" cx="${xFor(i).toFixed(1)}" cy="${yFor(
-					p.value,
-				).toFixed(1)}" r="5"></circle>`,
-		)
-		.join('');
-	const xlabels = points
-		.map(
-			(p, i) =>
-				`<text class="trend-xlabel" x="${xFor(i).toFixed(1)}" y="${H - 16}">${escapeHtml(
-					p.label,
-				)}</text>`,
-		)
-		.join('');
-	// Invisible per-point hover bands (full plot height) so hovering anywhere over a
-	// column reveals that point's data, not just the small dot.
-	const plotTop = padT;
-	const plotH = H - padT - padB;
-	const hits = points
-		.map((p, i) => {
-			const left = i === 0 ? padL : (xFor(i - 1) + xFor(i)) / 2;
-			const right = i === points.length - 1 ? W - padR : (xFor(i) + xFor(i + 1)) / 2;
-			return `<rect class="trend-hit" x="${left.toFixed(1)}" y="${plotTop}" width="${(
-				right - left
-			).toFixed(1)}" height="${plotH}" data-i="${i}" data-label="${escapeHtml(
-				p.label,
-			)}" data-value="${p.value.toFixed(1)}" data-n="${p.n}" data-unit="${escapeHtml(unit)}"></rect>`;
-		})
-		.join('');
-	return (
-		`<svg class="trend" viewBox="0 0 ${W} ${H}" role="img" aria-label="Trend over time">` +
-		`<defs><linearGradient id="trendFill" x1="0" x2="0" y1="0" y2="1">` +
-		`<stop offset="0" stop-color="var(--gold)" stop-opacity="0.26"/>` +
-		`<stop offset="1" stop-color="var(--gold)" stop-opacity="0"/></linearGradient></defs>` +
-		grid +
-		`<path class="trend-area" d="${area}" fill="url(#trendFill)"/>` +
-		`<path class="trend-line" d="${line}"/>` +
-		dots +
-		xlabels +
-		`<g class="trend-hits">${hits}</g>` +
-		`</svg>`
-	);
 }
 
 /** Box-and-whisker distribution chart over time: min/max whiskers, IQR box, median, mean trend. */
