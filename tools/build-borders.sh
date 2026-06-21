@@ -10,8 +10,8 @@ set -euo pipefail
 
 YEARS=(1500 1530 1600 1650 1700 1715 1783 1800 1815 1880 1900 1914 1920 1938 1945 1994 2010)
 BBOX="-12,35,40,71"          # west,south,east,north — British Isles to the Baltic
-SIMPLIFY="8%"
-PRECISION="0.01"
+SIMPLIFY="35%"               # keep 35% of source vertices (Visvalingam weighted preserves shape)
+PRECISION="0.0015"           # ~110m grid — fine enough to avoid visible stair-stepping
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 CACHE="$ROOT/tools/.borders-cache"
@@ -29,7 +29,7 @@ for y in "${YEARS[@]}"; do
 	echo "processing $y..."
 	npx --yes mapshaper "$raw" \
 		-clip bbox="$BBOX" \
-		-simplify "$SIMPLIFY" keep-shapes \
+		-simplify "$SIMPLIFY" weighted keep-shapes \
 		-filter-fields NAME \
 		-o format=geojson precision="$PRECISION" "$proc" >/dev/null 2>&1
 done
