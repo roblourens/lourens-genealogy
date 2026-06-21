@@ -915,37 +915,60 @@ export function createMapView(ctx: AppContext): ViewController {
 	const speedSelect = el.querySelector('#map-speed') as HTMLSelectElement;
 	let playing = false;
 	let raf = 0;
+	let timer = 0;
 	// Years advanced per tick, and the base delay between ticks at 1x. The selected speed
 	// multiplier shortens the delay (higher = faster). 1x is deliberately gentler than before.
 	const STEP_YEARS = 2;
 	const BASE_DELAY_MS = 150;
 	const speedFactor = (): number => Number(speedSelect.value) || 1;
+	const stopPlayLoop = (): void => {
+		cancelAnimationFrame(raf);
+		clearTimeout(timer);
+	};
+	const stopPlaying = (): void => {
+		playing = false;
+		playBtn.textContent = '▶';
+		stopPlayLoop();
+	};
 	playBtn.addEventListener('click', () => {
 		if (playing) {
-			playing = false;
-			playBtn.textContent = '▶';
-			cancelAnimationFrame(raf);
+			stopPlaying();
 			return;
 		}
 		playing = true;
 		playBtn.textContent = '❚❚';
-		let y = Number(slider.min);
+		const maxYear = Number(slider.max);
+		// If we're parked at the end ("All years"), start over; otherwise resume from
+		// wherever the slider currently sits.
+		if (sliderYear >= maxYear) {
+			const start = Number(slider.min);
+			slider.value = String(start);
+			setYear(start);
+		}
 		const step = (): void => {
 			if (!playing) return;
-			y += STEP_YEARS;
-			slider.value = String(y);
-			setYear(y);
-			if (y >= Number(slider.max)) {
-				playing = false;
-				playBtn.textContent = '▶';
+			// Drive from the shared slider position so a mid-play scrub is respected.
+			const next = Math.min(maxYear, sliderYear + STEP_YEARS);
+			slider.value = String(next);
+			setYear(next);
+			if (next >= maxYear) {
+				stopPlaying();
 				setYear(2000);
 				slider.value = '2000';
 				return;
 			}
 			const delay = BASE_DELAY_MS / speedFactor();
-			raf = requestAnimationFrame(() => setTimeout(step, delay) as unknown as number);
+			timer = window.setTimeout(() => {
+				raf = requestAnimationFrame(step);
+			}, delay);
 		};
 		step();
+	});
+
+	// Grabbing the timeline while it's auto-playing pauses it, so you can position the
+	// playhead cleanly; press play to resume from where you left it.
+	slider.addEventListener('pointerdown', () => {
+		if (playing) stopPlaying();
 	});
 
 	let resized = false;
