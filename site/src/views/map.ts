@@ -917,8 +917,8 @@ export function createMapView(ctx: AppContext): ViewController {
 	let raf = 0;
 	// Years advanced per tick, and the base delay between ticks at 1x. The selected speed
 	// multiplier shortens the delay (higher = faster). 1x is deliberately gentler than before.
-	const STEP_YEARS = 3;
-	const BASE_DELAY_MS = 90;
+	const STEP_YEARS = 2;
+	const BASE_DELAY_MS = 150;
 	const speedFactor = (): number => Number(speedSelect.value) || 1;
 	playBtn.addEventListener('click', () => {
 		if (playing) {
