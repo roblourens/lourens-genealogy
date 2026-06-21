@@ -218,6 +218,26 @@
         "license": "CC BY-SA 4.0",
         "kind": "place"
       }
+    ],
+    "I272780818142": [
+      {
+        "localPath": "data/images/I272780818142-1.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:St.Osdag-Kirche_Mandelsloh_IMG_3496.jpg",
+        "caption": "St. Osdag church in Mandelsloh, the parish of the Sprengel family (place context, not a likeness)",
+        "credit": "Losch / Own work",
+        "license": "CC BY-SA 3.0",
+        "kind": "context"
+      }
+    ],
+    "I272780818238": [
+      {
+        "localPath": "data/images/I272780818238-1.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ortsblick_in_Suttorf_%28Neustadt_am_R%C3%BCbenberge%29_IMG_7731.jpg",
+        "caption": "Village view in Suttorf, where Hans Stünkel lived (place context, not a likeness)",
+        "credit": "Losch / Own work",
+        "license": "CC BY-SA 3.0",
+        "kind": "context"
+      }
     ]
   }
 }

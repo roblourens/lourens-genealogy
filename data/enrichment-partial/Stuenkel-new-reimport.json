@@ -1,0 +1,106 @@
+[
+  {
+    "personId": "I272780818115",
+    "occupations": [
+      "Meierin, Hausfrau"
+    ],
+    "bio": "The NLF Online-OFB family report records Carsten Sprengel's wife not by a Sprengel given name, but as \"(Mädchen) N.N.\"; this is a source-backed correction candidate for the GEDCOM placeholder \"(Ehefrau) Sprengel.\" It gives her as Lutheran, born about 1617, died 03 Oct 1685 in Brase, buried in Mandelsloh, and married about 1637 to Carsten Sprengel. Because the report does not identify her birth surname, the source should be treated as evidence for an unnamed wife rather than proof of a Sprengel maiden name.",
+    "funFacts": [
+      "The report explicitly labels her occupation/status as \"Meierin, Hausfrau\" and records her age at death as 68 years."
+    ],
+    "records": [
+      "Online-OFB NLF family report I442672 for (Mädchen) N.N.; includes spouse Carsten Sprengel and child Jürgen Sprengel."
+    ],
+    "citations": [
+      {
+        "label": "(Mädchen) N.N., Familiendatenbank NLF",
+        "url": "https://www.online-ofb.de/famreport.php?ofb=NLF&ID=I442672&lang=de"
+      }
+    ]
+  },
+  {
+    "personId": "I272780818142",
+    "occupations": [
+      "Meier"
+    ],
+    "bio": "The NLF Online-OFB family report for Carsten Sprengel is a strong match by name, approximate birth year, Brase location, spouse, and son Jürgen Sprengel. It records him as Lutheran, born or baptized in 1617, a Meier, and deceased 14 May 1703 in Brase, with burial in Mandelsloh. Note the report's death date differs from the GEDCOM's 14 Jun 1703, so the original Mandelsloh church book should be checked before changing the tree.",
+    "funFacts": [
+      "The report says, citing H. Jendritza, that Carsten died while on the way back from Mandelsloh to Brase."
+    ],
+    "records": [
+      "Online-OFB NLF family report I442671; cites NLF-Bibliothek N 0303, Stefan Rothland materials."
+    ],
+    "citations": [
+      {
+        "label": "Carsten SPRENGEL, Familiendatenbank NLF",
+        "url": "https://www.online-ofb.de/famreport.php?ofb=NLF&ID=I442671&lang=de"
+      }
+    ]
+  },
+  {
+    "personId": "I272780818218",
+    "occupations": [],
+    "bio": "A probable but not perfect NLF Online-OFB match is Johann Wilhelm Stünkel: the report gives a Suttorf birth in 1651 and the same death date, 29 Feb 1708. This should be handled cautiously because the GEDCOM calls him Johann Stünckel born 1652 and names a different child, while the OFB report gives spouse Catrina Elisabeth Rodewald, marriage 09 Jul 1678, and child Johann Heinrich Stünkel. The report also names Hans Stünkel and Catharina Stünkel as his parents, creating a likely conflict with the GEDCOM mother Liesabeth Rosep.",
+    "funFacts": [
+      "The NLF report's exact 29 Feb 1708 death date is an unusually strong matching point despite the name and family-structure conflicts."
+    ],
+    "records": [
+      "Online-OFB NLF family report I83639 for Johann Wilhelm Stünkel; cites NLF-Bibliothek N 0188, pages 247-260, Wöhler."
+    ],
+    "citations": [
+      {
+        "label": "Johann Wilhelm STÜNKEL, Familiendatenbank NLF",
+        "url": "https://www.online-ofb.de/famreport.php?ofb=NLF&ID=I83639&lang=de"
+      }
+    ]
+  },
+  {
+    "personId": "I272780822469",
+    "occupations": [],
+    "bio": "A probable but not perfect NLF Online-OFB match is Johann Wilhelm Stünkel: the report gives a Suttorf birth in 1651 and the same death date, 29 Feb 1708. This should be handled cautiously because the GEDCOM calls him Johann Stünckel born 1652 and names a different child, while the OFB report gives spouse Catrina Elisabeth Rodewald, marriage 09 Jul 1678, and child Johann Heinrich Stünkel. The report also names Hans Stünkel and Catharina Stünkel as his parents, creating a likely conflict with the GEDCOM mother Liesabeth Rosep.",
+    "funFacts": [
+      "This input file contains a duplicate Johann Stünckel entry; the same candidate OFB report applies to both duplicate IDs."
+    ],
+    "records": [
+      "Online-OFB NLF family report I83639 for Johann Wilhelm Stünkel; cites NLF-Bibliothek N 0188, pages 247-260, Wöhler."
+    ],
+    "citations": [
+      {
+        "label": "Johann Wilhelm STÜNKEL, Familiendatenbank NLF",
+        "url": "https://www.online-ofb.de/famreport.php?ofb=NLF&ID=I83639&lang=de"
+      }
+    ]
+  },
+  {
+    "personId": "I272780818238",
+    "occupations": [],
+    "bio": "The NLF Online-OFB family report for Hans Stünkel matches the GEDCOM's 1609 birth year, 1689 death year, and father-child link to the likely Johann Stünckel candidate. It names his spouse as Catharina Stünkel, not Liesabeth Rosep, and gives their marriage as estimated 1651. Because the GEDCOM's spouse name differs, this is an important source-backed conflict to resolve against the original Suttorf-area church records.",
+    "funFacts": [],
+    "records": [
+      "Online-OFB NLF family report I83643 for Hans Stünkel; cites NLF-Bibliothek N 0188, pages 247-260, Wöhler."
+    ],
+    "citations": [
+      {
+        "label": "Hans STÜNKEL, Familiendatenbank NLF",
+        "url": "https://www.online-ofb.de/famreport.php?ofb=NLF&ID=I83643&lang=de"
+      }
+    ]
+  },
+  {
+    "personId": "I272780822497",
+    "occupations": [],
+    "bio": "The NLF Online-OFB family report for Hans Stünkel matches the GEDCOM's 1609 birth year, 1689 death year, and father-child link to the likely Johann Stünckel candidate. It names his spouse as Catharina Stünkel, not Liesabeth Rosep, and gives their marriage as estimated 1651. Because the GEDCOM's spouse name differs, this is an important source-backed conflict to resolve against the original Suttorf-area church records.",
+    "funFacts": [
+      "This input file contains a duplicate Hans Stünkel entry; the same NLF report applies to both duplicate IDs."
+    ],
+    "records": [
+      "Online-OFB NLF family report I83643 for Hans Stünkel; cites NLF-Bibliothek N 0188, pages 247-260, Wöhler."
+    ],
+    "citations": [
+      {
+        "label": "Hans STÜNKEL, Familiendatenbank NLF",
+        "url": "https://www.online-ofb.de/famreport.php?ofb=NLF&ID=I83643&lang=de"
+      }
+    ]
+  }
+]

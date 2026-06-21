@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T17:20:49.908Z",
+  "generatedAt": "2026-06-21T17:23:59.926Z",
   "places": {
     "Altoona, Polk, Iowa, USA": {
       "place": "Altoona, Polk, Iowa, USA",
@@ -2734,6 +2734,86 @@
       "lat": 50.0955649,
       "lng": 8.4947834,
       "displayName": "Zeilsheim, West, Frankfurt am Main, Hessen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Ankeny, Polk, Iowa, USA": {
+      "place": "Ankeny, Polk, Iowa, USA",
+      "lat": 41.7320796,
+      "lng": -93.605092,
+      "displayName": "Ankeny, Polk County, Iowa, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Bennekom, Ede, Gelderland, Netherlands": {
+      "place": "Bennekom, Ede, Gelderland, Netherlands",
+      "lat": 51.9980005,
+      "lng": 5.6759233,
+      "displayName": "Bennekom, Ede, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Flörsheim, Main-Taunus-Kreis, Hesse, Germany": {
+      "place": "Flörsheim, Main-Taunus-Kreis, Hesse, Germany",
+      "lat": 50.0296,
+      "lng": 8.4265,
+      "displayName": "Flörsheim, Main-Taunus-Kreis, Hessen, 65439, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Leighton, Mahaska, Iowa, USA": {
+      "place": "Leighton, Mahaska, Iowa, USA",
+      "lat": 41.3372219,
+      "lng": -92.7871158,
+      "displayName": "Leighton, Mahaska County, Iowa, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Niedernstöcken, Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland": {
+      "place": "Niedernstöcken, Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland",
+      "lat": 52.6449794,
+      "lng": 9.5742323,
+      "displayName": "Niedernstöcken, Mandelsloh, Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Suttorf, Germany": {
+      "place": "Suttorf, Germany",
+      "lat": 52.52955,
+      "lng": 9.4830824,
+      "displayName": "Suttorf, Neustadt am Rübenberge, Region Hannover, Niedersachsen, 31535, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Suttorf, Hannover, Germany": {
+      "place": "Suttorf, Hannover, Germany",
+      "lat": 52.52955,
+      "lng": 9.4830824,
+      "displayName": "Suttorf, Neustadt am Rübenberge, Region Hannover, Niedersachsen, 31535, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Suttorf, Region Hannover, Niedersachsen, Deutschland": {
+      "place": "Suttorf, Region Hannover, Niedersachsen, Deutschland",
+      "lat": 52.52955,
+      "lng": 9.4830824,
+      "displayName": "Suttorf, Neustadt am Rübenberge, Region Hannover, Niedersachsen, 31535, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Zoutkamp, De Marne Municipality, Groningen, Netherlands": {
+      "place": "Zoutkamp, De Marne Municipality, Groningen, Netherlands",
+      "lat": 53.2190652,
+      "lng": 6.5680077,
+      "displayName": "Groningen, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "niedernstöcken , Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland": {
+      "place": "niedernstöcken , Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland",
+      "lat": 52.6449794,
+      "lng": 9.5742323,
+      "displayName": "Niedernstöcken, Mandelsloh, Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland",
       "country": "Deutschland",
       "source": "nominatim"
     }

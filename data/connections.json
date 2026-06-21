@@ -70,7 +70,17 @@
       "famousPerson": "Christian Konrad Sprengel",
       "famousDescription": "German botanist, theologian, and teacher whose work on flower pollination helped found floral biology and pollination ecology.",
       "relatedPersonIds": [
-        "I272780755919"
+        "I272780755919",
+        "I272780754558",
+        "I272780755897",
+        "I272780755926",
+        "I272780765742",
+        "I272780766037",
+        "I272780766072",
+        "I272780766079",
+        "I272780766328",
+        "I272780818115",
+        "I272780818142"
       ],
       "confidence": "speculative",
       "reasoning": "The digest's Johann Diederich Sprengel was born in 1726 in Esperke, Hannover. Christian Konrad Sprengel was born in 1750 in Brandenburg an der Havel, with a clerical/teaching family background. The surname is distinctive and both men belong to 18th-century northern German Protestant regions, so it is a fun lead. It remains speculative because Brandenburg and Hannover are different regions and no source found here connects the families.",

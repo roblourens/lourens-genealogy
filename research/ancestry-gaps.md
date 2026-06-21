@@ -10,6 +10,8 @@ By type: marriage (29) · child (29) · record-source (19) · other (14) · occu
 
 > Findings are sorted with the most solid (confirmed) and richest people first. ❗ = a finding that **conflicts** with a value already in your tree — worth a careful look.
 
+> **Latest 18-person update (appended at the end):** the most recent Ancestry export added 18 deep (pre-1700) ancestors on the Stuenkel/Sprengel line. Only four had matchable records online; their findings — including several date/spouse conflicts — are in the final section, **"Latest re-import."**
+
 ---
 
 ## Diederich Sprengel  
@@ -539,3 +541,62 @@ A pass over **vague birth/death places** ("Nebraska", "Germany", "Netherlands", 
 - **Gottfried Daniel Harnisch** (b.1791 `Prussia`, d. `Iowa`) — ❔ possible: son Johann Adolph Harnisch born in **Saxony**; family is Saxon, but no town-level source found for Gottfried himself.
 - **Wouter Cornelis** & **Tiamke Poulis** (both ~1655, `Netherlands`) — ❔ their daughter Sietske Cornelis was born at **Hallum, Friesland**; the family is Frisian, but no specific town confirmed for the parents.
 - **Barbara Bentz** (b.1569, `Germany`) — ❔ in-laws are from **Flörsheim / Altengronau (Hessen)**; no town-level source for Barbara.
+
+
+---
+
+## Latest re-import — 18 newly-added deep ancestors (Stuenkel/Sprengel line)
+
+_Appended 2026-06-21. These pre-1700 ancestors were added in the most recent Ancestry export. Most are too deep to source; the few with German **Online-OFB** (Ortsfamilienbuch) matches are below. ❗ marks a value that **conflicts** with your current tree._
+
+### (Ehefrau) Sprengel  
+`I272780818115`  ·  ?–1685
+
+- **birth-date** · ✅ confirmed  
+  About 1617. — [(Mädchen) N.N., Familiendatenbank NLF](https://www.online-ofb.de/famreport.php?ofb=NLF&ID=I442672&lang=de)
+- **death-date** · ✅ confirmed ❗  
+  03 Oct 1685 in Brase; conflicts with the GEDCOM death date 24 Nov 1685. — [(Mädchen) N.N., Familiendatenbank NLF](https://www.online-ofb.de/famreport.php?ofb=NLF&ID=I442672&lang=de)
+- **occupation** · ✅ confirmed  
+  Meierin, Hausfrau. — [(Mädchen) N.N., Familiendatenbank NLF](https://www.online-ofb.de/famreport.php?ofb=NLF&ID=I442672&lang=de)
+- **marriage** · ✅ confirmed  
+  Marriage to Carsten Sprengel about 1637. — [(Mädchen) N.N., Familiendatenbank NLF](https://www.online-ofb.de/famreport.php?ofb=NLF&ID=I442672&lang=de)
+- **other** · 🔶 probable  
+  Source records her as "(Mädchen) N.N." rather than giving a Sprengel maiden name. — [(Mädchen) N.N., Familiendatenbank NLF](https://www.online-ofb.de/famreport.php?ofb=NLF&ID=I442672&lang=de)
+
+### Carsten Sprengel  
+`I272780818142`  ·  1617–1703
+
+- **occupation** · ✅ confirmed  
+  Meier. — [Carsten SPRENGEL, Familiendatenbank NLF](https://www.online-ofb.de/famreport.php?ofb=NLF&ID=I442671&lang=de)
+- **death-date** · ✅ confirmed ❗  
+  14 May 1703 in Brase; conflicts with the GEDCOM date 14 Jun 1703. — [Carsten SPRENGEL, Familiendatenbank NLF](https://www.online-ofb.de/famreport.php?ofb=NLF&ID=I442671&lang=de)
+- **other** · ✅ confirmed  
+  Burial in 1703 at Mandelsloh. — [Carsten SPRENGEL, Familiendatenbank NLF](https://www.online-ofb.de/famreport.php?ofb=NLF&ID=I442671&lang=de)
+- **marriage** · ✅ confirmed  
+  Marriage to unnamed wife about 1637. — [Carsten SPRENGEL, Familiendatenbank NLF](https://www.online-ofb.de/famreport.php?ofb=NLF&ID=I442671&lang=de)
+
+### Hans Stünkel  
+`I272780818238` · `I272780822497` _(duplicate records in tree)_  ·  1609–1689
+
+- **marriage** · ✅ confirmed  
+  Estimated marriage to Catharina Stünkel in 1651. — [Hans STÜNKEL, Familiendatenbank NLF](https://www.online-ofb.de/famreport.php?ofb=NLF&ID=I83643&lang=de)
+- **spouse** · 🔶 probable ❗  
+  Source names spouse as Catharina Stünkel, not Liesabeth Rosep. — [Hans STÜNKEL, Familiendatenbank NLF](https://www.online-ofb.de/famreport.php?ofb=NLF&ID=I83643&lang=de)
+- **child** · 🔶 probable  
+  Child is recorded as Johann Wilhelm Stünkel, born 1651 in Suttorf and died 29 Feb 1708. — [Hans STÜNKEL, Familiendatenbank NLF](https://www.online-ofb.de/famreport.php?ofb=NLF&ID=I83643&lang=de)
+
+### Johann Stünckel  
+`I272780818218` · `I272780822469` _(duplicate records in tree)_  ·  1652–1708
+
+- **other** · 🔶 probable  
+  Probable name refinement/candidate: Johann Wilhelm Stünkel. — [Johann Wilhelm STÜNKEL, Familiendatenbank NLF](https://www.online-ofb.de/famreport.php?ofb=NLF&ID=I83639&lang=de)
+- **birth-date** · 🔶 probable ❗  
+  1651 in Suttorf; differs from the GEDCOM's 1652. — [Johann Wilhelm STÜNKEL, Familiendatenbank NLF](https://www.online-ofb.de/famreport.php?ofb=NLF&ID=I83639&lang=de)
+- **parent** · 🔶 probable ❗  
+  Mother is recorded as Catharina Stünkel, not Liesabeth Rosep. — [Johann Wilhelm STÜNKEL, Familiendatenbank NLF](https://www.online-ofb.de/famreport.php?ofb=NLF&ID=I83639&lang=de)
+- **spouse** · ❔ possible  
+  Catrina Elisabeth Rodewald, estimated born 1631. — [Johann Wilhelm STÜNKEL, Familiendatenbank NLF](https://www.online-ofb.de/famreport.php?ofb=NLF&ID=I83639&lang=de)
+- **marriage** · ❔ possible  
+  Marriage to Catrina Elisabeth Rodewald on 09 Jul 1678. — [Johann Wilhelm STÜNKEL, Familiendatenbank NLF](https://www.online-ofb.de/famreport.php?ofb=NLF&ID=I83639&lang=de)
+- **child** · ❔ possible  
+  Candidate child in this OFB report: Johann Heinrich Stünkel, born 1688 in Suttorf. — [Johann Wilhelm STÜNKEL, Familiendatenbank NLF](https://www.online-ofb.de/famreport.php?ofb=NLF&ID=I83639&lang=de)
