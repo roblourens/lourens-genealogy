@@ -239,6 +239,8 @@ export function createMapView(ctx: AppContext): ViewController {
 	const minYear = Math.min(ROOT_BIRTH, ...yearsAll);
 
 	map.on('load', () => {
+		boldenBorders(map);
+
 		map.addSource('arcs', { type: 'geojson', data: fc(arcFeatures) });
 		map.addSource('nodes', { type: 'geojson', data: fc(pointFeatures) });
 		map.addSource('arrows', { type: 'geojson', data: fc(arrowFeatures) });
@@ -792,6 +794,47 @@ export function createMapView(ctx: AppContext): ViewController {
 			}
 		},
 	};
+}
+
+/**
+ * Brighten and thicken the country / state borders in the Mapbox dark style so the landmasses
+ * read clearly behind the migration arcs. Tweaks the built-in admin-boundary layers in place;
+ * silently skips any the style version doesn't expose.
+ */
+function boldenBorders(map: mapboxgl.Map): void {
+	const setIf = (id: string, fn: () => void): void => {
+		if (map.getLayer(id)) {
+			try {
+				fn();
+			} catch {
+				/* style layer shape changed across versions — ignore */
+			}
+		}
+	};
+	// Country borders.
+	setIf('admin-0-boundary', () => {
+		map.setPaintProperty('admin-0-boundary', 'line-color', '#7c8aa0');
+		map.setPaintProperty('admin-0-boundary', 'line-width', [
+			'interpolate', ['linear'], ['zoom'], 1, 0.9, 4, 1.8, 8, 2.6,
+		]);
+		map.setPaintProperty('admin-0-boundary', 'line-opacity', 0.9);
+	});
+	// Soft casing behind country borders, for extra weight.
+	setIf('admin-0-boundary-bg', () => {
+		map.setPaintProperty('admin-0-boundary-bg', 'line-color', '#2b3340');
+		map.setPaintProperty('admin-0-boundary-bg', 'line-width', [
+			'interpolate', ['linear'], ['zoom'], 1, 3, 8, 8,
+		]);
+		map.setPaintProperty('admin-0-boundary-bg', 'line-opacity', 0.6);
+	});
+	// State / province borders, a touch lighter than countries.
+	setIf('admin-1-boundary', () => {
+		map.setPaintProperty('admin-1-boundary', 'line-color', '#566173');
+		map.setPaintProperty('admin-1-boundary', 'line-width', [
+			'interpolate', ['linear'], ['zoom'], 3, 0.5, 8, 1.4,
+		]);
+		map.setPaintProperty('admin-1-boundary', 'line-opacity', 0.7);
+	});
 }
 
 /** Quadratic-bezier great-ish-circle arc between two points for a pleasing curve. */
