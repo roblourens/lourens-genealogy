@@ -6,9 +6,10 @@ import { createMapView } from './views/map';
 import { createTimelineView } from './views/timeline';
 import { createStatsView } from './views/stats';
 import { createConnectionsView } from './views/connections';
+import { createHistoryView } from './views/history';
 import { openPersonPanel } from './views/person';
 
-export type ViewName = 'tree' | 'map' | 'timeline' | 'stats' | 'connections';
+export type ViewName = 'tree' | 'map' | 'timeline' | 'stats' | 'connections' | 'history';
 
 export interface ViewController {
 	el: HTMLElement;
@@ -59,6 +60,7 @@ async function main(): Promise<void> {
 		timeline: () => createTimelineView(ctx),
 		stats: () => createStatsView(ctx),
 		connections: () => createConnectionsView(ctx),
+		history: () => createHistoryView(ctx),
 	};
 
 	function switchView(view: ViewName): void {
