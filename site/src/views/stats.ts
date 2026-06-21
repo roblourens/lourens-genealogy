@@ -72,7 +72,11 @@ export function createStatsView(ctx: AppContext): ViewController {
 	const surnameCounts = tally(people.map((p) => p.surname ?? '').filter(Boolean));
 
 	// Occupations (from research enrichment).
-	const { counts: occupationCounts, peopleWith: peopleWithOcc } = tallyOccupations(data.enrichmentById);
+	const {
+		counts: occupationCounts,
+		peopleWith: peopleWithOcc,
+		byLabel: occupationPeople,
+	} = tallyOccupations(data.enrichmentById, data.personById);
 	const topOccupation = Object.entries(occupationCounts).sort((a, b) => b[1] - a[1])[0];
 
 	// Births by half-century.
@@ -125,8 +129,8 @@ export function createStatsView(ctx: AppContext): ViewController {
 
 			<div class="chart-card">
 				<h3>What They Did for a Living</h3>
-				<p class="chart-sub">Trades and callings found through research, across ${peopleWithOcc} ancestors.</p>
-				${barList(occupationCounts, 10)}
+				<p class="chart-sub">Trades and callings found through research, across ${peopleWithOcc} ancestors. <span class="chart-hint">Hover a bar to see who.</span></p>
+				${barList(occupationCounts, 10, occupationPeople)}
 			</div>
 
 			<div class="chart-card">
@@ -162,6 +166,79 @@ export function createStatsView(ctx: AppContext): ViewController {
 	el.querySelectorAll('[data-person]').forEach((node) =>
 		node.addEventListener('click', () => ctx.openPerson((node as HTMLElement).dataset.person!)),
 	);
+
+	// Occupation popover: hover (or focus) a trade bar to list the people who had it,
+	// then click a name to jump to them in the tree.
+	const occPop = document.createElement('div');
+	occPop.className = 'occ-pop';
+	occPop.hidden = true;
+	el.appendChild(occPop);
+
+	let hideTimer: number | undefined;
+	const cancelHide = (): void => {
+		if (hideTimer != null) {
+			clearTimeout(hideTimer);
+			hideTimer = undefined;
+		}
+	};
+	const hideOccPop = (): void => {
+		cancelHide();
+		hideTimer = window.setTimeout(() => {
+			occPop.hidden = true;
+		}, 120);
+	};
+	const showOccPop = (row: HTMLElement): void => {
+		const label = row.dataset.occ;
+		if (!label) return;
+		const ppl = occupationPeople[label] ?? [];
+		if (!ppl.length) return;
+		cancelHide();
+		occPop.innerHTML =
+			`<div class="occ-pop-head">${escapeHtml(label)} <span>${ppl.length}</span></div>` +
+			`<div class="occ-pop-list">${ppl
+				.map(
+					(p) =>
+						`<button class="occ-pop-item" data-person-tree="${p.id}">${escapeHtml(p.name)}</button>`,
+				)
+				.join('')}</div>`;
+		occPop.hidden = false;
+		// Position below the row, in the scroll container's content coordinates.
+		const rb = row.getBoundingClientRect();
+		const eb = el.getBoundingClientRect();
+		const pad = 8;
+		const popW = occPop.offsetWidth;
+		const popH = occPop.offsetHeight;
+		const rowTop = rb.top - eb.top + el.scrollTop;
+		let left = rb.left - eb.left + el.scrollLeft;
+		let top = rb.bottom - eb.top + el.scrollTop + 6;
+		if (left + popW > el.scrollLeft + el.clientWidth - pad) {
+			left = el.scrollLeft + el.clientWidth - pad - popW;
+		}
+		if (left < el.scrollLeft + pad) left = el.scrollLeft + pad;
+		// Flip above the row if it would overflow the visible bottom.
+		if (top + popH > el.scrollTop + el.clientHeight - pad && rowTop - popH - 6 > el.scrollTop) {
+			top = rowTop - popH - 6;
+		}
+		occPop.style.left = `${left}px`;
+		occPop.style.top = `${top}px`;
+	};
+
+	el.querySelectorAll<HTMLElement>('.bar-row.is-occ').forEach((row) => {
+		row.addEventListener('mouseenter', () => showOccPop(row));
+		row.addEventListener('mouseleave', hideOccPop);
+		row.addEventListener('focus', () => showOccPop(row));
+		row.addEventListener('blur', hideOccPop);
+	});
+	occPop.addEventListener('mouseenter', cancelHide);
+	occPop.addEventListener('mouseleave', hideOccPop);
+	occPop.addEventListener('click', (e) => {
+		const id = (e.target as HTMLElement).closest<HTMLElement>('[data-person-tree]')?.dataset
+			.personTree;
+		if (id) {
+			occPop.hidden = true;
+			ctx.focusInTree(id);
+		}
+	});
 
 	let shown = false;
 	return {
@@ -217,30 +294,50 @@ function canonOccupation(raw: string): string {
 
 /** Tally distinct trades across the tree (each person counts once per occupation). */
 function tallyOccupations(
-	entries: Record<string, { occupations?: string[] }>,
-): { counts: Record<string, number>; peopleWith: number } {
+	entries: Record<string, { personName?: string; occupations?: string[] }>,
+	personById: Map<string, Person>,
+): {
+	counts: Record<string, number>;
+	peopleWith: number;
+	byLabel: Record<string, { id: string; name: string }[]>;
+} {
 	const counts: Record<string, number> = {};
+	const byLabel: Record<string, { id: string; name: string }[]> = {};
 	let peopleWith = 0;
-	for (const e of Object.values(entries)) {
+	for (const [id, e] of Object.entries(entries)) {
 		const occ = (e.occupations ?? []).filter(Boolean);
 		if (!occ.length) continue;
 		peopleWith++;
-		for (const label of new Set(occ.map(canonOccupation))) counts[label] = (counts[label] ?? 0) + 1;
+		const name = personById.get(id)?.name ?? e.personName ?? id;
+		for (const label of new Set(occ.map(canonOccupation))) {
+			counts[label] = (counts[label] ?? 0) + 1;
+			(byLabel[label] ??= []).push({ id, name });
+		}
 	}
-	return { counts, peopleWith };
+	for (const label of Object.keys(byLabel)) {
+		byLabel[label].sort((a, b) => a.name.localeCompare(b.name));
+	}
+	return { counts, peopleWith, byLabel };
 }
 
-function barList(counts: Record<string, number>, limit: number): string {
+function barList(
+	counts: Record<string, number>,
+	limit: number,
+	linkByLabel?: Record<string, { id: string; name: string }[]>,
+): string {
 	const entries = Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, limit);
 	const max = entries.length ? entries[0][1] : 1;
 	return entries
-		.map(
-			([label, n]) =>
-				`<div class="bar-row"><div class="bl">${escapeHtml(label)}</div><div class="bar-track"><div class="bar-fill" data-w="${(
-					(n / max) *
-					100
-				).toFixed(1)}%" style="width:0"></div></div><div class="bv">${n}</div></div>`,
-		)
+		.map(([label, n]) => {
+			const interactive = linkByLabel && (linkByLabel[label]?.length ?? 0) > 0;
+			const attrs = interactive
+				? ` class="bar-row is-occ" data-occ="${escapeHtml(label)}" tabindex="0"`
+				: ' class="bar-row"';
+			return `<div${attrs}><div class="bl">${escapeHtml(label)}</div><div class="bar-track"><div class="bar-fill" data-w="${(
+				(n / max) *
+				100
+			).toFixed(1)}%" style="width:0"></div></div><div class="bv">${n}</div></div>`;
+		})
 		.join('');
 }
 
