@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T16:23:16.273Z",
+  "generatedAt": "2026-06-21T17:20:49.908Z",
   "places": {
     "Altoona, Polk, Iowa, USA": {
       "place": "Altoona, Polk, Iowa, USA",
@@ -491,51 +491,51 @@
     },
     "Hohenassel, Braunschweig, Germany": {
       "place": "Hohenassel, Braunschweig, Germany",
-      "lat": 52.2646577,
-      "lng": 10.5236066,
-      "displayName": "Braunschweig, Niedersachsen, Deutschland",
-      "country": "Deutschland",
-      "source": "nominatim"
+      "lat": 52.1364,
+      "lng": 10.2181,
+      "displayName": "Hohenassel, Burgdorf, Landkreis Wolfenbüttel, Lower Saxony, Germany",
+      "country": "Germany",
+      "source": "override"
     },
     "Hohenassel, Braunschweig, Lower Saxony, Germany": {
       "place": "Hohenassel, Braunschweig, Lower Saxony, Germany",
-      "lat": 52.2646577,
-      "lng": 10.5236066,
-      "displayName": "Braunschweig, Niedersachsen, Deutschland",
-      "country": "Deutschland",
-      "source": "nominatim"
+      "lat": 52.1364,
+      "lng": 10.2181,
+      "displayName": "Hohenassel, Burgdorf, Landkreis Wolfenbüttel, Lower Saxony, Germany",
+      "country": "Germany",
+      "source": "override"
     },
     "Hohenassel, Braunschweig, Niedersachsen, Allemagne": {
       "place": "Hohenassel, Braunschweig, Niedersachsen, Allemagne",
-      "lat": 52.2646577,
-      "lng": 10.5236066,
-      "displayName": "Braunschweig, Niedersachsen, Deutschland",
-      "country": "Deutschland",
-      "source": "nominatim"
+      "lat": 52.1364,
+      "lng": 10.2181,
+      "displayName": "Hohenassel, Burgdorf, Landkreis Wolfenbüttel, Lower Saxony, Germany",
+      "country": "Germany",
+      "source": "override"
     },
     "Hohenassel, Braunschweig, Niedersachsen, Germany": {
       "place": "Hohenassel, Braunschweig, Niedersachsen, Germany",
-      "lat": 52.2646577,
-      "lng": 10.5236066,
-      "displayName": "Braunschweig, Niedersachsen, Deutschland",
-      "country": "Deutschland",
-      "source": "nominatim"
+      "lat": 52.1364,
+      "lng": 10.2181,
+      "displayName": "Hohenassel, Burgdorf, Landkreis Wolfenbüttel, Lower Saxony, Germany",
+      "country": "Germany",
+      "source": "override"
     },
     "Hohenassel, Burgdorf, Region Hannover, Lower Saxony, Germany": {
       "place": "Hohenassel, Burgdorf, Region Hannover, Lower Saxony, Germany",
-      "lat": 52.4438008,
-      "lng": 10.0078364,
-      "displayName": "Burgdorf, Region Hannover, Niedersachsen, 31303, Deutschland",
-      "country": "Deutschland",
-      "source": "nominatim"
+      "lat": 52.1364,
+      "lng": 10.2181,
+      "displayName": "Hohenassel, Burgdorf, Landkreis Wolfenbüttel, Lower Saxony, Germany",
+      "country": "Germany",
+      "source": "override"
     },
     "Hohenassel, Wolfenbuttel, Niedersachsen, Germany": {
       "place": "Hohenassel, Wolfenbuttel, Niedersachsen, Germany",
-      "lat": 52.1363923,
-      "lng": 10.2180736,
-      "displayName": "Hohenassel, Burgdorf-Bahnhof, Burgdorf, Samtgemeinde Baddeckenstedt, Landkreis Wolfenbüttel, Niedersachsen, Deutschland",
-      "country": "Deutschland",
-      "source": "nominatim"
+      "lat": 52.1364,
+      "lng": 10.2181,
+      "displayName": "Hohenassel, Burgdorf, Landkreis Wolfenbüttel, Lower Saxony, Germany",
+      "country": "Germany",
+      "source": "override"
     },
     "Holland": {
       "place": "Holland",
@@ -1219,9 +1219,9 @@
     },
     "Braunschweig, Hohennassel, Germany": {
       "place": "Braunschweig, Hohennassel, Germany",
-      "lat": 52.1622,
-      "lng": 10.3608,
-      "displayName": "Hohenassel, Lower Saxony, Germany",
+      "lat": 52.1364,
+      "lng": 10.2181,
+      "displayName": "Hohenassel, Burgdorf, Landkreis Wolfenbüttel, Lower Saxony, Germany",
       "country": "Germany",
       "source": "override"
     },

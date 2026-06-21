@@ -13,9 +13,46 @@
       "displayName": "Berel, Lower Saxony, Germany"
     },
     "Braunschweig, Hohennassel, Germany": {
-      "lat": 52.1622,
-      "lng": 10.3608,
-      "displayName": "Hohenassel, Lower Saxony, Germany"
+      "lat": 52.1364,
+      "lng": 10.2181,
+      "displayName": "Hohenassel, Burgdorf, Landkreis Wolfenbüttel, Lower Saxony, Germany",
+      "country": "Germany"
+    },
+    "Hohenassel, Braunschweig, Germany": {
+      "lat": 52.1364,
+      "lng": 10.2181,
+      "displayName": "Hohenassel, Burgdorf, Landkreis Wolfenbüttel, Lower Saxony, Germany",
+      "country": "Germany"
+    },
+    "Hohenassel, Braunschweig, Lower Saxony, Germany": {
+      "lat": 52.1364,
+      "lng": 10.2181,
+      "displayName": "Hohenassel, Burgdorf, Landkreis Wolfenbüttel, Lower Saxony, Germany",
+      "country": "Germany"
+    },
+    "Hohenassel, Braunschweig, Niedersachsen, Allemagne": {
+      "lat": 52.1364,
+      "lng": 10.2181,
+      "displayName": "Hohenassel, Burgdorf, Landkreis Wolfenbüttel, Lower Saxony, Germany",
+      "country": "Germany"
+    },
+    "Hohenassel, Braunschweig, Niedersachsen, Germany": {
+      "lat": 52.1364,
+      "lng": 10.2181,
+      "displayName": "Hohenassel, Burgdorf, Landkreis Wolfenbüttel, Lower Saxony, Germany",
+      "country": "Germany"
+    },
+    "Hohenassel, Burgdorf, Region Hannover, Lower Saxony, Germany": {
+      "lat": 52.1364,
+      "lng": 10.2181,
+      "displayName": "Hohenassel, Burgdorf, Landkreis Wolfenbüttel, Lower Saxony, Germany",
+      "country": "Germany"
+    },
+    "Hohenassel, Wolfenbuttel, Niedersachsen, Germany": {
+      "lat": 52.1364,
+      "lng": 10.2181,
+      "displayName": "Hohenassel, Burgdorf, Landkreis Wolfenbüttel, Lower Saxony, Germany",
+      "country": "Germany"
     },
     "Esperke, bei Neustadt am Ruebenberge, Kingdom of Hannover": {
       "lat": 52.6219,
