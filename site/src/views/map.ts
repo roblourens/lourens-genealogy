@@ -90,10 +90,15 @@ export function createMapView(ctx: AppContext): ViewController {
 		if (pt) anchorOf.set(p.id, pt);
 	}
 
-	// Aggregate place nodes (all events).
-	const nodeMap = new Map<string, { lng: number; lat: number; place: string; ids: Set<string>; minYear: number }>();
+	// Aggregate place nodes. For each place we record, per person, the earliest year they
+	// appear there (actual event year when known, else an estimate). That lets the dot grow
+	// over time: at slider year T a place shows only the people who had arrived by T.
+	const nodeMap = new Map<
+		string,
+		{ lng: number; lat: number; place: string; arrivals: Map<string, number> }
+	>();
 	for (const p of data.people) {
-		const years = estYear(p);
+		const est = estYear(p);
 		for (const ev of p.events) {
 			if (!ev.place) continue;
 			const gp = data.places[ev.place];
@@ -101,25 +106,46 @@ export function createMapView(ctx: AppContext): ViewController {
 			const key = `${gp.lat.toFixed(3)},${gp.lng.toFixed(3)}`;
 			let node = nodeMap.get(key);
 			if (!node) {
-				node = { lng: gp.lng, lat: gp.lat, place: ev.place, ids: new Set(), minYear: years };
+				node = { lng: gp.lng, lat: gp.lat, place: ev.place, arrivals: new Map() };
 				nodeMap.set(key, node);
 			}
-			node.ids.add(p.id);
-			node.minYear = Math.min(node.minYear, years);
+			const y = ev.year ?? est;
+			const prev = node.arrivals.get(p.id);
+			if (prev == null || y < prev) node.arrivals.set(p.id, y);
 		}
 	}
 
-	const pointFeatures: GeoJSON.Feature[] = [...nodeMap.values()].map((n, i) => ({
-		type: 'Feature',
-		id: i,
-		geometry: { type: 'Point', coordinates: [n.lng, n.lat] },
-		properties: {
-			place: shortPlace(n.place),
-			count: n.ids.size,
-			ids: [...n.ids].join(','),
-			minYear: n.minYear,
-		},
-	}));
+	// Per-node sorted arrival years (one entry per distinct person) — used to count how many
+	// people are present at a place by a given year. Indexed to match feature ids.
+	const nodeYears: number[][] = [];
+	const pointFeatures: GeoJSON.Feature[] = [...nodeMap.values()].map((n, i) => {
+		const years = [...n.arrivals.values()].sort((a, b) => a - b);
+		nodeYears[i] = years;
+		return {
+			type: 'Feature',
+			id: i,
+			geometry: { type: 'Point', coordinates: [n.lng, n.lat] },
+			properties: {
+				place: shortPlace(n.place),
+				count: n.arrivals.size,
+				ids: [...n.arrivals.keys()].join(','),
+				minYear: years[0],
+			},
+		};
+	});
+
+	/** Number of people present at node `i` by `year` (binary search over sorted arrivals). */
+	function countByYear(i: number, year: number): number {
+		const ys = nodeYears[i];
+		let lo = 0;
+		let hi = ys.length;
+		while (lo < hi) {
+			const mid = (lo + hi) >> 1;
+			if (ys[mid] <= year) lo = mid + 1;
+			else hi = mid;
+		}
+		return lo;
+	}
 
 	// Build generational arcs (parent -> child).
 	const arcFeatures: GeoJSON.Feature[] = [];
@@ -186,6 +212,7 @@ export function createMapView(ctx: AppContext): ViewController {
 	map.on('load', () => {
 		map.addSource('arcs', { type: 'geojson', data: fc(arcFeatures) });
 		map.addSource('nodes', { type: 'geojson', data: fc(pointFeatures) });
+		map.addSource('arc-draw', { type: 'geojson', data: fc([]) });
 
 		map.addLayer({
 			id: 'arc-glow',
@@ -255,7 +282,7 @@ export function createMapView(ctx: AppContext): ViewController {
 			source: 'arcs',
 			layout: {
 				'symbol-placement': 'line',
-				'symbol-spacing': ['interpolate', ['linear'], ['zoom'], 2, 90, 6, 150],
+				'symbol-spacing': ['interpolate', ['linear'], ['zoom'], 2, 70, 6, 120],
 				'icon-image': [
 					'match',
 					['get', 'branch'],
@@ -265,7 +292,7 @@ export function createMapView(ctx: AppContext): ViewController {
 					'brueggemann', 'arrow-brueggemann',
 					'arrow-root',
 				],
-				'icon-size': ['interpolate', ['linear'], ['zoom'], 2, 0.46, 6, 0.78],
+				'icon-size': ['interpolate', ['linear'], ['zoom'], 2, 0.85, 6, 1.45],
 				'icon-rotation-alignment': 'map',
 				'icon-allow-overlap': true,
 				'icon-ignore-placement': true,
@@ -277,9 +304,33 @@ export function createMapView(ctx: AppContext): ViewController {
 					['boolean', ['feature-state', 'sel'], false],
 					1,
 					['boolean', ['feature-state', 'dim'], false],
-					0.03,
-					0.5,
+					0.05,
+					0.95,
 				],
+			},
+		});
+		// Animated "draw-in" layers: partial arcs grow from parent → child as the year sweeps.
+		map.addLayer({
+			id: 'arc-draw-glow',
+			type: 'line',
+			source: 'arc-draw',
+			layout: { 'line-cap': 'round', 'line-join': 'round' },
+			paint: {
+				'line-color': ['get', 'color'],
+				'line-width': ['interpolate', ['linear'], ['zoom'], 2, 6, 6, 11],
+				'line-opacity': 0.28,
+				'line-blur': 4,
+			},
+		});
+		map.addLayer({
+			id: 'arc-draw-line',
+			type: 'line',
+			source: 'arc-draw',
+			layout: { 'line-cap': 'round', 'line-join': 'round' },
+			paint: {
+				'line-color': ['get', 'color'],
+				'line-width': ['interpolate', ['linear'], ['zoom'], 2, 2.2, 6, 4],
+				'line-opacity': 0.95,
 			},
 		});
 		map.addLayer({
@@ -289,7 +340,12 @@ export function createMapView(ctx: AppContext): ViewController {
 			paint: {
 				'circle-radius': [
 					'+',
-					['interpolate', ['linear'], ['get', 'count'], 1, 4, 5, 8, 15, 16],
+					[
+						'interpolate',
+						['linear'],
+						['coalesce', ['feature-state', 'cnt'], ['get', 'count']],
+						1, 4, 5, 8, 15, 16,
+					],
 					['case', ['boolean', ['feature-state', 'sel'], false], 2, 0],
 				],
 				'circle-color': ['case', ['boolean', ['feature-state', 'sel'], false], '#f3dca0', '#e6c878'],
@@ -375,7 +431,10 @@ export function createMapView(ctx: AppContext): ViewController {
 		if (!selectionActive) return;
 		selectionActive = false;
 		for (let i = 0; i < arcFeatures.length; i++) map.removeFeatureState({ source: 'arcs', id: i });
-		for (let i = 0; i < pointFeatures.length; i++) map.removeFeatureState({ source: 'nodes', id: i });
+		// Clear only the highlight keys on nodes so the time-aware `cnt` state survives.
+		for (let i = 0; i < pointFeatures.length; i++) {
+			map.setFeatureState({ source: 'nodes', id: i }, { sel: false, dim: false });
+		}
 		hint.classList.remove('is-active');
 	}
 
@@ -446,17 +505,36 @@ export function createMapView(ctx: AppContext): ViewController {
 		);
 	}
 
-	function applyFilters(): void {
-		if (!map.getLayer('arc-line')) return;
-		const arcFilter = [
+	// ---- Year filtering + animated reveal ----
+	// `drawnYear` = year up to which arcs are fully drawn in the static layers. When the slider
+	// moves forward, a frontier sweeps from drawnYear up past sliderYear; arcs whose `year` the
+	// frontier is crossing are drawn partially (parent → child) in the `arc-draw` source, so each
+	// migration line animates in along its direction of travel.
+	const DRAW_BAND = 9; // years over which a single arc grows from 0 → full
+	let drawnYear = sliderYear;
+	let frontier = sliderYear + DRAW_BAND;
+	let revealRaf = 0;
+	let revealLast = 0;
+
+	function arcFilterFor(threshold: number): mapboxgl.FilterSpecification {
+		return [
 			'all',
-			['<=', ['get', 'year'], sliderYear],
+			['<=', ['get', 'year'], threshold],
 			['in', ['get', 'branch'], ['literal', [...activeBranches]]],
 		] as unknown as mapboxgl.FilterSpecification;
-		map.setFilter('arc-line', arcFilter);
-		map.setFilter('arc-glow', arcFilter);
-		map.setFilter('arc-hit', arcFilter);
-		if (map.getLayer('arc-arrows')) map.setFilter('arc-arrows', arcFilter);
+	}
+
+	function applyArcFilter(): void {
+		if (!map.getLayer('arc-line')) return;
+		const f = arcFilterFor(drawnYear);
+		map.setFilter('arc-line', f);
+		map.setFilter('arc-glow', f);
+		map.setFilter('arc-hit', f);
+		if (map.getLayer('arc-arrows')) map.setFilter('arc-arrows', f);
+	}
+
+	function applyNodeFilter(): void {
+		if (!map.getLayer('node-circle')) return;
 		const nodeFilter = ['<=', ['get', 'minYear'], sliderYear] as unknown as mapboxgl.FilterSpecification;
 		map.setFilter('node-circle', nodeFilter);
 		map.setFilter('node-label', [
@@ -464,6 +542,79 @@ export function createMapView(ctx: AppContext): ViewController {
 			['>=', ['get', 'count'], 3],
 			['<=', ['get', 'minYear'], sliderYear],
 		] as unknown as mapboxgl.FilterSpecification);
+	}
+
+	/** Size every visible dot to the number of people present by the current slider year. */
+	function applyNodeCounts(): void {
+		if (!map.getSource('nodes')) return;
+		for (let i = 0; i < pointFeatures.length; i++) {
+			map.setFeatureState({ source: 'nodes', id: i }, { cnt: countByYear(i, sliderYear) });
+		}
+	}
+
+	function clearDraw(): void {
+		(map.getSource('arc-draw') as mapboxgl.GeoJSONSource | undefined)?.setData(fc([]));
+	}
+
+	/** Rebuild the partially-drawn arcs for the current frontier position. */
+	function buildDrawFeatures(): void {
+		const src = map.getSource('arc-draw') as mapboxgl.GeoJSONSource | undefined;
+		if (!src) return;
+		const feats: GeoJSON.Feature[] = [];
+		for (const f of arcFeatures) {
+			const year = f.properties!.year as number;
+			if (year <= drawnYear || year > sliderYear) continue;
+			if (!activeBranches.has(f.properties!.branch as BranchKey)) continue;
+			const progress = (frontier - year) / DRAW_BAND;
+			if (progress <= 0 || progress >= 1) continue;
+			const coords = (f.geometry as GeoJSON.LineString).coordinates as [number, number][];
+			feats.push({
+				type: 'Feature',
+				geometry: { type: 'LineString', coordinates: sliceArc(coords, progress) },
+				properties: { color: f.properties!.color },
+			});
+		}
+		src.setData(fc(feats));
+	}
+
+	function revealTick(ts: number): void {
+		const dt = revealLast ? Math.min(64, ts - revealLast) : 16;
+		revealLast = ts;
+		const target = sliderYear + DRAW_BAND;
+		const remaining = target - frontier;
+		// Ease: faster when far behind, with a floor so a drag always finishes promptly but the
+		// draw-in stays watchable on big forward jumps.
+		const speed = Math.max(0.2, remaining * 0.01); // years / ms
+		frontier = Math.min(target, frontier + speed * dt);
+		const newDrawn = Math.min(sliderYear, Math.floor(frontier - DRAW_BAND));
+		if (newDrawn !== drawnYear) {
+			drawnYear = newDrawn;
+			applyArcFilter();
+		}
+		buildDrawFeatures();
+		if (frontier >= target - 0.001) {
+			drawnYear = sliderYear;
+			frontier = target;
+			applyArcFilter();
+			clearDraw();
+			revealRaf = 0;
+			revealLast = 0;
+			return;
+		}
+		revealRaf = requestAnimationFrame(revealTick);
+	}
+
+	function ensureRevealLoop(): void {
+		if (!revealRaf) {
+			revealLast = 0;
+			revealRaf = requestAnimationFrame(revealTick);
+		}
+	}
+
+	function applyFilters(): void {
+		applyArcFilter();
+		applyNodeFilter();
+		applyNodeCounts();
 	}
 
 	function fitToData(): void {
@@ -503,9 +654,25 @@ export function createMapView(ctx: AppContext): ViewController {
 	const yearLabel = el.querySelector('#map-year') as HTMLElement;
 	slider.min = String(Math.floor(minYear / 10) * 10);
 	const setYear = (y: number, label?: string): void => {
+		const prev = sliderYear;
 		sliderYear = y;
 		yearLabel.textContent = label ?? (y >= 2000 ? 'All years' : `to ${y}`);
-		applyFilters();
+		applyNodeFilter();
+		applyNodeCounts();
+		if (y <= prev || y <= drawnYear) {
+			// Scrubbing back (or no forward progress): snap arcs instantly, no draw animation.
+			if (revealRaf) {
+				cancelAnimationFrame(revealRaf);
+				revealRaf = 0;
+			}
+			drawnYear = y;
+			frontier = y + DRAW_BAND;
+			clearDraw();
+			applyArcFilter();
+		} else {
+			// Scrubbing forward: let the frontier sweep up, animating arcs in.
+			ensureRevealLoop();
+		}
 	};
 	slider.addEventListener('input', () => setYear(Number(slider.value)));
 
@@ -584,23 +751,38 @@ function fc(features: GeoJSON.Feature[]): GeoJSON.FeatureCollection {
 	return { type: 'FeatureCollection', features };
 }
 
-/** Build a small upward-pointing arrowhead icon tinted to a branch color. */
+/** First `t` fraction (0..1) of a polyline, by point count, with an interpolated end point. */
+function sliceArc(coords: [number, number][], t: number): [number, number][] {
+	const n = coords.length;
+	if (n < 2 || t >= 1) return coords;
+	if (t <= 0) return [coords[0], coords[0]];
+	const pos = t * (n - 1);
+	const idx = Math.floor(pos);
+	const frac = pos - idx;
+	const out = coords.slice(0, idx + 1);
+	const a = coords[idx];
+	const b = coords[Math.min(idx + 1, n - 1)];
+	out.push([a[0] + (b[0] - a[0]) * frac, a[1] + (b[1] - a[1]) * frac]);
+	return out;
+}
+
+/** Build a bold upward-pointing arrowhead icon tinted to a branch color. */
 function makeArrowImage(hex: string): { width: number; height: number; data: Uint8Array } {
-	const S = 26;
+	const S = 34;
 	const cvs = document.createElement('canvas');
 	cvs.width = S;
 	cvs.height = S;
 	const c = cvs.getContext('2d')!;
 	c.clearRect(0, 0, S, S);
 	c.beginPath();
-	c.moveTo(S * 0.5, S * 0.14);
-	c.lineTo(S * 0.84, S * 0.74);
-	c.lineTo(S * 0.5, S * 0.58);
-	c.lineTo(S * 0.16, S * 0.74);
+	c.moveTo(S * 0.5, S * 0.08);
+	c.lineTo(S * 0.92, S * 0.82);
+	c.lineTo(S * 0.5, S * 0.6);
+	c.lineTo(S * 0.08, S * 0.82);
 	c.closePath();
 	c.lineJoin = 'round';
-	c.lineWidth = S * 0.10;
-	c.strokeStyle = 'rgba(8,6,5,0.65)';
+	c.lineWidth = S * 0.14;
+	c.strokeStyle = 'rgba(8,6,5,0.8)';
 	c.stroke();
 	c.fillStyle = hex;
 	c.fill();
