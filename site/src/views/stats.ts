@@ -282,9 +282,12 @@ function histogram(buckets: Bucket[]): string {
 	return `<div class="histo">${buckets
 		.map(
 			(b) =>
-				`<div class="histo-col"><div class="histo-bar" data-h="${((b.value / max) * 100).toFixed(
+				`<div class="histo-col"><div class="histo-track"><div class="histo-bar" data-h="${(
+					(b.value / max) *
+					100
+				).toFixed(
 					1,
-				)}%" style="height:0" title="${b.value}"></div><div class="histo-label">${escapeHtml(b.label)}</div></div>`,
+				)}%" style="height:0" title="${b.value}"></div></div><div class="histo-count">${b.value}</div><div class="histo-label">${escapeHtml(b.label)}</div></div>`,
 		)
 		.join('')}</div>`;
 }
