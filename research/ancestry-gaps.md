@@ -526,3 +526,16 @@ By type: marriage (29) · child (29) · record-source (19) · other (14) · occu
 - **child** · ❔ possible  
   Candidate profile lists child Anna Maria, born 23 Feb 1731 in Esperke and died 1796. — [Johann Hoppenstat, Frerking Family History](https://www.frerking.net/geneology/getperson.php?personID=I500189&tree=tree1)
 
+
+---
+
+## Location-refinement pass (2026-06-21)
+
+A pass over **vague birth/death places** ("Nebraska", "Germany", "Netherlands", "Prussia", etc.) that only pin to a state/country centroid. **21 people** were re-anchored on the map to a specific town already present in their own census/death records (no Ancestry action needed — informational): e.g. the six Nebraska-born Brueggemann siblings now sit at **Fremont, Dodge County, NE** (1930 census), Ben Lourens at **Camp, Polk, IA**, Christine Marie Marting at **Indianapolis, IN**, Carl Wilhelm Noack at **St. Louis, MO**, etc.
+
+**Still unknown beyond country/region — research leads to verify on Ancestry:**
+
+- **Arthur Prietzel** `Prussia` — 🔶 probable: a same-surname relative (Auguste Luise Amalie Prietzel) is recorded at **Grünberg, Schlesien** (Grünberg in Silesia — today Zielona Góra, Poland). Worth checking whether Arthur's birthplace is also Grünberg/Silesia.
+- **Gottfried Daniel Harnisch** (b.1791 `Prussia`, d. `Iowa`) — ❔ possible: son Johann Adolph Harnisch born in **Saxony**; family is Saxon, but no town-level source found for Gottfried himself.
+- **Wouter Cornelis** & **Tiamke Poulis** (both ~1655, `Netherlands`) — ❔ their daughter Sietske Cornelis was born at **Hallum, Friesland**; the family is Frisian, but no specific town confirmed for the parents.
+- **Barbara Bentz** (b.1569, `Germany`) — ❔ in-laws are from **Flörsheim / Altengronau (Hessen)**; no town-level source for Barbara.
