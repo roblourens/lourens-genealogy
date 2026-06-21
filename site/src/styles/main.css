@@ -823,7 +823,7 @@ body {
 	font-variant-numeric: tabular-nums;
 }
 
-.bar-row.is-occ {
+.bar-row.is-pop {
 	cursor: pointer;
 	border-radius: 7px;
 	margin: 0 -8px 9px;
@@ -832,14 +832,31 @@ body {
 	transition: background 0.12s ease;
 }
 
-.bar-row.is-occ:hover,
-.bar-row.is-occ:focus-visible {
+.bar-row.is-pop:hover,
+.bar-row.is-pop:focus-visible {
 	background: rgba(255, 255, 255, 0.05);
 }
 
-.bar-row.is-occ:hover .bl,
-.bar-row.is-occ:focus-visible .bl {
+.bar-row.is-pop:hover .bl,
+.bar-row.is-pop:focus-visible .bl {
 	color: var(--ink);
+}
+
+.histo-col.is-pop {
+	cursor: pointer;
+	border-radius: 8px;
+	outline: none;
+	transition: background 0.12s ease;
+}
+
+.histo-col.is-pop:hover,
+.histo-col.is-pop:focus-visible {
+	background: rgba(255, 255, 255, 0.05);
+}
+
+.histo-col.is-pop:hover .histo-bar,
+.histo-col.is-pop:focus-visible .histo-bar {
+	filter: brightness(1.12);
 }
 
 .chart-hint {

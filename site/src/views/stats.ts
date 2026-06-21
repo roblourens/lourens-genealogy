@@ -116,6 +116,31 @@ export function createStatsView(ctx: AppContext): ViewController {
 	// People who died in a different country than where they were born.
 	const movers = crossCountryCount(people, countryOf);
 
+	// People behind each clickable bar/column, grouped per chart and namespaced by prefix
+	// so hovering any bar lists who is in it (click a name to jump to them in the tree).
+	const surnamePeople = peopleByGroup(people, (p) => p.surname || null);
+	const countryPeople = peopleByGroup(people, (p) => countryOf(p.birth?.place));
+	const givenPeople = peopleByGroup(people, (p) => (p.given ?? '').trim().split(/\s+/)[0] || null);
+	const lifespanPeople = peopleByGroup(withAge, (p) =>
+		p.ageAtDeath != null ? lifespanBucketOf(p.ageAtDeath) : null,
+	);
+	const birthPeople = peopleByGroup(people, (p) =>
+		p.birthYear ? `${Math.floor(p.birthYear / 50) * 50}s` : null,
+	);
+	const peopleByKey: Record<string, { id: string; name: string }[]> = {};
+	const registerPop = (
+		prefix: string,
+		map: Record<string, { id: string; name: string }[]>,
+	): void => {
+		for (const [label, ppl] of Object.entries(map)) peopleByKey[`${prefix}::${label}`] = ppl;
+	};
+	registerPop('occ', occupationPeople);
+	registerPop('surname', surnamePeople);
+	registerPop('country', countryPeople);
+	registerPop('given', givenPeople);
+	registerPop('life', lifespanPeople);
+	registerPop('birth', birthPeople);
+
 	el.innerHTML = `
 	<div class="stats-inner">
 		<div class="stats-intro">
@@ -138,8 +163,8 @@ export function createStatsView(ctx: AppContext): ViewController {
 		<div class="chart-grid">
 			<div class="chart-card wide">
 				<h3>Births Across the Centuries</h3>
-				<p class="chart-sub">When the people in the tree were born, grouped by half-century.</p>
-				${histogram(buckets)}
+				<p class="chart-sub">When the people in the tree were born, grouped by half-century. <span class="chart-hint">Hover a bar to see who.</span></p>
+				${histogram(buckets, { prefix: 'birth', people: birthPeople })}
 			</div>
 
 			<div class="chart-card wide">
@@ -156,32 +181,32 @@ export function createStatsView(ctx: AppContext): ViewController {
 
 			<div class="chart-card">
 				<h3>Where the Lines Begin</h3>
-				<p class="chart-sub">Country of birth across the whole tree.</p>
-				${barList(countryCounts, 6)}
+				<p class="chart-sub">Country of birth across the whole tree. <span class="chart-hint">Hover a bar to see who.</span></p>
+				${barList(countryCounts, 6, { prefix: 'country', people: countryPeople })}
 			</div>
 
 			<div class="chart-card">
 				<h3>Most Common Surnames</h3>
-				<p class="chart-sub">Family names carried by the most people.</p>
-				${barList(surnameCounts, 8)}
+				<p class="chart-sub">Family names carried by the most people. <span class="chart-hint">Hover a bar to see who.</span></p>
+				${barList(surnameCounts, 8, { prefix: 'surname', people: surnamePeople })}
 			</div>
 
 			<div class="chart-card">
 				<h3>Most Common First Names</h3>
-				<p class="chart-sub">Given names handed down through the generations.</p>
-				${barList(givenNameCounts, 8)}
+				<p class="chart-sub">Given names handed down through the generations. <span class="chart-hint">Hover a bar to see who.</span></p>
+				${barList(givenNameCounts, 8, { prefix: 'given', people: givenPeople })}
 			</div>
 
 			<div class="chart-card">
 				<h3>What They Did for a Living</h3>
 				<p class="chart-sub">Trades and callings found through research, across ${peopleWithOcc} ancestors. <span class="chart-hint">Hover a bar to see who.</span></p>
-				${barList(occupationCounts, 10, occupationPeople)}
+				${barList(occupationCounts, 10, { prefix: 'occ', people: occupationPeople })}
 			</div>
 
 			<div class="chart-card">
 				<h3>How Long They Lived</h3>
-				<p class="chart-sub">Distribution of age at death (${withAge.length} known).</p>
-				${histogram(ageBuckets)}
+				<p class="chart-sub">Distribution of age at death (${withAge.length} known). <span class="chart-hint">Hover a bar to see who.</span></p>
+				${histogram(ageBuckets, { prefix: 'life', people: lifespanPeople })}
 			</div>
 
 			<div class="chart-card">
@@ -214,8 +239,8 @@ export function createStatsView(ctx: AppContext): ViewController {
 		node.addEventListener('click', () => ctx.openPerson((node as HTMLElement).dataset.person!)),
 	);
 
-	// Occupation popover: hover (or focus) a trade bar to list the people who had it,
-	// then click a name to jump to them in the tree.
+	// Detail popover: hover (or focus) any clickable bar/column to list the people behind
+	// it, then click a name to jump to them in the tree. Shared by every chart.
 	const occPop = document.createElement('div');
 	occPop.className = 'occ-pop';
 	occPop.hidden = true;
@@ -228,16 +253,17 @@ export function createStatsView(ctx: AppContext): ViewController {
 			hideTimer = undefined;
 		}
 	};
-	const hideOccPop = (): void => {
+	const hidePop = (): void => {
 		cancelHide();
 		hideTimer = window.setTimeout(() => {
 			occPop.hidden = true;
 		}, 120);
 	};
-	const showOccPop = (row: HTMLElement): void => {
-		const label = row.dataset.occ;
-		if (!label) return;
-		const ppl = occupationPeople[label] ?? [];
+	const showPop = (trigger: HTMLElement): void => {
+		const key = trigger.dataset.popKey;
+		const label = trigger.dataset.popLabel ?? '';
+		if (!key) return;
+		const ppl = peopleByKey[key] ?? [];
 		if (!ppl.length) return;
 		cancelHide();
 		occPop.innerHTML =
@@ -249,8 +275,8 @@ export function createStatsView(ctx: AppContext): ViewController {
 				)
 				.join('')}</div>`;
 		occPop.hidden = false;
-		// Position below the row, in the scroll container's content coordinates.
-		const rb = row.getBoundingClientRect();
+		// Position below the trigger, in the scroll container's content coordinates.
+		const rb = trigger.getBoundingClientRect();
 		const eb = el.getBoundingClientRect();
 		const pad = 8;
 		const popW = occPop.offsetWidth;
@@ -262,7 +288,7 @@ export function createStatsView(ctx: AppContext): ViewController {
 			left = el.scrollLeft + el.clientWidth - pad - popW;
 		}
 		if (left < el.scrollLeft + pad) left = el.scrollLeft + pad;
-		// Flip above the row if it would overflow the visible bottom.
+		// Flip above the trigger if it would overflow the visible bottom.
 		if (top + popH > el.scrollTop + el.clientHeight - pad && rowTop - popH - 6 > el.scrollTop) {
 			top = rowTop - popH - 6;
 		}
@@ -270,14 +296,14 @@ export function createStatsView(ctx: AppContext): ViewController {
 		occPop.style.top = `${top}px`;
 	};
 
-	el.querySelectorAll<HTMLElement>('.bar-row.is-occ').forEach((row) => {
-		row.addEventListener('mouseenter', () => showOccPop(row));
-		row.addEventListener('mouseleave', hideOccPop);
-		row.addEventListener('focus', () => showOccPop(row));
-		row.addEventListener('blur', hideOccPop);
+	el.querySelectorAll<HTMLElement>('.is-pop').forEach((trigger) => {
+		trigger.addEventListener('mouseenter', () => showPop(trigger));
+		trigger.addEventListener('mouseleave', hidePop);
+		trigger.addEventListener('focus', () => showPop(trigger));
+		trigger.addEventListener('blur', hidePop);
 	});
 	occPop.addEventListener('mouseenter', cancelHide);
-	occPop.addEventListener('mouseleave', hideOccPop);
+	occPop.addEventListener('mouseleave', hidePop);
 	occPop.addEventListener('click', (e) => {
 		const id = (e.target as HTMLElement).closest<HTMLElement>('[data-person-tree]')?.dataset
 			.personTree;
@@ -407,20 +433,28 @@ function tallyOccupations(
 	return { counts, peopleWith, byLabel };
 }
 
-function barList(
-	counts: Record<string, number>,
-	limit: number,
-	linkByLabel?: Record<string, { id: string; name: string }[]>,
-): string {
+interface PopLink {
+	prefix: string;
+	people: Record<string, { id: string; name: string }[]>;
+}
+
+function popAttrs(link: PopLink | undefined, label: string, base: string): string {
+	if (link && (link.people[label]?.length ?? 0) > 0) {
+		return ` class="${base} is-pop" data-pop-key="${escapeHtml(link.prefix)}::${escapeHtml(
+			label,
+		)}" data-pop-label="${escapeHtml(label)}" tabindex="0"`;
+	}
+	return ` class="${base}"`;
+}
+
+function barList(counts: Record<string, number>, limit: number, link?: PopLink): string {
 	const entries = Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, limit);
 	const max = entries.length ? entries[0][1] : 1;
 	return entries
 		.map(([label, n]) => {
-			const interactive = linkByLabel && (linkByLabel[label]?.length ?? 0) > 0;
-			const attrs = interactive
-				? ` class="bar-row is-occ" data-occ="${escapeHtml(label)}" tabindex="0"`
-				: ' class="bar-row"';
-			return `<div${attrs}><div class="bl">${escapeHtml(label)}</div><div class="bar-track"><div class="bar-fill" data-w="${(
+			return `<div${popAttrs(link, label, 'bar-row')}><div class="bl">${escapeHtml(
+				label,
+			)}</div><div class="bar-track"><div class="bar-fill" data-w="${(
 				(n / max) *
 				100
 			).toFixed(1)}%" style="width:0"></div></div><div class="bv">${n}</div></div>`;
@@ -431,6 +465,21 @@ function barList(
 interface Bucket {
 	label: string;
 	value: number;
+}
+
+/** Group people into name-sorted lists by an arbitrary key (skips null keys). */
+function peopleByGroup(
+	people: Person[],
+	keyOf: (p: Person) => string | null | undefined,
+): Record<string, { id: string; name: string }[]> {
+	const out: Record<string, { id: string; name: string }[]> = {};
+	for (const p of people) {
+		const k = keyOf(p);
+		if (!k) continue;
+		(out[k] ??= []).push({ id: p.id, name: p.name });
+	}
+	for (const k of Object.keys(out)) out[k].sort((a, b) => a.name.localeCompare(b.name));
+	return out;
 }
 
 function birthsByPeriod(years: number[]): Bucket[] {
@@ -445,28 +494,39 @@ function birthsByPeriod(years: number[]): Bucket[] {
 	return buckets;
 }
 
+const LIFESPAN_RANGES: [number, number][] = [
+	[0, 20],
+	[20, 40],
+	[40, 60],
+	[60, 70],
+	[70, 80],
+	[80, 90],
+	[90, 120],
+];
+
+function lifespanRangeLabel(lo: number, hi: number): string {
+	return hi === 120 ? `${lo}+` : `${lo}\u2013${hi}`;
+}
+
+/** The lifespan-distribution bucket label an age falls into (matches lifespanBuckets). */
+function lifespanBucketOf(age: number): string | null {
+	for (const [lo, hi] of LIFESPAN_RANGES) if (age >= lo && age < hi) return lifespanRangeLabel(lo, hi);
+	return null;
+}
+
 function lifespanBuckets(people: Person[]): Bucket[] {
-	const ranges = [
-		[0, 20],
-		[20, 40],
-		[40, 60],
-		[60, 70],
-		[70, 80],
-		[80, 90],
-		[90, 120],
-	];
-	return ranges.map(([lo, hi]) => ({
-		label: hi === 120 ? `${lo}+` : `${lo}\u2013${hi}`,
+	return LIFESPAN_RANGES.map(([lo, hi]) => ({
+		label: lifespanRangeLabel(lo, hi),
 		value: people.filter((p) => (p.ageAtDeath ?? -1) >= lo && (p.ageAtDeath ?? -1) < hi).length,
 	}));
 }
 
-function histogram(buckets: Bucket[]): string {
+function histogram(buckets: Bucket[], link?: PopLink): string {
 	const max = Math.max(1, ...buckets.map((b) => b.value));
 	return `<div class="histo">${buckets
 		.map(
 			(b) =>
-				`<div class="histo-col"><div class="histo-track"><div class="histo-bar" data-h="${(
+				`<div${popAttrs(link, b.label, 'histo-col')}><div class="histo-track"><div class="histo-bar" data-h="${(
 					(b.value / max) *
 					100
 				).toFixed(
