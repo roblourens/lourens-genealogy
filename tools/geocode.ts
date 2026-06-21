@@ -95,7 +95,7 @@ async function geocodeOne(raw: string): Promise<GeoPoint | null> {
 function applyOverrides(cache: PlacesData): void {
 	if (!existsSync(OVERRIDES_PATH)) return;
 	const raw = JSON.parse(readFileSync(OVERRIDES_PATH, 'utf8')) as {
-		overrides: Record<string, { lat: number; lng: number; displayName?: string } | null>;
+		overrides: Record<string, { lat: number; lng: number; displayName?: string; country?: string } | null>;
 	};
 	let applied = 0;
 	let removed = 0;
@@ -112,7 +112,7 @@ function applyOverrides(cache: PlacesData): void {
 			lat: val.lat,
 			lng: val.lng,
 			displayName: val.displayName,
-			country: val.displayName?.split(',').pop()?.trim(),
+			country: val.country ?? val.displayName?.split(',').pop()?.trim(),
 			source: 'override',
 		};
 		applied++;

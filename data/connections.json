@@ -172,6 +172,126 @@
           "url": "https://de.wikipedia.org/wiki/Wilhelm_Harnisch_(P%C3%A4dagoge)"
         }
       ]
+    },
+    {
+      "id": "donia-grutte-pier",
+      "surname": "Donia",
+      "famousPerson": "Grutte Pier (Pier Gerlofs Donia)",
+      "famousDescription": "Legendary Frisian rebel leader, privateer, and folk hero of the early 16th century.",
+      "relatedPersonIds": [
+        "I272780757791",
+        "I272780757783"
+      ],
+      "confidence": "plausible",
+      "reasoning": "Sierck Siercksz Donia is listed in the tree at Donia State, Oosterend, in the same early-16th-century Frisian world as Pier Gerlofs Donia of Kimswerd. Pier is documented as a Frisian rebel leader and folk hero born about 1480, with Donia as his family name. The Harinxma material also describes a Donia branch among Frisian hoofdeling families, so the surname was not a random modern coincidence. What is not proven: the consulted sources do not name Sierck Siercksz Donia or Doedt Siercksdr Donia as relatives of Pier, and Pier's published family details point to Gerlof Piers and Fokel Sybrants Bonga rather than to this tree line.",
+      "citations": [
+        {
+          "label": "Wikipedia: Pier Gerlofs Donia",
+          "url": "https://en.wikipedia.org/wiki/Pier_Gerlofs_Donia"
+        },
+        {
+          "label": "Wikipedia (NL): Van Harinxma",
+          "url": "https://nl.wikipedia.org/wiki/Harinxma"
+        },
+        {
+          "label": "Stinsen in Friesland: Donia State at Burgwerd",
+          "url": "http://www.stinseninfriesland.nl/DoniaStateBurgwerd.htm"
+        }
+      ]
+    },
+    {
+      "id": "harinxma-frisian-nobility",
+      "surname": "van Harinxma",
+      "famousPerson": "The Harinxma Frisian noble family",
+      "famousDescription": "A leading Frisian hoofdeling family whose Van Harinxma thoe Slooten branch entered the Dutch nobility as barons.",
+      "relatedPersonIds": [
+        "I272780757799"
+      ],
+      "confidence": "plausible",
+      "reasoning": "The tree has Sierck Siercks van Harinxma born about 1465 at IJlst and dying at Loënga, both places that sit squarely in the Harinxma family geography. Published summaries describe Van Harinxma as a Frisian hoofdeling family, with thoe Heeg, thoe IJlst, thoe Slooten, and Donia branches. The Van Harinxma thoe Slooten branch is documented as an originally Frisian noble family later recognized in the Dutch nobility with the title baron. This makes family membership or a close collateral connection plausible, but the consulted sources do not provide a documented chain from this specific Sierck Siercks van Harinxma into the proven noble stamreeks.",
+      "citations": [
+        {
+          "label": "Wikipedia (NL): Van Harinxma",
+          "url": "https://nl.wikipedia.org/wiki/Harinxma"
+        },
+        {
+          "label": "Wikipedia (NL): Van Harinxma thoe Slooten",
+          "url": "https://nl.wikipedia.org/wiki/Van_Harinxma_thoe_Slooten"
+        },
+        {
+          "label": "Stinsen in Friesland: Harinxmastins in Heeg",
+          "url": "http://www.stinseninfriesland.nl/HarinxmastinsHeeg.htm"
+        },
+        {
+          "label": "Stinsen in Friesland: Harinxmastins in Loënga",
+          "url": "http://www.stinseninfriesland.nl/HarinxmastinsLoenga.htm"
+        }
+      ]
+    },
+    {
+      "id": "albada-frisian-stins-family",
+      "surname": "van Albada",
+      "famousPerson": "The Albada Frisian stins family",
+      "famousDescription": "A Frisian elite family associated with medieval and early-modern stinsen and town houses in Goënga and Sneek.",
+      "relatedPersonIds": [
+        "I272780757931"
+      ],
+      "confidence": "plausible",
+      "reasoning": "Dorothea Lieuwesdr van Albada appears in the tree in the same 16th-century Frisian network as the Wytsma and Donia/Harinxma lines. Stinsen in Friesland records Sicke Albada at Goënga as early as 1374 and later Ids van Albada building the prominent Albadahuis in Sneek in 1618/1619. The surname, region, and elite Frisian context line up well enough to make a shared-family connection plausible. What is not proven: the consulted stins pages do not identify Dorothea Lieuwesdr van Albada or connect her to Sicke, Ids, or a documented Albada pedigree.",
+      "citations": [
+        {
+          "label": "Stinsen in Friesland: Albadastins at Goënga",
+          "url": "http://www.stinseninfriesland.nl/AlbadastinsGoenga.htm"
+        },
+        {
+          "label": "Stinsen in Friesland: Albadahuis in Sneek",
+          "url": "http://www.stinseninfriesland.nl/AlbadahuisSneek.htm"
+        }
+      ]
+    },
+    {
+      "id": "wytsma-state-birdaard",
+      "surname": "Wytsma",
+      "famousPerson": "Wytsma State at Birdaard",
+      "famousDescription": "A Frisian state near Birdaard, recorded from about 1500 and later described as an adellijke huizinge.",
+      "relatedPersonIds": [
+        "I272780757935",
+        "I272780757779",
+        "I272780757747"
+      ],
+      "confidence": "plausible",
+      "reasoning": "This is one of the strongest new surname-place overlaps: the tree has Gerrit Oenes Wytsma, Oene Gerrits Wytsma, and Dorothea Van Wytsma at Birdaard from roughly 1510 to 1633. Stinsen in Friesland says Wytsma State at Birdaard is first encountered around 1500 and names a Dorothe Wytsma as owner of Wytsma state and sathe in 1640. That combination of rare surname, exact village, and matching period is highly suggestive. It is still not confirmed, because the tree's Dorothea is recorded as dying in 1633 and the consulted page does not provide a full genealogy proving she is the Dorothe named in 1640 or tying Gerrit and Oene to ownership of the state.",
+      "citations": [
+        {
+          "label": "Stinsen in Friesland: Wytsma State at Birdaard",
+          "url": "http://www.stinseninfriesland.nl/WytsmaStateBirdaard.htm"
+        },
+        {
+          "label": "Stinsen in Friesland: Wytsma State at Grouw",
+          "url": "http://www.stinseninfriesland.nl/WytsmaStateGrouw.htm"
+        }
+      ]
+    },
+    {
+      "id": "fokker-aviation-family",
+      "surname": "Fokker",
+      "famousPerson": "Anthony Fokker",
+      "famousDescription": "Dutch aviation pioneer, aircraft designer, and founder of the Fokker aircraft company.",
+      "relatedPersonIds": [
+        "I272780761854"
+      ],
+      "confidence": "speculative",
+      "reasoning": "Willemijntje Jansz Fokker is a tempting surname match to Anthony Fokker, the Dutch aviation pioneer. Anthony belonged to the Dutch patrician Fokker family, whose published stamreeks begins with Adriaen Dirksz. Fokker around 1648 and whose later branch became prominent in Middelburg and Zeeland. The tree's Willemijntje belongs to an 18th-century Utrecht-area context around Laagnieuwkoop/Kamerik, not the documented Middelburg/Zeeland patrician line. No consulted source connects Willemijntje to Anthony's family, so this should be treated as a shared-surname curiosity only.",
+      "citations": [
+        {
+          "label": "Wikipedia (NL): Fokker family",
+          "url": "https://nl.wikipedia.org/wiki/Fokker_(geslacht)"
+        },
+        {
+          "label": "Wikipedia: Anthony Fokker",
+          "url": "https://en.wikipedia.org/wiki/Anthony_Fokker"
+        }
+      ]
     }
   ]
 }

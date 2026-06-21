@@ -1,0 +1,223 @@
+{
+  "generatedAt": "2026-06-21T06:35:45Z",
+  "images": {
+    "roorda-frisian-nobility": [
+      {
+        "localPath": "data/images/roorda-frisian-nobility-1.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roorda_State_-_Genum_-_20077437_-_RCE.jpg",
+        "caption": "Roorda State at Genum, Friesland, associated with the Roorda noble family",
+        "credit": "A. J. van der Wal / Rijksdienst voor het Cultureel Erfgoed",
+        "license": "CC BY-SA 4.0",
+        "kind": "context"
+      }
+    ],
+    "scharnhorst-prussian-general": [
+      {
+        "localPath": "data/images/scharnhorst-prussian-general-1.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tripota_Gerhard_von_Scharnhorst_portraits_121_1_121_port_3631_p_900.jpg",
+        "caption": "Portrait of Gerhard von Scharnhorst, the Hanoverian-born Prussian army reformer",
+        "credit": "Friedrich Theodor Müller",
+        "license": "Public domain",
+        "kind": "portrait"
+      }
+    ],
+    "sipma-frisian-linguist": [
+      {
+        "localPath": "data/images/sipma-frisian-linguist-1.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pieter_Sipma_as_learaar_mei_de_piip_oan,_1922-02-25,_archiefnr_1990.jpg",
+        "caption": "Pieter Sipma as a teacher, 25 February 1922",
+        "credit": "Unknown photographer / Tresoar",
+        "license": "Public domain",
+        "kind": "portrait"
+      }
+    ],
+    "sprengel-pollination-botanist": [
+      {
+        "localPath": "data/images/sprengel-pollination-botanist-1.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sprengel-1.jpg",
+        "caption": "Illustration from Christian Konrad Sprengel's 1793 work on flower pollination",
+        "credit": "Christian Konrad Sprengel / Uwe Thobae",
+        "license": "Public domain",
+        "kind": "document"
+      }
+    ],
+    "schnitzler-viennese-writer": [
+      {
+        "localPath": "data/images/schnitzler-viennese-writer-1.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arthur_Schnitzler_1912_(cropped).jpg",
+        "caption": "Portrait of Austrian author Arthur Schnitzler, 1912",
+        "credit": "Ferdinand Schmutzer / historic print",
+        "license": "Public domain",
+        "kind": "portrait"
+      }
+    ],
+    "mahler-composer": [
+      {
+        "localPath": "data/images/mahler-composer-1.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Photo_of_Gustav_Mahler_by_Moritz_N%C3%A4hr_01.jpg",
+        "caption": "Gustav Mahler in the foyer of the Vienna Opera House, photographed by Moritz Nähr",
+        "credit": "Moritz Nähr",
+        "license": "Public domain",
+        "kind": "portrait"
+      }
+    ],
+    "harnisch-educator": [
+      {
+        "localPath": "data/images/harnisch-educator-1.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gedenktafel_Lindenstr_9_(Bad_Wilsnack)_Christian_Wilhelm_Harnisch.jpg",
+        "caption": "Memorial plaque for Christian Wilhelm Harnisch in Bad Wilsnack, Germany",
+        "credit": "OTFW, Berlin",
+        "license": "CC BY-SA 3.0",
+        "kind": "context"
+      }
+    ],
+    "I272780692340": [
+      {
+        "localPath": "data/images/I272780692340-1.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oude_kerk_Ede_2.jpg",
+        "caption": "Oude Kerk in Ede, Gelderland, place context for Albertus Lourens's birthplace",
+        "credit": "Basvb",
+        "license": "CC BY-SA 3.0",
+        "kind": "place"
+      }
+    ],
+    "I272780692368": [
+      {
+        "localPath": "data/images/I272780692368-1.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Veenendaal_RM_Oude_Kerk_(noordzijde).jpg",
+        "caption": "Oude Kerk in Veenendaal, place context for Aartje Snetselaar's birthplace",
+        "credit": "HenkvD",
+        "license": "CC BY-SA 4.0",
+        "kind": "place"
+      }
+    ],
+    "I272780692937": [
+      {
+        "localPath": "data/images/I272780692937-1.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grote_Kerk_Wageningen.jpg",
+        "caption": "Grote Kerk in Wageningen, place context for Johannes Lourens's birthplace",
+        "credit": "Basvb",
+        "license": "CC BY-SA 3.0",
+        "kind": "place"
+      }
+    ],
+    "I272780756195": [
+      {
+        "localPath": "data/images/I272780756195-1.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Noordelijke_aanbouw_kerk_-_Hallum_-_20099957_-_RCE.jpg",
+        "caption": "Church building in Hallum, Friesland, place context for Froukje Wijgers Vander Lune's birthplace",
+        "credit": "A. J. van der Wal / Rijksdienst voor het Cultureel Erfgoed",
+        "license": "CC BY-SA 4.0",
+        "kind": "place"
+      }
+    ],
+    "I272780756942": [
+      {
+        "localPath": "data/images/I272780756942-1.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Overzicht_westgevel_kerk_met_voorgevels_pastorie_en_kosterswoning_-_Tzummarum_-_20345402_-_RCE.jpg",
+        "caption": "Church and adjacent buildings in Tzummarum, Friesland, place context for Doetie Bauckes Allinga's birthplace",
+        "credit": "IJsbrand Heins / Rijksdienst voor het Cultureel Erfgoed",
+        "license": "CC BY-SA 4.0",
+        "kind": "place"
+      }
+    ],
+    "I272780753828": [
+      {
+        "localPath": "data/images/I272780753828-1.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pella_-_Dominie_Henry_P._Scholte_House_-_20220512121641.jpg",
+        "caption": "Dominie Henry P. Scholte House in Pella, Iowa, Dutch-heritage place context for Epp Robert Roorda's birthplace",
+        "credit": "Riis2602",
+        "license": "CC BY-SA 4.0",
+        "kind": "place"
+      },
+      {
+        "localPath": "data/images/I272780753828-2.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vermeer_Mill_-_Pella,_Iowa_(24380387470).jpg",
+        "caption": "Vermeer Mill at 714 E 1st Street in Pella, Iowa, Dutch-heritage place context for Epp Robert Roorda's birthplace",
+        "credit": "Tony Webster from Portland, Oregon",
+        "license": "CC BY-SA 2.0",
+        "kind": "place"
+      }
+    ],
+    "I272780754477": [
+      {
+        "localPath": "data/images/I272780754477-1.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schloss_Landestrost_in_Neustadt_am_R%C3%BCbenberge_IMG_5321.jpg",
+        "caption": "Schloss Landestrost in Neustadt am Rübenberge, Lower Saxony, place context for Sophie Charlotte Frerking's Neustadt-area birthplace",
+        "credit": "Losch",
+        "license": "CC BY-SA 4.0",
+        "kind": "place"
+      }
+    ],
+    "donia-grutte-pier": [
+      {
+        "localPath": "data/images/donia-grutte-pier-1.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grutte_Pier_(Pier_Gerlofs_Donia),_1622,_book_illustration.JPG",
+        "caption": "1622 book illustration of Grutte Pier (Pier Gerlofs Donia), the Frisian freedom fighter and folk hero.",
+        "credit": "Pieter Feddes van Harlingen / Pierius Winsemius, Chronique ofte Historische geschiedenisse van Vrieslant; Collectie Fries Museum",
+        "license": "Public domain",
+        "kind": "portrait"
+      }
+    ],
+    "harinxma-frisian-nobility": [
+      {
+        "localPath": "data/images/harinxma-frisian-nobility-1.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Harinxmastate_Beetsterzwaag.jpg",
+        "caption": "Harinxmastate in Beetsterzwaag, Friesland, associated with the van Harinxma family.",
+        "credit": "Gouwenaar",
+        "license": "Public domain",
+        "kind": "place"
+      }
+    ],
+    "albada-frisian-stins-family": [
+      {
+        "localPath": "data/images/albada-frisian-stins-family-1.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Albada_en_Sickinga_stins.jpg",
+        "caption": "1720 map detail showing the Albada stins/state near Sneek, Friesland.",
+        "credit": "Unknown author / Argeos, Stinsen en Staten in Sneek en Ommelanden",
+        "license": "CC BY 4.0",
+        "kind": "place"
+      }
+    ],
+    "wytsma-state-birdaard": [
+      {
+        "localPath": "data/images/wytsma-state-birdaard-1.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Burdaard,_herfoarme_tserke.JPG",
+        "caption": "The Hervormde kerk in Burdaard (Birdaard), Friesland, place context for Wytsma State.",
+        "credit": "RomkeHoekstra",
+        "license": "CC BY-SA 4.0",
+        "kind": "place"
+      }
+    ],
+    "fokker-aviation-family": [
+      {
+        "localPath": "data/images/fokker-aviation-family-1.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anthony_Fokker_1912.jpg",
+        "caption": "Portrait of Anthony Fokker, Dutch aviation pioneer, photographed circa 1912.",
+        "credit": "Fritz Heuschkel the Elder / Library of Congress",
+        "license": "Public domain",
+        "kind": "portrait"
+      }
+    ],
+    "I272780757791": [
+      {
+        "localPath": "data/images/I272780757791-1.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Martinikerk_Easterein.jpg",
+        "caption": "Martinikerk in Easterein (Oosterend), Friesland, place context for the Donia line.",
+        "credit": "Gouwenaar",
+        "license": "Public domain",
+        "kind": "place"
+      }
+    ],
+    "I272780757799": [
+      {
+        "localPath": "data/images/I272780757799-1.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:IJLST_MAURITIUSKERK_01.jpg",
+        "caption": "Mauritiuskerk in IJlst, Friesland, place context for the van Harinxma line.",
+        "credit": "IdsVanHouten",
+        "license": "CC BY-SA 4.0",
+        "kind": "place"
+      }
+    ]
+  }
+}

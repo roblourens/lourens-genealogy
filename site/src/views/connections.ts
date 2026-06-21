@@ -38,8 +38,19 @@ export function createConnectionsView(ctx: AppContext): ViewController {
 						: `<span class="pp-cite">${escapeHtml(cit.label)}</span>`,
 				)
 				.join('');
+			const img = data.imagesById[c.id]?.[0];
+			const figure = img
+				? `<figure class="conn-figure">
+						<a href="${encodeURI(img.sourceUrl ?? img.localPath)}" target="_blank" rel="noopener">
+							<img src="${encodeURI(img.localPath)}" alt="${escapeHtml(img.caption ?? c.famousPerson)}" loading="lazy" />
+						</a>
+						<figcaption>${escapeHtml([img.credit, img.license].filter(Boolean).join(' · '))}</figcaption>
+					</figure>`
+				: '';
 			return `
-			<div class="conn-card">
+			<div class="conn-card${figure ? ' has-figure' : ''}">
+				${figure}
+				<div class="conn-body">
 				<div class="conn-head">
 					<div>
 						<h3 class="conn-famous">${escapeHtml(c.famousPerson)}</h3>
@@ -52,6 +63,7 @@ export function createConnectionsView(ctx: AppContext): ViewController {
 				<div class="conn-foot">
 					${related ? `<div class="pp-chips">${related}</div>` : ''}
 					${cites}
+				</div>
 				</div>
 			</div>`;
 		})

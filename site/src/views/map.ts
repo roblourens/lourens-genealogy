@@ -58,12 +58,16 @@ export function createMapView(ctx: AppContext): ViewController {
 			</div>
 		</div>
 		<div class="view-intro-pill">Watch four immigrant lines cross from the Netherlands &amp; Germany into the American Midwest. Drag the timeline to move through the centuries.</div>
+		<button class="map-clear-hint" id="map-clear-hint" type="button">Tracking one family line · click to reset</button>
 		<div class="map-timeline panel-card">
 			<button class="ctrl-btn map-play" id="map-play" title="Play">▶</button>
 			<span class="yr-label" id="map-year">All years</span>
 			<input type="range" id="map-slider" min="1550" max="2000" value="2000" step="5" />
 		</div>`,
 	);
+
+	const hint = el.querySelector('#map-clear-hint') as HTMLButtonElement;
+	hint.addEventListener('click', () => clearSelection());
 
 	mapboxgl.accessToken = TOKEN;
 	const map = new mapboxgl.Map({
@@ -105,8 +109,9 @@ export function createMapView(ctx: AppContext): ViewController {
 		}
 	}
 
-	const pointFeatures: GeoJSON.Feature[] = [...nodeMap.values()].map((n) => ({
+	const pointFeatures: GeoJSON.Feature[] = [...nodeMap.values()].map((n, i) => ({
 		type: 'Feature',
+		id: i,
 		geometry: { type: 'Point', coordinates: [n.lng, n.lat] },
 		properties: {
 			place: shortPlace(n.place),
@@ -129,6 +134,7 @@ export function createMapView(ctx: AppContext): ViewController {
 			const parent = data.personById.get(parentId)!;
 			arcFeatures.push({
 				type: 'Feature',
+				id: arcFeatures.length,
 				geometry: {
 					type: 'LineString',
 					coordinates: arc([parentAnchor.lng, parentAnchor.lat], [childAnchor.lng, childAnchor.lat]),
@@ -137,6 +143,8 @@ export function createMapView(ctx: AppContext): ViewController {
 					branch,
 					color: branchColor(branch),
 					year: estYear(child),
+					childId: child.id,
+					parentId,
 					from: parent.name,
 					to: child.name,
 					fromPlace: shortPlace(parentAnchor.place),
@@ -144,6 +152,32 @@ export function createMapView(ctx: AppContext): ViewController {
 				},
 			});
 		}
+	}
+
+	// Adjacency over anchored arcs, for lineage tracing on click.
+	const parentsOf = new Map<string, string[]>();
+	const childrenOf = new Map<string, string[]>();
+	for (const f of arcFeatures) {
+		const childId = f.properties!.childId as string;
+		const parentId = f.properties!.parentId as string;
+		(parentsOf.get(childId) ?? parentsOf.set(childId, []).get(childId)!).push(parentId);
+		(childrenOf.get(parentId) ?? childrenOf.set(parentId, []).get(parentId)!).push(childId);
+	}
+
+	/** All people on one person's vertical line: their anchored ancestors + descendants. */
+	function lineageOf(personId: string): Set<string> {
+		const set = new Set<string>([personId]);
+		const upStack = [personId];
+		while (upStack.length) {
+			const id = upStack.pop()!;
+			for (const p of parentsOf.get(id) ?? []) if (!set.has(p)) (set.add(p), upStack.push(p));
+		}
+		const downStack = [personId];
+		while (downStack.length) {
+			const id = downStack.pop()!;
+			for (const c of childrenOf.get(id) ?? []) if (!set.has(c)) (set.add(c), downStack.push(c));
+		}
+		return set;
 	}
 
 	const yearsAll = arcFeatures.map((f) => f.properties!.year as number);
@@ -160,8 +194,15 @@ export function createMapView(ctx: AppContext): ViewController {
 			layout: { 'line-cap': 'round', 'line-join': 'round' },
 			paint: {
 				'line-color': ['get', 'color'],
-				'line-width': 4,
-				'line-opacity': 0.12,
+				'line-width': ['case', ['boolean', ['feature-state', 'sel'], false], 9, 4],
+				'line-opacity': [
+					'case',
+					['boolean', ['feature-state', 'sel'], false],
+					0.3,
+					['boolean', ['feature-state', 'dim'], false],
+					0.03,
+					0.12,
+				],
 				'line-blur': 3,
 			},
 		});
@@ -172,8 +213,73 @@ export function createMapView(ctx: AppContext): ViewController {
 			layout: { 'line-cap': 'round', 'line-join': 'round' },
 			paint: {
 				'line-color': ['get', 'color'],
-				'line-width': ['interpolate', ['linear'], ['zoom'], 2, 1.1, 6, 2.2],
-				'line-opacity': 0.7,
+				'line-width': [
+					'interpolate',
+					['linear'],
+					['zoom'],
+					2,
+					['case', ['boolean', ['feature-state', 'sel'], false], 2.6, 1.1],
+					6,
+					['case', ['boolean', ['feature-state', 'sel'], false], 4.5, 2.2],
+				],
+				'line-opacity': [
+					'case',
+					['boolean', ['feature-state', 'sel'], false],
+					0.98,
+					['boolean', ['feature-state', 'dim'], false],
+					0.06,
+					0.7,
+				],
+			},
+		});
+		map.addLayer({
+			id: 'arc-hit',
+			type: 'line',
+			source: 'arcs',
+			layout: { 'line-cap': 'round', 'line-join': 'round' },
+			paint: {
+				'line-color': '#000000',
+				'line-width': ['interpolate', ['linear'], ['zoom'], 2, 12, 6, 16],
+				'line-opacity': 0.01,
+			},
+		});
+
+		// Directional arrowheads along each arc (parent origin -> child destination).
+		for (const key of Object.keys(BRANCHES) as BranchKey[]) {
+			const id = `arrow-${key}`;
+			if (!map.hasImage(id)) map.addImage(id, makeArrowImage(BRANCHES[key].color), { pixelRatio: 2 });
+		}
+		map.addLayer({
+			id: 'arc-arrows',
+			type: 'symbol',
+			source: 'arcs',
+			layout: {
+				'symbol-placement': 'line',
+				'symbol-spacing': ['interpolate', ['linear'], ['zoom'], 2, 90, 6, 150],
+				'icon-image': [
+					'match',
+					['get', 'branch'],
+					'lourens', 'arrow-lourens',
+					'roorda', 'arrow-roorda',
+					'stuenkel', 'arrow-stuenkel',
+					'brueggemann', 'arrow-brueggemann',
+					'arrow-root',
+				],
+				'icon-size': ['interpolate', ['linear'], ['zoom'], 2, 0.46, 6, 0.78],
+				'icon-rotation-alignment': 'map',
+				'icon-allow-overlap': true,
+				'icon-ignore-placement': true,
+				'icon-keep-upright': false,
+			},
+			paint: {
+				'icon-opacity': [
+					'case',
+					['boolean', ['feature-state', 'sel'], false],
+					1,
+					['boolean', ['feature-state', 'dim'], false],
+					0.03,
+					0.5,
+				],
 			},
 		});
 		map.addLayer({
@@ -181,11 +287,20 @@ export function createMapView(ctx: AppContext): ViewController {
 			type: 'circle',
 			source: 'nodes',
 			paint: {
-				'circle-radius': ['interpolate', ['linear'], ['get', 'count'], 1, 4, 5, 8, 15, 16],
-				'circle-color': '#e6c878',
-				'circle-opacity': 0.85,
-				'circle-stroke-color': '#14110f',
-				'circle-stroke-width': 1.4,
+				'circle-radius': [
+					'+',
+					['interpolate', ['linear'], ['get', 'count'], 1, 4, 5, 8, 15, 16],
+					['case', ['boolean', ['feature-state', 'sel'], false], 2, 0],
+				],
+				'circle-color': ['case', ['boolean', ['feature-state', 'sel'], false], '#f3dca0', '#e6c878'],
+				'circle-opacity': [
+					'case',
+					['boolean', ['feature-state', 'dim'], false],
+					0.12,
+					0.85,
+				],
+				'circle-stroke-color': ['case', ['boolean', ['feature-state', 'sel'], false], '#f3dca0', '#14110f'],
+				'circle-stroke-width': ['case', ['boolean', ['feature-state', 'sel'], false], 2.2, 1.4],
 			},
 		});
 		map.addLayer({
@@ -214,14 +329,18 @@ export function createMapView(ctx: AppContext): ViewController {
 			const f = e.features?.[0];
 			if (!f) return;
 			const ids = (f.properties!.ids as string).split(',');
+			selectNode(ids);
 			showNodePopup(e.lngLat, f.properties!.place as string, ids);
 		});
 		map.on('mouseenter', 'node-circle', () => (map.getCanvas().style.cursor = 'pointer'));
 		map.on('mouseleave', 'node-circle', () => (map.getCanvas().style.cursor = ''));
 
-		map.on('click', 'arc-line', (e) => {
+		map.on('click', 'arc-hit', (e) => {
+			const nodeHits = map.queryRenderedFeatures(e.point, { layers: ['node-circle'] });
+			if (nodeHits.length) return;
 			const f = e.features?.[0];
 			if (!f) return;
+			selectLineage(f.properties!.childId as string);
 			new mapboxgl.Popup({ offset: 8 })
 				.setLngLat(e.lngLat)
 				.setHTML(
@@ -233,7 +352,73 @@ export function createMapView(ctx: AppContext): ViewController {
 				)
 				.addTo(map);
 		});
+		map.on('mouseenter', 'arc-hit', () => (map.getCanvas().style.cursor = 'pointer'));
+		map.on('mouseleave', 'arc-hit', () => (map.getCanvas().style.cursor = ''));
+
+		// Click empty map to clear any highlight.
+		map.on('click', (e) => {
+			const hits = map.queryRenderedFeatures(e.point, { layers: ['arc-hit', 'node-circle'] });
+			if (!hits.length) clearSelection();
+		});
 	});
+
+	// ---- Lineage highlight ----
+	// personId -> node key (anchored place), node key -> feature id.
+	const nodeIdByKey = new Map<string, number>();
+	[...nodeMap.keys()].forEach((k, i) => nodeIdByKey.set(k, i));
+	const nodeKeyOfPerson = new Map<string, string>();
+	for (const [pid, a] of anchorOf) nodeKeyOfPerson.set(pid, `${a.lat.toFixed(3)},${a.lng.toFixed(3)}`);
+
+	let selectionActive = false;
+
+	function clearSelection(): void {
+		if (!selectionActive) return;
+		selectionActive = false;
+		for (let i = 0; i < arcFeatures.length; i++) map.removeFeatureState({ source: 'arcs', id: i });
+		for (let i = 0; i < pointFeatures.length; i++) map.removeFeatureState({ source: 'nodes', id: i });
+		hint.classList.remove('is-active');
+	}
+
+	function applySelection(selArcIds: Set<number>, selNodeIds: Set<number>): void {
+		selectionActive = true;
+		for (let i = 0; i < arcFeatures.length; i++) {
+			map.setFeatureState({ source: 'arcs', id: i }, { sel: selArcIds.has(i), dim: !selArcIds.has(i) });
+		}
+		for (let i = 0; i < pointFeatures.length; i++) {
+			map.setFeatureState({ source: 'nodes', id: i }, { sel: selNodeIds.has(i), dim: !selNodeIds.has(i) });
+		}
+		hint.classList.add('is-active');
+	}
+
+	function nodeIdsForPeople(people: Set<string>): Set<number> {
+		const ids = new Set<number>();
+		for (const pid of people) {
+			const key = nodeKeyOfPerson.get(pid);
+			const nid = key != null ? nodeIdByKey.get(key) : undefined;
+			if (nid != null) ids.add(nid);
+		}
+		return ids;
+	}
+
+	function selectLineage(personId: string): void {
+		const line = lineageOf(personId);
+		const arcIds = new Set<number>();
+		arcFeatures.forEach((f, i) => {
+			if (line.has(f.properties!.childId as string) && line.has(f.properties!.parentId as string)) arcIds.add(i);
+		});
+		applySelection(arcIds, nodeIdsForPeople(line));
+	}
+
+	function selectNode(personIds: string[]): void {
+		// Union of every line passing through the clicked place.
+		const union = new Set<string>();
+		for (const pid of personIds) for (const id of lineageOf(pid)) union.add(id);
+		const arcIds = new Set<number>();
+		arcFeatures.forEach((f, i) => {
+			if (union.has(f.properties!.childId as string) && union.has(f.properties!.parentId as string)) arcIds.add(i);
+		});
+		applySelection(arcIds, nodeIdsForPeople(union));
+	}
 
 	function showNodePopup(lngLat: mapboxgl.LngLatLike, place: string, ids: string[]): void {
 		const people = ids.map((id) => data.personById.get(id)).filter((p): p is Person => !!p);
@@ -270,6 +455,8 @@ export function createMapView(ctx: AppContext): ViewController {
 		] as unknown as mapboxgl.FilterSpecification;
 		map.setFilter('arc-line', arcFilter);
 		map.setFilter('arc-glow', arcFilter);
+		map.setFilter('arc-hit', arcFilter);
+		if (map.getLayer('arc-arrows')) map.setFilter('arc-arrows', arcFilter);
 		const nodeFilter = ['<=', ['get', 'minYear'], sliderYear] as unknown as mapboxgl.FilterSpecification;
 		map.setFilter('node-circle', nodeFilter);
 		map.setFilter('node-label', [
@@ -395,4 +582,28 @@ function arc(a: [number, number], b: [number, number], segments = 48): [number, 
 
 function fc(features: GeoJSON.Feature[]): GeoJSON.FeatureCollection {
 	return { type: 'FeatureCollection', features };
+}
+
+/** Build a small upward-pointing arrowhead icon tinted to a branch color. */
+function makeArrowImage(hex: string): { width: number; height: number; data: Uint8Array } {
+	const S = 26;
+	const cvs = document.createElement('canvas');
+	cvs.width = S;
+	cvs.height = S;
+	const c = cvs.getContext('2d')!;
+	c.clearRect(0, 0, S, S);
+	c.beginPath();
+	c.moveTo(S * 0.5, S * 0.14);
+	c.lineTo(S * 0.84, S * 0.74);
+	c.lineTo(S * 0.5, S * 0.58);
+	c.lineTo(S * 0.16, S * 0.74);
+	c.closePath();
+	c.lineJoin = 'round';
+	c.lineWidth = S * 0.10;
+	c.strokeStyle = 'rgba(8,6,5,0.65)';
+	c.stroke();
+	c.fillStyle = hex;
+	c.fill();
+	const img = c.getImageData(0, 0, S, S);
+	return { width: S, height: S, data: new Uint8Array(img.data.buffer) };
 }

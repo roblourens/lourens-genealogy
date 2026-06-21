@@ -14,7 +14,7 @@ export function createTreeView(ctx: AppContext): ViewController & { focus(id: st
 	const el = document.createElement('div');
 	el.className = 'tree-view';
 	el.innerHTML = `
-		<div class="view-intro-pill">Ancestor pedigree from you back to the 1500s. Drag to pan, scroll to zoom, click anyone for their story.</div>
+		<div class="view-intro-pill">Ancestor pedigree from you back to the 1400s. Drag to pan, scroll to zoom, click anyone for their story.</div>
 		<div class="legend panel-card" id="tree-legend"></div>
 		<div class="controls bottom-left">
 			<button class="ctrl-btn" data-z="in" title="Zoom in">+</button>

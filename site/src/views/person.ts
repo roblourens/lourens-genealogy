@@ -78,6 +78,8 @@ function renderPanel(data: AppData, person: Person): string {
 		${lifespanLabel(person) ? `<p class="pp-life">${lifespanLabel(person)}</p>` : ''}
 	</div>
 
+	${renderImages(data, person)}
+
 	${
 		enr?.bio
 			? `<div class="pp-section"><h3>Biography <span class="researched-tag">Researched</span></h3><p class="pp-bio">${escapeHtml(
@@ -162,6 +164,25 @@ function renderPanel(data: AppData, person: Person): string {
 		<button class="ctrl-btn" data-action="tree" style="width:auto;padding:0 16px;gap:8px;font-size:13px;font-weight:500">❦ Show in tree</button>
 	</div>
 	`;
+}
+
+function renderImages(data: AppData, person: Person): string {
+	const imgs = data.imagesById[person.id];
+	if (!imgs?.length) return '';
+	const hasPortrait = imgs.some((im) => im.kind === 'portrait' || im.kind === 'grave');
+	const title = hasPortrait ? 'Photographs' : 'Places &amp; Context';
+	const figures = imgs
+		.map((im) => {
+			const meta = [im.credit, im.license].filter(Boolean).map((s) => escapeHtml(s!)).join(' · ');
+			const inner = `
+				<img src="${encodeURI(im.localPath)}" alt="${escapeHtml(im.caption ?? '')}" loading="lazy" />
+				<figcaption>${escapeHtml(im.caption ?? '')}${meta ? `<span class="pp-credit">${meta}</span>` : ''}</figcaption>`;
+			return im.sourceUrl
+				? `<figure class="pp-figure"><a href="${encodeURI(im.sourceUrl)}" target="_blank" rel="noopener">${inner}</a></figure>`
+				: `<figure class="pp-figure">${inner}</figure>`;
+		})
+		.join('');
+	return `<div class="pp-section pp-images"><h3>${title} <span class="researched-tag">Researched</span></h3><div class="pp-gallery">${figures}</div></div>`;
 }
 
 function renderTimeline(person: Person): string {

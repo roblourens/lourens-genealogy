@@ -8,6 +8,8 @@ import type {
 	GeoPoint,
 	TreeData,
 	Connection,
+	ImagesData,
+	ResearchImage,
 } from '../../shared/types';
 
 export type BranchKey = 'lourens' | 'roorda' | 'stuenkel' | 'brueggemann' | 'root';
@@ -34,6 +36,7 @@ export interface AppData {
 	places: Record<string, GeoPoint>;
 	enrichmentById: Record<string, EnrichmentEntry>;
 	connections: Connection[];
+	imagesById: Record<string, ResearchImage[]>;
 	branchOf: Map<string, BranchKey>;
 	root: Person;
 }
@@ -92,11 +95,12 @@ function computeBranches(tree: TreeData, personById: Map<string, Person>): Map<s
 }
 
 export async function loadAppData(): Promise<AppData> {
-	const [tree, placesData, enrichment, connectionsData] = await Promise.all([
+	const [tree, placesData, enrichment, connectionsData, imagesData] = await Promise.all([
 		loadJson<TreeData | null>('data/tree.json', null),
 		loadJson<PlacesData>('data/places.json', { generatedAt: '', places: {} }),
 		loadJson<EnrichmentData>('data/enrichment.json', { generatedAt: '', entries: {} }),
 		loadJson<ConnectionsData>('data/connections.json', { generatedAt: '', connections: [] }),
+		loadJson<ImagesData>('data/images.json', { generatedAt: '', images: {} }),
 	]);
 
 	if (!tree) throw new Error('tree.json could not be loaded — run `npm run parse` first.');
@@ -114,6 +118,7 @@ export async function loadAppData(): Promise<AppData> {
 		places: placesData.places,
 		enrichmentById: enrichment.entries,
 		connections: connectionsData.connections,
+		imagesById: imagesData.images,
 		branchOf,
 		root,
 	};

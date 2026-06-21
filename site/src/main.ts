@@ -3,11 +3,12 @@ import { loadAppData, type AppData } from './data';
 import { lifespanLabel } from './util';
 import { createTreeView } from './views/tree';
 import { createMapView } from './views/map';
+import { createTimelineView } from './views/timeline';
 import { createStatsView } from './views/stats';
 import { createConnectionsView } from './views/connections';
 import { openPersonPanel } from './views/person';
 
-export type ViewName = 'tree' | 'map' | 'stats' | 'connections';
+export type ViewName = 'tree' | 'map' | 'timeline' | 'stats' | 'connections';
 
 export interface ViewController {
 	el: HTMLElement;
@@ -38,6 +39,8 @@ async function main(): Promise<void> {
 	const views = new Map<ViewName, ViewController>();
 	let current: ViewName = 'tree';
 
+	updateBrandSub(data);
+
 	const ctx: AppContext = {
 		data,
 		openPerson: (id) => openPersonPanel(data, id, ctx),
@@ -53,6 +56,7 @@ async function main(): Promise<void> {
 	const builders: Record<ViewName, () => ViewController> = {
 		tree: () => createTreeView(ctx),
 		map: () => createMapView(ctx),
+		timeline: () => createTimelineView(ctx),
 		stats: () => createStatsView(ctx),
 		connections: () => createConnectionsView(ctx),
 	};
@@ -133,6 +137,26 @@ function setupSearch(data: AppData, ctx: AppContext): void {
 	document.addEventListener('click', (e) => {
 		if (!(e.target as HTMLElement).closest('.search')) results.hidden = true;
 	});
+}
+
+function updateBrandSub(data: AppData): void {
+	const el = document.getElementById('brand-sub');
+	if (!el) return;
+	const people = data.tree.people;
+	const gens = people.map((p) => p.generation).filter((g): g is number => g != null);
+	const generationCount = gens.length ? Math.max(...gens) + 1 : 0;
+	const births = people.map((p) => p.birthYear).filter((y): y is number => !!y);
+	const earliest = births.length ? Math.min(...births) : null;
+	const words = [
+		'zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine',
+		'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen',
+		'eighteen', 'nineteen', 'twenty', 'twenty-one', 'twenty-two', 'twenty-three', 'twenty-four',
+	];
+	const genWord = words[generationCount] ?? String(generationCount);
+	const parts = ['Four lines'];
+	if (generationCount) parts.push(`${genWord} generations`);
+	if (earliest) parts.push(`back to ${earliest}`);
+	el.textContent = parts.join(' · ');
 }
 
 main();

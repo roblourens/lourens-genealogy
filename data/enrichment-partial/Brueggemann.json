@@ -10,15 +10,21 @@
     "funFacts": [
       "She was the fourth of seven children of Rev. William and Lydia (Noack) Brueggemann.",
       "Her obituary says she was the first registered nurse at Hormel in Fremont.",
-      "She and Edmund H. Stuenkel Jr. married on 17 June 1952 and had three children."
+      "She and Edmund H. Stuenkel Jr. married on 17 June 1952 and had three children.",
+      "Trinity Lutheran School in Fremont, which her obituary says she attended, traces its beginnings to an 1884 rented building on Main Street."
     ],
     "records": [
-      "Dugan Funeral Chapel obituary for Lydia N. Stuenkel"
+      "Dugan Funeral Chapel obituary for Lydia N. Stuenkel",
+      "Trinity Lutheran School Fremont history"
     ],
     "citations": [
       {
         "label": "Dugan Funeral Chapel obituary: Lydia N. Stuenkel",
         "url": "https://www.duganchapel.com/obituary/lydia-stuenkel"
+      },
+      {
+        "label": "Trinity Lutheran School Fremont history",
+        "url": "https://www.tlsfremont.org/history"
       }
     ]
   },
@@ -31,11 +37,13 @@
     "bio": "Anton Wilhelm Brueggemann was known in American records as Rev. William Brueggemann. His daughter's obituary identifies him as Rev. William Brueggemann and places the family in Osmond, Tilden, and Fremont, Nebraska between 1919 and 1925. A Find a Grave memorial identifies him as Rev. Anton Wilhelm “William” Brueggemann, son of Friedrich Wilhelm Brueggemann and Theodora Helena Lisette Weyel, and notes his marriage to Lydia E. Noack in Arlington Heights.",
     "funFacts": [
       "His daughter Lydia's obituary says he and Lydia (Noack) Brueggemann had seven children.",
-      "A Find a Grave memorial notes that the 1920 census listed him, as William, in McCook Ward 1, Red Willow County, Nebraska, with his widowed mother."
+      "A Find a Grave memorial notes that the 1920 census listed him, as William, in McCook Ward 1, Red Willow County, Nebraska, with his widowed mother.",
+      "In 1934 he conducted Emma Giesselmann’s funeral at Trinity Lutheran Church in Fremont before “a very large attendance,” according to a contemporary Arlington Review obituary transcript."
     ],
     "records": [
       "Dugan Funeral Chapel obituary for daughter Lydia N. Stuenkel",
-      "Find a Grave memorial 42869473"
+      "Find a Grave memorial 42869473",
+      "Washington County Genealogical Society obituary transcript for Emma Giesselmann"
     ],
     "citations": [
       {
@@ -45,6 +53,10 @@
       {
         "label": "Find a Grave memorial: Rev Anton Wilhelm “William” Brueggemann",
         "url": "https://www.findagrave.com/memorial/42869473/anton_wilhelm-brueggemann"
+      },
+      {
+        "label": "Washington County Genealogical Society obituary transcript: Emma Giesselmann",
+        "url": "http://www.newashcogs.org/obituary.asp?item=3613"
       }
     ]
   },
@@ -104,12 +116,16 @@
     "bio": "Charles Moritz Noack matches the C. M. Noack found in Arlington Heights Lutheran records. The Arlington Heights Herald issue of 25 February 1944 lists C. M. Noack as honorary pastor at St. Peter Lutheran Church, and the same issue's obituary for Elizabeth Schoepke says she was confirmed and later married by Rev. C. M. Noack at Arlington Heights. A Lutheran Museum article also records that Carolina Harnisch married Carl Noack of Dolton, Illinois in 1882 and identifies him as a Lutheran pastor.",
     "funFacts": [
       "St. Peter Lutheran Church in Arlington Heights was founded in 1860 and remains a Lutheran Church–Missouri Synod congregation.",
-      "The 1944 Herald church listing names Luther V. Stephan as supply pastor and C. M. Noack as honorary pastor."
+      "The 1944 Herald church listing names Luther V. Stephan as supply pastor and C. M. Noack as honorary pastor.",
+      "Meyers Gazetteer identifies his birthplace Wronke as a city in Kreis Samter, Province Posen, with Catholic and Protestant parish churches and a synagogue.",
+      "The Poznań Project indexes his parents’ likely 1847 marriage in the Evangelical parish at Kargowa/Karge, with Carl Wilhelm Noack aged 28 and Auguste Louise Amalie Prietzel aged 23."
     ],
     "records": [
       "Arlington Heights Herald, 25 February 1944 OCR text",
       "Lutheran Heritage Center & Museum article on Adolph Harnisch",
-      "St. Peter Lutheran Church and School About page"
+      "St. Peter Lutheran Church and School About page",
+      "Meyers Gazetteer entry for Wronke",
+      "Poznań Project marriage index for Carl Wilhelm Noack and Auguste Louise Amalie Prietzel"
     ],
     "citations": [
       {
@@ -123,6 +139,14 @@
       {
         "label": "St. Peter Lutheran Church and School About Us",
         "url": "https://www.fulllifeinchrist.org/about/"
+      },
+      {
+        "label": "Meyers Gazetteer: Wronke, Posen",
+        "url": "https://www.meyersgaz.org/place/21197023"
+      },
+      {
+        "label": "Poznań Project marriage index: Kargowa Evangelical parish entry 49/1847",
+        "url": "https://poznan-project.psnc.pl/search.php?lang=en"
       }
     ]
   },
@@ -132,7 +156,8 @@
     "bio": "Caroline Henrietta Harnisch appears in the Lutheran Museum account as Carolina Harnisch, daughter of Adolph and Christine Harnisch. The article says she married Carl Noack in St. Louis in 1882, and that Carl was from Dolton, Illinois and was a Lutheran pastor. Her family belonged to the old German Lutheran network that connected Trinity Lutheran Church in St. Louis, Concordia Seminary students, and later Lutheran pastor families.",
     "funFacts": [
       "The article notes that Caroline's sister Elizabeth also married a Lutheran pastor, Theodore Pfotenhauer.",
-      "The author highlights Harnisch, Pfotenhauer, and Noack descendants as later Lutheran pastors."
+      "The author highlights Harnisch, Pfotenhauer, and Noack descendants as later Lutheran pastors.",
+      "The Lutheran Museum article reproduces the 1882 St. Louis marriage record for Carolina Harnisch and Carl Noack, identifying Carl as a Lutheran pastor from Dolton, Illinois."
     ],
     "records": [
       "Lutheran Heritage Center & Museum article on Adolph Harnisch"
@@ -155,13 +180,16 @@
     "funFacts": [
       "Immanuel's history says Pastor Weyel traveled with a gun and his retriever, Phylax, while visiting scattered Lutheran families.",
       "The Immanuel congregation was organized on 4 November 1850 with fifteen charter members.",
-      "Find a Grave places Rev. Phillip A. Weyel's burial at Pilgrims Rest Cemetery in Milwaukee."
+      "Find a Grave places Rev. Phillip A. Weyel's burial at Pilgrims Rest Cemetery in Milwaukee.",
+      "Meyers Gazetteer places his birthplace Herborn in Prussian Hessen-Nassau and notes both Catholic and Protestant parish churches there.",
+      "St. John’s Eagle Lake history notes that early church-book entries from the Will County congregations were written in German, often using old-style German script."
     ],
     "records": [
       "Immanuel Evangelical Lutheran Church & Preschool history",
       "St. John's Eagle Lake church history",
       "Concordia Historical Institute Philip Anton Weyel Papers",
-      "Find a Grave memorial 120404700"
+      "Find a Grave memorial 120404700",
+      "Meyers Gazetteer entry for Herborn"
     ],
     "citations": [
       {
@@ -179,6 +207,10 @@
       {
         "label": "Find a Grave memorial: Rev Phillip A. Weyel",
         "url": "https://www.findagrave.com/memorial/120404700/phillip_a-weyel"
+      },
+      {
+        "label": "Meyers Gazetteer: Herborn, Hessen-Nassau",
+        "url": "https://www.meyersgaz.org/place/10772071"
       }
     ]
   },
@@ -194,7 +226,9 @@
     "funFacts": [
       "The Olbers was also the ship on which Rev. Martin Stephan traveled.",
       "Adolph and Christine Harnisch married at Trinity Lutheran Church in St. Louis on 28 May 1854, by Rev. Friedrich Wyneken.",
-      "The Lutheran Museum article says Adolph and Christine were buried at New Saxon Cemetery, later Concordia Cemetery, in St. Louis."
+      "The Lutheran Museum article says Adolph and Christine were buried at New Saxon Cemetery, later Concordia Cemetery, in St. Louis.",
+      "The Lutheran Museum article says the 1850 census repeated the same four-person Harnisch family seen on the Olbers passenger list and marked Adolph as a shoemaker like his father.",
+      "By 1870 he had changed trades from shoemaker to private watchman."
     ],
     "records": [
       "Lutheran Heritage Center & Museum article on Adolph Harnisch"
@@ -213,7 +247,9 @@
     "immigration": "The Lutheran Museum article reports some evidence that Christine came to the United States in 1847, but the author could not locate her in the 1850 census; treat that arrival year as provisional.",
     "funFacts": [
       "Her marriage was performed by Rev. Friedrich Wyneken, later the second president of what became the Lutheran Church–Missouri Synod.",
-      "Her daughters Elizabeth and Caroline both married Lutheran pastors."
+      "Her daughters Elizabeth and Caroline both married Lutheran pastors.",
+      "Six Harnisch children have baptism records in Trinity Lutheran Church, St. Louis, according to the Lutheran Museum article.",
+      "The same article says their first child died as an infant before the 1860 census."
     ],
     "records": [
       "Lutheran Heritage Center & Museum article on Adolph Harnisch"
@@ -234,7 +270,8 @@
     "bio": "Gottfried Harnisch was the father of Johann Adolph Harnisch and one of the German Lutheran immigrants associated with the Stephanite Gesellschaft. The Lutheran Museum article says Gottfried and Friedericke Harnisch joined the group led by Rev. Martin Stephan, sailed on the Olbers, and were listed on the New Orleans passenger list with their children Johann Adolph and Anna Dorothea. The passenger-list discussion identifies Gottfried as a shoemaker from Dresden.",
     "immigration": "Sailed with the Stephanite immigration aboard the Olbers in 1838 and arrived at New Orleans in 1839; the family stayed in St. Louis.",
     "funFacts": [
-      "The article says the Harnisch surname is one of the bold-face original immigrant names in the German Family Tree used by the Lutheran Heritage Center & Museum."
+      "The article says the Harnisch surname is one of the bold-face original immigrant names in the German Family Tree used by the Lutheran Heritage Center & Museum.",
+      "In the 1860 census, the Lutheran Museum article says Gottfried’s household was listed directly above his son Adolph’s, with both men called shoemaker masters."
     ],
     "records": [
       "Lutheran Heritage Center & Museum article on Adolph Harnisch"
@@ -265,6 +302,447 @@
       {
         "label": "Find a Grave memorial: Christian Johann Heinrich Hagemann",
         "url": "https://www.findagrave.com/memorial/217732967/christian_johann_heinrich-hagemann"
+      }
+    ]
+  },
+  {
+    "personId": "I272780754164",
+    "personName": "Theodore Helene Lizetta Weyel",
+    "bio": "Theodore Helene Lizetta Weyel, likely Theodora in other records, was born in Frankfort, Will County, Illinois, into the German Lutheran mission field served by her father Rev. Philip Anton Weyel. Immanuel Mokena's history says Pastor Weyel moved to the Hickory Creek settlement in 1850 and visited scattered Chicago-area Lutheran families on foot with his gun and retriever, Phylax.",
+    "funFacts": [
+      "Her 1852 Will County birth came just two years after her father began organizing German Lutheran families in Frankfort Township.",
+      "Her childhood family was tied to the same mission work that organized Immanuel’s congregation on 4 November 1850 with fifteen charter members."
+    ],
+    "records": [
+      "Immanuel Evangelical Lutheran Church & Preschool history"
+    ],
+    "citations": [
+      {
+        "label": "Immanuel Mokena: Our Story",
+        "url": "http://www.immanuelmokena.org/story"
+      }
+    ]
+  },
+  {
+    "personId": "I272780754178",
+    "personName": "Fredrick Wilhelm Gottlieb Bruggemann",
+    "bio": "Fredrick Wilhelm Gottlieb Bruggemann is listed in the tree as born at Nordholz in the former Schaumburg-Lippe area. Meyers Gazetteer identifies Nordholz as a village in Schaumburg-Lippe and points researchers to the related Berenbusch-Nordholz entry, where the court was at Bückeburg and civil registration was at Evesen.",
+    "funFacts": [
+      "His stated birthplace was not a large city but a Schaumburg-Lippe village whose records lead toward Bückeburg and Evesen."
+    ],
+    "records": [
+      "Meyers Gazetteer entry for Nordholz",
+      "Meyers Gazetteer entry for Berenbusch-Nordholz"
+    ],
+    "citations": [
+      {
+        "label": "Meyers Gazetteer: Nordholz, Schaumburg-Lippe",
+        "url": "https://www.meyersgaz.org/place/20342057"
+      },
+      {
+        "label": "Meyers Gazetteer: Berenbusch-Nordholz, Schaumburg-Lippe",
+        "url": "https://www.meyersgaz.org/place/10137033"
+      }
+    ]
+  },
+  {
+    "personId": "I272780754497",
+    "personName": "Carl Wilhelm Noack",
+    "bio": "Carl Wilhelm Noack and Auguste Louise Amalie Prietzel match a Poznań Project index entry for the Evangelical parish of Kargowa, entry 49 in 1847, where Carl Wilhelm Noack was recorded as age 28 and Auguste Louise Amalie Prietzel as age 23. Meyers Gazetteer lists Karge/Kargowa in Kreis Bomst, Province Posen, with its own Protestant parish church.",
+    "records": [
+      "Poznań Project marriage index for Carl Wilhelm Noack and Auguste Louise Amalie Prietzel",
+      "Meyers Gazetteer entry for Karge"
+    ],
+    "funFacts": [
+      "His 1847 marriage was indexed in the Evangelical parish at Kargowa/Karge, a Posen locality with its own Protestant parish church."
+    ],
+    "citations": [
+      {
+        "label": "Poznań Project marriage index: Kargowa Evangelical parish entry 49/1847",
+        "url": "https://poznan-project.psnc.pl/search.php?lang=en"
+      },
+      {
+        "label": "Meyers Gazetteer: Karge, Posen",
+        "url": "https://www.meyersgaz.org/place/10929043"
+      }
+    ]
+  },
+  {
+    "personId": "I272780754499",
+    "personName": "Auguste Luise Amalie Prietzel",
+    "bio": "Auguste Luise Amalie Prietzel matches the bride in a Poznań Project index entry for the Evangelical parish of Kargowa, entry 49 in 1847, where she married Carl Wilhelm Noack at age 23. Her stated birthplace, Grünberg in Silesia, appears in Meyers Gazetteer as a Prussian Silesian county seat in Regierungsbezirk Liegnitz.",
+    "records": [
+      "Poznań Project marriage index for Carl Wilhelm Noack and Auguste Louise Amalie Prietzel",
+      "Meyers Gazetteer entry for Grünberg"
+    ],
+    "funFacts": [
+      "Meyers Gazetteer describes her stated birthplace Grünberg as a Silesian county seat with two Protestant churches, one Catholic church, and a synagogue.",
+      "At her indexed 1847 marriage in Kargowa, she was recorded as 23 years old."
+    ],
+    "citations": [
+      {
+        "label": "Poznań Project marriage index: Kargowa Evangelical parish entry 49/1847",
+        "url": "https://poznan-project.psnc.pl/search.php?lang=en"
+      },
+      {
+        "label": "Meyers Gazetteer: Grünberg, Schlesien",
+        "url": "https://www.meyersgaz.org/place/10669041"
+      }
+    ]
+  },
+  {
+    "personId": "I272780754517",
+    "personName": "Johann Christian Noack",
+    "bio": "Johann Christian Noack is associated in the tree with death at Karge in Kreis Bomst, Province Posen. Meyers Gazetteer identifies Karge as a Posen locality with its own civil registration office and one Protestant parish church, useful context for the Noack line in the Kargowa/Karge record area.",
+    "records": [
+      "Meyers Gazetteer entry for Karge"
+    ],
+    "funFacts": [
+      "Karge had one Protestant parish church, making it a plausible church-record center for the Noack family’s Posen records."
+    ],
+    "citations": [
+      {
+        "label": "Meyers Gazetteer: Karge, Posen",
+        "url": "https://www.meyersgaz.org/place/10929043"
+      }
+    ]
+  },
+  {
+    "personId": "I272780754508",
+    "personName": "Johanne Wilhelmine Henrietta Stanze",
+    "bio": "Johanne Wilhelmine Henrietta Stanze is tied in the tree to Hohenassel in Braunschweig. Meyers Gazetteer describes Hohenassel as a village in Kreis Wolfenbüttel with its own civil registration office.",
+    "records": [
+      "Meyers Gazetteer entry for Hohenassel"
+    ],
+    "funFacts": [
+      "Her Hohenassel origins point to a Braunschweig village record world rather than a large Prussian city."
+    ],
+    "citations": [
+      {
+        "label": "Meyers Gazetteer: Hohenassel, Braunschweig",
+        "url": "https://www.meyersgaz.org/place/10815003"
+      }
+    ]
+  },
+  {
+    "personId": "I272780756040",
+    "personName": "Ilse Dorothee Vornkahl",
+    "bio": "Ilse Dorothee Vornkahl is listed with birth at Berel and death at Hohenassel, neighboring Braunschweig villages in Kreis Wolfenbüttel. Meyers Gazetteer identifies Berel as a village with one Protestant parish church.",
+    "records": [
+      "Meyers Gazetteer entry for Berel",
+      "Meyers Gazetteer entry for Hohenassel"
+    ],
+    "funFacts": [
+      "Berel had its own Protestant parish church, a helpful clue for locating Vornkahl and Fasterling church records."
+    ],
+    "citations": [
+      {
+        "label": "Meyers Gazetteer: Berel, Braunschweig",
+        "url": "https://www.meyersgaz.org/place/10137025"
+      },
+      {
+        "label": "Meyers Gazetteer: Hohenassel, Braunschweig",
+        "url": "https://www.meyersgaz.org/place/10815003"
+      }
+    ]
+  },
+  {
+    "personId": "I272780756095",
+    "personName": "Johann Heinrich Vornkahl",
+    "bio": "Johann Heinrich Vornkahl is listed in the tree with birth and death at Berel in the Wolfenbüttel area. Meyers Gazetteer identifies Berel as a Braunschweig village with its own Protestant parish church.",
+    "records": [
+      "Meyers Gazetteer entry for Berel"
+    ],
+    "funFacts": [
+      "His life appears anchored in Berel, a Braunschweig village whose Protestant parish church is noted by Meyers Gazetteer."
+    ],
+    "citations": [
+      {
+        "label": "Meyers Gazetteer: Berel, Braunschweig",
+        "url": "https://www.meyersgaz.org/place/10137025"
+      }
+    ]
+  },
+  {
+    "personId": "I272780756102",
+    "personName": "Ilse Elisabeth Fasterling",
+    "bio": "Ilse Elisabeth Fasterling is listed with birth and death at Berel in the Wolfenbüttel area. Meyers Gazetteer identifies Berel as a Braunschweig village with one Protestant parish church.",
+    "records": [
+      "Meyers Gazetteer entry for Berel"
+    ],
+    "funFacts": [
+      "Her Berel birthplace and burial place point to a small Protestant parish-village setting in Braunschweig."
+    ],
+    "citations": [
+      {
+        "label": "Meyers Gazetteer: Berel, Braunschweig",
+        "url": "https://www.meyersgaz.org/place/10137025"
+      }
+    ]
+  },
+  {
+    "personId": "I272780691115",
+    "personName": "Wilda Brueggemann",
+    "bio": "This roster entry appears to correspond to Hilda Lydia Brueggemann Bowers: the Pierce County 2004 obituary index lists Hilda Bowers, maiden name Brueggemann, born 11 December 1912, died 27 October 2004, with parents William Brueggemann and Lydia Noack and spouse H. Lee Bowers.",
+    "records": [
+      "Pierce County, Nebraska 2004 obituary index for Hilda Bowers",
+      "1930 United States Federal Census"
+    ],
+    "funFacts": [
+      "Her obituary-index entry places her burial at Grand Junction, Colorado, showing that one child of the Nebraska parsonage family later put down roots farther west."
+    ],
+    "citations": [
+      {
+        "label": "Pierce County, Nebraska 2004 obituary index: Hilda Bowers",
+        "url": "https://www.usgenwebsites.org/NEPierce/documents/obituary/Obituaries-2004.htm"
+      },
+      {
+        "label": "1930 United States Federal Census (Ancestry.com, tree source S980815074)"
+      }
+    ]
+  },
+  {
+    "personId": "I272780691116",
+    "personName": "Ruth C Brueggemann",
+    "bio": "Ruth C. Brueggemann appears to be Ruth Clara Brueggemann Moritz, born in Osmond, Nebraska to William and Lydia (Noack) Brueggemann. Public obituary and memorial summaries place her death in 2008 at Stanton Health Center and burial at Stanton Cemetery in Stanton County, Nebraska.",
+    "records": [
+      "Fremont Tribune obituary for Ruth Moritz",
+      "Find a Grave memorial 129315573",
+      "1930 United States Federal Census"
+    ],
+    "funFacts": [
+      "She married Max L. Moritz and her later records connect the family to Stanton County, Nebraska."
+    ],
+    "citations": [
+      {
+        "label": "Fremont Tribune obituary via Legacy: Ruth Moritz",
+        "url": "https://www.legacy.com/us/obituaries/fremonttribune/name/ruth-moritz-obituary?id=12159646"
+      },
+      {
+        "label": "Find a Grave memorial: Ruth Clara Brueggemann Moritz",
+        "url": "https://www.findagrave.com/memorial/129315573/ruth_clara-moritz"
+      },
+      {
+        "label": "1930 United States Federal Census (Ancestry.com, tree source S980815074)"
+      }
+    ]
+  },
+  {
+    "personId": "I272780691117",
+    "personName": "Carol W Brueggemann",
+    "bio": "This 1930-census son appears to be Carl W. Brueggemann, Lydia Nora Brueggemann Stuenkel’s brother Carl. Trinity Lutheran Church in El Paso, Illinois, says Pastor Carl W. Brueggemann of Gresham, Nebraska accepted the congregation’s call in 1948 and was installed on Trinity Sunday, 23 May 1948, as its first pastor.",
+    "occupations": [
+      "Lutheran pastor"
+    ],
+    "records": [
+      "Trinity Lutheran Church & Preschool, El Paso history",
+      "1930 United States Federal Census"
+    ],
+    "funFacts": [
+      "At his 1948 installation as Trinity Lutheran Church of El Paso’s first pastor, the service and reception were held in the high school auditorium with nearly 400 people attending.",
+      "The new El Paso congregation rented a parsonage for him and his family at $40 per month."
+    ],
+    "citations": [
+      {
+        "label": "Trinity Lutheran Church & Preschool, El Paso history",
+        "url": "https://www.trinitylutheranchurchelpaso.com/history"
+      },
+      {
+        "label": "1930 United States Federal Census (Ancestry.com, tree source S980815074)"
+      }
+    ]
+  },
+  {
+    "personId": "I272780691118",
+    "personName": "Esther W Brueggemann",
+    "bio": "Esther W. Brueggemann appears to be Esther Hokamp, daughter of William and Lydia Brueggemann. Her Baue Funeral Homes obituary says she died in St. Charles, Missouri on 16 December 2010 at age 89, was the widow of Martin H. Hokamp, and had worked for many years as an administrative assistant.",
+    "occupations": [
+      "administrative assistant"
+    ],
+    "records": [
+      "Baue Funeral Homes obituary for Esther Hokamp",
+      "1930 United States Federal Census"
+    ],
+    "funFacts": [
+      "Her obituary calls her a “G-ma, step G-ma, and Great G-ma to many.”",
+      "She belonged to Hope Lutheran Church, the Lutheran Women’s Missionary League, and other church organizations."
+    ],
+    "citations": [
+      {
+        "label": "Baue Funeral Homes obituary: Esther Hokamp",
+        "url": "https://www.baue.com/obituaries/esther-hokamp"
+      },
+      {
+        "label": "1930 United States Federal Census (Ancestry.com, tree source S980815074)"
+      }
+    ]
+  },
+  {
+    "personId": "I272780691120",
+    "personName": "Richard W Brueggemann",
+    "bio": "Richard W. Brueggemann appears to be the World War II soldier of that name from Nebraska. HonorStates and memorial summaries identify him as a U.S. Army Private First Class who died on 27 October 1944 at age 19 in the Philippines and is buried at Manila American Cemetery and Memorial.",
+    "occupations": [
+      "U.S. Army private first class"
+    ],
+    "records": [
+      "HonorStates World War II casualty profile for Richard W. Brueggemann",
+      "Find a Grave memorial 56787127",
+      "1930 United States Federal Census",
+      "96th Infantry Division history"
+    ],
+    "funFacts": [
+      "He died one week after the 96th Infantry Division entered combat on Leyte on 20 October 1944.",
+      "His burial is reported at Manila American Cemetery and Memorial, Plot L, Row 11, Grave 137."
+    ],
+    "citations": [
+      {
+        "label": "HonorStates: Richard W. Brueggemann, World War II casualty",
+        "url": "https://www.honorstates.org/index.php?id=82894"
+      },
+      {
+        "label": "Find a Grave memorial: PFC Richard W. Brueggemann",
+        "url": "https://www.findagrave.com/memorial/56787127/richard_w-brueggemann"
+      },
+      {
+        "label": "1930 United States Federal Census (Ancestry.com, tree source S980815074)"
+      },
+      {
+        "label": "96th Infantry Division (United States) history",
+        "url": "https://en.wikipedia.org/wiki/96th_Infantry_Division_(United_States)"
+      }
+    ]
+  },
+  {
+    "personId": "I272780761455",
+    "personName": "Henning Andreas Vornkahl",
+    "bio": "Henning Andreas Vornkahl is listed in the tree with birth and death at Berel in the Wolfenbüttel area of Braunschweig. Meyers Gazetteer identifies Berel as a village in Kreis Wolfenbüttel with its own later civil registration office and one Protestant parish church. Treat the Berel details here as place context for the locality named in the tree, with the Protestant parish being the more relevant clue for eighteenth-century events.",
+    "records": [
+      "Meyers Gazetteer entry for Berel"
+    ],
+    "funFacts": [
+      "Berel had its own Protestant parish church, a useful clue for researching Vornkahl church-book entries."
+    ],
+    "citations": [
+      {
+        "label": "Meyers Gazetteer: Berel, Braunschweig",
+        "url": "https://www.meyersgaz.org/place/10137025"
+      }
+    ]
+  },
+  {
+    "personId": "I272780761476",
+    "personName": "Heinrich Georg Vornkahl",
+    "bio": "A GEDBAS profile for Heinrich Georg Vornkahl gives his birth as 7 June 1683 and death as 8 January 1753. The tree places those events at Berel, and Meyers Gazetteer identifies Berel as a Braunschweig village in Kreis Wolfenbüttel with one Protestant parish church and its own later civil registration office. The GEDBAS entry notes that its submitter does not display source references, so the profile should be treated as a clue rather than a fully sourced proof.",
+    "records": [
+      "GEDBAS profile for Heinrich Georg Vornkahl",
+      "Meyers Gazetteer entry for Berel"
+    ],
+    "funFacts": [
+      "His GEDBAS dates match the tree dates closely, but the public GEDBAS page withholds the underlying source citations."
+    ],
+    "citations": [
+      {
+        "label": "GEDBAS: Heinrich Georg VORNKAHL",
+        "url": "https://www.gedbas.genealogy.net/person/show/1116299527"
+      },
+      {
+        "label": "Meyers Gazetteer: Berel, Braunschweig",
+        "url": "https://www.meyersgaz.org/place/10137025"
+      }
+    ]
+  },
+  {
+    "personId": "I272780761513",
+    "personName": "Michael Vornkahl",
+    "bio": "Michael Vornkahl is listed in the tree with birth and death at Berel in Braunschweig. Meyers Gazetteer identifies Berel as a village in Kreis Wolfenbüttel with one Protestant parish church and its own later civil registration office. Because no independent online person record was found during this pass, this entry limits itself to place context for the Berel locality named in the tree.",
+    "records": [
+      "Meyers Gazetteer entry for Berel"
+    ],
+    "funFacts": [
+      "Berel belonged to the Braunschweig rather than Prussian administrative record world in Meyers Gazetteer."
+    ],
+    "citations": [
+      {
+        "label": "Meyers Gazetteer: Berel, Braunschweig",
+        "url": "https://www.meyersgaz.org/place/10137025"
+      }
+    ]
+  },
+  {
+    "personId": "I272780761499",
+    "personName": "Annecken Dieckmann",
+    "bio": "Annecken Dieckmann is listed in the tree with origins at Lesse and death at Berel, two Braunschweig villages in Kreis Wolfenbüttel. Meyers Gazetteer identifies both Lesse and Berel as villages with Protestant parish churches and later civil registration offices. This is village context for the places attached to her tree events, not an independent online confirmation of her personal dates.",
+    "records": [
+      "Meyers Gazetteer entry for Lesse",
+      "Meyers Gazetteer entry for Berel"
+    ],
+    "funFacts": [
+      "Lesse and Berel were both in Kreis Wolfenbüttel and both pointed to the Amtsgericht at Salder in Meyers Gazetteer."
+    ],
+    "citations": [
+      {
+        "label": "Meyers Gazetteer: Lesse, Braunschweig",
+        "url": "https://www.meyersgaz.org/place/20055060"
+      },
+      {
+        "label": "Meyers Gazetteer: Berel, Braunschweig",
+        "url": "https://www.meyersgaz.org/place/10137025"
+      }
+    ]
+  },
+  {
+    "personId": "I272780761461",
+    "personName": "Ilse geb. Büring",
+    "bio": "Ilse geb. Büring is listed in the tree with birth in Berel and death at Berel. Meyers Gazetteer identifies Berel as a Braunschweig village in Kreis Wolfenbüttel with one Protestant parish church and its own later civil registration office. The German “geb.” in the recorded name indicates a maiden surname, so the entry preserves the tree’s naming without expanding it beyond the sourced place context.",
+    "records": [
+      "Meyers Gazetteer entry for Berel"
+    ],
+    "funFacts": [
+      "Her recorded Berel-to-Berel life events point to a small-village Braunschweig parish setting."
+    ],
+    "citations": [
+      {
+        "label": "Meyers Gazetteer: Berel, Braunschweig",
+        "url": "https://www.meyersgaz.org/place/10137025"
+      }
+    ]
+  },
+  {
+    "personId": "I272780761447",
+    "personName": "Ilse Catharine BÜHRIG",
+    "bio": "Ilse Catharine BÜHRIG is listed in the tree with birth at Groß Himstedt and as part of the Vornkahl line connected to Berel. Meyers Gazetteer identifies Gross Himstedt as a village in Prussian Hannover, Regierungsbezirk Hildesheim, Kreis Marienburg, with one Protestant parish church and its own later civil registration office. The nearby Berel context comes from the tree relationship, while the cited source is used only for the Gross Himstedt locality.",
+    "records": [
+      "Meyers Gazetteer entry for Gross Himstedt",
+      "Meyers Gazetteer combined entry for Gross and Klein Himstedt"
+    ],
+    "funFacts": [
+      "Meyers Gazetteer has a combined Himstedt entry that redirects researchers to separate Gross Himstedt and Klein Himstedt place pages."
+    ],
+    "citations": [
+      {
+        "label": "Meyers Gazetteer: Gross Himstedt, Hannover",
+        "url": "https://www.meyersgaz.org/place/10641042"
+      },
+      {
+        "label": "Meyers Gazetteer: Himstedt, Gross, Klein",
+        "url": "https://www.meyersgaz.org/place/10794096"
+      }
+    ]
+  },
+  {
+    "personId": "I272780761442",
+    "personName": "Johann Heinrich Fasterling",
+    "bio": "Johann Heinrich Fasterling is listed in the tree in connection with Berel in Braunschweig. Meyers Gazetteer identifies Berel as a village in Kreis Wolfenbüttel with one Protestant parish church and its own later civil registration office. No stronger independent person-level source was found in this pass, so the enrichment is limited to the Berel village context attached to the tree entry.",
+    "records": [
+      "Meyers Gazetteer entry for Berel"
+    ],
+    "funFacts": [
+      "The Berel Protestant parish is the likely locality to investigate for Fasterling family church records named in the tree."
+    ],
+    "citations": [
+      {
+        "label": "Meyers Gazetteer: Berel, Braunschweig",
+        "url": "https://www.meyersgaz.org/place/10137025"
       }
     ]
   }

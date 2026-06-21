@@ -133,6 +133,29 @@ export interface EnrichmentData {
 	entries: Record<string, EnrichmentEntry>;
 }
 
+// ---- Research images (separate, additive layer) ----
+
+export interface ResearchImage {
+	/** Served path relative to the site root, e.g. "data/images/I123-1.jpg". */
+	localPath: string;
+	/** Original source URL the image was downloaded from. */
+	sourceUrl?: string;
+	/** Short caption describing the image. */
+	caption?: string;
+	/** Attribution / author credit. */
+	credit?: string;
+	/** License, e.g. "Public domain", "CC BY-SA 4.0". */
+	license?: string;
+	/** "portrait" (the subject), "grave", "place", "document", or "context". */
+	kind?: 'portrait' | 'grave' | 'place' | 'document' | 'context';
+}
+
+export interface ImagesData {
+	generatedAt: string;
+	/** Keyed by person id (Ixxxx) or connection id. */
+	images: Record<string, ResearchImage[]>;
+}
+
 // ---- Famous-person connections ----
 
 export type ConnectionConfidence = 'confirmed' | 'plausible' | 'speculative';

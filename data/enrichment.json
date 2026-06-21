@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T04:58:29.036Z",
+  "generatedAt": "2026-06-21T06:41:00.151Z",
   "entries": {
     "I272780690661": {
       "personId": "I272780690661",
@@ -12,19 +12,25 @@
       "funFacts": [
         "She was the fourth of seven children of Rev. William and Lydia (Noack) Brueggemann.",
         "Her obituary says she was the first registered nurse at Hormel in Fremont.",
-        "She and Edmund H. Stuenkel Jr. married on 17 June 1952 and had three children."
+        "She and Edmund H. Stuenkel Jr. married on 17 June 1952 and had three children.",
+        "Trinity Lutheran School in Fremont, which her obituary says she attended, traces its beginnings to an 1884 rented building on Main Street."
       ],
       "records": [
-        "Dugan Funeral Chapel obituary for Lydia N. Stuenkel"
+        "Dugan Funeral Chapel obituary for Lydia N. Stuenkel",
+        "Trinity Lutheran School Fremont history"
       ],
       "citations": [
         {
           "label": "Dugan Funeral Chapel obituary: Lydia N. Stuenkel",
           "url": "https://www.duganchapel.com/obituary/lydia-stuenkel"
+        },
+        {
+          "label": "Trinity Lutheran School Fremont history",
+          "url": "https://www.tlsfremont.org/history"
         }
       ],
-      "researchedHash": "02e5cf0529364076",
-      "researchedAt": "2026-06-21T04:58:29.035Z"
+      "researchedHash": "f1b1b253536c79d8",
+      "researchedAt": "2026-06-21T06:41:00.150Z"
     },
     "I272780690866": {
       "personId": "I272780690866",
@@ -35,11 +41,13 @@
       "bio": "Anton Wilhelm Brueggemann was known in American records as Rev. William Brueggemann. His daughter's obituary identifies him as Rev. William Brueggemann and places the family in Osmond, Tilden, and Fremont, Nebraska between 1919 and 1925. A Find a Grave memorial identifies him as Rev. Anton Wilhelm “William” Brueggemann, son of Friedrich Wilhelm Brueggemann and Theodora Helena Lisette Weyel, and notes his marriage to Lydia E. Noack in Arlington Heights.",
       "funFacts": [
         "His daughter Lydia's obituary says he and Lydia (Noack) Brueggemann had seven children.",
-        "A Find a Grave memorial notes that the 1920 census listed him, as William, in McCook Ward 1, Red Willow County, Nebraska, with his widowed mother."
+        "A Find a Grave memorial notes that the 1920 census listed him, as William, in McCook Ward 1, Red Willow County, Nebraska, with his widowed mother.",
+        "In 1934 he conducted Emma Giesselmann’s funeral at Trinity Lutheran Church in Fremont before “a very large attendance,” according to a contemporary Arlington Review obituary transcript."
       ],
       "records": [
         "Dugan Funeral Chapel obituary for daughter Lydia N. Stuenkel",
-        "Find a Grave memorial 42869473"
+        "Find a Grave memorial 42869473",
+        "Washington County Genealogical Society obituary transcript for Emma Giesselmann"
       ],
       "citations": [
         {
@@ -49,10 +57,14 @@
         {
           "label": "Find a Grave memorial: Rev Anton Wilhelm “William” Brueggemann",
           "url": "https://www.findagrave.com/memorial/42869473/anton_wilhelm-brueggemann"
+        },
+        {
+          "label": "Washington County Genealogical Society obituary transcript: Emma Giesselmann",
+          "url": "http://www.newashcogs.org/obituary.asp?item=3613"
         }
       ],
-      "researchedHash": "b405f2285d36d362",
-      "researchedAt": "2026-06-21T04:58:29.035Z"
+      "researchedHash": "ee1c5e2aad269dd2",
+      "researchedAt": "2026-06-21T06:41:00.150Z"
     },
     "I272780690838": {
       "personId": "I272780690838",
@@ -75,8 +87,8 @@
           "url": "https://www.findagrave.com/memorial/42869473/anton_wilhelm-brueggemann"
         }
       ],
-      "researchedHash": "7df07ad868376c3e",
-      "researchedAt": "2026-06-21T04:58:29.035Z"
+      "researchedHash": "a0bd7ad5748af1b5",
+      "researchedAt": "2026-06-21T06:41:00.150Z"
     },
     "I272780753980": {
       "personId": "I272780753980",
@@ -102,8 +114,8 @@
           "url": "https://www.findagrave.com/memorial/42869473/anton_wilhelm-brueggemann"
         }
       ],
-      "researchedHash": "6ae8637ec7de51d5",
-      "researchedAt": "2026-06-21T04:58:29.035Z"
+      "researchedHash": "10479a90b9efefed",
+      "researchedAt": "2026-06-21T06:41:00.150Z"
     },
     "I272780754239": {
       "personId": "I272780754239",
@@ -114,12 +126,16 @@
       "bio": "Charles Moritz Noack matches the C. M. Noack found in Arlington Heights Lutheran records. The Arlington Heights Herald issue of 25 February 1944 lists C. M. Noack as honorary pastor at St. Peter Lutheran Church, and the same issue's obituary for Elizabeth Schoepke says she was confirmed and later married by Rev. C. M. Noack at Arlington Heights. A Lutheran Museum article also records that Carolina Harnisch married Carl Noack of Dolton, Illinois in 1882 and identifies him as a Lutheran pastor.",
       "funFacts": [
         "St. Peter Lutheran Church in Arlington Heights was founded in 1860 and remains a Lutheran Church–Missouri Synod congregation.",
-        "The 1944 Herald church listing names Luther V. Stephan as supply pastor and C. M. Noack as honorary pastor."
+        "The 1944 Herald church listing names Luther V. Stephan as supply pastor and C. M. Noack as honorary pastor.",
+        "Meyers Gazetteer identifies his birthplace Wronke as a city in Kreis Samter, Province Posen, with Catholic and Protestant parish churches and a synagogue.",
+        "The Poznań Project indexes his parents’ likely 1847 marriage in the Evangelical parish at Kargowa/Karge, with Carl Wilhelm Noack aged 28 and Auguste Louise Amalie Prietzel aged 23."
       ],
       "records": [
         "Arlington Heights Herald, 25 February 1944 OCR text",
         "Lutheran Heritage Center & Museum article on Adolph Harnisch",
-        "St. Peter Lutheran Church and School About page"
+        "St. Peter Lutheran Church and School About page",
+        "Meyers Gazetteer entry for Wronke",
+        "Poznań Project marriage index for Carl Wilhelm Noack and Auguste Louise Amalie Prietzel"
       ],
       "citations": [
         {
@@ -133,10 +149,18 @@
         {
           "label": "St. Peter Lutheran Church and School About Us",
           "url": "https://www.fulllifeinchrist.org/about/"
+        },
+        {
+          "label": "Meyers Gazetteer: Wronke, Posen",
+          "url": "https://www.meyersgaz.org/place/21197023"
+        },
+        {
+          "label": "Poznań Project marriage index: Kargowa Evangelical parish entry 49/1847",
+          "url": "https://poznan-project.psnc.pl/search.php?lang=en"
         }
       ],
-      "researchedHash": "c5315bc6906101b7",
-      "researchedAt": "2026-06-21T04:58:29.035Z"
+      "researchedHash": "b7136b530b28c6f7",
+      "researchedAt": "2026-06-21T06:41:00.150Z"
     },
     "I272780754245": {
       "personId": "I272780754245",
@@ -144,7 +168,8 @@
       "bio": "Caroline Henrietta Harnisch appears in the Lutheran Museum account as Carolina Harnisch, daughter of Adolph and Christine Harnisch. The article says she married Carl Noack in St. Louis in 1882, and that Carl was from Dolton, Illinois and was a Lutheran pastor. Her family belonged to the old German Lutheran network that connected Trinity Lutheran Church in St. Louis, Concordia Seminary students, and later Lutheran pastor families.",
       "funFacts": [
         "The article notes that Caroline's sister Elizabeth also married a Lutheran pastor, Theodore Pfotenhauer.",
-        "The author highlights Harnisch, Pfotenhauer, and Noack descendants as later Lutheran pastors."
+        "The author highlights Harnisch, Pfotenhauer, and Noack descendants as later Lutheran pastors.",
+        "The Lutheran Museum article reproduces the 1882 St. Louis marriage record for Carolina Harnisch and Carl Noack, identifying Carl as a Lutheran pastor from Dolton, Illinois."
       ],
       "records": [
         "Lutheran Heritage Center & Museum article on Adolph Harnisch"
@@ -155,8 +180,8 @@
           "url": "https://lutheranmuseum.com/2026/05/28/adolph-harnisch-an-original-stephanite/"
         }
       ],
-      "researchedHash": "068675eadfe97687",
-      "researchedAt": "2026-06-21T04:58:29.035Z"
+      "researchedHash": "726fdc623ae35625",
+      "researchedAt": "2026-06-21T06:41:00.150Z"
     },
     "I272780754292": {
       "personId": "I272780754292",
@@ -169,13 +194,16 @@
       "funFacts": [
         "Immanuel's history says Pastor Weyel traveled with a gun and his retriever, Phylax, while visiting scattered Lutheran families.",
         "The Immanuel congregation was organized on 4 November 1850 with fifteen charter members.",
-        "Find a Grave places Rev. Phillip A. Weyel's burial at Pilgrims Rest Cemetery in Milwaukee."
+        "Find a Grave places Rev. Phillip A. Weyel's burial at Pilgrims Rest Cemetery in Milwaukee.",
+        "Meyers Gazetteer places his birthplace Herborn in Prussian Hessen-Nassau and notes both Catholic and Protestant parish churches there.",
+        "St. John’s Eagle Lake history notes that early church-book entries from the Will County congregations were written in German, often using old-style German script."
       ],
       "records": [
         "Immanuel Evangelical Lutheran Church & Preschool history",
         "St. John's Eagle Lake church history",
         "Concordia Historical Institute Philip Anton Weyel Papers",
-        "Find a Grave memorial 120404700"
+        "Find a Grave memorial 120404700",
+        "Meyers Gazetteer entry for Herborn"
       ],
       "citations": [
         {
@@ -193,10 +221,14 @@
         {
           "label": "Find a Grave memorial: Rev Phillip A. Weyel",
           "url": "https://www.findagrave.com/memorial/120404700/phillip_a-weyel"
+        },
+        {
+          "label": "Meyers Gazetteer: Herborn, Hessen-Nassau",
+          "url": "https://www.meyersgaz.org/place/10772071"
         }
       ],
-      "researchedHash": "eae389e6831d2272",
-      "researchedAt": "2026-06-21T04:58:29.035Z"
+      "researchedHash": "4644e9fe9cef45e7",
+      "researchedAt": "2026-06-21T06:41:00.150Z"
     },
     "I272780754264": {
       "personId": "I272780754264",
@@ -210,7 +242,9 @@
       "funFacts": [
         "The Olbers was also the ship on which Rev. Martin Stephan traveled.",
         "Adolph and Christine Harnisch married at Trinity Lutheran Church in St. Louis on 28 May 1854, by Rev. Friedrich Wyneken.",
-        "The Lutheran Museum article says Adolph and Christine were buried at New Saxon Cemetery, later Concordia Cemetery, in St. Louis."
+        "The Lutheran Museum article says Adolph and Christine were buried at New Saxon Cemetery, later Concordia Cemetery, in St. Louis.",
+        "The Lutheran Museum article says the 1850 census repeated the same four-person Harnisch family seen on the Olbers passenger list and marked Adolph as a shoemaker like his father.",
+        "By 1870 he had changed trades from shoemaker to private watchman."
       ],
       "records": [
         "Lutheran Heritage Center & Museum article on Adolph Harnisch"
@@ -221,8 +255,8 @@
           "url": "https://lutheranmuseum.com/2026/05/28/adolph-harnisch-an-original-stephanite/"
         }
       ],
-      "researchedHash": "c46204b25a5337aa",
-      "researchedAt": "2026-06-21T04:58:29.035Z"
+      "researchedHash": "7a00017d677e0656",
+      "researchedAt": "2026-06-21T06:41:00.150Z"
     },
     "I272780754268": {
       "personId": "I272780754268",
@@ -231,7 +265,9 @@
       "immigration": "The Lutheran Museum article reports some evidence that Christine came to the United States in 1847, but the author could not locate her in the 1850 census; treat that arrival year as provisional.",
       "funFacts": [
         "Her marriage was performed by Rev. Friedrich Wyneken, later the second president of what became the Lutheran Church–Missouri Synod.",
-        "Her daughters Elizabeth and Caroline both married Lutheran pastors."
+        "Her daughters Elizabeth and Caroline both married Lutheran pastors.",
+        "Six Harnisch children have baptism records in Trinity Lutheran Church, St. Louis, according to the Lutheran Museum article.",
+        "The same article says their first child died as an infant before the 1860 census."
       ],
       "records": [
         "Lutheran Heritage Center & Museum article on Adolph Harnisch"
@@ -242,8 +278,8 @@
           "url": "https://lutheranmuseum.com/2026/05/28/adolph-harnisch-an-original-stephanite/"
         }
       ],
-      "researchedHash": "2dc28f475e7ca7c0",
-      "researchedAt": "2026-06-21T04:58:29.035Z"
+      "researchedHash": "c9cf8d776ec019bd",
+      "researchedAt": "2026-06-21T06:41:00.150Z"
     },
     "I272780754522": {
       "personId": "I272780754522",
@@ -254,7 +290,8 @@
       "bio": "Gottfried Harnisch was the father of Johann Adolph Harnisch and one of the German Lutheran immigrants associated with the Stephanite Gesellschaft. The Lutheran Museum article says Gottfried and Friedericke Harnisch joined the group led by Rev. Martin Stephan, sailed on the Olbers, and were listed on the New Orleans passenger list with their children Johann Adolph and Anna Dorothea. The passenger-list discussion identifies Gottfried as a shoemaker from Dresden.",
       "immigration": "Sailed with the Stephanite immigration aboard the Olbers in 1838 and arrived at New Orleans in 1839; the family stayed in St. Louis.",
       "funFacts": [
-        "The article says the Harnisch surname is one of the bold-face original immigrant names in the German Family Tree used by the Lutheran Heritage Center & Museum."
+        "The article says the Harnisch surname is one of the bold-face original immigrant names in the German Family Tree used by the Lutheran Heritage Center & Museum.",
+        "In the 1860 census, the Lutheran Museum article says Gottfried’s household was listed directly above his son Adolph’s, with both men called shoemaker masters."
       ],
       "records": [
         "Lutheran Heritage Center & Museum article on Adolph Harnisch"
@@ -266,7 +303,7 @@
         }
       ],
       "researchedHash": "8f99d59999059ad6",
-      "researchedAt": "2026-06-21T04:58:29.035Z"
+      "researchedAt": "2026-06-21T06:41:00.150Z"
     },
     "I272780754308": {
       "personId": "I272780754308",
@@ -289,8 +326,515 @@
           "url": "https://www.findagrave.com/memorial/217732967/christian_johann_heinrich-hagemann"
         }
       ],
-      "researchedHash": "a77d766540118bf1",
-      "researchedAt": "2026-06-21T04:58:29.035Z"
+      "researchedHash": "6f1b95a7584a47c7",
+      "researchedAt": "2026-06-21T06:41:00.150Z"
+    },
+    "I272780754164": {
+      "personId": "I272780754164",
+      "personName": "Theodore Helene Lizetta Weyel",
+      "bio": "Theodore Helene Lizetta Weyel, likely Theodora in other records, was born in Frankfort, Will County, Illinois, into the German Lutheran mission field served by her father Rev. Philip Anton Weyel. Immanuel Mokena's history says Pastor Weyel moved to the Hickory Creek settlement in 1850 and visited scattered Chicago-area Lutheran families on foot with his gun and retriever, Phylax.",
+      "funFacts": [
+        "Her 1852 Will County birth came just two years after her father began organizing German Lutheran families in Frankfort Township.",
+        "Her childhood family was tied to the same mission work that organized Immanuel’s congregation on 4 November 1850 with fifteen charter members."
+      ],
+      "records": [
+        "Immanuel Evangelical Lutheran Church & Preschool history"
+      ],
+      "citations": [
+        {
+          "label": "Immanuel Mokena: Our Story",
+          "url": "http://www.immanuelmokena.org/story"
+        }
+      ],
+      "researchedHash": "7f711475b846cd2e",
+      "researchedAt": "2026-06-21T06:41:00.150Z"
+    },
+    "I272780754178": {
+      "personId": "I272780754178",
+      "personName": "Fredrick Wilhelm Gottlieb Bruggemann",
+      "bio": "Fredrick Wilhelm Gottlieb Bruggemann is listed in the tree as born at Nordholz in the former Schaumburg-Lippe area. Meyers Gazetteer identifies Nordholz as a village in Schaumburg-Lippe and points researchers to the related Berenbusch-Nordholz entry, where the court was at Bückeburg and civil registration was at Evesen.",
+      "funFacts": [
+        "His stated birthplace was not a large city but a Schaumburg-Lippe village whose records lead toward Bückeburg and Evesen."
+      ],
+      "records": [
+        "Meyers Gazetteer entry for Nordholz",
+        "Meyers Gazetteer entry for Berenbusch-Nordholz"
+      ],
+      "citations": [
+        {
+          "label": "Meyers Gazetteer: Nordholz, Schaumburg-Lippe",
+          "url": "https://www.meyersgaz.org/place/20342057"
+        },
+        {
+          "label": "Meyers Gazetteer: Berenbusch-Nordholz, Schaumburg-Lippe",
+          "url": "https://www.meyersgaz.org/place/10137033"
+        }
+      ],
+      "researchedHash": "a74684c71172a4c5",
+      "researchedAt": "2026-06-21T06:41:00.150Z"
+    },
+    "I272780754497": {
+      "personId": "I272780754497",
+      "personName": "Carl Wilhelm Noack",
+      "bio": "Carl Wilhelm Noack and Auguste Louise Amalie Prietzel match a Poznań Project index entry for the Evangelical parish of Kargowa, entry 49 in 1847, where Carl Wilhelm Noack was recorded as age 28 and Auguste Louise Amalie Prietzel as age 23. Meyers Gazetteer lists Karge/Kargowa in Kreis Bomst, Province Posen, with its own Protestant parish church.",
+      "records": [
+        "Poznań Project marriage index for Carl Wilhelm Noack and Auguste Louise Amalie Prietzel",
+        "Meyers Gazetteer entry for Karge"
+      ],
+      "funFacts": [
+        "His 1847 marriage was indexed in the Evangelical parish at Kargowa/Karge, a Posen locality with its own Protestant parish church."
+      ],
+      "citations": [
+        {
+          "label": "Poznań Project marriage index: Kargowa Evangelical parish entry 49/1847",
+          "url": "https://poznan-project.psnc.pl/search.php?lang=en"
+        },
+        {
+          "label": "Meyers Gazetteer: Karge, Posen",
+          "url": "https://www.meyersgaz.org/place/10929043"
+        }
+      ],
+      "researchedHash": "df3ae14a27e8020a",
+      "researchedAt": "2026-06-21T06:41:00.150Z"
+    },
+    "I272780754499": {
+      "personId": "I272780754499",
+      "personName": "Auguste Luise Amalie Prietzel",
+      "bio": "Auguste Luise Amalie Prietzel matches the bride in a Poznań Project index entry for the Evangelical parish of Kargowa, entry 49 in 1847, where she married Carl Wilhelm Noack at age 23. Her stated birthplace, Grünberg in Silesia, appears in Meyers Gazetteer as a Prussian Silesian county seat in Regierungsbezirk Liegnitz.",
+      "records": [
+        "Poznań Project marriage index for Carl Wilhelm Noack and Auguste Louise Amalie Prietzel",
+        "Meyers Gazetteer entry for Grünberg"
+      ],
+      "funFacts": [
+        "Meyers Gazetteer describes her stated birthplace Grünberg as a Silesian county seat with two Protestant churches, one Catholic church, and a synagogue.",
+        "At her indexed 1847 marriage in Kargowa, she was recorded as 23 years old."
+      ],
+      "citations": [
+        {
+          "label": "Poznań Project marriage index: Kargowa Evangelical parish entry 49/1847",
+          "url": "https://poznan-project.psnc.pl/search.php?lang=en"
+        },
+        {
+          "label": "Meyers Gazetteer: Grünberg, Schlesien",
+          "url": "https://www.meyersgaz.org/place/10669041"
+        }
+      ],
+      "researchedHash": "4cb3ed06696d1c71",
+      "researchedAt": "2026-06-21T06:41:00.150Z"
+    },
+    "I272780754517": {
+      "personId": "I272780754517",
+      "personName": "Johann Christian Noack",
+      "bio": "Johann Christian Noack is associated in the tree with death at Karge in Kreis Bomst, Province Posen. Meyers Gazetteer identifies Karge as a Posen locality with its own civil registration office and one Protestant parish church, useful context for the Noack line in the Kargowa/Karge record area.",
+      "records": [
+        "Meyers Gazetteer entry for Karge"
+      ],
+      "funFacts": [
+        "Karge had one Protestant parish church, making it a plausible church-record center for the Noack family’s Posen records."
+      ],
+      "citations": [
+        {
+          "label": "Meyers Gazetteer: Karge, Posen",
+          "url": "https://www.meyersgaz.org/place/10929043"
+        }
+      ],
+      "researchedHash": "4fad4dbe2f97494e",
+      "researchedAt": "2026-06-21T06:41:00.150Z"
+    },
+    "I272780754508": {
+      "personId": "I272780754508",
+      "personName": "Johanne Wilhelmine Henrietta Stanze",
+      "bio": "Johanne Wilhelmine Henrietta Stanze is tied in the tree to Hohenassel in Braunschweig. Meyers Gazetteer describes Hohenassel as a village in Kreis Wolfenbüttel with its own civil registration office.",
+      "records": [
+        "Meyers Gazetteer entry for Hohenassel"
+      ],
+      "funFacts": [
+        "Her Hohenassel origins point to a Braunschweig village record world rather than a large Prussian city."
+      ],
+      "citations": [
+        {
+          "label": "Meyers Gazetteer: Hohenassel, Braunschweig",
+          "url": "https://www.meyersgaz.org/place/10815003"
+        }
+      ],
+      "researchedHash": "328e31404f299bec",
+      "researchedAt": "2026-06-21T06:41:00.150Z"
+    },
+    "I272780756040": {
+      "personId": "I272780756040",
+      "personName": "Ilse Dorothee Vornkahl",
+      "bio": "Ilse Dorothee Vornkahl is listed with birth at Berel and death at Hohenassel, neighboring Braunschweig villages in Kreis Wolfenbüttel. Meyers Gazetteer identifies Berel as a village with one Protestant parish church.",
+      "records": [
+        "Meyers Gazetteer entry for Berel",
+        "Meyers Gazetteer entry for Hohenassel"
+      ],
+      "funFacts": [
+        "Berel had its own Protestant parish church, a helpful clue for locating Vornkahl and Fasterling church records."
+      ],
+      "citations": [
+        {
+          "label": "Meyers Gazetteer: Berel, Braunschweig",
+          "url": "https://www.meyersgaz.org/place/10137025"
+        },
+        {
+          "label": "Meyers Gazetteer: Hohenassel, Braunschweig",
+          "url": "https://www.meyersgaz.org/place/10815003"
+        }
+      ],
+      "researchedHash": "4a41f26d7ce30825",
+      "researchedAt": "2026-06-21T06:41:00.150Z"
+    },
+    "I272780756095": {
+      "personId": "I272780756095",
+      "personName": "Johann Heinrich Vornkahl",
+      "bio": "Johann Heinrich Vornkahl is listed in the tree with birth and death at Berel in the Wolfenbüttel area. Meyers Gazetteer identifies Berel as a Braunschweig village with its own Protestant parish church.",
+      "records": [
+        "Meyers Gazetteer entry for Berel"
+      ],
+      "funFacts": [
+        "His life appears anchored in Berel, a Braunschweig village whose Protestant parish church is noted by Meyers Gazetteer."
+      ],
+      "citations": [
+        {
+          "label": "Meyers Gazetteer: Berel, Braunschweig",
+          "url": "https://www.meyersgaz.org/place/10137025"
+        }
+      ],
+      "researchedHash": "1d3b94737e460048",
+      "researchedAt": "2026-06-21T06:41:00.150Z"
+    },
+    "I272780756102": {
+      "personId": "I272780756102",
+      "occupations": [],
+      "bio": "Ilse Elisabeth Fasterling is listed with birth and death at Berel in the Wolfenbüttel area. Meyers Gazetteer identifies Berel as a Braunschweig village with one Protestant parish church. A search-indexed Ancestry genealogy profile matches Ilse Elisabeth Fasterling with the 1759-1788 Berel, Lower Saxony dates in this branch. The Berel local-history article notes that the village is among the earliest documented places in the Wolfenbüttel district and Lower Saxony, giving useful context for this Fasterling/Vornkahl line.",
+      "funFacts": [
+        "Her Berel birthplace and burial place point to a small Protestant parish-village setting in Braunschweig.",
+        "Berel is documented under early forms such as Perlohen/Berle and is described as one of the earliest-mentioned localities in the Wolfenbüttel district."
+      ],
+      "records": [
+        "Meyers Gazetteer entry for Berel",
+        "Ancestry public genealogy index for Ilse Elisabeth Fasterling, 1759-1788.",
+        "Berel local-history article for village context."
+      ],
+      "citations": [
+        {
+          "label": "Meyers Gazetteer: Berel, Braunschweig",
+          "url": "https://www.meyersgaz.org/place/10137025"
+        },
+        {
+          "label": "Ancestry index: Ilse Elisabeth Fasterling",
+          "url": "https://www.ancestry.com/genealogy/records/ilse-elisabeth-fasterling-24-25l19w9"
+        },
+        {
+          "label": "Wikipedia (de): Berel",
+          "url": "https://de.wikipedia.org/wiki/Berel"
+        }
+      ],
+      "personName": "Ilse Elisabeth Fasterling",
+      "researchedHash": "72122c47d20a6d6c",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780691115": {
+      "personId": "I272780691115",
+      "personName": "Wilda Brueggemann",
+      "bio": "This roster entry appears to correspond to Hilda Lydia Brueggemann Bowers: the Pierce County 2004 obituary index lists Hilda Bowers, maiden name Brueggemann, born 11 December 1912, died 27 October 2004, with parents William Brueggemann and Lydia Noack and spouse H. Lee Bowers.",
+      "records": [
+        "Pierce County, Nebraska 2004 obituary index for Hilda Bowers",
+        "1930 United States Federal Census"
+      ],
+      "funFacts": [
+        "Her obituary-index entry places her burial at Grand Junction, Colorado, showing that one child of the Nebraska parsonage family later put down roots farther west."
+      ],
+      "citations": [
+        {
+          "label": "Pierce County, Nebraska 2004 obituary index: Hilda Bowers",
+          "url": "https://www.usgenwebsites.org/NEPierce/documents/obituary/Obituaries-2004.htm"
+        },
+        {
+          "label": "1930 United States Federal Census (Ancestry.com, tree source S980815074)"
+        }
+      ],
+      "researchedHash": "ebeaf2e31acf10b7",
+      "researchedAt": "2026-06-21T06:41:00.150Z"
+    },
+    "I272780691116": {
+      "personId": "I272780691116",
+      "personName": "Ruth C Brueggemann",
+      "bio": "Ruth C. Brueggemann appears to be Ruth Clara Brueggemann Moritz, born in Osmond, Nebraska to William and Lydia (Noack) Brueggemann. Public obituary and memorial summaries place her death in 2008 at Stanton Health Center and burial at Stanton Cemetery in Stanton County, Nebraska.",
+      "records": [
+        "Fremont Tribune obituary for Ruth Moritz",
+        "Find a Grave memorial 129315573",
+        "1930 United States Federal Census"
+      ],
+      "funFacts": [
+        "She married Max L. Moritz and her later records connect the family to Stanton County, Nebraska."
+      ],
+      "citations": [
+        {
+          "label": "Fremont Tribune obituary via Legacy: Ruth Moritz",
+          "url": "https://www.legacy.com/us/obituaries/fremonttribune/name/ruth-moritz-obituary?id=12159646"
+        },
+        {
+          "label": "Find a Grave memorial: Ruth Clara Brueggemann Moritz",
+          "url": "https://www.findagrave.com/memorial/129315573/ruth_clara-moritz"
+        },
+        {
+          "label": "1930 United States Federal Census (Ancestry.com, tree source S980815074)"
+        }
+      ],
+      "researchedHash": "032517a19199dce8",
+      "researchedAt": "2026-06-21T06:41:00.150Z"
+    },
+    "I272780691117": {
+      "personId": "I272780691117",
+      "personName": "Carol W Brueggemann",
+      "bio": "This 1930-census son appears to be Carl W. Brueggemann, Lydia Nora Brueggemann Stuenkel’s brother Carl. Trinity Lutheran Church in El Paso, Illinois, says Pastor Carl W. Brueggemann of Gresham, Nebraska accepted the congregation’s call in 1948 and was installed on Trinity Sunday, 23 May 1948, as its first pastor.",
+      "occupations": [
+        "Lutheran pastor"
+      ],
+      "records": [
+        "Trinity Lutheran Church & Preschool, El Paso history",
+        "1930 United States Federal Census"
+      ],
+      "funFacts": [
+        "At his 1948 installation as Trinity Lutheran Church of El Paso’s first pastor, the service and reception were held in the high school auditorium with nearly 400 people attending.",
+        "The new El Paso congregation rented a parsonage for him and his family at $40 per month."
+      ],
+      "citations": [
+        {
+          "label": "Trinity Lutheran Church & Preschool, El Paso history",
+          "url": "https://www.trinitylutheranchurchelpaso.com/history"
+        },
+        {
+          "label": "1930 United States Federal Census (Ancestry.com, tree source S980815074)"
+        }
+      ],
+      "researchedHash": "7a33c243268b9258",
+      "researchedAt": "2026-06-21T06:41:00.150Z"
+    },
+    "I272780691118": {
+      "personId": "I272780691118",
+      "personName": "Esther W Brueggemann",
+      "bio": "Esther W. Brueggemann appears to be Esther Hokamp, daughter of William and Lydia Brueggemann. Her Baue Funeral Homes obituary says she died in St. Charles, Missouri on 16 December 2010 at age 89, was the widow of Martin H. Hokamp, and had worked for many years as an administrative assistant.",
+      "occupations": [
+        "administrative assistant"
+      ],
+      "records": [
+        "Baue Funeral Homes obituary for Esther Hokamp",
+        "1930 United States Federal Census"
+      ],
+      "funFacts": [
+        "Her obituary calls her a “G-ma, step G-ma, and Great G-ma to many.”",
+        "She belonged to Hope Lutheran Church, the Lutheran Women’s Missionary League, and other church organizations."
+      ],
+      "citations": [
+        {
+          "label": "Baue Funeral Homes obituary: Esther Hokamp",
+          "url": "https://www.baue.com/obituaries/esther-hokamp"
+        },
+        {
+          "label": "1930 United States Federal Census (Ancestry.com, tree source S980815074)"
+        }
+      ],
+      "researchedHash": "a88120d21cc4ed20",
+      "researchedAt": "2026-06-21T06:41:00.150Z"
+    },
+    "I272780691120": {
+      "personId": "I272780691120",
+      "personName": "Richard W Brueggemann",
+      "bio": "Richard W. Brueggemann appears to be the World War II soldier of that name from Nebraska. HonorStates and memorial summaries identify him as a U.S. Army Private First Class who died on 27 October 1944 at age 19 in the Philippines and is buried at Manila American Cemetery and Memorial.",
+      "occupations": [
+        "U.S. Army private first class"
+      ],
+      "records": [
+        "HonorStates World War II casualty profile for Richard W. Brueggemann",
+        "Find a Grave memorial 56787127",
+        "1930 United States Federal Census",
+        "96th Infantry Division history"
+      ],
+      "funFacts": [
+        "He died one week after the 96th Infantry Division entered combat on Leyte on 20 October 1944.",
+        "His burial is reported at Manila American Cemetery and Memorial, Plot L, Row 11, Grave 137."
+      ],
+      "citations": [
+        {
+          "label": "HonorStates: Richard W. Brueggemann, World War II casualty",
+          "url": "https://www.honorstates.org/index.php?id=82894"
+        },
+        {
+          "label": "Find a Grave memorial: PFC Richard W. Brueggemann",
+          "url": "https://www.findagrave.com/memorial/56787127/richard_w-brueggemann"
+        },
+        {
+          "label": "1930 United States Federal Census (Ancestry.com, tree source S980815074)"
+        },
+        {
+          "label": "96th Infantry Division (United States) history",
+          "url": "https://en.wikipedia.org/wiki/96th_Infantry_Division_(United_States)"
+        }
+      ],
+      "researchedHash": "9a5e0e8d46385c79",
+      "researchedAt": "2026-06-21T06:41:00.150Z"
+    },
+    "I272780761455": {
+      "personId": "I272780761455",
+      "personName": "Henning Andreas Vornkahl",
+      "bio": "Henning Andreas Vornkahl is listed in the tree with birth and death at Berel in the Wolfenbüttel area of Braunschweig. Meyers Gazetteer identifies Berel as a village in Kreis Wolfenbüttel with its own later civil registration office and one Protestant parish church. Treat the Berel details here as place context for the locality named in the tree, with the Protestant parish being the more relevant clue for eighteenth-century events.",
+      "records": [
+        "Meyers Gazetteer entry for Berel"
+      ],
+      "funFacts": [
+        "Berel had its own Protestant parish church, a useful clue for researching Vornkahl church-book entries."
+      ],
+      "citations": [
+        {
+          "label": "Meyers Gazetteer: Berel, Braunschweig",
+          "url": "https://www.meyersgaz.org/place/10137025"
+        }
+      ],
+      "researchedHash": "f4a9b14e802809a1",
+      "researchedAt": "2026-06-21T06:41:00.150Z"
+    },
+    "I272780761476": {
+      "personId": "I272780761476",
+      "personName": "Heinrich Georg Vornkahl",
+      "bio": "A GEDBAS profile for Heinrich Georg Vornkahl gives his birth as 7 June 1683 and death as 8 January 1753. The tree places those events at Berel, and Meyers Gazetteer identifies Berel as a Braunschweig village in Kreis Wolfenbüttel with one Protestant parish church and its own later civil registration office. The GEDBAS entry notes that its submitter does not display source references, so the profile should be treated as a clue rather than a fully sourced proof.",
+      "records": [
+        "GEDBAS profile for Heinrich Georg Vornkahl",
+        "Meyers Gazetteer entry for Berel"
+      ],
+      "funFacts": [
+        "His GEDBAS dates match the tree dates closely, but the public GEDBAS page withholds the underlying source citations."
+      ],
+      "citations": [
+        {
+          "label": "GEDBAS: Heinrich Georg VORNKAHL",
+          "url": "https://www.gedbas.genealogy.net/person/show/1116299527"
+        },
+        {
+          "label": "Meyers Gazetteer: Berel, Braunschweig",
+          "url": "https://www.meyersgaz.org/place/10137025"
+        }
+      ],
+      "researchedHash": "9e874723a5449aa5",
+      "researchedAt": "2026-06-21T06:41:00.150Z"
+    },
+    "I272780761513": {
+      "personId": "I272780761513",
+      "personName": "Michael Vornkahl",
+      "bio": "Michael Vornkahl is listed in the tree with birth and death at Berel in Braunschweig. Meyers Gazetteer identifies Berel as a village in Kreis Wolfenbüttel with one Protestant parish church and its own later civil registration office. Because no independent online person record was found during this pass, this entry limits itself to place context for the Berel locality named in the tree.",
+      "records": [
+        "Meyers Gazetteer entry for Berel"
+      ],
+      "funFacts": [
+        "Berel belonged to the Braunschweig rather than Prussian administrative record world in Meyers Gazetteer."
+      ],
+      "citations": [
+        {
+          "label": "Meyers Gazetteer: Berel, Braunschweig",
+          "url": "https://www.meyersgaz.org/place/10137025"
+        }
+      ],
+      "researchedHash": "6787db5df7c630c8",
+      "researchedAt": "2026-06-21T06:41:00.150Z"
+    },
+    "I272780761499": {
+      "personId": "I272780761499",
+      "personName": "Annecken Dieckmann",
+      "bio": "Annecken Dieckmann is listed in the tree with origins at Lesse and death at Berel, two Braunschweig villages in Kreis Wolfenbüttel. Meyers Gazetteer identifies both Lesse and Berel as villages with Protestant parish churches and later civil registration offices. This is village context for the places attached to her tree events, not an independent online confirmation of her personal dates.",
+      "records": [
+        "Meyers Gazetteer entry for Lesse",
+        "Meyers Gazetteer entry for Berel"
+      ],
+      "funFacts": [
+        "Lesse and Berel were both in Kreis Wolfenbüttel and both pointed to the Amtsgericht at Salder in Meyers Gazetteer."
+      ],
+      "citations": [
+        {
+          "label": "Meyers Gazetteer: Lesse, Braunschweig",
+          "url": "https://www.meyersgaz.org/place/20055060"
+        },
+        {
+          "label": "Meyers Gazetteer: Berel, Braunschweig",
+          "url": "https://www.meyersgaz.org/place/10137025"
+        }
+      ],
+      "researchedHash": "b3114c326ee0d216",
+      "researchedAt": "2026-06-21T06:41:00.150Z"
+    },
+    "I272780761461": {
+      "personId": "I272780761461",
+      "personName": "Ilse geb. Büring",
+      "bio": "Ilse geb. Büring is listed in the tree with birth in Berel and death at Berel. Meyers Gazetteer identifies Berel as a Braunschweig village in Kreis Wolfenbüttel with one Protestant parish church and its own later civil registration office. The German “geb.” in the recorded name indicates a maiden surname, so the entry preserves the tree’s naming without expanding it beyond the sourced place context.",
+      "records": [
+        "Meyers Gazetteer entry for Berel"
+      ],
+      "funFacts": [
+        "Her recorded Berel-to-Berel life events point to a small-village Braunschweig parish setting."
+      ],
+      "citations": [
+        {
+          "label": "Meyers Gazetteer: Berel, Braunschweig",
+          "url": "https://www.meyersgaz.org/place/10137025"
+        }
+      ],
+      "researchedHash": "22d94f6365a839be",
+      "researchedAt": "2026-06-21T06:41:00.150Z"
+    },
+    "I272780761447": {
+      "personId": "I272780761447",
+      "occupations": [],
+      "bio": "Ilse Catharine BÜHRIG is listed in the tree with birth at Groß Himstedt and as part of the Vornkahl line connected to Berel. Meyers Gazetteer identifies Gross Himstedt as a village in Prussian Hannover, Regierungsbezirk Hildesheim, Kreis Marienburg, with one Protestant parish church and its own later civil registration office. The nearby Berel context comes from the tree relationship, while the cited source is used only for the Gross Himstedt locality. A public OFB/Genealogy.net listing surfaces an Ilse Catharine Bühring in Groß Himstedt with a 12 January 1723 birth, close to but not identical with this GEDCOM person’s 1720 estimate. Because the date differs, this should be treated as a candidate Bührig/Bühring lead rather than a confirmed identity.",
+      "funFacts": [
+        "Meyers Gazetteer has a combined Himstedt entry that redirects researchers to separate Gross Himstedt and Klein Himstedt place pages.",
+        "Groß Himstedt is now part of Söhlde in Landkreis Hildesheim and lies near Berel, matching the broader geography of this branch."
+      ],
+      "records": [
+        "Meyers Gazetteer entry for Gross Himstedt",
+        "Meyers Gazetteer combined entry for Gross and Klein Himstedt",
+        "OFB/Genealogy.net Celle-family-database surname listing for Bühring, Ilse Catharine; candidate only because of date conflict.",
+        "Groß Himstedt local-history article for place context."
+      ],
+      "citations": [
+        {
+          "label": "Meyers Gazetteer: Gross Himstedt, Hannover",
+          "url": "https://www.meyersgaz.org/place/10641042"
+        },
+        {
+          "label": "Meyers Gazetteer: Himstedt, Gross, Klein",
+          "url": "https://www.meyersgaz.org/place/10794096"
+        },
+        {
+          "label": "OFB/Genealogy.net: Familiendatenbank Celle namelist",
+          "url": "https://ofb.genealogy.net/namelist.php?sour=S392&ofb=celle&lang=de"
+        },
+        {
+          "label": "Wikipedia (de): Groß Himstedt",
+          "url": "https://de.wikipedia.org/wiki/Gro%C3%9F_Himstedt"
+        }
+      ],
+      "personName": "Ilse Catharine BÜHRIG",
+      "researchedHash": "9a52496558e00f11",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780761442": {
+      "personId": "I272780761442",
+      "personName": "Johann Heinrich Fasterling",
+      "bio": "Johann Heinrich Fasterling is listed in the tree in connection with Berel in Braunschweig. Meyers Gazetteer identifies Berel as a village in Kreis Wolfenbüttel with one Protestant parish church and its own later civil registration office. No stronger independent person-level source was found in this pass, so the enrichment is limited to the Berel village context attached to the tree entry.",
+      "records": [
+        "Meyers Gazetteer entry for Berel"
+      ],
+      "funFacts": [
+        "The Berel Protestant parish is the likely locality to investigate for Fasterling family church records named in the tree."
+      ],
+      "citations": [
+        {
+          "label": "Meyers Gazetteer: Berel, Braunschweig",
+          "url": "https://www.meyersgaz.org/place/10137025"
+        }
+      ],
+      "researchedHash": "4631f4b71e863202",
+      "researchedAt": "2026-06-21T06:41:00.150Z"
     },
     "I272780691877": {
       "personId": "I272780691877",
@@ -301,7 +845,8 @@
       "bio": "Berend \"Ben\" Lourens was born in Bennekom, Ede, Gelderland, on 13 January 1911, with his father Albertus recorded as a farmer. His Iowa obituary says he came to America at age two with his family, married Gertrude Van Dusseldorp in Monroe on 25 February 1937, and farmed for years near Prairie City and Runnells before moving into Prairie City in 1984. He died in 2003 at age 92 and was buried after services at First Reformed Church in Prairie City.",
       "funFacts": [
         "In retirement Ben enjoyed woodworking and gardening.",
-        "His obituary names two surviving sons, five grandchildren, seven great-grandchildren, and a large Lourens sibling group."
+        "His obituary names two surviving sons, five grandchildren, seven great-grandchildren, and a large Lourens sibling group.",
+        "Memorials in Ben's obituary were directed to First Reformed Church in Prairie City."
       ],
       "immigration": "Ben's obituary reports that he came to America at age two with his family; since his Dutch birth record is dated 13 January 1911, the family immigration was about 1913.",
       "records": [
@@ -318,8 +863,8 @@
           "url": "https://iagenweb.org/boards/jasper/obituaries/index.cgi?read=79514"
         }
       ],
-      "researchedHash": "1e2bcfa241af9905",
-      "researchedAt": "2026-06-21T04:58:29.036Z"
+      "researchedHash": "22b8896b91c6ca73",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
     },
     "I272780692340": {
       "personId": "I272780692340",
@@ -356,8 +901,8 @@
           "url": "https://iagenweb.org/boards/jasper/obituaries/index.cgi?read=605530"
         }
       ],
-      "researchedHash": "41d2a48329a8d0f7",
-      "researchedAt": "2026-06-21T04:58:29.036Z"
+      "researchedHash": "d5ae4b1fdf212200",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
     },
     "I272780692368": {
       "personId": "I272780692368",
@@ -391,8 +936,8 @@
           "url": "https://iagenweb.org/boards/jasper/obituaries/index.cgi?read=605530"
         }
       ],
-      "researchedHash": "57594d9d3ce88c7e",
-      "researchedAt": "2026-06-21T04:58:29.036Z"
+      "researchedHash": "2d810aeaff2415f6",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
     },
     "I272780692686": {
       "personId": "I272780692686",
@@ -403,12 +948,15 @@
       "bio": "Peter appears in Dutch civil records as Peter Louwrens/Lourens, born at Veenendaal on 14 April 1833 to Johannes Louwrens and Hendrika Jeurs. At his 21 June 1862 marriage to Gerritje Aartsen in Ede, he was age 29 and recorded as a farmer. He was still listed as farmer and father of the groom when his son Albertus married Aartje Snetselaar in 1900.",
       "funFacts": [
         "His surname appears with both Louwrens and Lourens spellings in civil records.",
-        "Peter's 1833 birth record names his father Johannes as a day laborer, while Peter himself was recorded as a farmer by marriage age."
+        "Peter's 1833 birth record names his father Johannes as a day laborer, while Peter himself was recorded as a farmer by marriage age.",
+        "Peter was still recorded as a landbouwer (farmer) in his 1902 death record at age 68.",
+        "His death record gives his birthplace as “Veenendaal Gelders (Ede),” reflecting the local Veenendaal/Ede geography seen across this branch."
       ],
       "records": [
         "1833 civil birth registration, Veenendaal",
         "1862 civil marriage registration, Ede",
-        "1900 civil marriage registration of son Albertus, Ede"
+        "1900 civil marriage registration of son Albertus, Ede",
+        "1902 civil death registration, Ede"
       ],
       "citations": [
         {
@@ -422,10 +970,14 @@
         {
           "label": "Open Archives marriage record for Albertus Lourens and Aartje Snetselaar",
           "url": "https://www.openarchieven.nl/gld:A09CD456-5965-433A-B295-769D6BCB55CE/json"
+        },
+        {
+          "label": "Open Archives death record for Peter Lourens",
+          "url": "https://www.openarchieven.nl/gld:7ED2C847-7F6B-4952-A9A4-04865F9DF052/json"
         }
       ],
-      "researchedHash": "df63dd36c7d090fb",
-      "researchedAt": "2026-06-21T04:58:29.036Z"
+      "researchedHash": "593c4568c462f690",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
     },
     "I272780753298": {
       "personId": "I272780753298",
@@ -433,11 +985,14 @@
       "bio": "Gerritje Aartsen was recorded as a 26-year-old bride born in Stichtsch Veenendaal when she married Peter Lourens in Ede on 21 June 1862. The marriage record names her parents as Aart Aartsen and Jacoba Hartman and records no occupation for Gerritje. In 1900 she appears again in the Ede marriage record of her son Albertus Lourens to Aartje Snetselaar.",
       "funFacts": [
         "Her 1862 marriage record ties the Lourens line back to the Aartsen/Hartman family of the Veenendaal area.",
-        "She lived to see son Albertus marry into the Snetselaar family, the couple who later anchored the Iowa Lourens line."
+        "She lived to see son Albertus marry into the Snetselaar family, the couple who later anchored the Iowa Lourens line.",
+        "Gerritje outlived Peter by seventeen years; her 1919 death record says she died at Ede at age 83.",
+        "Her death record again names Aart Aartsen and Jacoba Hartman as her parents and Peter Lourens as her partner."
       ],
       "records": [
         "1862 civil marriage registration, Ede",
-        "1900 civil marriage registration of son Albertus, Ede"
+        "1900 civil marriage registration of son Albertus, Ede",
+        "1919 civil death registration, Ede"
       ],
       "citations": [
         {
@@ -447,10 +1002,14 @@
         {
           "label": "Open Archives marriage record for Albertus Lourens and Aartje Snetselaar",
           "url": "https://www.openarchieven.nl/gld:A09CD456-5965-433A-B295-769D6BCB55CE/json"
+        },
+        {
+          "label": "Open Archives death record for Gerritje Aartsen",
+          "url": "https://www.openarchieven.nl/gld:9F9A1E3E-2F07-46E2-86D0-B4648A0158A8/json"
         }
       ],
-      "researchedHash": "210b89a62b3d7dd1",
-      "researchedAt": "2026-06-21T04:58:29.036Z"
+      "researchedHash": "f9eaa1b611db00d4",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
     },
     "I272780692937": {
       "personId": "I272780692937",
@@ -478,8 +1037,8 @@
           "url": "https://www.openarchieven.nl/gld:0B781AAF-FDF4-4FB4-91BF-E97D48A62614/json"
         }
       ],
-      "researchedHash": "552e8576051c3eb6",
-      "researchedAt": "2026-06-21T04:58:29.036Z"
+      "researchedHash": "1f59ede8268c5772",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
     },
     "I272780751822": {
       "personId": "I272780751822",
@@ -503,8 +1062,8 @@
           "url": "https://www.openarchieven.nl/gld:0B781AAF-FDF4-4FB4-91BF-E97D48A62614/json"
         }
       ],
-      "researchedHash": "dab8700848b5215c",
-      "researchedAt": "2026-06-21T04:58:29.036Z"
+      "researchedHash": "95380b5640d8496d",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
     },
     "I272780692629": {
       "personId": "I272780692629",
@@ -537,8 +1096,8 @@
           "url": "https://www.openarchieven.nl/gld:0C51202B-CB80-4E43-BD85-6C59321833B4/json"
         }
       ],
-      "researchedHash": "bcb46386729a9a1f",
-      "researchedAt": "2026-06-21T04:58:29.036Z"
+      "researchedHash": "d99ce54bc0cb5406",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
     },
     "I272780753199": {
       "personId": "I272780753199",
@@ -546,12 +1105,15 @@
       "bio": "Jannetje Jacobsen was recorded as a 20-year-old bride born in Barneveld when she married Geurt Snetselaar in Ede on 25 May 1878. The marriage record names her parents as Berend Jacobsen, a laborer, and Elisabeth Boshuis. She appears again as mother in the 1879 Lunteren birth record of daughter Aartje Snetselaar, who later married Albertus Lourens and immigrated to Iowa.",
       "funFacts": [
         "Her daughter Aartje connects the Jacobsen/Boshuis family into the later Lourens immigrant family in Iowa.",
-        "Geurt's 1923 death record still names Jannetje among his (ex-)partners."
+        "Geurt's 1923 death record still names Jannetje among his (ex-)partners.",
+        "Jannetje died young: her civil death record says she died in Ede on 21 February 1897 at age 39.",
+        "Her death record names Geurt Snetselaar as her partner, helping explain why Geurt's later death record lists multiple partners."
       ],
       "records": [
         "1878 civil marriage registration, Ede",
         "1879 civil birth registration of daughter Aartje Snetselaar, Lunteren/Ede",
-        "1923 civil death registration of husband Geurt Snetselaar, Ede"
+        "1923 civil death registration of husband Geurt Snetselaar, Ede",
+        "1897 civil death registration, Ede"
       ],
       "citations": [
         {
@@ -565,10 +1127,14 @@
         {
           "label": "Open Archives death record for Geurt Snetselaar",
           "url": "https://www.openarchieven.nl/gld:0C51202B-CB80-4E43-BD85-6C59321833B4/json"
+        },
+        {
+          "label": "Open Archives death record for Jannetje Jacobsen",
+          "url": "https://www.openarchieven.nl/gld:33C1ABDA-A653-44F7-9D76-B7FCE8ACE3B9/json"
         }
       ],
-      "researchedHash": "7580085404bf42de",
-      "researchedAt": "2026-06-21T04:58:29.036Z"
+      "researchedHash": "f5682e1f11d2a3dd",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
     },
     "I272780753205": {
       "personId": "I272780753205",
@@ -600,8 +1166,8 @@
           "url": "https://www.openarchieven.nl/gld:41121718-62EE-41DB-8A7F-87F5208023FA/json"
         }
       ],
-      "researchedHash": "ed6c1670623fde1d",
-      "researchedAt": "2026-06-21T04:58:29.036Z"
+      "researchedHash": "f9148fdf5518dbbc",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
     },
     "I272780753219": {
       "personId": "I272780753219",
@@ -630,25 +1196,29 @@
           "url": "https://www.openarchieven.nl/gld:57F64DB3-DAC0-49B6-AC2A-E7F11B75B0FA/json"
         }
       ],
-      "researchedHash": "657100f6f015dfaa",
-      "researchedAt": "2026-06-21T04:58:29.036Z"
+      "researchedHash": "1799ad23d677d513",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
     },
     "I272780753226": {
       "personId": "I272780753226",
       "personName": "Berend Jacobsen",
       "occupations": [
         "Day laborer",
-        "Laborer"
+        "Laborer",
+        "Farmhand"
       ],
       "bio": "Berend Jacobsen was born at Ede on 17 January 1822 to Jan Jacobsen, a day laborer, and Teunisje Berends. In the 1878 Ede marriage record of daughter Jannetje Jacobsen to Geurt Snetselaar, Berend was recorded as a laborer. His 1893 death record gives him as a 71-year-old day laborer born in Ede who died at Kallenbroek, with Lisebeth Boshuis named as partner.",
       "funFacts": [
         "The Jacobsen line shows repeated laboring occupations: Berend's father was a day laborer, and Berend was later recorded as laborer/day laborer himself.",
-        "His daughter Jannetje's marriage brought the Jacobsen/Boshuis family into the Snetselaar line."
+        "His daughter Jannetje's marriage brought the Jacobsen/Boshuis family into the Snetselaar line.",
+        "At his 1848 marriage to Lisebeth Boshuis, Berend was recorded as a 26-year-old boerenknecht, or farmhand.",
+        "The same marriage record described his father Jan Jacobsen as a daglooner, reinforcing the family's laboring background."
       ],
       "records": [
         "1822 civil birth registration, Ede",
         "1878 civil marriage registration of daughter Jannetje Jacobsen, Ede",
-        "1893 civil death registration, Kallenbroek/Barneveld"
+        "1893 civil death registration, Kallenbroek/Barneveld",
+        "1848 civil marriage registration, Barneveld"
       ],
       "citations": [
         {
@@ -662,10 +1232,14 @@
         {
           "label": "Open Archives death record for Berend Jacobsen",
           "url": "https://www.openarchieven.nl/gld:29DB377B-717E-4706-801C-2366005990A7/json"
+        },
+        {
+          "label": "Open Archives marriage record for Berend Jacobsen and Lisebeth Boshuis",
+          "url": "https://www.openarchieven.nl/gld:C9144197-1FE1-433E-BC82-9B562C8E37B0/json"
         }
       ],
-      "researchedHash": "07744b1688a2a145",
-      "researchedAt": "2026-06-21T04:58:29.036Z"
+      "researchedHash": "1568b8279de060b2",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
     },
     "I272780753231": {
       "personId": "I272780753231",
@@ -673,11 +1247,15 @@
       "bio": "Lisabeth/Elisabeth Boshuis appears in the 1878 Ede marriage record of her daughter Jannetje Jacobsen to Geurt Snetselaar; the record gives no occupation for her. She is also named as Lisebeth Boshuis in the 1893 death record of Berend Jacobsen, where she is identified as his partner or former partner. These records place her in the Barneveld/Ede network that led into the Snetselaar and Lourens families.",
       "funFacts": [
         "Her name appears with multiple spellings: Elisabeth in the 1878 marriage record and Lisebeth in Berend Jacobsen's 1893 death record.",
-        "Through daughter Jannetje and granddaughter Aartje Snetselaar, the Boshuis line connects to the Lourens immigrants who settled in Iowa."
+        "Through daughter Jannetje and granddaughter Aartje Snetselaar, the Boshuis line connects to the Lourens immigrants who settled in Iowa.",
+        "At her 1848 marriage, Lisebeth Boshuis was recorded as a 21-year-old dienstbaar, or domestic servant, born in Barneveld.",
+        "Her 1827 birth record says her father Klaas was a 30-year-old landbouwersknecht, a farm servant."
       ],
       "records": [
         "1878 civil marriage registration of daughter Jannetje Jacobsen, Ede",
-        "1893 civil death registration of Berend Jacobsen, Kallenbroek/Barneveld"
+        "1893 civil death registration of Berend Jacobsen, Kallenbroek/Barneveld",
+        "1827 civil birth registration, Barneveld",
+        "1848 civil marriage registration, Barneveld"
       ],
       "citations": [
         {
@@ -687,10 +1265,782 @@
         {
           "label": "Open Archives death record for Berend Jacobsen",
           "url": "https://www.openarchieven.nl/gld:29DB377B-717E-4706-801C-2366005990A7/json"
+        },
+        {
+          "label": "Open Archives birth record for Lisebeth Boshuis",
+          "url": "https://www.openarchieven.nl/gld:3568894D-BA88-4BCC-8EA4-25EA77A23D95/json"
+        },
+        {
+          "label": "Open Archives marriage record for Berend Jacobsen and Lisebeth Boshuis",
+          "url": "https://www.openarchieven.nl/gld:C9144197-1FE1-433E-BC82-9B562C8E37B0/json"
         }
       ],
-      "researchedHash": "f04d9b9ff22a50ce",
-      "researchedAt": "2026-06-21T04:58:29.036Z"
+      "occupations": [
+        "Domestic servant"
+      ],
+      "researchedHash": "2c14c80999944411",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780691885": {
+      "personId": "I272780691885",
+      "personName": "Gertrude Margaret Van Dusseldoy",
+      "bio": "Gertrude Margaret Van Dusseldorp Lourens was born in Prairie City, Iowa, on 22 November 1914 to Gysbert and Hilda Van Dusseldorp. Her obituary says she was educated in rural schools, graduated from Prairie City High School in 1932, married Ben Lourens in Monroe on 25 February 1937, farmed with him in the Prairie City and Runnells areas, and remained a member of First Reformed Church in Prairie City from youth. She died at age 101 at Mill Pond in Ankeny in 2016.",
+      "funFacts": [
+        "Gertrude was educated in rural schools before graduating from Prairie City High School in 1932.",
+        "She made profession of faith at First Reformed Church in Prairie City at a young age and was described as a member ever since.",
+        "Her obituary named nine great-grandchildren when she died at age 101."
+      ],
+      "records": [
+        "2016 IAGenWeb obituary, Jasper County, Iowa"
+      ],
+      "citations": [
+        {
+          "label": "IAGenWeb obituary for Gertrude Margaret Lourens",
+          "url": "https://iagenweb.org/boards/jasper/obituaries/index.cgi?read=592202"
+        }
+      ],
+      "researchedHash": "040516f6ca41c0a1",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780753255": {
+      "personId": "I272780753255",
+      "personName": "Claas Willemsen Boshuisen",
+      "bio": "Claas/Klaas Willemsen Boshuis appears in Barneveld civil records with Jannetje van Langelaar as the father of Lisebeth Boshuis in 1827 and Johanna Boshuis in 1829. In Lisebeth's birth record he was a 30-year-old landbouwersknecht, or farm servant; in Johanna's birth record he was recorded as a 36-year-old dagloner, or day laborer. Lisebeth's 1848 marriage record again names him as her father.",
+      "occupations": [
+        "Farm servant",
+        "Day laborer"
+      ],
+      "funFacts": [
+        "His records preserve the patronymic Willemsen alongside the Boshuis surname.",
+        "Within two Barneveld birth records he appears first as a farm servant and then as a day laborer."
+      ],
+      "records": [
+        "1827 civil birth registration of daughter Lisebeth Boshuis, Barneveld",
+        "1829 civil birth registration of daughter Johanna Boshuis, Barneveld",
+        "1848 civil marriage registration of daughter Lisebeth Boshuis, Barneveld"
+      ],
+      "citations": [
+        {
+          "label": "Open Archives birth record for Lisebeth Boshuis",
+          "url": "https://www.openarchieven.nl/gld:3568894D-BA88-4BCC-8EA4-25EA77A23D95/json"
+        },
+        {
+          "label": "Open Archives birth record for Johanna Boshuis",
+          "url": "https://www.openarchieven.nl/gld:9F7431B5-413F-4DA8-BFED-C51B669CCC62/json"
+        },
+        {
+          "label": "Open Archives marriage record for Berend Jacobsen and Lisebeth Boshuis",
+          "url": "https://www.openarchieven.nl/gld:C9144197-1FE1-433E-BC82-9B562C8E37B0/json"
+        }
+      ],
+      "researchedHash": "a6d6967285b0a854",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780753264": {
+      "personId": "I272780753264",
+      "personName": "Jannetje Jochemsdr van Langelaar",
+      "bio": "Jannetje van Langelaar appears with Klaas Willemsen Boshuis in the Barneveld birth records of daughters Lisebeth Boshuis in 1827 and Johanna Boshuis in 1829. The 1829 record gives her fuller patronymic form, Jannetje Jochems van Langelaar. She is also named as Lisebeth's mother in Lisebeth's 1848 marriage record to Berend Jacobsen.",
+      "funFacts": [
+        "The 1829 birth record of daughter Johanna preserves Jannetje's patronymic as Jochems.",
+        "Across the records of daughters Lisebeth and Johanna, the family is anchored in Barneveld before the Boshuis line married into the Jacobsen/Snetselaar branch."
+      ],
+      "records": [
+        "1827 civil birth registration of daughter Lisebeth Boshuis, Barneveld",
+        "1829 civil birth registration of daughter Johanna Boshuis, Barneveld",
+        "1848 civil marriage registration of daughter Lisebeth Boshuis, Barneveld"
+      ],
+      "citations": [
+        {
+          "label": "Open Archives birth record for Lisebeth Boshuis",
+          "url": "https://www.openarchieven.nl/gld:3568894D-BA88-4BCC-8EA4-25EA77A23D95/json"
+        },
+        {
+          "label": "Open Archives birth record for Johanna Boshuis",
+          "url": "https://www.openarchieven.nl/gld:9F7431B5-413F-4DA8-BFED-C51B669CCC62/json"
+        },
+        {
+          "label": "Open Archives marriage record for Berend Jacobsen and Lisebeth Boshuis",
+          "url": "https://www.openarchieven.nl/gld:C9144197-1FE1-433E-BC82-9B562C8E37B0/json"
+        }
+      ],
+      "researchedHash": "6f28f4663cf73857",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780753018": {
+      "personId": "I272780753018",
+      "personName": "Henricus (Hendrik, Hend)# Louwerens",
+      "bio": "Hendrik Louwerens died in Veenendaal on 2 June 1834 at age 69; the death record names Adriana van Beijnum as his partner and Herman Louwerens and Maria Heusmans as his parents. Four years earlier, the 1830 Ede marriage record of daughter Margaritha Laurens recorded him as a kleedermaker, or tailor.",
+      "occupations": [
+        "Tailor"
+      ],
+      "funFacts": [
+        "Hendrik was a tailor, and his daughter Margaritha married Coenradus Camichel, a hoedemaker or hat maker, linking two clothing trades in one family record.",
+        "His 1834 death record connects the Dutch Lourens line back to parents Herman Louwerens and Maria Heusmans."
+      ],
+      "records": [
+        "1830 civil marriage registration of daughter Margaritha Laurens, Ede",
+        "1834 civil death registration, Veenendaal"
+      ],
+      "citations": [
+        {
+          "label": "Open Archives marriage record for Margaritha Laurens and Coenradus Camichel",
+          "url": "https://www.openarchieven.nl/gld:0723F0B9-9B39-4BC5-AA65-725C456418ED/json"
+        },
+        {
+          "label": "Open Archives death record for Hendrik Louwerens",
+          "url": "https://www.openarchieven.nl/hua:2505A347-AED2-4345-ABF8-DCDE532D35E4/json"
+        }
+      ],
+      "researchedHash": "4433e16cb125f7b8",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780753012": {
+      "personId": "I272780753012",
+      "personName": "Adriana van Beijnum",
+      "bio": "Adriana van Beijnum appears in the 1834 Veenendaal death record of her husband Hendrik Louwerens and in her own 1847 Ede death record. Her death record says she died at Veenendaal on 21 December 1847 at age 79, was born in Wageningen, and was the partner of Hendrik Lourens.",
+      "funFacts": [
+        "Adriana outlived Hendrik Louwerens by more than thirteen years.",
+        "Her death record traces a Wageningen-born woman ending her life in Veenendaal, matching the Wageningen-to-Veenendaal geography of this Lourens line."
+      ],
+      "records": [
+        "1834 civil death registration of husband Hendrik Louwerens, Veenendaal",
+        "1847 civil death registration, Ede/Veenendaal"
+      ],
+      "citations": [
+        {
+          "label": "Open Archives death record for Hendrik Louwerens",
+          "url": "https://www.openarchieven.nl/hua:2505A347-AED2-4345-ABF8-DCDE532D35E4/json"
+        },
+        {
+          "label": "Open Archives death record for Adriana van Beijnum",
+          "url": "https://www.openarchieven.nl/gld:73C6002C-480C-4970-8F2E-BDC2822BEEED/json"
+        }
+      ],
+      "researchedHash": "8e82e46ba742d807",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780753417": {
+      "personId": "I272780753417",
+      "personName": "Wienandt SCHNITZLER",
+      "bio": "The 1883 Ede death record of Breunis Snitselaar names his father as Wijnand Snitselaar and records Wijnand's occupation as landbouwer, or farmer. This record links the older Schnitzler/Snitselaar spelling variation to the later Snetselaar family that married into the Lourens line.",
+      "occupations": [
+        "Farmer"
+      ],
+      "funFacts": [
+        "In his son Breunis's death record, Wienandt appears in the Dutch form Wijnand Snitselaar and is called a farmer.",
+        "The same record contrasts farmer father Wijnand with laborer son Breunis."
+      ],
+      "records": [
+        "1883 civil death registration of son Breunis Snitselaar, Ede"
+      ],
+      "citations": [
+        {
+          "label": "Open Archives death record for Breunis Snitselaar",
+          "url": "https://www.openarchieven.nl/gld:41121718-62EE-41DB-8A7F-87F5208023FA/json"
+        }
+      ],
+      "researchedHash": "18d69caa5c02b58e",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780753422": {
+      "personId": "I272780753422",
+      "personName": "Geertrui Hendriks Versteeg",
+      "bio": "Geertrui Hendriks is named as the mother of Breunis Snitselaar in Breunis's 1883 Ede death record. The same record places the family in the Lunteren/Ede area, with Breunis born at Lunteren and dying at Ede.",
+      "funFacts": [
+        "Her son's death record gives her name in the shorter form Geertrui Hendriks.",
+        "Through son Breunis, Geertrui connects the Lunteren Snitselaar/Snetselaar family into the later Iowa Lourens branch."
+      ],
+      "records": [
+        "1883 civil death registration of son Breunis Snitselaar, Ede"
+      ],
+      "citations": [
+        {
+          "label": "Open Archives death record for Breunis Snitselaar",
+          "url": "https://www.openarchieven.nl/gld:41121718-62EE-41DB-8A7F-87F5208023FA/json"
+        }
+      ],
+      "researchedHash": "72c762bd976d4569",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780755517": {
+      "personId": "I272780755517",
+      "personName": "Aart Evertzen Aartszen",
+      "bio": "Aart Aartsen appears with Jacoba Hartman as the father of Maria Aartsen, born at Veenendaal on 28 September 1834, and as the father of Gerritje Aartsen when Gerritje married Peter Lourens in Ede in 1862. The records place his family in the Veenendaal/Ede area before daughter Gerritje joined the Lourens line.",
+      "funFacts": [
+        "Aart and Jacoba's daughter Maria was born in Veenendaal in 1834, while daughter Gerritje later married in Ede in 1862.",
+        "Gerritje's marriage record gives her birthplace as Stichtsch Veenendaal, preserving a precise local place-name for the family."
+      ],
+      "records": [
+        "1834 civil birth registration of daughter Maria Aartsen, Veenendaal",
+        "1862 civil marriage registration of daughter Gerritje Aartsen, Ede"
+      ],
+      "citations": [
+        {
+          "label": "Open Archives birth record for Maria Aartsen",
+          "url": "https://www.openarchieven.nl/hua:02B9246F-D447-49A0-ADB5-0ACCF6CF69CF/json"
+        },
+        {
+          "label": "Open Archives marriage record for Peter Lourens and Gerritje Aartsen",
+          "url": "https://www.openarchieven.nl/gld:0B781AAF-FDF4-4FB4-91BF-E97D48A62614/json"
+        }
+      ],
+      "researchedHash": "85dabc1beb7ee31b",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780755528": {
+      "personId": "I272780755528",
+      "personName": "Jacoba Hartman",
+      "bio": "Jacoba Hartman appears with Aart Aartsen as the mother of Maria Aartsen, born at Veenendaal on 28 September 1834, and as the mother of Gerritje Aartsen in Gerritje's 1862 Ede marriage record to Peter Lourens. The records connect Jacoba directly to the Aartsen children who joined the Lourens line.",
+      "funFacts": [
+        "Jacoba's 1834 and 1862 family records place her household in the Veenendaal/Ede network of the Lourens branch.",
+        "The 1862 marriage record of daughter Gerritje records Jacoba with “zonder beroep,” meaning no occupation was stated."
+      ],
+      "records": [
+        "1834 civil birth registration of daughter Maria Aartsen, Veenendaal",
+        "1862 civil marriage registration of daughter Gerritje Aartsen, Ede"
+      ],
+      "citations": [
+        {
+          "label": "Open Archives birth record for Maria Aartsen",
+          "url": "https://www.openarchieven.nl/hua:02B9246F-D447-49A0-ADB5-0ACCF6CF69CF/json"
+        },
+        {
+          "label": "Open Archives marriage record for Peter Lourens and Gerritje Aartsen",
+          "url": "https://www.openarchieven.nl/gld:0B781AAF-FDF4-4FB4-91BF-E97D48A62614/json"
+        }
+      ],
+      "researchedHash": "07ad033b7b8ed3fd",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780758681": {
+      "personId": "I272780758681",
+      "personName": "Jan Jacobsen van Kampen",
+      "occupations": [
+        "Farmhand",
+        "Day laborer",
+        "Laborer"
+      ],
+      "bio": "Jan appears under several related name forms in Ede civil records: Jan Jacobsen at his 1817 marriage, Jan Jacobs in the 1822 birth record of son Berend, and Jan van Kampen in his 1857 death record. At marriage he was a 25-year-old farmhand born in Ede, son of Jacob Jansen and Aaltje Woutersen. Later records show a working-class household: he was a day laborer when Berend was born and a laborer when he died at Ede at age 65.",
+      "funFacts": [
+        "The 1857 death record is the clearest source connecting the van Kampen surname form with the Jan Jacobsen/Jan Jacobs records.",
+        "His son Berend Jacobsen was also recorded in laboring occupations, showing continuity in the family’s work status across generations."
+      ],
+      "records": [
+        "1817 civil marriage registration, Ede",
+        "1822 civil birth registration of son Berend Jacobsen, Ede",
+        "1857 civil death registration, Ede"
+      ],
+      "citations": [
+        {
+          "label": "Open Archives marriage record for Jan Jacobsen and Teunissie Berendsen",
+          "url": "https://www.openarchieven.nl/gld:5111EA8F-66D1-4F02-A6B7-186FFB9C91DC/json"
+        },
+        {
+          "label": "Open Archives birth record for Berend Jacobsen",
+          "url": "https://www.openarchieven.nl/gld:04692334-9C96-4581-B329-E97F319D5A7F/json"
+        },
+        {
+          "label": "Open Archives death record for Jan van Kampen",
+          "url": "https://www.openarchieven.nl/gld:2C062E47-2F24-49CC-AB7F-9D893F1B5AC0/json"
+        }
+      ],
+      "researchedHash": "9cbd79a15c2e53b5",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780758693": {
+      "personId": "I272780758693",
+      "personName": "Teunisje Hessing",
+      "occupations": [
+        "Domestic servant"
+      ],
+      "bio": "Teunisje appears in Ede records under several name forms: Teunissie Berendsen at marriage, Teunisje Berends in child records, and Teunisje Hissink/Hessink in death records. At her 1817 marriage to Jan Jacobsen she was a 24-year-old domestic servant born in Ede, daughter of Berend Petersen and Hendrikjen Egbertsen. Her 1843 death record calls her Teunisje Hissink, age 53, born in Ede, and names Jan Jacobs as her partner.",
+      "funFacts": [
+        "The surname shift from Berendsen/Berends to Hissink/Hessink is documented across records for the same family group rather than inferred from the GEDCOM alone.",
+        "Her mother was recorded as “spinster” in Teunisje’s death record, an occupation meaning spinner rather than marital status in this Dutch context."
+      ],
+      "records": [
+        "1817 civil marriage registration, Ede",
+        "1822 civil birth registration of son Berend Jacobsen, Ede",
+        "1843 civil death registration, Ede"
+      ],
+      "citations": [
+        {
+          "label": "Open Archives marriage record for Jan Jacobsen and Teunissie Berendsen",
+          "url": "https://www.openarchieven.nl/gld:5111EA8F-66D1-4F02-A6B7-186FFB9C91DC/json"
+        },
+        {
+          "label": "Open Archives birth record for Berend Jacobsen",
+          "url": "https://www.openarchieven.nl/gld:04692334-9C96-4581-B329-E97F319D5A7F/json"
+        },
+        {
+          "label": "Open Archives death record for Teunisje Hissink",
+          "url": "https://www.openarchieven.nl/gld:524530A2-D455-410A-99F4-50914E571BC2/json"
+        },
+        {
+          "label": "Open Archives death record for Jan van Kampen",
+          "url": "https://www.openarchieven.nl/gld:2C062E47-2F24-49CC-AB7F-9D893F1B5AC0/json"
+        }
+      ],
+      "researchedHash": "1f32163125e5920f",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780758697": {
+      "personId": "I272780758697",
+      "personName": "Berend Petersen Hessing\\Hissink",
+      "bio": "Berend Petersen is named as the father of Teunissie Berendsen in her 1817 Ede marriage record to Jan Jacobsen. He is named again in her 1843 Ede death record, where her surname is recorded as Hissink. These records support the connection between the Petersen patronymic and the later Hessing/Hissink name form in this branch, but they do not state an occupation for Berend.",
+      "funFacts": [
+        "Two independent civil records, twenty-six years apart, identify him as Teunisje’s father."
+      ],
+      "records": [
+        "1817 civil marriage registration of daughter Teunissie Berendsen, Ede",
+        "1843 civil death registration of daughter Teunisje Hissink, Ede"
+      ],
+      "citations": [
+        {
+          "label": "Open Archives marriage record for Jan Jacobsen and Teunissie Berendsen",
+          "url": "https://www.openarchieven.nl/gld:5111EA8F-66D1-4F02-A6B7-186FFB9C91DC/json"
+        },
+        {
+          "label": "Open Archives death record for Teunisje Hissink",
+          "url": "https://www.openarchieven.nl/gld:524530A2-D455-410A-99F4-50914E571BC2/json"
+        }
+      ],
+      "researchedHash": "54d1c2a35c396618",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780758708": {
+      "personId": "I272780758708",
+      "personName": "Hendrikje Egberts van den Berg",
+      "occupations": [
+        "Spinner"
+      ],
+      "bio": "Hendrikje appears as Hendrikjen Egbertsen in the 1817 Ede marriage record of her daughter Teunissie Berendsen to Jan Jacobsen. In Teunisje’s 1843 death record she appears as Heintje Egbers and is recorded with the occupation “spinster,” meaning spinner. These records securely place her in the Ede family group, though they do not by themselves prove every surname variant attached to her in later compilations.",
+      "funFacts": [
+        "Her records preserve three closely related given-name forms: Hendrikjen, Hendrikje, and Heintje."
+      ],
+      "records": [
+        "1817 civil marriage registration of daughter Teunissie Berendsen, Ede",
+        "1843 civil death registration of daughter Teunisje Hissink, Ede"
+      ],
+      "citations": [
+        {
+          "label": "Open Archives marriage record for Jan Jacobsen and Teunissie Berendsen",
+          "url": "https://www.openarchieven.nl/gld:5111EA8F-66D1-4F02-A6B7-186FFB9C91DC/json"
+        },
+        {
+          "label": "Open Archives death record for Teunisje Hissink",
+          "url": "https://www.openarchieven.nl/gld:524530A2-D455-410A-99F4-50914E571BC2/json"
+        }
+      ],
+      "researchedHash": "2cccccc165fb8107",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780762168": {
+      "personId": "I272780762168",
+      "personName": "Jacob Jansz van Kampen",
+      "bio": "Jacob Jansen is named as the father of Jan Jacobsen in Jan’s 1817 Ede marriage record to Teunissie Berendsen. He is also named as Jan van Kampen’s father in Jan’s 1857 Ede death record. The records do not state Jacob’s occupation, but they help connect the Jacobsen/van Kampen name forms in the branch.",
+      "records": [
+        "1817 civil marriage registration of son Jan Jacobsen, Ede",
+        "1857 civil death registration of son Jan van Kampen, Ede"
+      ],
+      "citations": [
+        {
+          "label": "Open Archives marriage record for Jan Jacobsen and Teunissie Berendsen",
+          "url": "https://www.openarchieven.nl/gld:5111EA8F-66D1-4F02-A6B7-186FFB9C91DC/json"
+        },
+        {
+          "label": "Open Archives death record for Jan van Kampen",
+          "url": "https://www.openarchieven.nl/gld:2C062E47-2F24-49CC-AB7F-9D893F1B5AC0/json"
+        }
+      ],
+      "researchedHash": "d18d6394c32ec1cc",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780762156": {
+      "personId": "I272780762156",
+      "personName": "Aaltje Gerritsdr Woutersen",
+      "bio": "Aaltje Woutersen is named as Jan Jacobsen’s mother in his 1817 Ede marriage record. She is named again as mother of Jan van Kampen in his 1857 death record, providing a second record tying the Jacobsen and van Kampen surname forms to the same family. No occupation is stated for her in these records.",
+      "records": [
+        "1817 civil marriage registration of son Jan Jacobsen, Ede",
+        "1857 civil death registration of son Jan van Kampen, Ede"
+      ],
+      "citations": [
+        {
+          "label": "Open Archives marriage record for Jan Jacobsen and Teunissie Berendsen",
+          "url": "https://www.openarchieven.nl/gld:5111EA8F-66D1-4F02-A6B7-186FFB9C91DC/json"
+        },
+        {
+          "label": "Open Archives death record for Jan van Kampen",
+          "url": "https://www.openarchieven.nl/gld:2C062E47-2F24-49CC-AB7F-9D893F1B5AC0/json"
+        }
+      ],
+      "researchedHash": "b9b638329496faba",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780758662": {
+      "personId": "I272780758662",
+      "personName": "Cornelius MORIA=MORA",
+      "occupations": [
+        "Farmhand",
+        "Laborer"
+      ],
+      "bio": "Cornelis appears with variant surname forms in Ede records: the 1819 marriage record indexes him as Cornelis Mona, while later records use Moria. At his 1819 marriage to Cornelia Hendriksen he was a farmhand born in Amsterdam; by his 1836 remarriage to Cornelia Stevensen he was recorded as a laborer. His 1871 death record says he died at Ede at age 79 and names both Cornelia Hendriksen and Cornelia Stevensen as partners.",
+      "funFacts": [
+        "His 1819 marriage record leaves his parents as unknown (“Nn”), a useful warning not to overstate this line beyond the available evidence.",
+        "The records trace an Amsterdam-born man who spent his adult civil-record life in Ede."
+      ],
+      "records": [
+        "1819 civil marriage registration, Ede",
+        "1836 civil marriage registration, Ede",
+        "1871 civil death registration, Ede"
+      ],
+      "citations": [
+        {
+          "label": "Open Archives marriage record for Cornelis Mona and Cornelia Hendriksen",
+          "url": "https://www.openarchieven.nl/gld:E0975520-BF9D-4153-A741-8469B23C0D05/json"
+        },
+        {
+          "label": "Open Archives marriage record for Cornelis Moria and Cornelia Stevensen",
+          "url": "https://www.openarchieven.nl/gld:5400C9A9-59E1-4313-AF0C-0F3971E3FF88/json"
+        },
+        {
+          "label": "Open Archives death record for Cornelis Moria",
+          "url": "https://www.openarchieven.nl/gld:E8E1B9D6-BB38-43DE-AE77-A615484DFE5D/json"
+        }
+      ],
+      "researchedHash": "0de591be05888b1e",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780758664": {
+      "personId": "I272780758664",
+      "personName": "Cornelia Hendrikse",
+      "occupations": [
+        "Domestic servant"
+      ],
+      "bio": "Cornelia Hendriksen was recorded as a 24-year-old domestic servant from Veenendaal when she married Cornelis Mona/Moria at Ede on 12 June 1819. The marriage record names her parents as Hendrik Willemsen and Japikje Jans. Later family records identify her as the mother of Aartje Moria and as one of Cornelis Moria’s partners.",
+      "funFacts": [
+        "Her daughter Aartje’s death record names Cornelis Moria as a laborer and Cornelia Hendrikse with no occupation, preserving both parental names decades later."
+      ],
+      "records": [
+        "1819 civil marriage registration, Ede",
+        "1871 civil death registration of Cornelis Moria, Ede",
+        "1895 civil death registration of daughter Aartje Moria, Ede"
+      ],
+      "citations": [
+        {
+          "label": "Open Archives marriage record for Cornelis Mona and Cornelia Hendriksen",
+          "url": "https://www.openarchieven.nl/gld:E0975520-BF9D-4153-A741-8469B23C0D05/json"
+        },
+        {
+          "label": "Open Archives death record for Cornelis Moria",
+          "url": "https://www.openarchieven.nl/gld:E8E1B9D6-BB38-43DE-AE77-A615484DFE5D/json"
+        },
+        {
+          "label": "Open Archives death record for Aartje Moria",
+          "url": "https://www.openarchieven.nl/gld:07E1A5B1-BFF3-43D2-A998-629D26417D66/json"
+        }
+      ],
+      "researchedHash": "211480f267671241",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780759593": {
+      "personId": "I272780759593",
+      "personName": "Liesje \"Lijsje\" Dirks Wisselo",
+      "occupations": [
+        "Farmer"
+      ],
+      "bio": "Lijsje Dirks Wesselo died at Barneveld on 1 May 1833 at age 65; her death record gives her birthplace as Garderen and records her occupation as landbouwster, a female farmer or farm woman. The same record names Dirk Wesselo and Gerritje Dirks as her parents and Willem Klaasen Boshuis as her partner. Two years later, her daughter Willemeijntje’s marriage record again identifies her as Lijsje Dirks Wesselo.",
+      "funFacts": [
+        "Her record uses the patronymic “Dirks” together with the Wesselo surname, a helpful bridge between older patronymic naming and fixed surnames.",
+        "Her daughter’s 1835 marriage record shows the family in Barneveld shortly after Lijsje’s death."
+      ],
+      "records": [
+        "1833 civil death registration, Barneveld",
+        "1835 civil marriage registration of daughter Willemeijntje Boshuis, Barneveld"
+      ],
+      "citations": [
+        {
+          "label": "Open Archives death record for Lijsje Dirks Wesselo",
+          "url": "https://www.openarchieven.nl/gld:ED7093AF-052E-4B98-9810-3A316E69AE49/json"
+        },
+        {
+          "label": "Open Archives marriage record for Gerrit Vonk and Willemeijntje Boshuis",
+          "url": "https://www.openarchieven.nl/gld:05C0ED4D-A53A-45F7-A105-AB9DE460B81E/json"
+        }
+      ],
+      "researchedHash": "2573732e9dc532f9",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780759600": {
+      "personId": "I272780759600",
+      "personName": "Willem Klaassen Boshuizen",
+      "occupations": [
+        "Day laborer"
+      ],
+      "bio": "Willem appears in Barneveld records as Willem Klaasen/Klaassen Boshuis or Boshuizen. At daughter Willemeijntje’s 1835 marriage he was recorded as a dagloner, or day laborer, and her mother was Lijsje Dirks Wesselo. He is also named as father of sons Willem and Cornelis Boshuizen in 1849 Barneveld marriage records.",
+      "funFacts": [
+        "His children’s records show the surname moving between Boshuis, Boshuisen, and Boshuizen spellings.",
+        "The 1835 marriage record ties him to the Wesselo line through wife Lijsje Dirks Wesselo."
+      ],
+      "records": [
+        "1835 civil marriage registration of daughter Willemeijntje Boshuis, Barneveld",
+        "1849 civil marriage registration of son Willem Boshuizen, Barneveld",
+        "1849 civil marriage registration of son Cornelis Boshuizen, Barneveld"
+      ],
+      "citations": [
+        {
+          "label": "Open Archives marriage record for Gerrit Vonk and Willemeijntje Boshuis",
+          "url": "https://www.openarchieven.nl/gld:05C0ED4D-A53A-45F7-A105-AB9DE460B81E/json"
+        },
+        {
+          "label": "Open Archives marriage record for Willem Boshuizen and Therese Julie Roghair",
+          "url": "https://www.openarchieven.nl/gld:909B64CF-E569-41C5-9E4A-98BA95AB732F/json"
+        },
+        {
+          "label": "Open Archives marriage record for Cornelis Boshuizen and Therese Louise Roghair",
+          "url": "https://www.openarchieven.nl/gld:1B220AC1-9860-4411-BF5C-535288B86E16/json"
+        }
+      ],
+      "researchedHash": "35c599c2ee673a45",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780758630": {
+      "personId": "I272780758630",
+      "personName": "Evert Aartszen",
+      "bio": "Evert Aartsen is named as the father of Aart Aartsen in Aart’s 1835 Ede marriage record to Jannigje Veldhuijsen. The record says Aart was a farmer born at Garderen and names Grietje Gijsberts as his mother. Evert’s occupation is not stated in this record, so the entry only supports his family connection rather than a fuller biography.",
+      "records": [
+        "1835 civil marriage registration of son Aart Aartsen, Ede"
+      ],
+      "citations": [
+        {
+          "label": "Open Archives marriage record for Aart Aartsen and Jannigje Veldhuijsen",
+          "url": "https://www.openarchieven.nl/gld:249AB133-8AFA-4589-84EB-785CB57945CC/json"
+        }
+      ],
+      "researchedHash": "fd89c3334e419711",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780758641": {
+      "personId": "I272780758641",
+      "personName": "Grietje Gijsberts van de Heuvel",
+      "bio": "Grietje Gijsberts is named as the mother of Aart Aartsen in Aart’s 1835 Ede marriage record. That record places the family around Garderen/Ede through Aart, who was born at Garderen and worked as a farmer. The record does not state an occupation for Grietje, but it clearly links her to Evert Aartsen and their son Aart.",
+      "funFacts": [
+        "Her name appears in the civil record in patronymic form, Grietje Gijsberts, rather than with the van de Heuvel surname used in later family-tree data."
+      ],
+      "records": [
+        "1835 civil marriage registration of son Aart Aartsen, Ede"
+      ],
+      "citations": [
+        {
+          "label": "Open Archives marriage record for Aart Aartsen and Jannigje Veldhuijsen",
+          "url": "https://www.openarchieven.nl/gld:249AB133-8AFA-4589-84EB-785CB57945CC/json"
+        }
+      ],
+      "researchedHash": "5ba5a037e78c8fae",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780759632": {
+      "personId": "I272780759632",
+      "personName": "Hendrik Wisselo",
+      "bio": "A baptism record matching the GEDCOM baptism date records Hendrik as baptized in Amsterdam on 6 September 1741 in the Dutch Reformed Noorderkerk. The record names Hendrik Wesloo as father, Anna Kempers as mother, and Hendrik Reurix and Rebecca Huijnen as witnesses. Because the record gives only the child’s first name, the surname connection rests on the named father rather than on a full child surname in the baptism entry.",
+      "funFacts": [
+        "Place context: the baptism was recorded at Amsterdam’s Noorderkerk, one of the city’s Dutch Reformed churches."
+      ],
+      "records": [
+        "1741 Dutch Reformed baptism registration, Amsterdam Noorderkerk"
+      ],
+      "citations": [
+        {
+          "label": "Open Archives baptism record for Hendrik, son of Hendrik Wesloo and Anna Kempers",
+          "url": "https://www.openarchieven.nl/saa:53fc3e39-745a-474c-8402-3ba0f565f628/json"
+        }
+      ],
+      "researchedHash": "0a7b6a6a82f82e50",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780759650": {
+      "personId": "I272780759650",
+      "personName": "Hendrick Wesloo (Wisselo)",
+      "bio": "Hendrik Wesloo and Anna Kempers registered their intended marriage in Amsterdam on 31 July 1739. He appears as father in the 1741 baptism of son Hendrik at the Noorderkerk and again in the 1745 baptism of Anna Katriena. These church records place the Wesloo/Kempers household in Amsterdam’s Dutch Reformed records in the 1739-1745 period.",
+      "funFacts": [
+        "The surname is indexed as Wesloo in the Amsterdam records, close to the later Wesselo/Wisselo forms used in this branch.",
+        "The 1745 baptism record names Barent Geel and Kaatje de Wilde as witnesses, linking the Wesselo and Geel/de Wilde family circles in the same church register."
+      ],
+      "records": [
+        "1739 Amsterdam ondertrouw registration",
+        "1741 Dutch Reformed baptism of son Hendrik, Amsterdam Noorderkerk",
+        "1745 Dutch Reformed baptism of daughter Anna Katriena, Amsterdam Noorderkerk"
+      ],
+      "citations": [
+        {
+          "label": "Open Archives ondertrouw record for Hendrik Wesloo and Anna Kempers",
+          "url": "https://www.openarchieven.nl/saa:19db96e7-24c6-4a02-bf9b-dde8deffeab6/json"
+        },
+        {
+          "label": "Open Archives baptism record for Hendrik, son of Hendrik Wesloo and Anna Kempers",
+          "url": "https://www.openarchieven.nl/saa:53fc3e39-745a-474c-8402-3ba0f565f628/json"
+        },
+        {
+          "label": "Open Archives baptism record for Anna Katriena, daughter of Hendrick Wesloo and Anna Kempers",
+          "url": "https://www.openarchieven.nl/saa:7c16941a-d728-4f56-8a77-457a0ffcf6b0/json"
+        }
+      ],
+      "researchedHash": "7fc683db9c7ed777",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780759655": {
+      "personId": "I272780759655",
+      "personName": "Johanna (Anna) Kempers",
+      "bio": "Anna Kempers registered an Amsterdam intended marriage with Hendrik Wesloo on 31 July 1739. She is recorded as mother in the 1741 Noorderkerk baptism of Hendrik and the 1745 Noorderkerk baptism of Anna Katriena. A 1740 baptism in the Geel/de Wilde family names Johanna Kempe as a witness, likely the same family circle but recorded with a variant form of the name.",
+      "funFacts": [
+        "Her records show the given-name and surname variants Anna Kempers and Johanna Kempe in closely connected Amsterdam church entries."
+      ],
+      "records": [
+        "1739 Amsterdam ondertrouw registration",
+        "1741 Dutch Reformed baptism of son Hendrik, Amsterdam Noorderkerk",
+        "1745 Dutch Reformed baptism of daughter Anna Katriena, Amsterdam Noorderkerk",
+        "1740 Dutch Reformed baptism witness entry, Amsterdam Nieuwe Kerk"
+      ],
+      "citations": [
+        {
+          "label": "Open Archives ondertrouw record for Hendrik Wesloo and Anna Kempers",
+          "url": "https://www.openarchieven.nl/saa:19db96e7-24c6-4a02-bf9b-dde8deffeab6/json"
+        },
+        {
+          "label": "Open Archives baptism record for Hendrik, son of Hendrik Wesloo and Anna Kempers",
+          "url": "https://www.openarchieven.nl/saa:53fc3e39-745a-474c-8402-3ba0f565f628/json"
+        },
+        {
+          "label": "Open Archives baptism record for Anna Katriena, daughter of Hendrick Wesloo and Anna Kempers",
+          "url": "https://www.openarchieven.nl/saa:7c16941a-d728-4f56-8a77-457a0ffcf6b0/json"
+        },
+        {
+          "label": "Open Archives baptism record for Hendrik, child of Barend Geel and Kaatje de Wilde",
+          "url": "https://www.openarchieven.nl/saa:bd2dd520-cb09-79a2-27f6-9d804434ae4b/json"
+        }
+      ],
+      "researchedHash": "de8fdd001123ae5f",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780759685": {
+      "personId": "I272780759685",
+      "personName": "Barent Geel",
+      "bio": "Barent/Barend Geel appears with Kaatje de Wilde in Amsterdam Dutch Reformed baptism records. In 1737 they baptized Anthonij at the Noorderkerk, with Sijmon Ostman and Sara Groen as witnesses; in 1740 they baptized Hendrik at the Nieuwe Kerk, with Hendrik Wesseloo and Johanna Kempe as witnesses. These records place the Geel/de Wilde household in Amsterdam church life and connect it with the Wesselo/Kempers family circle.",
+      "funFacts": [
+        "The 1737 and 1740 baptisms show the family using both Barent and Barend spelling forms.",
+        "The witness list on the 1740 baptism is a useful social-network clue because it names Hendrik Wesseloo and Johanna Kempe."
+      ],
+      "records": [
+        "1737 Dutch Reformed baptism of son Anthonij, Amsterdam Noorderkerk",
+        "1740 Dutch Reformed baptism of son Hendrik, Amsterdam Nieuwe Kerk",
+        "1745 Dutch Reformed baptism witness entry, Amsterdam Noorderkerk"
+      ],
+      "citations": [
+        {
+          "label": "Open Archives baptism record for Anthonij, child of Barent Geel and Kaatje de Wilde",
+          "url": "https://www.openarchieven.nl/saa:15604158-36c4-436a-9086-b9be52d74e0b/json"
+        },
+        {
+          "label": "Open Archives baptism record for Hendrik, child of Barend Geel and Kaatje de Wilde",
+          "url": "https://www.openarchieven.nl/saa:bd2dd520-cb09-79a2-27f6-9d804434ae4b/json"
+        },
+        {
+          "label": "Open Archives baptism record for Anna Katriena, daughter of Hendrick Wesloo and Anna Kempers",
+          "url": "https://www.openarchieven.nl/saa:7c16941a-d728-4f56-8a77-457a0ffcf6b0/json"
+        }
+      ],
+      "researchedHash": "3057b757440ec852",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780759680": {
+      "personId": "I272780759680",
+      "personName": "Catrina de Wilde",
+      "bio": "Catrina de Wilde appears in the Amsterdam baptism records for this family under the common Dutch form Kaatje de Wilde. She and Barent/Barend Geel are named as parents in the 1737 baptism of Anthonij at the Noorderkerk and the 1740 baptism of Hendrik at the Nieuwe Kerk. In 1745, Kaatje de Wilde and Barent Geel served as witnesses for a Wesselo/Kempers baptism, showing the families in the same church network.",
+      "funFacts": [
+        "The records do not spell her as Catrina; they use Kaatje, so the link should be treated as a documented name variant rather than a separate new fact.",
+        "Her family’s baptisms span two Amsterdam churches: Noorderkerk and Nieuwe Kerk."
+      ],
+      "records": [
+        "1737 Dutch Reformed baptism of son Anthonij, Amsterdam Noorderkerk",
+        "1740 Dutch Reformed baptism of son Hendrik, Amsterdam Nieuwe Kerk",
+        "1745 Dutch Reformed baptism witness entry, Amsterdam Noorderkerk"
+      ],
+      "citations": [
+        {
+          "label": "Open Archives baptism record for Anthonij, child of Barent Geel and Kaatje de Wilde",
+          "url": "https://www.openarchieven.nl/saa:15604158-36c4-436a-9086-b9be52d74e0b/json"
+        },
+        {
+          "label": "Open Archives baptism record for Hendrik, child of Barend Geel and Kaatje de Wilde",
+          "url": "https://www.openarchieven.nl/saa:bd2dd520-cb09-79a2-27f6-9d804434ae4b/json"
+        },
+        {
+          "label": "Open Archives baptism record for Anna Katriena, daughter of Hendrick Wesloo and Anna Kempers",
+          "url": "https://www.openarchieven.nl/saa:7c16941a-d728-4f56-8a77-457a0ffcf6b0/json"
+        }
+      ],
+      "researchedHash": "5ee07e2184ffe75b",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780762187": {
+      "personId": "I272780762187",
+      "personName": "Jan Wisloo",
+      "bio": "Jan Wisloo appears in Amsterdam marriage records at the start of the 1700s. He registered an intended marriage with Beatrix Claasz Bremmers on 24 September 1701; after her death, his 1703 intended marriage to Anna Lijflant explicitly notes his earlier wife as Beatrix Claasz Bremmers. A 1726 Amsterdam burial for Jan Wisselo likely belongs to the same surname cluster, but the burial index gives no relationships, so it should be treated cautiously.",
+      "funFacts": [
+        "The Amsterdam indexes preserve several spelling variants for the surname, including Wisloo, Wilslo, Visloo, and Wisselo.",
+        "The 1701 and 1703 ondertrouw records are especially useful because they name prior spouses, helping separate repeated marriages in a busy Amsterdam population."
+      ],
+      "records": [
+        "1701 Amsterdam ondertrouw registration with Beatrix Claasz Bremmers",
+        "1703 Amsterdam burial record of wife Beatris Bremmers",
+        "1703 Amsterdam ondertrouw registration with Anna Lijflant",
+        "1726 possible Amsterdam burial record for Jan Wisselo"
+      ],
+      "citations": [
+        {
+          "label": "Open Archives ondertrouw record for Jan Wisloo and Beatrix Claasz Bremmers",
+          "url": "https://www.openarchieven.nl/saa:9e6d4d0c-e6a2-4215-8936-7def966f7d19/json"
+        },
+        {
+          "label": "Open Archives burial record for Beatris Bremmers",
+          "url": "https://www.openarchieven.nl/saa:e76b252c-2660-4734-b544-fc23d3e70fbf/json"
+        },
+        {
+          "label": "Open Archives ondertrouw record for Jan Wisloo and Anna Lijflant",
+          "url": "https://www.openarchieven.nl/saa:57f8b6c6-7dc1-405d-865b-b3e7b779c55b/json"
+        },
+        {
+          "label": "Open Archives burial record for Jan Wisselo",
+          "url": "https://www.openarchieven.nl/saa:5a04e10a-b874-4a51-a399-99ac3e9748cc/json"
+        }
+      ],
+      "researchedHash": "08ab1ef5c99d4f49",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780762190": {
+      "personId": "I272780762190",
+      "personName": "Beatrix (Beatris) Claas Bremmers",
+      "bio": "Beatrix appears in Amsterdam records as Beatrix Claasz Bremmers and Beatris Bremmers. She registered an intended marriage with Jan Wisloo on 24 September 1701; the record notes her earlier husband as Hendrik Dircksz Smit. She was buried in Amsterdam on 10 January 1703, with the burial index identifying her as the wife of Jan Visloo.",
+      "funFacts": [
+        "Her 1701 marriage record and 1703 burial record preserve two forms of her name: Beatrix Claasz Bremmers and Beatris Bremmers.",
+        "The burial place note names the Heiligewegs- en Leidsche Kerkhof in Amsterdam."
+      ],
+      "records": [
+        "1701 Amsterdam ondertrouw registration with Jan Wisloo",
+        "1703 Amsterdam burial registration"
+      ],
+      "citations": [
+        {
+          "label": "Open Archives ondertrouw record for Jan Wisloo and Beatrix Claasz Bremmers",
+          "url": "https://www.openarchieven.nl/saa:9e6d4d0c-e6a2-4215-8936-7def966f7d19/json"
+        },
+        {
+          "label": "Open Archives burial record for Beatris Bremmers",
+          "url": "https://www.openarchieven.nl/saa:e76b252c-2660-4734-b544-fc23d3e70fbf/json"
+        }
+      ],
+      "researchedHash": "1e95f68d5343b802",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
     },
     "I272780690692": {
       "personId": "I272780690692",
@@ -703,7 +2053,8 @@
       "funFacts": [
         "She and Larry Lourens were charter members of Adventure-Life Reformed Church.",
         "Her obituary notes long volunteer service at Caring Hands Food Pantry in Altoona.",
-        "Her hobbies included reading, scrapbooking, embroidering, camping, and traveling."
+        "Her hobbies included reading, scrapbooking, embroidering, camping, and traveling.",
+        "Her obituary calls her the only child of Edward and Minnie Roorda, preserving Wilhelmina Hackert Roorda's family nickname."
       ],
       "records": [
         "Hamilton's Funeral Home obituary",
@@ -719,8 +2070,8 @@
           "url": "https://obituaries.oskaloosa.com/obituary/joyce-lourens-1080124570"
         }
       ],
-      "researchedHash": "f82dba10f40fc05c",
-      "researchedAt": "2026-06-21T04:58:29.036Z"
+      "researchedHash": "1a49430e145d4efe",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
     },
     "I272780753828": {
       "personId": "I272780753828",
@@ -729,19 +2080,25 @@
       "funFacts": [
         "He was a member of First Reformed Church in Pella for about 40 years.",
         "His obituary says he served on the church consistory for a number of years.",
-        "At his death he was survived by seven children, 19 grandchildren, 3 step-grandchildren, and 44 great-grandchildren."
+        "At his death he was survived by seven children, 19 grandchildren, 3 step-grandchildren, and 44 great-grandchildren.",
+        "Oakwood Cemetery recorded his sons by everyday names: Dave, Robert, Ed, and Henry."
       ],
       "records": [
-        "Pella Chronicle obituary transcribed on Find a Grave"
+        "Pella Chronicle obituary transcribed on Find a Grave",
+        "Oakwood Cemetery interment database, Pella, Iowa"
       ],
       "citations": [
         {
           "label": "Find a Grave memorial with Pella Chronicle obituary: Epp Robert Roorda",
           "url": "https://www.findagrave.com/memorial/133332234/epp_robert-roorda"
+        },
+        {
+          "label": "IAGenWeb Marion County: Oakwood Cemetery interment database, Part B",
+          "url": "https://iagenweb.org/marion/otherRecords/cemeteryRecords/OakwoodCemetery/db/Oakwood2021-10-10bmod.php"
         }
       ],
-      "researchedHash": "2575ffcbfb4bb705",
-      "researchedAt": "2026-06-21T04:58:29.036Z"
+      "researchedHash": "eccc3dd8f7267a39",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
     },
     "I272780753823": {
       "personId": "I272780753823",
@@ -750,19 +2107,25 @@
       "funFacts": [
         "Her obituary says she had 19 grandchildren and 4 great-grandchildren by 1949.",
         "She had a twin sister, Sarah, and the obituary names one brother and nine sisters who predeceased her.",
-        "She was described as a faithful First Reformed Church member who attended worship until lingering illness prevented it."
+        "She was described as a faithful First Reformed Church member who attended worship until lingering illness prevented it.",
+        "Oakwood Cemetery records her as Mrs. Epp Roorda, née Vander Wilt, buried in the same lot 10 as Epp R. Roorda."
       ],
       "records": [
-        "Pella Chronicle obituary transcribed on Find a Grave"
+        "Pella Chronicle obituary transcribed on Find a Grave",
+        "Oakwood Cemetery interment database, Pella, Iowa"
       ],
       "citations": [
         {
           "label": "Find a Grave memorial with Pella Chronicle obituary: Cornelia Vander Wilt Roorda",
           "url": "https://www.findagrave.com/memorial/133332306/cornelia-roorda"
+        },
+        {
+          "label": "IAGenWeb Marion County: Oakwood Cemetery interment database, Part B",
+          "url": "https://iagenweb.org/marion/otherRecords/cemeteryRecords/OakwoodCemetery/db/Oakwood2021-10-10bmod.php"
         }
       ],
-      "researchedHash": "44a1614937173c2a",
-      "researchedAt": "2026-06-21T04:58:29.036Z"
+      "researchedHash": "7ebbc1816ace7c3e",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
     },
     "I272780755032": {
       "personId": "I272780755032",
@@ -775,20 +2138,27 @@
       "funFacts": [
         "He celebrated his 11th birthday aboard ship on the family's 1857 journey to America.",
         "He and Adrianna Jane van Maren had 12 children: 10 sons and 2 daughters.",
-        "His siblings' immigration was staggered: three preceded the parents to America, four traveled with the parents, and two stayed in the Netherlands."
+        "His siblings' immigration was staggered: three preceded the parents to America, four traveled with the parents, and two stayed in the Netherlands.",
+        "His Pella Chronicle obituary, transcribed on Find a Grave, says he farmed south of the Des Moines River before retiring to Pella.",
+        "That obituary says he died at home after a three-week illness and was buried at Eureka Cemetery near Durham."
       ],
       "immigration": "Immigrated from Dantumawoude, Friesland, to Pella, Iowa, in 1857 with his parents and siblings Hendrik, Gerrit, and Hinke.",
       "records": [
-        "IAGenWeb translation of Greetings from America, Chapter 9"
+        "IAGenWeb translation of Greetings from America, Chapter 9",
+        "Find a Grave memorial with Pella Chronicle obituary"
       ],
       "citations": [
         {
           "label": "IAGenWeb: Greetings from America, Chapter 9, Family of Epke Alberts Roorda",
           "url": "https://iagenweb.org/marion/community/immigration/Groeten_English/GroetenTrans_9.php"
+        },
+        {
+          "label": "Find a Grave memorial with Pella Chronicle obituary: Ruurt Epke \"John\" Roorda",
+          "url": "https://www.findagrave.com/memorial/71687676/ruurt_epke-roorda"
         }
       ],
-      "researchedHash": "184dcfe3d3641e00",
-      "researchedAt": "2026-06-21T04:58:29.036Z"
+      "researchedHash": "8310707ad90afa7a",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
     },
     "I272780755053": {
       "personId": "I272780755053",
@@ -807,8 +2177,8 @@
           "url": "https://iagenweb.org/marion/community/immigration/Groeten_English/GroetenTrans_9.php"
         }
       ],
-      "researchedHash": "24470b1f4eda29ad",
-      "researchedAt": "2026-06-21T04:58:29.036Z"
+      "researchedHash": "98114950ca147d74",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
     },
     "I272780753865": {
       "personId": "I272780753865",
@@ -836,8 +2206,8 @@
           "url": "https://www.findagrave.com/memorial/133332306/cornelia-roorda"
         }
       ],
-      "researchedHash": "78f02222cb50cb25",
-      "researchedAt": "2026-06-21T04:58:29.036Z"
+      "researchedHash": "49b7ffbaeb76e967",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
     },
     "I272780753843": {
       "personId": "I272780753843",
@@ -862,8 +2232,8 @@
           "url": "https://www.findagrave.com/memorial/133332306/cornelia-roorda"
         }
       ],
-      "researchedHash": "c814e4706e2405a0",
-      "researchedAt": "2026-06-21T04:58:29.036Z"
+      "researchedHash": "c1dc19cc46f4b405",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
     },
     "I272780755066": {
       "personId": "I272780755066",
@@ -890,8 +2260,8 @@
           "url": "https://cdm17106.contentdm.oclc.org/digital/api/search/searchterm/Hackert/field/all/maxRecords/10"
         }
       ],
-      "researchedHash": "95a503cbf08811c2",
-      "researchedAt": "2026-06-21T04:58:29.036Z"
+      "researchedHash": "972d961b51b6a5b9",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
     },
     "I272780755090": {
       "personId": "I272780755090",
@@ -914,8 +2284,8 @@
           "url": "https://cdm17106.contentdm.oclc.org/digital/api/singleitem/collection/familyhf-ppl/id/1305"
         }
       ],
-      "researchedHash": "eff3a0581a8bac58",
-      "researchedAt": "2026-06-21T04:58:29.036Z"
+      "researchedHash": "2dadb0dd9021ad39",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
     },
     "I272780753770": {
       "personId": "I272780753770",
@@ -939,8 +2309,8 @@
           "url": "https://iagenweb.org/boards/marion/obituaries/index.cgi?read=81985"
         }
       ],
-      "researchedHash": "202414be0b67920a",
-      "researchedAt": "2026-06-21T04:58:29.036Z"
+      "researchedHash": "669d95c9abc81286",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
     },
     "I272780753758": {
       "personId": "I272780753758",
@@ -959,8 +2329,8 @@
           "url": "https://iagenweb.org/boards/marion/obituaries/index.cgi?read=81985"
         }
       ],
-      "researchedHash": "bdf3f081b75095e7",
-      "researchedAt": "2026-06-21T04:58:29.036Z"
+      "researchedHash": "00711a0004e5abf9",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
     },
     "I272780756185": {
       "personId": "I272780756185",
@@ -975,13 +2345,17 @@
         "Epke painted landscapes on glass in his spare time after arriving in America.",
         "He and Froukje had 11 children, two of whom died young in Dantumawoude.",
         "According to the History of Pella tradition quoted by IAGenWeb, the couple brought plum trees, rhubarb, roses, and other plants to America.",
-        "Their son Hendrik served in Company H, 17th Iowa Volunteers, and died during the Civil War at Corinth, Mississippi."
+        "Their son Hendrik served in Company H, 17th Iowa Volunteers, and died during the Civil War at Corinth, Mississippi.",
+        "His 1822 civil marriage record calls him a 23-year-old \"verver\" from Rinsumageest, matching the family tradition that he worked as a painter.",
+        "A Ferwerderadeel notarial deed from November 1822 lists him at Damwoude as a debtor for capital of 1,000 guilders."
       ],
       "immigration": "Left Dantumawoude for Pella, Iowa, in 1857 with wife Froukje and children Hendrik, Gerrit, Hinke, and Ruurd/John.",
       "records": [
         "IAGenWeb translation of Greetings from America, Chapter 9",
         "Find a Grave memorial biography",
-        "Pella Community Memory Database photograph"
+        "Pella Community Memory Database photograph",
+        "AlleFriezen/OpenArchieven civil marriage record for Epke Alberts Roorda and Froukje Wiegers van der Lune",
+        "AlleFriezen/OpenArchieven Ferwerderadeel notarial deed, 12 November 1822"
       ],
       "citations": [
         {
@@ -995,10 +2369,18 @@
         {
           "label": "PCMD photograph metadata: Mr. and Mrs. Epke Alberts Roorda",
           "url": "https://cdm17106.contentdm.oclc.org/digital/api/singleitem/collection/PHSM_PEOPLE/id/2811"
+        },
+        {
+          "label": "OpenArchieven/AlleFriezen: marriage of Epke Alberts Roorda and Froukje Wiegers van der Lune, 1822",
+          "url": "https://www.openarchieven.nl/frl:517475ba-ad56-d5f8-81ac-86325bc7e5c3/json"
+        },
+        {
+          "label": "OpenArchieven/AlleFriezen: Ferwerderadeel notarial deed naming Epke Alberts Roorda, 1822",
+          "url": "https://www.openarchieven.nl/frl:0066d06b-dd2c-4f15-84c7-5248d1190d6d/json"
         }
       ],
-      "researchedHash": "203a9e76525e4aa0",
-      "researchedAt": "2026-06-21T04:58:29.036Z"
+      "researchedHash": "c5978e0560ec8868",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
     },
     "I272780756195": {
       "personId": "I272780756195",
@@ -1007,12 +2389,15 @@
       "funFacts": [
         "The couple had 11 children, and two died young before the family emigrated.",
         "Their family reportedly brought plum trees, rhubarb, roses, and other plants to America.",
-        "A PCMD photograph identifies Mr. and Mrs. Epke Alberts Roorda and notes their 30 May 1822 marriage."
+        "A PCMD photograph identifies Mr. and Mrs. Epke Alberts Roorda and notes their 30 May 1822 marriage.",
+        "Her 1822 civil marriage record lists her as a 21-year-old bride born in Hallum.",
+        "The same marriage record names her parents as Wieger Pieters van der Lune and Antje Gerrits Kooi, tying the Hallum family into the later Roorda immigrant line."
       ],
       "immigration": "Immigrated from Friesland to Pella, Iowa, in 1857 with Epke and four of their children; other children had already preceded them to America.",
       "records": [
         "IAGenWeb translation of Greetings from America, Chapter 9",
-        "Pella Community Memory Database photograph"
+        "Pella Community Memory Database photograph",
+        "AlleFriezen/OpenArchieven civil marriage record for Epke Alberts Roorda and Froukje Wiegers van der Lune"
       ],
       "citations": [
         {
@@ -1022,10 +2407,14 @@
         {
           "label": "PCMD photograph metadata: Mr. and Mrs. Epke Alberts Roorda",
           "url": "https://cdm17106.contentdm.oclc.org/digital/api/singleitem/collection/PHSM_PEOPLE/id/2811"
+        },
+        {
+          "label": "OpenArchieven/AlleFriezen: marriage of Epke Alberts Roorda and Froukje Wiegers van der Lune, 1822",
+          "url": "https://www.openarchieven.nl/frl:517475ba-ad56-d5f8-81ac-86325bc7e5c3/json"
         }
       ],
-      "researchedHash": "9299e7d83e15fd50",
-      "researchedAt": "2026-06-21T04:58:29.036Z"
+      "researchedHash": "4a7815f68725d46a",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
     },
     "I272780756243": {
       "personId": "I272780756243",
@@ -1053,8 +2442,8 @@
           "url": "https://iagenweb.org/marion/community/immigration/Groeten_English/GroetenTrans_9.php"
         }
       ],
-      "researchedHash": "1ff7e023d6954200",
-      "researchedAt": "2026-06-21T04:58:29.036Z"
+      "researchedHash": "124e58571cdea67b",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
     },
     "I272780756253": {
       "personId": "I272780756253",
@@ -1077,8 +2466,8 @@
           "url": "https://www.wikitree.com/wiki/Space:Dutch_Immigrants_that_followed_Hendrik_Pieter_Scholte_in_1847_and_settled_in_Pella%2C_Iowa%2C_USA"
         }
       ],
-      "researchedHash": "9e6937143be61d16",
-      "researchedAt": "2026-06-21T04:58:29.036Z"
+      "researchedHash": "25861d8f7b506fb6",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
     },
     "I272780753875": {
       "personId": "I272780753875",
@@ -1098,40 +2487,661 @@
           "url": "https://www.wikitree.com/wiki/Space:Dutch_Immigrants_that_followed_Hendrik_Pieter_Scholte_in_1847_and_settled_in_Pella%2C_Iowa%2C_USA"
         }
       ],
-      "researchedHash": "4347c8ef55f13024",
-      "researchedAt": "2026-06-21T04:58:29.036Z"
+      "researchedHash": "a9f6980df06aeeb6",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780753585": {
+      "personId": "I272780753585",
+      "personName": "Edward Charles Roorda",
+      "bio": "Oakwood Cemetery records Edward C. Roorda with a calculated birth date of 14 September 1910, death date of 30 May 2003, and burial in lot 58. The same interment record lists his nearest relative as daughter Joyce; Joyce Lourens's obituary identifies her as the only child of Edward and Minnie Roorda.",
+      "funFacts": [
+        "Oakwood Cemetery recorded his nearest relative simply as \"Dau - Joyce,\" matching Joyce Lourens's obituary statement that she was Edward and Minnie Roorda's only child.",
+        "He and Wilhelmina Hackert Roorda are recorded in the same Oakwood Cemetery lot, lot 58.",
+        "His father Epp R. Roorda's Oakwood interment record names a son \"Ed,\" suggesting Edward used the short family name Ed."
+      ],
+      "records": [
+        "Oakwood Cemetery interment database, Pella, Iowa",
+        "Hamilton's Funeral Home obituary for daughter Joyce Kathryn Lourens"
+      ],
+      "citations": [
+        {
+          "label": "IAGenWeb Marion County: Oakwood Cemetery interment database, Part B",
+          "url": "https://iagenweb.org/marion/otherRecords/cemeteryRecords/OakwoodCemetery/db/Oakwood2021-10-10bmod.php"
+        },
+        {
+          "label": "Hamilton's Funeral Home obituary: Joyce Kathryn Lourens",
+          "url": "https://hamiltonsfuneralhome.com/obituaries/52990"
+        }
+      ],
+      "researchedHash": "b92f420eb43c9e14",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780753642": {
+      "personId": "I272780753642",
+      "personName": "Wilhemina Hackert",
+      "bio": "Oakwood Cemetery records Wilhelmina Hackert Roorda as Mrs. Edward Roorda, née Wilhelmina Hackert, with a calculated birth date of 29 June 1912, death date of 21 December 1952, and burial in lot 58 with Edward. Her daughter Joyce's obituary preserves her family nickname, Minnie.",
+      "funFacts": [
+        "Joyce Lourens's obituary preserves Wilhelmina's everyday family name as \"Minnie.\"",
+        "Oakwood Cemetery calculated her age at death as 40 years, 5 months, and 22 days.",
+        "Her brother Henry Hackert's obituary names Wilhelmina Roorda among his sisters, alongside Cornelia Schakel and brother Clarence Hackert."
+      ],
+      "records": [
+        "Oakwood Cemetery interment database, Pella, Iowa",
+        "Henry Hackert obituary on IAGenWeb",
+        "Hamilton's Funeral Home obituary for daughter Joyce Kathryn Lourens"
+      ],
+      "citations": [
+        {
+          "label": "IAGenWeb Marion County: Oakwood Cemetery interment database, Part B",
+          "url": "https://iagenweb.org/marion/otherRecords/cemeteryRecords/OakwoodCemetery/db/Oakwood2021-10-10bmod.php"
+        },
+        {
+          "label": "IAGenWeb Marion County obituary: Henry Hackert",
+          "url": "https://iagenweb.org/boards/marion/obituaries/index.cgi?read=81985"
+        },
+        {
+          "label": "Hamilton's Funeral Home obituary: Joyce Kathryn Lourens",
+          "url": "https://hamiltonsfuneralhome.com/obituaries/52990"
+        }
+      ],
+      "researchedHash": "b86d750e87237e0e",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780756335": {
+      "personId": "I272780756335",
+      "personName": "Hinke Izaak Roorda",
+      "bio": "Hinke Izaaks Roorda lived into the civil-registration era in Friesland: her 1837 Dantumawoude death record lists her as an 83-year-old widow and names her parents as Izaak Rinses and Jitske Ruurds. A Reformed baptism index from Rinsumageest and Sijbrandahuis records the baptism of Hinke, daughter of IJzak Rinses Roorda, on 21 April 1754.",
+      "funFacts": [
+        "Her death record preserves both her age, 83, and widow status in Dantumawoude.",
+        "Her baptism is indexed in the Reformed church book for Rinsumageest and Sijbrandahuis, the same small Frisian church landscape carried through the Roorda line."
+      ],
+      "records": [
+        "AlleFriezen/OpenArchieven Dantumadeel civil death record, 1837",
+        "AlleFriezen/OpenArchieven DTB baptism record, Rinsumageest and Sijbrandahuis, 1754"
+      ],
+      "citations": [
+        {
+          "label": "OpenArchieven/AlleFriezen: death of Hinke Izaaks Roorda, 1837",
+          "url": "https://www.openarchieven.nl/frl:af025026-b087-e002-94d5-8d6c4db8f9b4/json"
+        },
+        {
+          "label": "OpenArchieven/AlleFriezen: baptism of Hinke, daughter of IJzak Rinses Roorda, 1754",
+          "url": "https://www.openarchieven.nl/frl:96172767-936d-4e28-ba11-3d1c560d1e26/json"
+        }
+      ],
+      "researchedHash": "fb31cf3881612cb4",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780756344": {
+      "personId": "I272780756344",
+      "personName": "Wyger Pieters Van Der Lune",
+      "bio": "Wieger Pieters van der Lune appears in the Napoleonic-era Registres civiques for Ferwerderadeel as a Hallum resident born 2 October 1770 and working as a voerman/charretier, a carter or wagoner. His 1846 death record gives his age as 76 and names his parents as Pieter Fransen and Aukje Jans.",
+      "occupations": [
+        "voerman / carter"
+      ],
+      "funFacts": [
+        "The 1811-1812 civic register gives his occupation bilingually as \"voerman / charretier,\" a wagoner or carter moving goods by horse and cart.",
+        "His civic-register entry places him at Hallum, the village where his daughter Froukje was born.",
+        "His death record says he was 76 when he died in Ferwerderadeel in November 1846."
+      ],
+      "records": [
+        "AlleFriezen/OpenArchieven Registres civiques entry, Ferwerderadeel",
+        "AlleFriezen/OpenArchieven civil death record, Ferwerderadeel, 1846"
+      ],
+      "citations": [
+        {
+          "label": "OpenArchieven/AlleFriezen: Registres civiques entry for Wieger Pieters van der Lune",
+          "url": "https://www.openarchieven.nl/frl:3c8aef22-ef78-40cd-98a5-82737fa542d5/json"
+        },
+        {
+          "label": "OpenArchieven/AlleFriezen: death of Wieger Pieters van de Lune, 1846",
+          "url": "https://www.openarchieven.nl/frl:93f18fb7-62f6-5657-3b87-458aad434c53/json"
+        }
+      ],
+      "researchedHash": "4f46b71578d9a9f3",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780756917": {
+      "personId": "I272780756917",
+      "personName": "Ijzak (Izaak) Rinses Roorda",
+      "bio": "IJzak Rinses Roorda is named in the Rinsumageest and Sijbrandahuis Reformed baptism book as the father of Hinke, baptized 21 April 1754. That church-book entry anchors the patronymic Roorda line in Dantumadeel before modern civil registration.",
+      "funFacts": [
+        "The baptism index uses the spelling \"IJzak Rinses Roorda,\" showing how the name could shift between IJzak, Izaak, and Ijzak in records.",
+        "The record places the family in the Hervormde gemeente Rinsumageest en Sijbrandahuis baptism register."
+      ],
+      "records": [
+        "AlleFriezen/OpenArchieven DTB baptism record, Rinsumageest and Sijbrandahuis, 1754"
+      ],
+      "citations": [
+        {
+          "label": "OpenArchieven/AlleFriezen: baptism of Hinke, daughter of IJzak Rinses Roorda, 1754",
+          "url": "https://www.openarchieven.nl/frl:96172767-936d-4e28-ba11-3d1c560d1e26/json"
+        }
+      ],
+      "researchedHash": "01154831723ef7ff",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780757103": {
+      "personId": "I272780757103",
+      "personName": "Rinse Johan Roorda",
+      "bio": "Rinse Johan Roorda is the earliest Roorda ancestor named in this roster. The broader surname has a documented Frisian noble-family context around Roorda State at Genum, but the available source does not prove that this specific Rinse Johan descends from the Genum, Tzummarum, or Cubaard noble branches.",
+      "funFacts": [
+        "Stinsen in Friesland describes Roorda as an important Frisian family with branches at Tzummarum, Cubaard, and Genum, but says it is difficult to show how those branches connect.",
+        "The same source says the Genum Roordas appear in records by 1397 as \"Rowertha to Ghenim\"; treat this as surname context, not proven ancestry for this tree line."
+      ],
+      "records": [
+        "Stinsen in Friesland article on Roorda State at Genum"
+      ],
+      "citations": [
+        {
+          "label": "Stinsen in Friesland: Roorda State at Genum",
+          "url": "http://www.stinseninfriesland.nl/RoordaStateGenum.htm"
+        }
+      ],
+      "researchedHash": "cf563cb2bc796fbc",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780761759": {
+      "personId": "I272780761759",
+      "personName": "Gerrit VANDERWILT",
+      "occupations": [
+        "farmer"
+      ],
+      "bio": "Gerrit van der Wilt appears in the 1847 Pieter Floris passenger-list transcriptions as a 52-year-old farmer traveling with Sophia, née Spruit, and a large household of children. The list places the family among the Dutch emigrants connected with the early Pella, Iowa settlement movement. This is a passenger-list identification rather than a full biography, but it is a strong match for the Gerrit Vander Wilt household in this branch.",
+      "funFacts": [
+        "The detailed WikiTree transcription lists two sons named Jan in the household, ages 24 and 15, while the IAGenWeb transcription distinguishes them as Jan Sr. and Jan Jr.",
+        "The same household included several working-age sons listed as farmers, showing that this was a large agricultural family migration."
+      ],
+      "immigration": "Listed on the Pieter Floris, departing the Netherlands in April 1847 and arriving at Baltimore before the family continued toward the Pella, Iowa Dutch settlement.",
+      "records": [
+        "Pieter Floris passenger-list transcriptions"
+      ],
+      "citations": [
+        {
+          "label": "WikiTree: Dutch immigrants who settled in Pella, Pieter Floris passenger list",
+          "url": "https://www.wikitree.com/wiki/Space:Dutch_Immigrants_that_followed_Hendrik_Pieter_Scholte_in_1847_and_settled_in_Pella%2C_Iowa%2C_USA"
+        },
+        {
+          "label": "IAGenWeb Marion County: passengers on the Pieter Floris",
+          "url": "http://iagenweb.org/marion/community/immigration/PieterFloris.php"
+        }
+      ],
+      "researchedHash": "9af0e4245010134e",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780761753": {
+      "personId": "I272780761753",
+      "personName": "Fijtje \"Sophia\" Spruijt",
+      "occupations": [
+        "housewife"
+      ],
+      "bio": "Sophia Spruit is listed in Pieter Floris passenger-list transcriptions as Sophia, née Spruit, age 47, housewife, in the household of Gerrit van der Wilt. The household included multiple children and was part of the Dutch immigrant stream associated with the founding generation of Pella, Iowa. Her record is clearest as passenger-list evidence and family context rather than a detailed personal biography.",
+      "funFacts": [
+        "The passenger transcription preserves her maiden name directly as “Nee Spruit.”",
+        "Her household traveled with many Dutch farm families, matching the agricultural character of the early Pella colony."
+      ],
+      "immigration": "Listed in 1847 on the Pieter Floris with Gerrit van der Wilt and their children, bound for the Dutch settlement stream that became Pella, Iowa.",
+      "records": [
+        "Pieter Floris passenger-list transcriptions"
+      ],
+      "citations": [
+        {
+          "label": "WikiTree: Dutch immigrants who settled in Pella, Pieter Floris passenger list",
+          "url": "https://www.wikitree.com/wiki/Space:Dutch_Immigrants_that_followed_Hendrik_Pieter_Scholte_in_1847_and_settled_in_Pella%2C_Iowa%2C_USA"
+        },
+        {
+          "label": "IAGenWeb Marion County: passengers on the Pieter Floris",
+          "url": "http://iagenweb.org/marion/community/immigration/PieterFloris.php"
+        }
+      ],
+      "researchedHash": "2590d63e1be5c335",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780755187": {
+      "personId": "I272780755187",
+      "personName": "Gerritje Van der Streek",
+      "bio": "Gerritje van de Streek was born at Oldebroek on 2 February 1858, daughter of Helmig van de Streek and Janna Sneller. Her birth record describes her father as a 35-year-old day laborer and her mother as age 34. She later appears in Pella, Iowa cemetery evidence as Gerritje De Wild, buried at Graceland Cemetery with dates 1858–1944.",
+      "funFacts": [
+        "Her Dutch birth record uses the spelling “van de Streek,” while the Iowa cemetery memorial uses the Americanized married form “De Wild.”",
+        "The birth registration was made the day after her birth, on 3 February 1858."
+      ],
+      "records": [
+        "Gelders Archief/OpenArchieven civil birth record",
+        "Find a Grave memorial"
+      ],
+      "citations": [
+        {
+          "label": "OpenArchieven/Gelders Archief: birth of Gerritje van de Streek, 1858",
+          "url": "https://www.openarchieven.nl/gld:BBD5F271-43BB-45CF-874D-BDB89AF0CA0F/json"
+        },
+        {
+          "label": "Find a Grave memorial: Gerritje De Wild",
+          "url": "https://www.findagrave.com/memorial/145367611/gerritje-de_wild"
+        }
+      ],
+      "researchedHash": "1f8d8b4041c28190",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780755153": {
+      "personId": "I272780755153",
+      "personName": "Hendrik de Wild",
+      "bio": "Hendrik, memorialized in Iowa as H “Hendrik” De Wild, was born in the Nijkerk area of Gelderland and died on 17 August 1913. His Find a Grave memorial places his burial at Graceland Cemetery in Pella, Marion County, Iowa. The matching cemetery evidence ties the Dutch De Wild line into the Pella Dutch-American community where Gerritje van de Streek De Wild is also buried.",
+      "funFacts": [
+        "His Find a Grave memorial uses only the initial “H” before the quoted given name “Hendrik,” a common pattern for Dutch names in American cemetery indexing.",
+        "The memorial gives his birth as 30 November 1856 in Nijkerk Municipality, Gelderland, Netherlands."
+      ],
+      "records": [
+        "Find a Grave memorial"
+      ],
+      "citations": [
+        {
+          "label": "Find a Grave memorial: H “Hendrik” De Wild",
+          "url": "https://www.findagrave.com/memorial/145367533/h-de_wild"
+        },
+        {
+          "label": "Find a Grave memorial: Gerritje De Wild",
+          "url": "https://www.findagrave.com/memorial/145367611/gerritje-de_wild"
+        }
+      ],
+      "researchedHash": "505c543069c84600",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780758783": {
+      "personId": "I272780758783",
+      "personName": "Helmig van de Streek",
+      "occupations": [
+        "day laborer"
+      ],
+      "bio": "Helmig van de Streek is named in his daughter Gerritje’s 1858 Oldebroek birth record as her father. The same civil record gives his age as 35 and his occupation as “daglooner,” a day laborer. This anchors the Van de Streek family in Oldebroek shortly before the later Iowa branch appears in Pella records.",
+      "funFacts": [
+        "The record’s occupational term “daglooner” points to wage labor rather than land ownership or a trade.",
+        "A Nationaal Archief emigrant index includes an 1870 Oldebroek entry for a widowed “Helmig-van de Streek” household; because the forename is omitted, it should be treated as migration context, not proof of Helmig himself emigrating."
+      ],
+      "records": [
+        "Gelders Archief/OpenArchieven civil birth record for daughter Gerritje",
+        "Nationaal Archief/OpenArchieven emigrant index entry"
+      ],
+      "citations": [
+        {
+          "label": "OpenArchieven/Gelders Archief: birth of Gerritje van de Streek, 1858",
+          "url": "https://www.openarchieven.nl/gld:BBD5F271-43BB-45CF-874D-BDB89AF0CA0F/json"
+        },
+        {
+          "label": "OpenArchieven/Nationaal Archief: emigrant registration for widow Helmig-van de Streek, 1870",
+          "url": "https://www.openarchieven.nl/ghn:901c32a6-c442-102d-a078-0050569c51dd/json"
+        }
+      ],
+      "researchedHash": "6de7ceed5ea507e2",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780758779": {
+      "personId": "I272780758779",
+      "personName": "Janna Sneller",
+      "bio": "Janna Sneller is named in the Oldebroek birth record of Gerritje van de Streek on 2 February 1858. The record gives Janna’s age as 34 and lists her as having no stated occupation, while Gerritje’s father Helmig van de Streek was recorded as a day laborer. This provides a civil-registration anchor for the Sneller and Van de Streek families before the later Pella, Iowa connection.",
+      "funFacts": [
+        "The birth record preserves Janna’s surname in the Dutch form Sneller before the family’s later American context.",
+        "The registration was made in Oldebroek, a Gelderland municipality that appears repeatedly in the Van de Streek/Sneller records."
+      ],
+      "records": [
+        "Gelders Archief/OpenArchieven civil birth record for daughter Gerritje"
+      ],
+      "citations": [
+        {
+          "label": "OpenArchieven/Gelders Archief: birth of Gerritje van de Streek, 1858",
+          "url": "https://www.openarchieven.nl/gld:BBD5F271-43BB-45CF-874D-BDB89AF0CA0F/json"
+        }
+      ],
+      "researchedHash": "822bc0a94b3910da",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780759464": {
+      "personId": "I272780759464",
+      "personName": "Hendrika Stomphorst",
+      "bio": "Hendrika Stomphorst was born at Nijkerkerveen on 27 May 1827, daughter of Hendrik Stomphorst and Trijntje Willems. Her birth record says her father was a day laborer and gives both parents’ ages. In Iowa, a Find a Grave memorial for Hendrika Jan Stomphorst DeWild records her death on 8 December 1916 and burial at Graceland Cemetery in Pella.",
+      "funFacts": [
+        "Her Dutch birth record was registered at Nijkerk on 28 May 1827, the day after her birth.",
+        "The Iowa memorial preserves the middle patronymic-style “Jan” in the name Hendrika Jan Stomphorst DeWild."
+      ],
+      "records": [
+        "Gelders Archief/OpenArchieven civil birth record",
+        "Find a Grave memorial"
+      ],
+      "citations": [
+        {
+          "label": "OpenArchieven/Gelders Archief: birth of Hendrika Stomphorst, 1827",
+          "url": "https://www.openarchieven.nl/gld:9C9A0B4A-7E24-4539-AC21-C46333E7F98E/json"
+        },
+        {
+          "label": "Find a Grave memorial: Hendrika Jan Stomphorst DeWild",
+          "url": "https://www.findagrave.com/memorial/134616407/hendrika_jan-dewild"
+        }
+      ],
+      "researchedHash": "e16aa631d9bb4c68",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780761647": {
+      "personId": "I272780761647",
+      "personName": "Hendrik Hendriksen Stomphorst Sr",
+      "occupations": [
+        "day laborer"
+      ],
+      "bio": "Hendrik Stomphorst is identified in the 1827 Nijkerkerveen birth record of his daughter Hendrika. The record gives his age as 35 and occupation as “daghuurder,” a day laborer or hired hand. This civil record connects the Stomphorst family to Nijkerk and provides the parental link into the later De Wild branch.",
+      "funFacts": [
+        "The Dutch occupational word “daghuurder” literally indicates someone hired by the day.",
+        "His daughter Hendrika’s birth was registered in Nijkerk even though the event place is Nijkerkerveen."
+      ],
+      "records": [
+        "Gelders Archief/OpenArchieven civil birth record for daughter Hendrika"
+      ],
+      "citations": [
+        {
+          "label": "OpenArchieven/Gelders Archief: birth of Hendrika Stomphorst, 1827",
+          "url": "https://www.openarchieven.nl/gld:9C9A0B4A-7E24-4539-AC21-C46333E7F98E/json"
+        }
+      ],
+      "researchedHash": "631d0bf2c4562caf",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780761639": {
+      "personId": "I272780761639",
+      "personName": "Trijntje Willems",
+      "bio": "Trijntje Willems is named as the mother of Hendrika Stomphorst in an 1827 Nijkerkerveen civil birth record. The record gives Trijntje’s age as 37 and lists no occupation for her, while her husband Hendrik Stomphorst was recorded as a day laborer. This is a compact but reliable civil-registration link for the Stomphorst maternal line.",
+      "funFacts": [
+        "Her record shows the pre-surname patronymic form Willems still functioning as a family identifier in early nineteenth-century Gelderland records.",
+        "The same record places the family in Nijkerkerveen, a village within the Nijkerk civil-registration area."
+      ],
+      "records": [
+        "Gelders Archief/OpenArchieven civil birth record for daughter Hendrika"
+      ],
+      "citations": [
+        {
+          "label": "OpenArchieven/Gelders Archief: birth of Hendrika Stomphorst, 1827",
+          "url": "https://www.openarchieven.nl/gld:9C9A0B4A-7E24-4539-AC21-C46333E7F98E/json"
+        }
+      ],
+      "researchedHash": "1afbf6d818b9b767",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780759489": {
+      "personId": "I272780759489",
+      "personName": "Klaas Kornelis Hakkert",
+      "occupations": [
+        "farmer"
+      ],
+      "bio": "Klaas Cornelis Hakkert’s 1875 Herwijnen death record describes him as a 74-year-old farmer, born in Herwen en Aerdt, and names his parents as Cornelis Hakkert and Hester Verploegh. The same record names Maria van Zee as his partner. A daughter’s 1845 birth record also records Klaas as a 45-year-old farmer in Herwijnen, confirming the family setting used by the later Hackert/De Fockert line.",
+      "funFacts": [
+        "His 1875 death record and daughter Cornelia’s 1845 birth record both call him a “landbouwer,” a farmer.",
+        "The records preserve the Dutch Hakkert spelling that later appears beside De Fockert/Hackert forms in Pella family-history materials."
+      ],
+      "records": [
+        "Gelders Archief/OpenArchieven civil death record",
+        "Gelders Archief/OpenArchieven civil birth record for daughter Cornelia"
+      ],
+      "citations": [
+        {
+          "label": "OpenArchieven/Gelders Archief: death of Klaas Cornelis Hakkert, 1875",
+          "url": "https://www.openarchieven.nl/gld:DFB4374E-AA33-456B-B3C7-2651A089412A/json"
+        },
+        {
+          "label": "OpenArchieven/Gelders Archief: birth of Kornelia Hakkert, 1845",
+          "url": "https://www.openarchieven.nl/gld:1BDDEAA5-6936-4BB8-B8CA-9F224BBFE1B1/json"
+        }
+      ],
+      "researchedHash": "d1820d74129ea013",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780759480": {
+      "personId": "I272780759480",
+      "personName": "Maria van Zee",
+      "bio": "Maria van Zee is named as the mother of Kornelia/Cornelia Hakkert in the 1845 Herwijnen birth record for that child. The same birth record lists Klaas Hakkert as the father and describes Maria as having no occupation. Klaas Cornelis Hakkert’s 1875 death record again names Maria van Zee as his partner, tying the Hakkert and Van Zee families together in Herwijnen records.",
+      "funFacts": [
+        "Her daughter’s birth record uses the spelling “Kornelia,” while later family-history entries use Cornelia.",
+        "Maria’s name appears in both a birth record and her husband’s death record, giving two independent civil-registration anchors."
+      ],
+      "records": [
+        "Gelders Archief/OpenArchieven civil birth record for daughter Cornelia",
+        "Gelders Archief/OpenArchieven civil death record for Klaas Cornelis Hakkert"
+      ],
+      "citations": [
+        {
+          "label": "OpenArchieven/Gelders Archief: birth of Kornelia Hakkert, 1845",
+          "url": "https://www.openarchieven.nl/gld:1BDDEAA5-6936-4BB8-B8CA-9F224BBFE1B1/json"
+        },
+        {
+          "label": "OpenArchieven/Gelders Archief: death of Klaas Cornelis Hakkert, 1875",
+          "url": "https://www.openarchieven.nl/gld:DFB4374E-AA33-456B-B3C7-2651A089412A/json"
+        }
+      ],
+      "researchedHash": "d3dc61cca0ebf14e",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780759510": {
+      "personId": "I272780759510",
+      "personName": "Leendert de Fockert",
+      "occupations": [
+        "farmer",
+        "polder official"
+      ],
+      "bio": "The Pella Community Memory Database’s Dutch “Register of the Family De Fockert in Herwijnen” names a section for the children of Leendert de Fockert and Aartje van Maaren. A note on the preceding page says Leendert de Fockert was a “landbouwer en poldermeester,” meaning farmer and polder official. This source ties him to the Herwijnen De Fockert/Hackert family documented in the same register used for the later Pella Hackert line.",
+      "funFacts": [
+        "A poldermeester helped manage local reclaimed-land water works, a very Dutch civic responsibility.",
+        "The same PCMD register is a thirty-one-page Dutch family file covering the De Fockert family in Herwijnen from 1601 to 1942 and includes a family crest."
+      ],
+      "records": [
+        "Pella Community Memory Database: Register of the Family De Fockert in Herwijnen"
+      ],
+      "citations": [
+        {
+          "label": "PCMD: De Fockert register, note naming Leendert as farmer and poldermeester",
+          "url": "https://cdm17106.contentdm.oclc.org/digital/api/singleitem/collection/familyhf-ppl/id/1299"
+        },
+        {
+          "label": "PCMD: De Fockert register, children of Leendert de Fockert and Aartje van Maaren",
+          "url": "https://cdm17106.contentdm.oclc.org/digital/api/singleitem/collection/familyhf-ppl/id/1301"
+        },
+        {
+          "label": "PCMD: De Fockert register, continuation naming Klaas Hendrik de Fockert",
+          "url": "https://cdm17106.contentdm.oclc.org/digital/api/singleitem/collection/familyhf-ppl/id/1302"
+        },
+        {
+          "label": "PCMD: Register of the Family De Fockert in Herwijnen",
+          "url": "https://cdm17106.contentdm.oclc.org/digital/api/singleitem/collection/familyhf-ppl/id/1313"
+        }
+      ],
+      "researchedHash": "de6dbac6a99e420f",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780759506": {
+      "personId": "I272780759506",
+      "personName": "Aartje van Maaren",
+      "bio": "Aartje van Maaren is named in the Pella Community Memory Database’s De Fockert register as the wife of Leendert de Fockert and mother in the section “Kinderen van Leendert de Fockert en Aartje van Maaren.” The register pages list their children in Herwijnen, continuing onto the next page with Hendrikus, Jantje, and Klaas Hendrik de Fockert. Through Klaas Hendrik, this Herwijnen family connects to the later Hackert line in Pella.",
+      "funFacts": [
+        "The register’s child list links Aartje directly to Klaas Hendrik de Fockert, whose descendants used the Hackert/De Fockert surname forms.",
+        "The PCMD metadata describes the De Fockert register as a Dutch genealogy with a family crest."
+      ],
+      "records": [
+        "Pella Community Memory Database: Register of the Family De Fockert in Herwijnen"
+      ],
+      "citations": [
+        {
+          "label": "PCMD: De Fockert register, children of Leendert de Fockert and Aartje van Maaren",
+          "url": "https://cdm17106.contentdm.oclc.org/digital/api/singleitem/collection/familyhf-ppl/id/1301"
+        },
+        {
+          "label": "PCMD: De Fockert register, continuation naming Klaas Hendrik de Fockert",
+          "url": "https://cdm17106.contentdm.oclc.org/digital/api/singleitem/collection/familyhf-ppl/id/1302"
+        },
+        {
+          "label": "PCMD: Register of the Family De Fockert in Herwijnen",
+          "url": "https://cdm17106.contentdm.oclc.org/digital/api/singleitem/collection/familyhf-ppl/id/1313"
+        }
+      ],
+      "researchedHash": "9dab4d2c8bb9dfbf",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780757791": {
+      "personId": "I272780757791",
+      "personName": "Sierck Siercksz Donia",
+      "occupations": [
+        "hoofdeling at Donia State",
+        "grietman of Hennaarderadeel"
+      ],
+      "bio": "Stinsen in Friesland documents a Sierck Donia generation at Donia State in Easterein/Oosterend and says one Sierck lived on the state in 1540, sold rents from the Donia estate, and was grietman of Hennaarderadeel from 1550 until his death in 1569. This appears to match the Sierck Siercksz Donia in this tree, though the repeated Sierck names in the Harinxma-Donia line require caution. The same site explains that the Donia house was tied to the prominent medieval Donia family and the Schieringer–Vetkoper conflict known as the Donia War.",
+      "funFacts": [
+        "Donia State was important enough that Stinsen in Friesland says the Doniahuis remained the chief house of Easterein after 1500.",
+        "The Donia family gave its name to the Donia War, the 1458–1464 conflict between Schieringers and Vetkopers.",
+        "Stinsen in Friesland notes that the state was inherited and occupied through several repeated generations named Sierck, so exact identification should be handled carefully."
+      ],
+      "records": [
+        "Stinsen in Friesland article on Donia State at Hidaard/Easterein",
+        "Stinsen in Friesland article on Doniahuis at Oosterend"
+      ],
+      "citations": [
+        {
+          "label": "Stinsen in Friesland: De Donia State te Hidaard",
+          "url": "http://stinseninfriesland.nl/DoniaStateHydaard.htm"
+        },
+        {
+          "label": "Stinsen in Friesland: De Doniastins te Oosterend",
+          "url": "http://stinseninfriesland.nl/DoniahuisOosterend.htm"
+        },
+        {
+          "label": "Genealogy part families Wijngaard and Ruijs: Sierck Siercks van Donia",
+          "url": "https://ator0372.home.xs4all.nl/genealogy/data/data0116.html"
+        }
+      ],
+      "researchedHash": "18c1b89bcb123392",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780757510": {
+      "personId": "I272780757510",
+      "personName": "Focke Fransen Hummersma",
+      "bio": "AlleFriezen indexes Focke Fransen and Dieucke Auts together in a 14 September 1684 membership/confession entry for the Reformed congregation of Burum and Munnekezijl. Later Kollumerland court guardianship records call Focke Fransen deceased and name Dieucke Auts as mother of their orphaned children Frans, Trijntie/Trijn, and Aut Fockes. These records do not use the Hummersma surname directly, so the Hummersma label should be treated as family-tree context while the Focke-Fransen family relationships are documentary.",
+      "funFacts": [
+        "The 1684 church record says Focke and Dieucke made confession of faith on 14 September 1684.",
+        "The 1693 guardianship record names curators for the children after Focke’s death, a glimpse of how orphaned children were legally protected."
+      ],
+      "records": [
+        "AlleFriezen/OpenArchieven DTB membership record",
+        "AlleFriezen/OpenArchieven Kollumerland guardianship records"
+      ],
+      "citations": [
+        {
+          "label": "OpenArchieven/AlleFriezen: Focke Fransen and Dieucke Auts membership entry, 1684",
+          "url": "https://www.openarchieven.nl/frl:5f05fcfa-1e06-4aec-b982-7986ac10644d/json"
+        },
+        {
+          "label": "OpenArchieven/AlleFriezen: Kollumerland guardianship record, 1693",
+          "url": "https://www.openarchieven.nl/frl:ad1391d4-73ef-4487-acf2-86f88f25f50f/json"
+        },
+        {
+          "label": "OpenArchieven/AlleFriezen: Kollumerland guardianship record, 1704",
+          "url": "https://www.openarchieven.nl/frl:5521f9b7-77f7-4e5e-9ec8-4cf179530ccc/json"
+        }
+      ],
+      "researchedHash": "8ccd3de8b7c764d8",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780757503": {
+      "personId": "I272780757503",
+      "personName": "Dieucke Auts",
+      "bio": "Dieucke Auts appears with Focke Fransen in a 1684 Burum and Munnekezijl Reformed membership record. Kollumerland court records from 1693 and 1704 identify her as mother of Frans, Trijntie/Trijn, and Aut Fockes after Focke Fransen’s death. The records place the family around Burum, Munnekezijl, and Kollumerland in late seventeenth-century Friesland, but they do not themselves use the later Hummersma surname.",
+      "funFacts": [
+        "The 1693 guardianship record calls the children “weeskind,” or orphan children, and gives their ages as 10, 6, and 4.",
+        "By the 1704 guardianship entry the same children were recorded as 21, 18, and 16, showing the family’s legal trail over more than a decade."
+      ],
+      "records": [
+        "AlleFriezen/OpenArchieven DTB membership record",
+        "AlleFriezen/OpenArchieven Kollumerland guardianship records"
+      ],
+      "citations": [
+        {
+          "label": "OpenArchieven/AlleFriezen: Focke Fransen and Dieucke Auts membership entry, 1684",
+          "url": "https://www.openarchieven.nl/frl:5f05fcfa-1e06-4aec-b982-7986ac10644d/json"
+        },
+        {
+          "label": "OpenArchieven/AlleFriezen: Kollumerland guardianship record, 1693",
+          "url": "https://www.openarchieven.nl/frl:ad1391d4-73ef-4487-acf2-86f88f25f50f/json"
+        },
+        {
+          "label": "OpenArchieven/AlleFriezen: Kollumerland guardianship record, 1704",
+          "url": "https://www.openarchieven.nl/frl:5521f9b7-77f7-4e5e-9ec8-4cf179530ccc/json"
+        }
+      ],
+      "researchedHash": "1f4199973504c9d2",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780757126": {
+      "personId": "I272780757126",
+      "personName": "Frans Fockes Hummersma",
+      "bio": "Frans Fockes appears in Kollumerland court guardianship records as a child of the deceased Focke Fransen and Dieucke Auts. The 1693 record gives his age as 10, while a 1704 follow-up gives his age as 21, consistent with a birth in the early 1680s. These records do not use the Hummersma surname directly for Frans, so the surname connection should be treated as family-tree context rather than a wording found in the court entries.",
+      "funFacts": [
+        "The guardianship records name his siblings Trijntie/Trijn Fockes and Aut Fockes alongside him.",
+        "The age progression from 10 in 1693 to 21 in 1704 is unusually useful for a seventeenth-century Frisian child."
+      ],
+      "records": [
+        "AlleFriezen/OpenArchieven Kollumerland guardianship records"
+      ],
+      "citations": [
+        {
+          "label": "OpenArchieven/AlleFriezen: Kollumerland guardianship record, 1693",
+          "url": "https://www.openarchieven.nl/frl:ad1391d4-73ef-4487-acf2-86f88f25f50f/json"
+        },
+        {
+          "label": "OpenArchieven/AlleFriezen: Kollumerland guardianship record, 1704",
+          "url": "https://www.openarchieven.nl/frl:5521f9b7-77f7-4e5e-9ec8-4cf179530ccc/json"
+        }
+      ],
+      "researchedHash": "722cad72f66ec93e",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
     },
     "I272780690668": {
       "personId": "I272780690668",
       "personName": "Edmund Henry Stuenkel",
       "bio": "Edmund Henry Stuenkel Jr. was part of the Palmer, Washington County, Kansas Stuenkel family and later died in Fremont, Dodge County, Nebraska. A Find A Grave memorial matching his 1918-1976 dates preserves his burial record and confirms the Kansas/Nebraska family footprint.",
       "records": [
-        "Find A Grave memorial #42870488 for Edmund Henry Stuenkel Jr."
+        "Find A Grave memorial #42870488 for Edmund Henry Stuenkel Jr.",
+        "Dugan Funeral Chapel obituary for Lydia N. Stuenkel, noting her 1952 marriage to Edmund and their three children."
       ],
       "citations": [
         {
           "label": "Find A Grave: Edmund Henry Stuenkel Jr.",
           "url": "https://www.findagrave.com/memorial/42870488/edmund-henry-stuenkel"
+        },
+        {
+          "label": "Dugan Funeral Chapel: Lydia N. Stuenkel obituary",
+          "url": "https://www.duganchapel.com/obituary/lydia-stuenkel"
         }
       ],
-      "researchedHash": "b4d08f6bd63d7305",
-      "researchedAt": "2026-06-21T04:58:29.036Z"
+      "funFacts": [
+        "His wife Lydia's obituary says they married on 17 June 1952 and had three children, explaining the later Fremont, Nebraska household around a Kansas-born Stuenkel."
+      ],
+      "researchedHash": "672b70a366e44e64",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
     },
     "I272780753962": {
       "personId": "I272780753962",
       "personName": "Edmund Henry Stuenkel Sr",
       "bio": "Edmund Henry Stuenkel Sr. was born in Sterling, Nebraska, and spent his later life in Washington County, Kansas. His Find A Grave memorial places his burial in Washington Cemetery, Washington County, Kansas, tying this branch to the north-central Kansas Lutheran/German-settler community.",
       "records": [
-        "Find A Grave memorial #98758297 for Edmund Henry Stuenkel Sr."
+        "Find A Grave memorial #98758297 for Edmund Henry Stuenkel Sr.",
+        "FamilySearch Ancestors profile LR32-964 for Christine M. Stuenkel, naming Edmund and siblings in August and Christine's family."
       ],
       "citations": [
         {
           "label": "Find A Grave: Edmund Henry Stuenkel Sr.",
           "url": "https://www.findagrave.com/memorial/98758297/edmund_henry-stuenkel"
+        },
+        {
+          "label": "FamilySearch Ancestors: Christine M. Stuenkel",
+          "url": "https://ancestors.familysearch.org/en/LR32-964/christine-m-stuenkel-1860-1938"
         }
       ],
-      "researchedHash": "2379d16f838bcf9f",
-      "researchedAt": "2026-06-21T04:58:29.036Z"
+      "funFacts": [
+        "FamilySearch's profile for his mother Christine lists Edmund among a large sibling group that included Henry August, Frederick “Fritz,” Julius, Harry John Herman, and Christina Stuenkel."
+      ],
+      "researchedHash": "0dc01bf8997ef862",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
     },
     "I272780753948": {
       "personId": "I272780753948",
@@ -1146,18 +3156,23 @@
           "url": "https://www.findagrave.com/memorial/98329539/bertha-a-stuenkel"
         }
       ],
-      "researchedHash": "646aad4a00ccbd33",
-      "researchedAt": "2026-06-21T04:58:29.036Z"
+      "funFacts": [
+        "Her memorial's 1881–1935 dates mean Edmund Jr. was still a teenager when his mother died at age 53."
+      ],
+      "researchedHash": "3029eefb867caa23",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
     },
     "I272780754322": {
       "personId": "I272780754322",
       "personName": "Dietrich Louis August Stuenkel",
       "bio": "Dietrich Louis August Stuenkel appears in later records as August Louis “Gus” Stuenkel of Linn, Washington County, Kansas. A genealogy summary says he died suddenly at the family home in Linn and was a well-known local figure.",
       "funFacts": [
-        "He and Christine M. Stuenkel were reported to have at least 6 sons and 3 daughters."
+        "He and Christine M. Stuenkel were reported to have at least 6 sons and 3 daughters.",
+        "An obituary summary says that on the evening he died, he had been helping Emil Schwerdtfeger wire a recently remodeled property."
       ],
       "records": [
-        "Find A Grave memorial #113231341 for August Louis Stuenkel."
+        "Find A Grave memorial #113231341 for August Louis Stuenkel.",
+        "Find A Grave memorial/obituary summary describing August L. Stuenkel's sudden death after an evening of wiring work."
       ],
       "citations": [
         {
@@ -1169,15 +3184,16 @@
           "url": "https://ancestors.familysearch.org/en/LR32-964/christine-m-stuenkel-1860-1938"
         }
       ],
-      "researchedHash": "967fc4562f01b786",
-      "researchedAt": "2026-06-21T04:58:29.036Z"
+      "researchedHash": "10d0934a87c73968",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
     },
     "I272780754337": {
       "personId": "I272780754337",
       "personName": "Maria Dorothea Christine Stuenkel",
       "bio": "Maria Dorothea Christine Stuenkel appears in FamilySearch/Find A Grave-indexed material as Christine M. Stuenkel. Those records identify her parents as Friedrich Heinrich Konrad Stuenkel and Sophie Charlotte Frerking, and say she married August L. Stuenkel on 25 July 1878 in Lafayette County, Missouri.",
       "funFacts": [
-        "The FamilySearch summary reports that Christine and August L. Stuenkel had at least 6 sons and 3 daughters."
+        "The FamilySearch summary reports that Christine and August L. Stuenkel had at least 6 sons and 3 daughters.",
+        "FamilySearch's child list shows the family preserving German names while also using American nicknames such as Frederick “Fritz” Stuenkel."
       ],
       "records": [
         "FamilySearch ancestor profile LR32-964.",
@@ -1193,8 +3209,8 @@
           "url": "https://www.findagrave.com/memorial/113231470/christine-m-stuenkel"
         }
       ],
-      "researchedHash": "25c1c211d0c92ab5",
-      "researchedAt": "2026-06-21T04:58:29.036Z"
+      "researchedHash": "986d8deb54b274a6",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
     },
     "I272780754347": {
       "personId": "I272780754347",
@@ -1204,11 +3220,13 @@
       ],
       "bio": "Heinrich Emil “Henry” Gabbert was a German-born settler who lived in Linn, Washington County, Kansas. Search-indexed cemetery and genealogy records identify him as a farmer, husband of Caroline Schmidt, and father of several children including Bertha A. Stuenkel.",
       "funFacts": [
-        "Find A Grave places him in Zion Lutheran Cemetery at Linn, Kansas; search snippets report a death-date discrepancy of 21 July 1917 versus the roster’s 23 July 1917."
+        "Find A Grave places him in Zion Lutheran Cemetery at Linn, Kansas; search snippets report a death-date discrepancy of 21 July 1917 versus the roster’s 23 July 1917.",
+        "Search-indexed cemetery and genealogy summaries say Henry and Caroline married in 1876, anchoring Bertha Gabbert's family in Linn before Bertha's 1881 birth."
       ],
       "immigration": "Born in Prussia/Germany and settled in Washington County, Kansas; no ship or arrival year was confirmed in the sources found.",
       "records": [
-        "Find A Grave memorial #113812084 for Heinrich Emil “Henry” Gabbert."
+        "Find A Grave memorial #113812084 for Heinrich Emil “Henry” Gabbert.",
+        "Find A Grave/MyHeritage-indexed summary for Heinrich Emil Gabbert reporting his 1876 marriage to Caroline Schmidt."
       ],
       "citations": [
         {
@@ -1220,15 +3238,16 @@
           "url": "https://www.wikitree.com/genealogy/GABBERT"
         }
       ],
-      "researchedHash": "7803f4f9e5fc7145",
-      "researchedAt": "2026-06-21T04:58:29.036Z"
+      "researchedHash": "a7923fd00d34fcd0",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
     },
     "I272780754400": {
       "personId": "I272780754400",
       "personName": "Caroline Schmidt",
       "bio": "Caroline Schmidt was the wife of Heinrich Emil “Henry” Gabbert in the German Lutheran community around Linn, Washington County, Kansas. Find A Grave-indexed records place her burial with the Gabbert family at Zion Lutheran Cemetery in Linn.",
       "funFacts": [
-        "The Gabbert family search result names children including Bertha A. Stuenkel, Emilie O. Timme, Heinrich Henry Peter T. Gabbert, and Emil William Gabbert."
+        "The Gabbert family search result names children including Bertha A. Stuenkel, Emilie O. Timme, Heinrich Henry Peter T. Gabbert, and Emil William Gabbert.",
+        "Find A Grave gives her full birth date as 11 December 1848, narrowing the roster's month-only December 1848 birth entry."
       ],
       "records": [
         "Find A Grave memorial #113812127 for Caroline Gabbert."
@@ -1239,8 +3258,8 @@
           "url": "https://www.findagrave.com/memorial/113812127/caroline-gabbert"
         }
       ],
-      "researchedHash": "09751acc35cafb7c",
-      "researchedAt": "2026-06-21T04:58:29.036Z"
+      "researchedHash": "599f89fd5f21ab66",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
     },
     "I272780754421": {
       "personId": "I272780754421",
@@ -1253,10 +3272,17 @@
         {
           "label": "Find A Grave: Heinrich Dietrich Stuenkel",
           "url": "https://www.findagrave.com/memorial/27728629/heinrich_dietrich-stuenkel"
+        },
+        {
+          "label": "Wikipedia: Lafayette County, Missouri",
+          "url": "https://en.wikipedia.org/wiki/Lafayette_County,_Missouri"
         }
       ],
-      "researchedHash": "06d5b14eba5cad6d",
-      "researchedAt": "2026-06-21T04:58:29.036Z"
+      "funFacts": [
+        "His Lafayette County years placed him in a Missouri county where German immigrants became a large part of communities such as Concordia, Emma, Wellington, Napoleon, Higginsville, Mayview, and Lexington."
+      ],
+      "researchedHash": "bf3bc9aef2c99232",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
     },
     "I272780754467": {
       "personId": "I272780754467",
@@ -1269,10 +3295,17 @@
         {
           "label": "Find A Grave: Heinrich Dietrich Stuenkel",
           "url": "https://www.findagrave.com/memorial/27728629/heinrich_dietrich-stuenkel"
+        },
+        {
+          "label": "Wikipedia: Lafayette County, Missouri",
+          "url": "https://en.wikipedia.org/wiki/Lafayette_County,_Missouri"
         }
       ],
-      "researchedHash": "fbdadda43a985b21",
-      "researchedAt": "2026-06-21T04:58:29.036Z"
+      "funFacts": [
+        "His Lafayette County years placed him in a Missouri county where German immigrants became a large part of communities such as Concordia, Emma, Wellington, Napoleon, Higginsville, Mayview, and Lexington."
+      ],
+      "researchedHash": "b5b0d1f4953cd804",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
     },
     "I272780754448": {
       "personId": "I272780754448",
@@ -1286,10 +3319,17 @@
         {
           "label": "WikiTree: Louisa Elizabeth Scharnhorst Stuenkel",
           "url": "https://www.wikitree.com/wiki/Scharnhorst-117"
+        },
+        {
+          "label": "Wikipedia: Concordia, Missouri",
+          "url": "https://en.wikipedia.org/wiki/Concordia,_Missouri"
         }
       ],
-      "researchedHash": "553ae5e84500af65",
-      "researchedAt": "2026-06-21T04:58:29.036Z"
+      "funFacts": [
+        "Her 1869 death came just one year after nearby Concordia was platted, during the German-settler era in Lafayette County."
+      ],
+      "researchedHash": "02adb1933a4114f9",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
     },
     "I272780754477": {
       "personId": "I272780754477",
@@ -1298,32 +3338,48 @@
       "immigration": "Her widowed mother Dorothea emigrated to America with her children in 1845 aboard the ship General Washington from Bremen to New Orleans; Sophie Charlotte is documented in Missouri by the 1850 census.",
       "records": [
         "1850 U.S. census entry cited on WikiTree for Frederic and Charlotte Stinkle/Stuenkle in Lafayette County, Missouri.",
-        "Frerking family immigration record via the ship General Washington, cited on WikiTree."
+        "Frerking family immigration record via the ship General Washington, cited on WikiTree.",
+        "Esperke village history and chapel context for Sophie Charlotte Frerking's birthplace."
       ],
       "citations": [
         {
           "label": "WikiTree: Dorothea Maria Sprengel Frerking",
           "url": "https://www.wikitree.com/wiki/Sprengel-14"
+        },
+        {
+          "label": "Wikipedia (de): Esperke",
+          "url": "https://de.wikipedia.org/wiki/Esperke"
         }
       ],
-      "researchedHash": "218db8a181aeaa66",
-      "researchedAt": "2026-06-21T04:58:29.036Z"
+      "funFacts": [
+        "Her birthplace Esperke was a Leine-area village first recorded in 1268 and remembered for a small Gothic chapel more than 700 years old."
+      ],
+      "researchedHash": "1ff24f240fdd28d7",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
     },
     "I272780755891": {
       "personId": "I272780755891",
       "personName": "Johann Dietrich Frerking",
       "bio": "Johann Dietrich Frerking married Dorothea Maria Sprengel on 29 November 1811 in Esperke, Hanover. WikiTree records that he died on 15 July 1838 and was buried on 18 July 1838 in Esperke, before Dorothea and their children emigrated to Missouri.",
       "records": [
-        "WikiTree profile Frerking-57 for marriage, death, and burial notes."
+        "WikiTree profile Frerking-57 for marriage, death, and burial notes.",
+        "Esperke village history and chapel context for Johann Dietrich Frerking's marriage and burial place."
       ],
       "citations": [
         {
           "label": "WikiTree: Johann Dietrich Frerking",
           "url": "https://www.wikitree.com/wiki/Frerking-57"
+        },
+        {
+          "label": "Wikipedia (de): Esperke",
+          "url": "https://de.wikipedia.org/wiki/Esperke"
         }
       ],
-      "researchedHash": "05bc07689bbb2783",
-      "researchedAt": "2026-06-21T04:58:29.036Z"
+      "funFacts": [
+        "His documented marriage, death, and burial all sit in Esperke, a Leine-area village first recorded in 1268 and remembered for a small Gothic chapel more than 700 years old."
+      ],
+      "researchedHash": "61e2a2c0bb7ecdb5",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
     },
     "I272780754558": {
       "personId": "I272780754558",
@@ -1341,8 +3397,11 @@
           "url": "https://www.wikitree.com/wiki/Sprengel-14"
         }
       ],
-      "researchedHash": "45bb349bd9ac81c2",
-      "researchedAt": "2026-06-21T04:58:29.036Z"
+      "funFacts": [
+        "Her 1845 arrival brought the widowed Frerking family through New Orleans, described in her WikiTree profile as the third-largest U.S. city at the time."
+      ],
+      "researchedHash": "24b9f015e7cc88d7",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
     },
     "I272780755818": {
       "personId": "I272780755818",
@@ -1356,10 +3415,17 @@
         {
           "label": "WikiTree: Louis Scharnhorst",
           "url": "https://www.wikitree.com/wiki/Scharnhorst-89"
+        },
+        {
+          "label": "Wikipedia: Concordia, Missouri",
+          "url": "https://en.wikipedia.org/wiki/Concordia,_Missouri"
         }
       ],
+      "funFacts": [
+        "Concordia was platted in 1868 and had many early German settlers, so Ludwig's 1879 burial there places him among the community's first German-settler generation."
+      ],
       "researchedHash": "2611d46f98789e55",
-      "researchedAt": "2026-06-21T04:58:29.036Z"
+      "researchedAt": "2026-06-21T06:41:00.151Z"
     },
     "I272780755828": {
       "personId": "I272780755828",
@@ -1373,26 +3439,357 @@
         {
           "label": "WikiTree: Louise Gasdorff",
           "url": "https://www.wikitree.com/wiki/Gasdorff-1"
+        },
+        {
+          "label": "Wikipedia: Concordia, Missouri",
+          "url": "https://en.wikipedia.org/wiki/Concordia,_Missouri"
         }
       ],
+      "funFacts": [
+        "She lived long enough to see Concordia formally platted in 1868 and died in the German-settler community less than a decade later."
+      ],
       "researchedHash": "3889f60d39805b3a",
-      "researchedAt": "2026-06-21T04:58:29.036Z"
+      "researchedAt": "2026-06-21T06:41:00.151Z"
     },
     "I272780754564": {
       "personId": "I272780754564",
       "personName": "Johann Frederick Ludwig Stuenkel",
       "bio": "WikiTree’s Stuenkel surname page lists Johann Ludwig Stuenkel with a 5 March 1776 birth in Metel, Neustadt, Hanover, and an 18 April 1853 death in the Neustadt/Hannover area. The same surname page places him immediately among the Metel-to-Missouri Stuenkel profiles, including Fredrich Heinrich Konrad Stuenkel and Conrad Dietrich Friedrich Stuenkel.",
       "records": [
-        "WikiTree Stuenkel surname index entry for Johann Ludwig Stuenkel (profile Stuenkel-50)."
+        "WikiTree Stuenkel surname index entry for Johann Ludwig Stuenkel (profile Stuenkel-50).",
+        "Search-indexed Ancestry profile for Johann Friedrick Ludwig Stuenkel, Margarete Katharina Dorothea Mahler, and their children."
       ],
       "citations": [
         {
           "label": "WikiTree Stuenkel surname page",
           "url": "https://www.wikitree.com/genealogy/STUENKEL"
+        },
+        {
+          "label": "Ancestry index: Johann Friedrick Ludwig Stuenkel",
+          "url": "https://www.ancestry.com/genealogy/records/johann-friedrick-ludwig-stuenkel-24-1ssp2r7"
         }
       ],
-      "researchedHash": "e8d0492b192d5291",
-      "researchedAt": "2026-06-21T04:58:29.036Z"
+      "funFacts": [
+        "Search-indexed genealogy records report that he and Margarete Katharina Dorothea Mahler had at least nine children, making the Metel Stuenkels a large sibling network before later Missouri migration."
+      ],
+      "researchedHash": "e8e59921f7ace89f",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780755805": {
+      "personId": "I272780755805",
+      "personName": "Margaret Katherine Dorothea \"Mary\" Mahler",
+      "bio": "Search-indexed genealogy material identifies Margaret Katherine Dorothea Mahler as the wife of Johann Friedrick Ludwig Stuenkel and mother of a large Metel-area Stuenkel family; the public indexes vary slightly from the roster by giving a 1783 birth and Brase/Basse-area wording, so the exact village/date should be checked against original church records.",
+      "funFacts": [
+        "Her Basse-area origin sits in an old Leine village landscape where Basse's church was founded around 1100 and the Reformation was ordered in 1543."
+      ],
+      "records": [
+        "Search-indexed Ancestry profile for Margaret Katherine Dorothea Mahler and Johann Friedrick Ludwig Stuenkel.",
+        "Basse village history for local parish and Reformation context."
+      ],
+      "citations": [
+        {
+          "label": "Ancestry index: Margaret Katherine Dorothea Mahler",
+          "url": "https://www.ancestry.com.au/genealogy/records/margaret-katherine-dorothea-mahler-24-by9cfr"
+        },
+        {
+          "label": "Wikipedia (de): Basse (Neustadt am Rübenberge)",
+          "url": "https://de.wikipedia.org/wiki/Basse_(Neustadt_am_R%C3%BCbenberge)"
+        }
+      ],
+      "researchedHash": "187f18bf075c5b50",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780755897": {
+      "personId": "I272780755897",
+      "personName": "Johann Heinrich Sprengel",
+      "bio": "Dorothea Maria Sprengel Frerking's WikiTree profile names Johann Heinrich Sprengel and Anna Margareta Raben as her parents, but it gives Johann Heinrich's birth year as 1754 rather than the roster's 1765, so his exact dates need original Esperke church-record confirmation.",
+      "funFacts": [
+        "This branch has a useful source conflict: public WikiTree links him to Dorothea but disagrees with the roster's birth year, a clue for future church-book checking rather than a fact to smooth over."
+      ],
+      "records": [
+        "WikiTree profile for Dorothea Maria Sprengel Frerking naming Johann Heinrich Sprengel as her father."
+      ],
+      "citations": [
+        {
+          "label": "WikiTree: Dorothea Maria Sprengel Frerking",
+          "url": "https://www.wikitree.com/wiki/Sprengel-14"
+        }
+      ],
+      "researchedHash": "5edabaa4199ccc0c",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780755912": {
+      "personId": "I272780755912",
+      "personName": "Anna Margareta Raben",
+      "bio": "Frerking.net lists Anna Margareta Raben as born 10 November 1766 in Niedernstocken and dying 10 August 1831 in Esperke; Dorothea Sprengel's WikiTree profile also names Anna Margareta Raben as Dorothea's mother.",
+      "funFacts": [
+        "Her life connects neighboring Leine villages: Niedernstöcken lies just west of Esperke, where her daughter Dorothea was baptized and married."
+      ],
+      "records": [
+        "Frerking.net person page for Anna Margareta Raben.",
+        "WikiTree profile for Dorothea Maria Sprengel Frerking naming Anna Margareta Raben as her mother.",
+        "Niedernstöcken and Esperke local-history summaries for the village context."
+      ],
+      "citations": [
+        {
+          "label": "Frerking.net: Anna Margareta Raben",
+          "url": "https://www.frerking.net/geneology/getperson.php?personID=I500043&tree=tree1"
+        },
+        {
+          "label": "WikiTree: Dorothea Maria Sprengel Frerking",
+          "url": "https://www.wikitree.com/wiki/Sprengel-14"
+        },
+        {
+          "label": "Wikipedia (de): Niedernstöcken",
+          "url": "https://de.wikipedia.org/wiki/Niedernst%C3%B6cken"
+        },
+        {
+          "label": "Wikipedia (de): Esperke",
+          "url": "https://de.wikipedia.org/wiki/Esperke"
+        }
+      ],
+      "researchedHash": "fb750a7750236af0",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780755919": {
+      "personId": "I272780755919",
+      "personName": "Johann Diederich Sprengel",
+      "bio": "Frerking.net gives a sparse but useful public listing for Johann Diederich Sprengel with 1726–1787 dates; no fuller open record was found during this pass.",
+      "records": [
+        "Frerking.net person page for Johann Diederich Sprengel."
+      ],
+      "citations": [
+        {
+          "label": "Frerking.net: Johann Diederich Sprengel",
+          "url": "https://www.frerking.net/geneology/getperson.php?personID=I500187&tree=tree1"
+        }
+      ],
+      "researchedHash": "300edb27304e89e7",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780763897": {
+      "personId": "I272780763897",
+      "personName": "Cath Barbara Schumhoff",
+      "bio": "The Mandelsloh online family database is directly relevant to this branch because its parish coverage includes Amedorf and its church books begin in October 1678. Search-indexed material points to Anne Catharine/Catrina Barbara Schünhoff as a likely spelling variant for Cath Barbara Schumhoff, born in Mandelsloh-area records in 1688 and dying in Amedorf in 1746.",
+      "funFacts": [
+        "The Mandelsloh OFB warns that pre-1749 baptisms often omit mothers’ names, an important caution when using these early Amedorf records."
+      ],
+      "records": [
+        "Familiendatenbank Kirchspiel Mandelsloh for Amedorf parish coverage and source limitations.",
+        "Search-indexed Mandelsloh/OFB lead for Anne Catharine Barbara Schünhoff / Catrina Barbara Schünhoff."
+      ],
+      "citations": [
+        {
+          "label": "OFB/Genealogy.net: Familiendatenbank Kirchspiel Mandelsloh",
+          "url": "https://ofb.genealogy.net/mandelsloh/"
+        },
+        {
+          "label": "Ancestry index: Johann Philipp von Gilten",
+          "url": "https://www.ancestry.com/genealogy/records/johann-philipp-von-gilten-24-28xzqf9"
+        }
+      ],
+      "researchedHash": "add719d299b252f8",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780763901": {
+      "personId": "I272780763901",
+      "personName": "Johann Philipp von Gilten ♥",
+      "bio": "A search-indexed Ancestry profile matches Johann Philipp von Gilten with birth on 21 June 1681 in Amedorf and death on 6 June 1758 in Amedorf. The same indexed profile names his parents as Hinrich Adam von Gilten and J. Catrina Gerdrut Degener and his spouse as Anne Catharine Schuenhoff.",
+      "records": [
+        "Ancestry public genealogy index for Johann Philipp von Gilten, 1681-1758.",
+        "Familiendatenbank Kirchspiel Mandelsloh for Amedorf parish context."
+      ],
+      "citations": [
+        {
+          "label": "Ancestry index: Johann Philipp von Gilten",
+          "url": "https://www.ancestry.com/genealogy/records/johann-philipp-von-gilten-24-28xzqf9"
+        },
+        {
+          "label": "OFB/Genealogy.net: Familiendatenbank Kirchspiel Mandelsloh",
+          "url": "https://ofb.genealogy.net/mandelsloh/"
+        }
+      ],
+      "researchedHash": "1b3ad9efb4f95841",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780763904": {
+      "personId": "I272780763904",
+      "personName": "J Catrina Gerdrut Degener ♥",
+      "bio": "A public Ancestry index for her son Johann Philipp von Gilten names J. Catrina Gerdrut Degener as Johann Philipp’s mother. No independent open record for her exact 1659-1709 dates was confirmed in this pass, so this entry relies on that secondary indexed family-tree connection and should be checked against Mandelsloh/Amedorf parish registers.",
+      "records": [
+        "Ancestry public genealogy index for Johann Philipp von Gilten naming J. Catrina Gerdrut Degener as mother.",
+        "Familiendatenbank Kirchspiel Mandelsloh for parish-record context and cautions."
+      ],
+      "citations": [
+        {
+          "label": "Ancestry index: Johann Philipp von Gilten",
+          "url": "https://www.ancestry.com/genealogy/records/johann-philipp-von-gilten-24-28xzqf9"
+        },
+        {
+          "label": "OFB/Genealogy.net: Familiendatenbank Kirchspiel Mandelsloh",
+          "url": "https://ofb.genealogy.net/mandelsloh/"
+        }
+      ],
+      "researchedHash": "26139c540c9e6a9e",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780763917": {
+      "personId": "I272780763917",
+      "personName": "Heinrich Adam Von Gilten ♥",
+      "bio": "A public Ancestry index for Johann Philipp von Gilten names Hinrich Adam von Gilten as Johann Philipp’s father, matching this branch’s Heinrich Adam von Gilten. No separate open record for Heinrich Adam’s exact 1649-1703 dates was confirmed, so the safest enrichment is the sourced parent-child lead plus the Amedorf parish context.",
+      "records": [
+        "Ancestry public genealogy index for Johann Philipp von Gilten naming Hinrich Adam von Gilten as father.",
+        "Familiendatenbank Kirchspiel Mandelsloh for Amedorf parish-record context."
+      ],
+      "citations": [
+        {
+          "label": "Ancestry index: Johann Philipp von Gilten",
+          "url": "https://www.ancestry.com/genealogy/records/johann-philipp-von-gilten-24-28xzqf9"
+        },
+        {
+          "label": "OFB/Genealogy.net: Familiendatenbank Kirchspiel Mandelsloh",
+          "url": "https://ofb.genealogy.net/mandelsloh/"
+        }
+      ],
+      "researchedHash": "4410b8c676024f64",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780763982": {
+      "personId": "I272780763982",
+      "personName": "Anna Maria Breckheimer",
+      "bio": "WikiTree and Geneal-Tree indexed material identify Anna Maria Katharina Breckheimer as born on 25 February 1677 in Flörsheim am Main and dying there on 3 December 1748. The same records place her as daughter of Christian Georg Breckheimer and Juliana Hart and wife of Johann Kaspar Müller, with a 3 May 1696 marriage in Flörsheim.",
+      "funFacts": [
+        "The indexed family summaries list a large Müller household; one summary says Anna Maria and Johann Kaspar had thirteen children."
+      ],
+      "records": [
+        "WikiTree profile Breckheimer-6 for Anna Maria Katharina Breckheimer.",
+        "Geneal-Tree entry for Anna Maria Breckheimer."
+      ],
+      "citations": [
+        {
+          "label": "WikiTree: Anna Maria Katharina Breckheimer",
+          "url": "https://www.wikitree.com/wiki/Breckheimer-6"
+        },
+        {
+          "label": "Geneal-Tree: Anna Maria Breckheimer",
+          "url": "https://www.geneal-forum.com/tng/getperson.php?personID=I12530&tree=haraldthomas72"
+        }
+      ],
+      "researchedHash": "e1f32d865c97d9c0",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780763988": {
+      "personId": "I272780763988",
+      "personName": "Juliana Hart \"Breckheimer\"",
+      "bio": "Geneal-Tree and related indexed sources list Juliana Hart as born on 15 October 1645 in Flörsheim am Main and dying there on 16 September 1720. The same search-indexed material connects her as the wife of Christian Georg Breckheimer and mother of Anna Maria Breckheimer.",
+      "records": [
+        "Geneal-Tree entry for Juliane Hart of Flörsheim.",
+        "Search-indexed Ancestry/Geneal-Tree material for the Hart-Breckheimer family."
+      ],
+      "citations": [
+        {
+          "label": "Geneal-Tree: Juliane Hart",
+          "url": "https://www.geneal-forum.com/tng/getperson.php?personID=I1801&tree=haraldthomas72"
+        },
+        {
+          "label": "datenpool.bvff.de: Juliane Hart",
+          "url": "https://datenpool.bvff.de/tree/Baumann.ged/individual/I17848/Juliane-HART"
+        }
+      ],
+      "researchedHash": "d4f469827f679510",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780763996": {
+      "personId": "I272780763996",
+      "personName": "Christian Georg Breckheimer",
+      "bio": "Geneal-Tree and search-indexed Ancestry material identify Christian Georg Breckheimer as born about 1635 in Wicker/Flörsheim-area records and dying on 22 July 1696 in Flörsheim am Main. The indexed summaries connect him to wife Juliana Hart and daughter Anna Maria Katharina Breckheimer.",
+      "records": [
+        "Geneal-Tree entry for Christian Georg Breckheimer.",
+        "Ancestry public genealogy index for Christian Georg Breckheimer."
+      ],
+      "citations": [
+        {
+          "label": "Geneal-Tree: Christian Georg Breckheimer",
+          "url": "https://www.geneal-forum.com/tng/getperson.php?personID=I928&tree=haraldthomas72"
+        },
+        {
+          "label": "Ancestry index: Christian Georg Breckheimer",
+          "url": "https://www.ancestry.com/genealogy/records/christian-georg-breckheimer-24-12gnz6z"
+        }
+      ],
+      "researchedHash": "95fcfd02adbbd15d",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780764006": {
+      "personId": "I272780764006",
+      "personName": "Johann Caspar Müller",
+      "occupations": [
+        "Zöllner / customs officer"
+      ],
+      "bio": "GEDBAS indexes Johann Kaspar Müller of Flörsheim am Main with birth on 3 August 1673 and death on 15 January 1729. Search-indexed summaries identify him as a Zöllner, or customs officer, and as the husband of Anna Maria Breckheimer, whom he married in Flörsheim on 3 May 1696.",
+      "funFacts": [
+        "His occupation, Zöllner, points to a toll/customs role rather than farming, adding an occupational detail to the Flörsheim Müller line."
+      ],
+      "records": [
+        "GEDBAS entry for Johann Kaspar Müller.",
+        "Search-indexed family summaries for the Johann Kaspar Müller-Anna Maria Breckheimer household."
+      ],
+      "citations": [
+        {
+          "label": "GEDBAS: Johann Kaspar Müller",
+          "url": "https://gedbas.genealogy.net/person/show/1275620342"
+        },
+        {
+          "label": "WikiTree: Anna Maria Katharina Breckheimer",
+          "url": "https://www.wikitree.com/wiki/Breckheimer-6"
+        }
+      ],
+      "researchedHash": "b9cfad77f8eb094f",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780763503": {
+      "personId": "I272780763503",
+      "personName": "Johannes Petrus Müller",
+      "bio": "The online summaries for Anna Maria Breckheimer and Johann Kaspar Müller list a son Johann Peter/Petrus Müller baptized or born on 19 April 1700 in Flörsheim and dying on 28 October 1763. Because German and Latin church records often interchange Peter/Petrus, this is a credible match to the GEDCOM’s Johannes Petrus Müller, but the exact parish entry should still be checked.",
+      "records": [
+        "WikiTree/Geneal-Tree indexed summaries for the children of Anna Maria Breckheimer and Johann Kaspar Müller.",
+        "GEDBAS entry for Johann Kaspar Müller, father in the same Flörsheim family group."
+      ],
+      "citations": [
+        {
+          "label": "WikiTree: Anna Maria Katharina Breckheimer",
+          "url": "https://www.wikitree.com/wiki/Breckheimer-6"
+        },
+        {
+          "label": "Geneal-Tree: Anna Maria Breckheimer",
+          "url": "https://www.geneal-forum.com/tng/getperson.php?personID=I12530&tree=haraldthomas72"
+        },
+        {
+          "label": "GEDBAS: Johann Kaspar Müller",
+          "url": "https://gedbas.genealogy.net/person/show/1275620342"
+        }
+      ],
+      "researchedHash": "fe8fb900d65bff57",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
+    },
+    "I272780764019": {
+      "personId": "I272780764019",
+      "personName": "Johann Nicol Muller",
+      "bio": "A Geneal-Tree search result for Johann Heinrich Müller gives the same Flörsheim dates found in this GEDCOM person—6 July 1636 and 9 November 1694—but the given name differs from Johann Nicol. Treat this as a useful same-place/same-date Müller lead, not as proof that the records are for the same man, until the Flörsheim parish entry is reviewed.",
+      "funFacts": [
+        "This is a good example of why early German research needs spelling and given-name reconciliation rather than automatic merging."
+      ],
+      "records": [
+        "Geneal-Tree entry/search result for Johann Heinrich Müller with matching 1636-1694 Flörsheim dates; candidate lead only."
+      ],
+      "citations": [
+        {
+          "label": "Geneal-Tree: Johann Heinrich Müller",
+          "url": "https://www.geneal-forum.com/tng/getperson.php?personID=I16949&tree=haraldthomas72"
+        }
+      ],
+      "researchedHash": "d3df990f07d38ce8",
+      "researchedAt": "2026-06-21T06:41:00.151Z"
     }
   }
 }

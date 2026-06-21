@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T04:58:28.905Z",
+  "generatedAt": "2026-06-21T06:27:24.414Z",
   "places": {
     "Altoona, Polk, Iowa, USA": {
       "place": "Altoona, Polk, Iowa, USA",
@@ -835,11 +835,11 @@
     },
     "Prussia": {
       "place": "Prussia",
-      "lat": 41.3738765,
-      "lng": -94.506357,
-      "displayName": "Prussia, Prussia Township, Adair County, Iowa, United States",
-      "country": "United States",
-      "source": "nominatim"
+      "lat": 52.52,
+      "lng": 13.405,
+      "displayName": "Berlin (capital of the historic Kingdom of Prussia)",
+      "country": "Germany",
+      "source": "override"
     },
     "Randwijk, Heteren, Gelderland, Netherlands": {
       "place": "Randwijk, Heteren, Gelderland, Netherlands",
@@ -1336,6 +1336,950 @@
       "displayName": "Zetten, Gelderland, Netherlands",
       "country": "Netherlands",
       "source": "override"
+    },
+    "'s-Heerenberg": {
+      "place": "'s-Heerenberg",
+      "lat": 51.8779448,
+      "lng": 6.2548363,
+      "displayName": "'s-Heerenberg, Montferland, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Amedorf, Hannover, Niedersachsen, Germany": {
+      "place": "Amedorf, Hannover, Niedersachsen, Germany",
+      "lat": 52.5949346,
+      "lng": 9.5633507,
+      "displayName": "Amedorf, Mandelsloh, Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Amedorf, Region Hannover, Lower Saxony, Germany": {
+      "place": "Amedorf, Region Hannover, Lower Saxony, Germany",
+      "lat": 52.5949346,
+      "lng": 9.5633507,
+      "displayName": "Amedorf, Mandelsloh, Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Amersfoort, Amersfoort, Utrecht, Netherlands": {
+      "place": "Amersfoort, Amersfoort, Utrecht, Netherlands",
+      "lat": 52.1637703,
+      "lng": 5.4088845,
+      "displayName": "Amersfoort, Utrecht, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Ammendorf, Halle, Sachsen-Anhalt, Germany": {
+      "place": "Ammendorf, Halle, Sachsen-Anhalt, Germany",
+      "lat": 51.4270233,
+      "lng": 11.9848754,
+      "displayName": "Ammendorf, Ammendorf/Beesen, Halle (Saale), Sachsen-Anhalt, 06132, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Amstelveen, Noord-Holland, Pays-Bas": {
+      "place": "Amstelveen, Noord-Holland, Pays-Bas",
+      "lat": 52.3028209,
+      "lng": 4.8596844,
+      "displayName": "Amstelveen, Noord-Holland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Amsterdam": {
+      "place": "Amsterdam",
+      "lat": 52.3730796,
+      "lng": 4.8924534,
+      "displayName": "Amsterdam, Noord-Holland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Amsterdam, Amsterdam, Noord-Holland, Netherlands": {
+      "place": "Amsterdam, Amsterdam, Noord-Holland, Netherlands",
+      "lat": 52.3730796,
+      "lng": 4.8924534,
+      "displayName": "Amsterdam, Noord-Holland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Amsterdam, Noord Holland, Nederland": {
+      "place": "Amsterdam, Noord Holland, Nederland",
+      "lat": 52.3730796,
+      "lng": 4.8924534,
+      "displayName": "Amsterdam, Noord-Holland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Amsterdam, Noord-Holland, Netherlands": {
+      "place": "Amsterdam, Noord-Holland, Netherlands",
+      "lat": 52.3730796,
+      "lng": 4.8924534,
+      "displayName": "Amsterdam, Noord-Holland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Amsterdam, Noord-Holland, Pays-Bas": {
+      "place": "Amsterdam, Noord-Holland, Pays-Bas",
+      "lat": 52.3730796,
+      "lng": 4.8924534,
+      "displayName": "Amsterdam, Noord-Holland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Arum, Friesland, Netherlands": {
+      "place": "Arum, Friesland, Netherlands",
+      "lat": 53.1300655,
+      "lng": 5.4757726,
+      "displayName": "Arum, Súdwest-Fryslân, Fryslân, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Arum, Wunseradiel, Friesland, Netherlands": {
+      "place": "Arum, Wunseradiel, Friesland, Netherlands",
+      "lat": 53.0923689,
+      "lng": 5.777043,
+      "displayName": "Fryslân, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Arum, Wunseradiel, Fryslân | Friesland, Pays-Bas": {
+      "place": "Arum, Wunseradiel, Fryslân | Friesland, Pays-Bas",
+      "lat": 53.0923689,
+      "lng": 5.777043,
+      "displayName": "Fryslân, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Barneveld, Barneveld, Gelderland, Netherlands": {
+      "place": "Barneveld, Barneveld, Gelderland, Netherlands",
+      "lat": 52.1715067,
+      "lng": 5.6454392,
+      "displayName": "Barneveld, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Barneveld, Gelderland, Netherlands": {
+      "place": "Barneveld, Gelderland, Netherlands",
+      "lat": 52.1715067,
+      "lng": 5.6454392,
+      "displayName": "Barneveld, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Barneveld, Gelderland, Pays-Bas": {
+      "place": "Barneveld, Gelderland, Pays-Bas",
+      "lat": 52.1715067,
+      "lng": 5.6454392,
+      "displayName": "Barneveld, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Berel": {
+      "place": "Berel",
+      "lat": 52.1646173,
+      "lng": 10.2176555,
+      "displayName": "Berel, Burgdorf, Samtgemeinde Baddeckenstedt, Landkreis Wolfenbüttel, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Berel, Braunschweig, Germany": {
+      "place": "Berel, Braunschweig, Germany",
+      "lat": 52.2646577,
+      "lng": 10.5236066,
+      "displayName": "Braunschweig, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Berel, Braunschweig, Niedersachsen, Deutschland": {
+      "place": "Berel, Braunschweig, Niedersachsen, Deutschland",
+      "lat": 52.2646577,
+      "lng": 10.5236066,
+      "displayName": "Braunschweig, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Berel, Wolfenbüttel, Niedersachsen, Deutschland": {
+      "place": "Berel, Wolfenbüttel, Niedersachsen, Deutschland",
+      "lat": 52.1646173,
+      "lng": 10.2176555,
+      "displayName": "Berel, Burgdorf, Samtgemeinde Baddeckenstedt, Landkreis Wolfenbüttel, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Bilgaard, Leeuwarden, Friesland, Netherlands": {
+      "place": "Bilgaard, Leeuwarden, Friesland, Netherlands",
+      "lat": 53.2157637,
+      "lng": 5.7937593,
+      "displayName": "Bilgaard, Leeuwarden, Fryslân, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Birdaard, Ferwerderadeel, Friesland, Nederland": {
+      "place": "Birdaard, Ferwerderadeel, Friesland, Nederland",
+      "lat": 53.3609208,
+      "lng": 5.8497951,
+      "displayName": "NAM-locatie Blija-Ferwerderadeel-1, Blije, Noardeast-Fryslân, Fryslân, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Birdaard, Ferwerderadiel, Friesland, Nederland": {
+      "place": "Birdaard, Ferwerderadiel, Friesland, Nederland",
+      "lat": 53.3306784,
+      "lng": 5.8260129,
+      "displayName": "Grofvuil Gemeentewerf Ferwerderadiel, 41, Kleasterwei, Ferwert, Noardeast-Fryslân, Fryslân, Nederland, 9172 GN, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Birdaard, Ferwerderadiel, Friesland, Netherlands": {
+      "place": "Birdaard, Ferwerderadiel, Friesland, Netherlands",
+      "lat": 53.3306784,
+      "lng": 5.8260129,
+      "displayName": "Grofvuil Gemeentewerf Ferwerderadiel, 41, Kleasterwei, Ferwert, Noardeast-Fryslân, Fryslân, Nederland, 9172 GN, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Bremen": {
+      "place": "Bremen",
+      "lat": 53.0758196,
+      "lng": 8.8071646,
+      "displayName": "Bremen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "De Geer": {
+      "place": "De Geer",
+      "lat": 51.7810433,
+      "lng": 5.5568982,
+      "displayName": "De Geer, Oss, Noord-Brabant, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "De Glind (Barneveld), Gelderland, Nederland": {
+      "place": "De Glind (Barneveld), Gelderland, Nederland",
+      "lat": 52.1197382,
+      "lng": 5.5064387,
+      "displayName": "De Glind, Barneveld, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Doornspijk, Elburg, Gelderland, Netherlands": {
+      "place": "Doornspijk, Elburg, Gelderland, Netherlands",
+      "lat": 52.4194984,
+      "lng": 5.8208683,
+      "displayName": "Doornspijk, Elburg, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Ede": {
+      "place": "Ede",
+      "lat": 52.0716826,
+      "lng": 5.7455106,
+      "displayName": "Ede, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Ede, Ede, Gelderland, Netherlands": {
+      "place": "Ede, Ede, Gelderland, Netherlands",
+      "lat": 52.0716826,
+      "lng": 5.7455106,
+      "displayName": "Ede, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Ede, Gelderland, Netherlands": {
+      "place": "Ede, Gelderland, Netherlands",
+      "lat": 52.0716826,
+      "lng": 5.7455106,
+      "displayName": "Ede, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Everdingen": {
+      "place": "Everdingen",
+      "lat": 51.9665685,
+      "lng": 5.1551481,
+      "displayName": "Everdingen, Vijfheerenlanden, Utrecht, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Everdingen, Vianen, Zuid-Holland, Netherlands": {
+      "place": "Everdingen, Vianen, Zuid-Holland, Netherlands",
+      "lat": 51.9522679,
+      "lng": 4.8485323,
+      "displayName": "Adam van Vianenstraat, Schoonhoven, Krimpenerwaard, Zuid-Holland, Nederland, 2871 VP, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Everdingen, Zuid Holland, Netherlands": {
+      "place": "Everdingen, Zuid Holland, Netherlands",
+      "lat": 52.0648022,
+      "lng": 4.5288502,
+      "displayName": "Everdingenstraat, Oosterheem, Zoetermeer, Zuid-Holland, Nederland, 2729 AM, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Everdingen, Zuid-Holland, Netherlands": {
+      "place": "Everdingen, Zuid-Holland, Netherlands",
+      "lat": 52.0648022,
+      "lng": 4.5288502,
+      "displayName": "Everdingenstraat, Oosterheem, Zoetermeer, Zuid-Holland, Nederland, 2729 AM, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Flörsheim am Main, Allemagne": {
+      "place": "Flörsheim am Main, Allemagne",
+      "lat": 50.0296,
+      "lng": 8.4265,
+      "displayName": "Flörsheim, Main-Taunus-Kreis, Hessen, 65439, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Flörsheim, Main-Taunus-Kreis, Hessen, Germany": {
+      "place": "Flörsheim, Main-Taunus-Kreis, Hessen, Germany",
+      "lat": 50.0296,
+      "lng": 8.4265,
+      "displayName": "Flörsheim, Main-Taunus-Kreis, Hessen, 65439, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Groß Himstedt, Hildesheim, Lower Saxony, Germany": {
+      "place": "Groß Himstedt, Hildesheim, Lower Saxony, Germany",
+      "lat": 52.186824,
+      "lng": 10.2025399,
+      "displayName": "Groß Himstedt, Söhlde, Landkreis Hildesheim, Niedersachsen, 31185, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Harderwijk, Gelderland, Nederland": {
+      "place": "Harderwijk, Gelderland, Nederland",
+      "lat": 52.3490693,
+      "lng": 5.618933,
+      "displayName": "Harderwijk, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Harderwijk, Gelderland, Netherlands": {
+      "place": "Harderwijk, Gelderland, Netherlands",
+      "lat": 52.3490693,
+      "lng": 5.618933,
+      "displayName": "Harderwijk, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Harderwijk, Gelderland, Pays-Bas": {
+      "place": "Harderwijk, Gelderland, Pays-Bas",
+      "lat": 52.3490693,
+      "lng": 5.618933,
+      "displayName": "Harderwijk, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Harderwijk, the Netherlands, Gelderland, Pays-Bas": {
+      "place": "Harderwijk, the Netherlands, Gelderland, Pays-Bas",
+      "lat": 52.3490693,
+      "lng": 5.618933,
+      "displayName": "Harderwijk, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Harskamp, Netherlands": {
+      "place": "Harskamp, Netherlands",
+      "lat": 52.1316634,
+      "lng": 5.75085,
+      "displayName": "Harskamp, Ede, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Haßloch, Bad Durkheim, Rheinland-Pfalz, Germany": {
+      "place": "Haßloch, Bad Durkheim, Rheinland-Pfalz, Germany",
+      "lat": 49.362976,
+      "lng": 8.2565755,
+      "displayName": "Haßloch, Landkreis Bad Dürkheim, Rheinland-Pfalz, 67454, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Herwijnen": {
+      "place": "Herwijnen",
+      "lat": 51.8267226,
+      "lng": 5.1296799,
+      "displayName": "Herwijnen, West Betuwe, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Hülsdonk, Moers, Germany": {
+      "place": "Hülsdonk, Moers, Germany",
+      "lat": 51.4514928,
+      "lng": 6.6077904,
+      "displayName": "Hülsdonk, Moers, Kreis Wesel, Nordrhein-Westfalen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Jefferson, TX": {
+      "place": "Jefferson, TX",
+      "lat": 29.834772,
+      "lng": -94.1704496,
+      "displayName": "Jefferson County, Texas, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Kamerik": {
+      "place": "Kamerik",
+      "lat": 52.1112741,
+      "lng": 4.8935533,
+      "displayName": "Kamerik, Woerden, Utrecht, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Kelberg, Daun, Rheinland-Pfalz, Germany": {
+      "place": "Kelberg, Daun, Rheinland-Pfalz, Germany",
+      "lat": 50.2680652,
+      "lng": 6.8258417,
+      "displayName": "Kelberg, A 1, Brück, Dreis-Brück, Daun, Landkreis Vulkaneifel, Rheinland-Pfalz, 54552, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Kockengen, Breukelen, Utrecht, Netherlands": {
+      "place": "Kockengen, Breukelen, Utrecht, Netherlands",
+      "lat": 52.171959,
+      "lng": 5.002675,
+      "displayName": "Breukelen, Stichtse Vecht, Utrecht, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Kockengen, Utrecht, Holland": {
+      "place": "Kockengen, Utrecht, Holland",
+      "lat": 52.1485693,
+      "lng": 4.9498671,
+      "displayName": "Kockengen, Stichtse Vecht, Utrecht, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Kootwijk": {
+      "place": "Kootwijk",
+      "lat": 52.1847669,
+      "lng": 5.7703284,
+      "displayName": "Kootwijk, Barneveld, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Kootwijk, Barneveld Municipality, Gelderland, Netherlands": {
+      "place": "Kootwijk, Barneveld Municipality, Gelderland, Netherlands",
+      "lat": 52.1014041,
+      "lng": 5.9515701,
+      "displayName": "Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Kootwijkerbroek, Barneveld, Gelderland, Netherlands": {
+      "place": "Kootwijkerbroek, Barneveld, Gelderland, Netherlands",
+      "lat": 52.1513512,
+      "lng": 5.6631504,
+      "displayName": "Kootwijkerbroek, Barneveld, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Laagnieuwkoop, Breukelen, Utrecht, Netherlands": {
+      "place": "Laagnieuwkoop, Breukelen, Utrecht, Netherlands",
+      "lat": 52.171959,
+      "lng": 5.002675,
+      "displayName": "Breukelen, Stichtse Vecht, Utrecht, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Laagnieuwkoop, Utrecht, Pays-Bas": {
+      "place": "Laagnieuwkoop, Utrecht, Pays-Bas",
+      "lat": 52.0907006,
+      "lng": 5.1215634,
+      "displayName": "Utrecht, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Lage ?": {
+      "place": "Lage ?",
+      "lat": 51.9914084,
+      "lng": 8.7919583,
+      "displayName": "Lage, Kreis Lippe, Nordrhein-Westfalen, 32791, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Leeuwarden, Friesland, Netherlands": {
+      "place": "Leeuwarden, Friesland, Netherlands",
+      "lat": 53.2005936,
+      "lng": 5.7918548,
+      "displayName": "Leeuwarden, Fryslân, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Leeuwarden, Fryslân | Friesland, Pays-Bas": {
+      "place": "Leeuwarden, Fryslân | Friesland, Pays-Bas",
+      "lat": 53.2005936,
+      "lng": 5.7918548,
+      "displayName": "Leeuwarden, Fryslân, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Lesse, Braunschweig, Niedersachsen, Germany": {
+      "place": "Lesse, Braunschweig, Niedersachsen, Germany",
+      "lat": 52.2646577,
+      "lng": 10.5236066,
+      "displayName": "Braunschweig, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Leusden, Nederland": {
+      "place": "Leusden, Nederland",
+      "lat": 52.130355,
+      "lng": 5.4286989,
+      "displayName": "Leusden, Utrecht, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Leusden, Utrecht, Nederland": {
+      "place": "Leusden, Utrecht, Nederland",
+      "lat": 52.130355,
+      "lng": 5.4286989,
+      "displayName": "Leusden, Utrecht, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Loënga, Sneek, Friesland, Netherlands": {
+      "place": "Loënga, Sneek, Friesland, Netherlands",
+      "lat": 53.033548,
+      "lng": 5.6611029,
+      "displayName": "Sneek, Súdwest-Fryslân, Fryslân, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Lunteren": {
+      "place": "Lunteren",
+      "lat": 52.0864617,
+      "lng": 5.6190737,
+      "displayName": "Lunteren, Ede, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Lunteren (Ede)": {
+      "place": "Lunteren (Ede)",
+      "lat": 52.0864617,
+      "lng": 5.6190737,
+      "displayName": "Lunteren, Ede, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Lutjegast, Grootegast, Groningen, Pays-Bas": {
+      "place": "Lutjegast, Grootegast, Groningen, Pays-Bas",
+      "lat": 53.2115071,
+      "lng": 6.2744862,
+      "displayName": "Grootegast, Westerkwartier, Groningen, Nederland, 9861 CG, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Maasland, Zuid-Holland, Netherlands": {
+      "place": "Maasland, Zuid-Holland, Netherlands",
+      "lat": 51.9367248,
+      "lng": 4.2740314,
+      "displayName": "Maasland, Midden-Delfland, Zuid-Holland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Mandelsloh, Region Hannover, Lower Saxony, Germany": {
+      "place": "Mandelsloh, Region Hannover, Lower Saxony, Germany",
+      "lat": 52.6033571,
+      "lng": 9.5675038,
+      "displayName": "Mandelsloh, Neustadt am Rübenberge, Region Hannover, Niedersachsen, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Marion Cty, IA": {
+      "place": "Marion Cty, IA",
+      "lat": 42.032845,
+      "lng": -91.5985858,
+      "displayName": "Marion City Park, Marion, Linn County, Iowa, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Miedum, Fryslân | Friesland, Pays-Bas": {
+      "place": "Miedum, Fryslân | Friesland, Pays-Bas",
+      "lat": 53.2354902,
+      "lng": 5.8384675,
+      "displayName": "Miedum, Leeuwarden, Fryslân, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Munnekezijl, Kollumerland C.A., Friesland, Netherlands": {
+      "place": "Munnekezijl, Kollumerland C.A., Friesland, Netherlands",
+      "lat": 53.260859,
+      "lng": 6.064934,
+      "displayName": "Kollumerland c.a., Foarwei, Kollumersweach, Noardeast-Fryslân, Fryslân, Nederland, 9298 JS, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Munnekezijl, Kollumerland C.a., Friesland, Netherlands": {
+      "place": "Munnekezijl, Kollumerland C.a., Friesland, Netherlands",
+      "lat": 53.260859,
+      "lng": 6.064934,
+      "displayName": "Kollumerland c.a., Foarwei, Kollumersweach, Noardeast-Fryslân, Fryslân, Nederland, 9298 JS, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Niederstotzingen, Heidenheim, Baden-Württemberg, Germany": {
+      "place": "Niederstotzingen, Heidenheim, Baden-Württemberg, Germany",
+      "lat": 48.5408791,
+      "lng": 10.2332512,
+      "displayName": "Niederstotzingen, GVV Sontheim-Niederstotzingen, Landkreis Heidenheim, Baden-Württemberg, 89168, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Nijkerk": {
+      "place": "Nijkerk",
+      "lat": 52.2148536,
+      "lng": 5.4781463,
+      "displayName": "Nijkerk, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Nijkerk Municipality, Gelderland, Netherlands": {
+      "place": "Nijkerk Municipality, Gelderland, Netherlands",
+      "lat": 52.1014041,
+      "lng": 5.9515701,
+      "displayName": "Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Nijkerk, Gelderland, Netherlands": {
+      "place": "Nijkerk, Gelderland, Netherlands",
+      "lat": 52.2148536,
+      "lng": 5.4781463,
+      "displayName": "Nijkerk, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Nijkerk, Nederland": {
+      "place": "Nijkerk, Nederland",
+      "lat": 52.2148536,
+      "lng": 5.4781463,
+      "displayName": "Nijkerk, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Nijkerkerveen, Netherlands": {
+      "place": "Nijkerkerveen, Netherlands",
+      "lat": 52.195727,
+      "lng": 5.4673875,
+      "displayName": "Nijkerkerveen, Nijkerk, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Nunspeet, Nunspeet, Gelderland, Netherlands": {
+      "place": "Nunspeet, Nunspeet, Gelderland, Netherlands",
+      "lat": 52.3372909,
+      "lng": 5.7956364,
+      "displayName": "Nunspeet, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Oldebroek, , Gelderland, Netherlands": {
+      "place": "Oldebroek, , Gelderland, Netherlands",
+      "lat": 52.4567364,
+      "lng": 5.9518644,
+      "displayName": "Oldebroek, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Oldebroek, Gelderland, NL": {
+      "place": "Oldebroek, Gelderland, NL",
+      "lat": 52.4567364,
+      "lng": 5.9518644,
+      "displayName": "Oldebroek, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Oldebroek, Gelderland, Netherlands": {
+      "place": "Oldebroek, Gelderland, Netherlands",
+      "lat": 52.4567364,
+      "lng": 5.9518644,
+      "displayName": "Oldebroek, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Oldebroek, Netherlands": {
+      "place": "Oldebroek, Netherlands",
+      "lat": 52.4567364,
+      "lng": 5.9518644,
+      "displayName": "Oldebroek, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Oldebroek, Oldebroek, Gelderland, Netherlands": {
+      "place": "Oldebroek, Oldebroek, Gelderland, Netherlands",
+      "lat": 52.4567364,
+      "lng": 5.9518644,
+      "displayName": "Oldebroek, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Onbekend": {
+      "place": "Onbekend",
+      "lat": 45.2940359,
+      "lng": 13.6385355,
+      "displayName": "Onbekend, Perci, Općina Tar-Vabriga, Istarska županija, 52465, Hrvatska",
+      "country": "Hrvatska",
+      "source": "nominatim"
+    },
+    "Onbekend or Renswoude, Utrecht, Netherlands": {
+      "place": "Onbekend or Renswoude, Utrecht, Netherlands",
+      "lat": 52.0907006,
+      "lng": 5.1215634,
+      "displayName": "Utrecht, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Oosterend, Donia State, Littenseradiel, Fryslân | Friesland, Netherlands": {
+      "place": "Oosterend, Donia State, Littenseradiel, Fryslân | Friesland, Netherlands",
+      "lat": 53.0923689,
+      "lng": 5.777043,
+      "displayName": "Fryslân, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Oosterend, Littenseradiel, Fryslân | Friesland, Netherlands": {
+      "place": "Oosterend, Littenseradiel, Fryslân | Friesland, Netherlands",
+      "lat": 53.0923689,
+      "lng": 5.777043,
+      "displayName": "Fryslân, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Pella, Marion County, Iowa": {
+      "place": "Pella, Marion County, Iowa",
+      "lat": 41.4073138,
+      "lng": -92.9174074,
+      "displayName": "Pella, Lake Prairie Township, Marion County, Iowa, 50219, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Renswoude (Utrecht)": {
+      "place": "Renswoude (Utrecht)",
+      "lat": 52.073995,
+      "lng": 5.5393463,
+      "displayName": "Renswoude, Utrecht, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Renswoude, Nederland., Utrecht, Pays-Bas": {
+      "place": "Renswoude, Nederland., Utrecht, Pays-Bas",
+      "lat": 52.073995,
+      "lng": 5.5393463,
+      "displayName": "Renswoude, Utrecht, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Renswoude, Utrecht, Netherlands": {
+      "place": "Renswoude, Utrecht, Netherlands",
+      "lat": 52.073995,
+      "lng": 5.5393463,
+      "displayName": "Renswoude, Utrecht, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Renswoude, Utrecht, Pays-Bas": {
+      "place": "Renswoude, Utrecht, Pays-Bas",
+      "lat": 52.073995,
+      "lng": 5.5393463,
+      "displayName": "Renswoude, Utrecht, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Rumpt, Geldermalsen, Gelderland, Netherlands": {
+      "place": "Rumpt, Geldermalsen, Gelderland, Netherlands",
+      "lat": 51.8825577,
+      "lng": 5.2714789,
+      "displayName": "Geldermalsen, Genteldijk, Stationswijk, Geldermalsen, West Betuwe, Gelderland, Nederland, 4191 LD, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Scherpenzeel": {
+      "place": "Scherpenzeel",
+      "lat": 52.0795901,
+      "lng": 5.4904134,
+      "displayName": "Scherpenzeel, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Scherpenzeel, Gelderland, Netherlands": {
+      "place": "Scherpenzeel, Gelderland, Netherlands",
+      "lat": 52.0903689,
+      "lng": 5.5072024,
+      "displayName": "Scherpenzeel, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Scherpenzeel, Gelderland, Pays-Bas": {
+      "place": "Scherpenzeel, Gelderland, Pays-Bas",
+      "lat": 52.0903689,
+      "lng": 5.5072024,
+      "displayName": "Scherpenzeel, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Scherpenzeel, Nederland": {
+      "place": "Scherpenzeel, Nederland",
+      "lat": 52.0795901,
+      "lng": 5.4904134,
+      "displayName": "Scherpenzeel, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Schoonrewoerd, Zuid-Holland, Pays-Bas": {
+      "place": "Schoonrewoerd, Zuid-Holland, Pays-Bas",
+      "lat": 51.9966792,
+      "lng": 4.5597397,
+      "displayName": "Zuid-Holland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Sioux City, Clay, Iowa, United States": {
+      "place": "Sioux City, Clay, Iowa, United States",
+      "lat": 43.0809373,
+      "lng": -95.1407762,
+      "displayName": "Clay County, Iowa, United States",
+      "country": "United States",
+      "source": "nominatim"
+    },
+    "Ter Aar, Zuid-Holland, Netherlands": {
+      "place": "Ter Aar, Zuid-Holland, Netherlands",
+      "lat": 52.1655725,
+      "lng": 4.709364,
+      "displayName": "Ter Aar, Nieuwkoop, Zuid-Holland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Tienhoven, Utrecht, Pays-Bas": {
+      "place": "Tienhoven, Utrecht, Pays-Bas",
+      "lat": 52.1681803,
+      "lng": 5.081889,
+      "displayName": "Tienhoven, Stichtse Vecht, Utrecht, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Tuil": {
+      "place": "Tuil",
+      "lat": 51.8236456,
+      "lng": 5.240333,
+      "displayName": "Tuil, West Betuwe, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Uithuizermeeden, Eemsmond, Groningen, Netherlands": {
+      "place": "Uithuizermeeden, Eemsmond, Groningen, Netherlands",
+      "lat": 53.3287779,
+      "lng": 6.901214,
+      "displayName": "Tandartspraktijk Eemsmond, Gevelsteen, Biessum, Delfzijl, Eemsdelta, Groningen, Nederland, 9934 LM, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Utrecht, Nederland": {
+      "place": "Utrecht, Nederland",
+      "lat": 52.0907006,
+      "lng": 5.1215634,
+      "displayName": "Utrecht, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Utrecht, Utrecht, Pays-Bas": {
+      "place": "Utrecht, Utrecht, Pays-Bas",
+      "lat": 52.0907006,
+      "lng": 5.1215634,
+      "displayName": "Utrecht, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Veenendaal, Utrecht, Netherlands": {
+      "place": "Veenendaal, Utrecht, Netherlands",
+      "lat": 52.0232042,
+      "lng": 5.5518002,
+      "displayName": "Veenendaal, Utrecht, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Veenendaal, Utrecht, Pays-Bas": {
+      "place": "Veenendaal, Utrecht, Pays-Bas",
+      "lat": 52.0232042,
+      "lng": 5.5518002,
+      "displayName": "Veenendaal, Utrecht, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Voorthuizen, Barneveld, Gelderland, Netherlands": {
+      "place": "Voorthuizen, Barneveld, Gelderland, Netherlands",
+      "lat": 52.1871648,
+      "lng": 5.6071994,
+      "displayName": "Voorthuizen, Barneveld, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Voorthuizen, Groot, Westerveld, Netherlands": {
+      "place": "Voorthuizen, Groot, Westerveld, Netherlands",
+      "lat": 52.8284699,
+      "lng": 6.3112216,
+      "displayName": "Westerveld, Drenthe, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Voorthuizen, Netherlands": {
+      "place": "Voorthuizen, Netherlands",
+      "lat": 52.1871648,
+      "lng": 5.6071994,
+      "displayName": "Voorthuizen, Barneveld, Gelderland, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Wickrathberg": {
+      "place": "Wickrathberg",
+      "lat": 51.1140768,
+      "lng": 6.4151423,
+      "displayName": "Wickrathberg, Mönchengladbach, Nordrhein-Westfalen, 41189, Deutschland",
+      "country": "Deutschland",
+      "source": "nominatim"
+    },
+    "Wijns, Fryslân | Friesland, Pays-Bas": {
+      "place": "Wijns, Fryslân | Friesland, Pays-Bas",
+      "lat": 53.2522713,
+      "lng": 5.8318353,
+      "displayName": "Wyns, Tytsjerksteradiel, Fryslân, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Wirdum, Fryslân Friesland, Pays-Bas": {
+      "place": "Wirdum, Fryslân Friesland, Pays-Bas",
+      "lat": 53.1502491,
+      "lng": 5.8051023,
+      "displayName": "Wirdum, Leeuwarden, Fryslân, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Zijderveld": {
+      "place": "Zijderveld",
+      "lat": 51.9425334,
+      "lng": 5.1378562,
+      "displayName": "Zijderveld, Vijfheerenlanden, Utrecht, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Zijderveld, South Holland, Netherlands": {
+      "place": "Zijderveld, South Holland, Netherlands",
+      "lat": 52.0667017,
+      "lng": 4.2457773,
+      "displayName": "Carla's Van Zijderveld, 22B, De Savornin Lohmanplein, Bohemen, Loosduinen, Den Haag, Zuid-Holland, Nederland, 2566 AC, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
+    },
+    "Zijderveld, Zuid Holland, Netherlands": {
+      "place": "Zijderveld, Zuid Holland, Netherlands",
+      "lat": 52.0667017,
+      "lng": 4.2457773,
+      "displayName": "Carla's Van Zijderveld, 22B, De Savornin Lohmanplein, Bohemen, Loosduinen, Den Haag, Zuid-Holland, Nederland, 2566 AC, Nederland",
+      "country": "Nederland",
+      "source": "nominatim"
     }
   }
 }

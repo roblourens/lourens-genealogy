@@ -8,7 +8,8 @@
     "bio": "Berend \"Ben\" Lourens was born in Bennekom, Ede, Gelderland, on 13 January 1911, with his father Albertus recorded as a farmer. His Iowa obituary says he came to America at age two with his family, married Gertrude Van Dusseldorp in Monroe on 25 February 1937, and farmed for years near Prairie City and Runnells before moving into Prairie City in 1984. He died in 2003 at age 92 and was buried after services at First Reformed Church in Prairie City.",
     "funFacts": [
       "In retirement Ben enjoyed woodworking and gardening.",
-      "His obituary names two surviving sons, five grandchildren, seven great-grandchildren, and a large Lourens sibling group."
+      "His obituary names two surviving sons, five grandchildren, seven great-grandchildren, and a large Lourens sibling group.",
+      "Memorials in Ben's obituary were directed to First Reformed Church in Prairie City."
     ],
     "immigration": "Ben's obituary reports that he came to America at age two with his family; since his Dutch birth record is dated 13 January 1911, the family immigration was about 1913.",
     "records": [
@@ -104,12 +105,15 @@
     "bio": "Peter appears in Dutch civil records as Peter Louwrens/Lourens, born at Veenendaal on 14 April 1833 to Johannes Louwrens and Hendrika Jeurs. At his 21 June 1862 marriage to Gerritje Aartsen in Ede, he was age 29 and recorded as a farmer. He was still listed as farmer and father of the groom when his son Albertus married Aartje Snetselaar in 1900.",
     "funFacts": [
       "His surname appears with both Louwrens and Lourens spellings in civil records.",
-      "Peter's 1833 birth record names his father Johannes as a day laborer, while Peter himself was recorded as a farmer by marriage age."
+      "Peter's 1833 birth record names his father Johannes as a day laborer, while Peter himself was recorded as a farmer by marriage age.",
+      "Peter was still recorded as a landbouwer (farmer) in his 1902 death record at age 68.",
+      "His death record gives his birthplace as “Veenendaal Gelders (Ede),” reflecting the local Veenendaal/Ede geography seen across this branch."
     ],
     "records": [
       "1833 civil birth registration, Veenendaal",
       "1862 civil marriage registration, Ede",
-      "1900 civil marriage registration of son Albertus, Ede"
+      "1900 civil marriage registration of son Albertus, Ede",
+      "1902 civil death registration, Ede"
     ],
     "citations": [
       {
@@ -123,6 +127,10 @@
       {
         "label": "Open Archives marriage record for Albertus Lourens and Aartje Snetselaar",
         "url": "https://www.openarchieven.nl/gld:A09CD456-5965-433A-B295-769D6BCB55CE/json"
+      },
+      {
+        "label": "Open Archives death record for Peter Lourens",
+        "url": "https://www.openarchieven.nl/gld:7ED2C847-7F6B-4952-A9A4-04865F9DF052/json"
       }
     ]
   },
@@ -132,11 +140,14 @@
     "bio": "Gerritje Aartsen was recorded as a 26-year-old bride born in Stichtsch Veenendaal when she married Peter Lourens in Ede on 21 June 1862. The marriage record names her parents as Aart Aartsen and Jacoba Hartman and records no occupation for Gerritje. In 1900 she appears again in the Ede marriage record of her son Albertus Lourens to Aartje Snetselaar.",
     "funFacts": [
       "Her 1862 marriage record ties the Lourens line back to the Aartsen/Hartman family of the Veenendaal area.",
-      "She lived to see son Albertus marry into the Snetselaar family, the couple who later anchored the Iowa Lourens line."
+      "She lived to see son Albertus marry into the Snetselaar family, the couple who later anchored the Iowa Lourens line.",
+      "Gerritje outlived Peter by seventeen years; her 1919 death record says she died at Ede at age 83.",
+      "Her death record again names Aart Aartsen and Jacoba Hartman as her parents and Peter Lourens as her partner."
     ],
     "records": [
       "1862 civil marriage registration, Ede",
-      "1900 civil marriage registration of son Albertus, Ede"
+      "1900 civil marriage registration of son Albertus, Ede",
+      "1919 civil death registration, Ede"
     ],
     "citations": [
       {
@@ -146,6 +157,10 @@
       {
         "label": "Open Archives marriage record for Albertus Lourens and Aartje Snetselaar",
         "url": "https://www.openarchieven.nl/gld:A09CD456-5965-433A-B295-769D6BCB55CE/json"
+      },
+      {
+        "label": "Open Archives death record for Gerritje Aartsen",
+        "url": "https://www.openarchieven.nl/gld:9F9A1E3E-2F07-46E2-86D0-B4648A0158A8/json"
       }
     ]
   },
@@ -237,12 +252,15 @@
     "bio": "Jannetje Jacobsen was recorded as a 20-year-old bride born in Barneveld when she married Geurt Snetselaar in Ede on 25 May 1878. The marriage record names her parents as Berend Jacobsen, a laborer, and Elisabeth Boshuis. She appears again as mother in the 1879 Lunteren birth record of daughter Aartje Snetselaar, who later married Albertus Lourens and immigrated to Iowa.",
     "funFacts": [
       "Her daughter Aartje connects the Jacobsen/Boshuis family into the later Lourens immigrant family in Iowa.",
-      "Geurt's 1923 death record still names Jannetje among his (ex-)partners."
+      "Geurt's 1923 death record still names Jannetje among his (ex-)partners.",
+      "Jannetje died young: her civil death record says she died in Ede on 21 February 1897 at age 39.",
+      "Her death record names Geurt Snetselaar as her partner, helping explain why Geurt's later death record lists multiple partners."
     ],
     "records": [
       "1878 civil marriage registration, Ede",
       "1879 civil birth registration of daughter Aartje Snetselaar, Lunteren/Ede",
-      "1923 civil death registration of husband Geurt Snetselaar, Ede"
+      "1923 civil death registration of husband Geurt Snetselaar, Ede",
+      "1897 civil death registration, Ede"
     ],
     "citations": [
       {
@@ -256,6 +274,10 @@
       {
         "label": "Open Archives death record for Geurt Snetselaar",
         "url": "https://www.openarchieven.nl/gld:0C51202B-CB80-4E43-BD85-6C59321833B4/json"
+      },
+      {
+        "label": "Open Archives death record for Jannetje Jacobsen",
+        "url": "https://www.openarchieven.nl/gld:33C1ABDA-A653-44F7-9D76-B7FCE8ACE3B9/json"
       }
     ]
   },
@@ -323,17 +345,21 @@
     "personName": "Berend Jacobsen",
     "occupations": [
       "Day laborer",
-      "Laborer"
+      "Laborer",
+      "Farmhand"
     ],
     "bio": "Berend Jacobsen was born at Ede on 17 January 1822 to Jan Jacobsen, a day laborer, and Teunisje Berends. In the 1878 Ede marriage record of daughter Jannetje Jacobsen to Geurt Snetselaar, Berend was recorded as a laborer. His 1893 death record gives him as a 71-year-old day laborer born in Ede who died at Kallenbroek, with Lisebeth Boshuis named as partner.",
     "funFacts": [
       "The Jacobsen line shows repeated laboring occupations: Berend's father was a day laborer, and Berend was later recorded as laborer/day laborer himself.",
-      "His daughter Jannetje's marriage brought the Jacobsen/Boshuis family into the Snetselaar line."
+      "His daughter Jannetje's marriage brought the Jacobsen/Boshuis family into the Snetselaar line.",
+      "At his 1848 marriage to Lisebeth Boshuis, Berend was recorded as a 26-year-old boerenknecht, or farmhand.",
+      "The same marriage record described his father Jan Jacobsen as a daglooner, reinforcing the family's laboring background."
     ],
     "records": [
       "1822 civil birth registration, Ede",
       "1878 civil marriage registration of daughter Jannetje Jacobsen, Ede",
-      "1893 civil death registration, Kallenbroek/Barneveld"
+      "1893 civil death registration, Kallenbroek/Barneveld",
+      "1848 civil marriage registration, Barneveld"
     ],
     "citations": [
       {
@@ -347,6 +373,10 @@
       {
         "label": "Open Archives death record for Berend Jacobsen",
         "url": "https://www.openarchieven.nl/gld:29DB377B-717E-4706-801C-2366005990A7/json"
+      },
+      {
+        "label": "Open Archives marriage record for Berend Jacobsen and Lisebeth Boshuis",
+        "url": "https://www.openarchieven.nl/gld:C9144197-1FE1-433E-BC82-9B562C8E37B0/json"
       }
     ]
   },
@@ -356,11 +386,15 @@
     "bio": "Lisabeth/Elisabeth Boshuis appears in the 1878 Ede marriage record of her daughter Jannetje Jacobsen to Geurt Snetselaar; the record gives no occupation for her. She is also named as Lisebeth Boshuis in the 1893 death record of Berend Jacobsen, where she is identified as his partner or former partner. These records place her in the Barneveld/Ede network that led into the Snetselaar and Lourens families.",
     "funFacts": [
       "Her name appears with multiple spellings: Elisabeth in the 1878 marriage record and Lisebeth in Berend Jacobsen's 1893 death record.",
-      "Through daughter Jannetje and granddaughter Aartje Snetselaar, the Boshuis line connects to the Lourens immigrants who settled in Iowa."
+      "Through daughter Jannetje and granddaughter Aartje Snetselaar, the Boshuis line connects to the Lourens immigrants who settled in Iowa.",
+      "At her 1848 marriage, Lisebeth Boshuis was recorded as a 21-year-old dienstbaar, or domestic servant, born in Barneveld.",
+      "Her 1827 birth record says her father Klaas was a 30-year-old landbouwersknecht, a farm servant."
     ],
     "records": [
       "1878 civil marriage registration of daughter Jannetje Jacobsen, Ede",
-      "1893 civil death registration of Berend Jacobsen, Kallenbroek/Barneveld"
+      "1893 civil death registration of Berend Jacobsen, Kallenbroek/Barneveld",
+      "1827 civil birth registration, Barneveld",
+      "1848 civil marriage registration, Barneveld"
     ],
     "citations": [
       {
@@ -370,6 +404,722 @@
       {
         "label": "Open Archives death record for Berend Jacobsen",
         "url": "https://www.openarchieven.nl/gld:29DB377B-717E-4706-801C-2366005990A7/json"
+      },
+      {
+        "label": "Open Archives birth record for Lisebeth Boshuis",
+        "url": "https://www.openarchieven.nl/gld:3568894D-BA88-4BCC-8EA4-25EA77A23D95/json"
+      },
+      {
+        "label": "Open Archives marriage record for Berend Jacobsen and Lisebeth Boshuis",
+        "url": "https://www.openarchieven.nl/gld:C9144197-1FE1-433E-BC82-9B562C8E37B0/json"
+      }
+    ],
+    "occupations": [
+      "Domestic servant"
+    ]
+  },
+  {
+    "personId": "I272780691885",
+    "personName": "Gertrude Margaret Van Dusseldorp",
+    "bio": "Gertrude Margaret Van Dusseldorp Lourens was born in Prairie City, Iowa, on 22 November 1914 to Gysbert and Hilda Van Dusseldorp. Her obituary says she was educated in rural schools, graduated from Prairie City High School in 1932, married Ben Lourens in Monroe on 25 February 1937, farmed with him in the Prairie City and Runnells areas, and remained a member of First Reformed Church in Prairie City from youth. She died at age 101 at Mill Pond in Ankeny in 2016.",
+    "funFacts": [
+      "Gertrude was educated in rural schools before graduating from Prairie City High School in 1932.",
+      "She made profession of faith at First Reformed Church in Prairie City at a young age and was described as a member ever since.",
+      "Her obituary named nine great-grandchildren when she died at age 101."
+    ],
+    "records": [
+      "2016 IAGenWeb obituary, Jasper County, Iowa"
+    ],
+    "citations": [
+      {
+        "label": "IAGenWeb obituary for Gertrude Margaret Lourens",
+        "url": "https://iagenweb.org/boards/jasper/obituaries/index.cgi?read=592202"
+      }
+    ]
+  },
+  {
+    "personId": "I272780753255",
+    "personName": "Claas Willemsen Boshuisen",
+    "bio": "Claas/Klaas Willemsen Boshuis appears in Barneveld civil records with Jannetje van Langelaar as the father of Lisebeth Boshuis in 1827 and Johanna Boshuis in 1829. In Lisebeth's birth record he was a 30-year-old landbouwersknecht, or farm servant; in Johanna's birth record he was recorded as a 36-year-old dagloner, or day laborer. Lisebeth's 1848 marriage record again names him as her father.",
+    "occupations": [
+      "Farm servant",
+      "Day laborer"
+    ],
+    "funFacts": [
+      "His records preserve the patronymic Willemsen alongside the Boshuis surname.",
+      "Within two Barneveld birth records he appears first as a farm servant and then as a day laborer."
+    ],
+    "records": [
+      "1827 civil birth registration of daughter Lisebeth Boshuis, Barneveld",
+      "1829 civil birth registration of daughter Johanna Boshuis, Barneveld",
+      "1848 civil marriage registration of daughter Lisebeth Boshuis, Barneveld"
+    ],
+    "citations": [
+      {
+        "label": "Open Archives birth record for Lisebeth Boshuis",
+        "url": "https://www.openarchieven.nl/gld:3568894D-BA88-4BCC-8EA4-25EA77A23D95/json"
+      },
+      {
+        "label": "Open Archives birth record for Johanna Boshuis",
+        "url": "https://www.openarchieven.nl/gld:9F7431B5-413F-4DA8-BFED-C51B669CCC62/json"
+      },
+      {
+        "label": "Open Archives marriage record for Berend Jacobsen and Lisebeth Boshuis",
+        "url": "https://www.openarchieven.nl/gld:C9144197-1FE1-433E-BC82-9B562C8E37B0/json"
+      }
+    ]
+  },
+  {
+    "personId": "I272780753264",
+    "personName": "Jannetje Jochemsdr van Langelaar",
+    "bio": "Jannetje van Langelaar appears with Klaas Willemsen Boshuis in the Barneveld birth records of daughters Lisebeth Boshuis in 1827 and Johanna Boshuis in 1829. The 1829 record gives her fuller patronymic form, Jannetje Jochems van Langelaar. She is also named as Lisebeth's mother in Lisebeth's 1848 marriage record to Berend Jacobsen.",
+    "funFacts": [
+      "The 1829 birth record of daughter Johanna preserves Jannetje's patronymic as Jochems.",
+      "Across the records of daughters Lisebeth and Johanna, the family is anchored in Barneveld before the Boshuis line married into the Jacobsen/Snetselaar branch."
+    ],
+    "records": [
+      "1827 civil birth registration of daughter Lisebeth Boshuis, Barneveld",
+      "1829 civil birth registration of daughter Johanna Boshuis, Barneveld",
+      "1848 civil marriage registration of daughter Lisebeth Boshuis, Barneveld"
+    ],
+    "citations": [
+      {
+        "label": "Open Archives birth record for Lisebeth Boshuis",
+        "url": "https://www.openarchieven.nl/gld:3568894D-BA88-4BCC-8EA4-25EA77A23D95/json"
+      },
+      {
+        "label": "Open Archives birth record for Johanna Boshuis",
+        "url": "https://www.openarchieven.nl/gld:9F7431B5-413F-4DA8-BFED-C51B669CCC62/json"
+      },
+      {
+        "label": "Open Archives marriage record for Berend Jacobsen and Lisebeth Boshuis",
+        "url": "https://www.openarchieven.nl/gld:C9144197-1FE1-433E-BC82-9B562C8E37B0/json"
+      }
+    ]
+  },
+  {
+    "personId": "I272780753018",
+    "personName": "Henricus (Hendrik) Louwerens",
+    "bio": "Hendrik Louwerens died in Veenendaal on 2 June 1834 at age 69; the death record names Adriana van Beijnum as his partner and Herman Louwerens and Maria Heusmans as his parents. Four years earlier, the 1830 Ede marriage record of daughter Margaritha Laurens recorded him as a kleedermaker, or tailor.",
+    "occupations": [
+      "Tailor"
+    ],
+    "funFacts": [
+      "Hendrik was a tailor, and his daughter Margaritha married Coenradus Camichel, a hoedemaker or hat maker, linking two clothing trades in one family record.",
+      "His 1834 death record connects the Dutch Lourens line back to parents Herman Louwerens and Maria Heusmans."
+    ],
+    "records": [
+      "1830 civil marriage registration of daughter Margaritha Laurens, Ede",
+      "1834 civil death registration, Veenendaal"
+    ],
+    "citations": [
+      {
+        "label": "Open Archives marriage record for Margaritha Laurens and Coenradus Camichel",
+        "url": "https://www.openarchieven.nl/gld:0723F0B9-9B39-4BC5-AA65-725C456418ED/json"
+      },
+      {
+        "label": "Open Archives death record for Hendrik Louwerens",
+        "url": "https://www.openarchieven.nl/hua:2505A347-AED2-4345-ABF8-DCDE532D35E4/json"
+      }
+    ]
+  },
+  {
+    "personId": "I272780753012",
+    "personName": "Adriana van Beijnum",
+    "bio": "Adriana van Beijnum appears in the 1834 Veenendaal death record of her husband Hendrik Louwerens and in her own 1847 Ede death record. Her death record says she died at Veenendaal on 21 December 1847 at age 79, was born in Wageningen, and was the partner of Hendrik Lourens.",
+    "funFacts": [
+      "Adriana outlived Hendrik Louwerens by more than thirteen years.",
+      "Her death record traces a Wageningen-born woman ending her life in Veenendaal, matching the Wageningen-to-Veenendaal geography of this Lourens line."
+    ],
+    "records": [
+      "1834 civil death registration of husband Hendrik Louwerens, Veenendaal",
+      "1847 civil death registration, Ede/Veenendaal"
+    ],
+    "citations": [
+      {
+        "label": "Open Archives death record for Hendrik Louwerens",
+        "url": "https://www.openarchieven.nl/hua:2505A347-AED2-4345-ABF8-DCDE532D35E4/json"
+      },
+      {
+        "label": "Open Archives death record for Adriana van Beijnum",
+        "url": "https://www.openarchieven.nl/gld:73C6002C-480C-4970-8F2E-BDC2822BEEED/json"
+      }
+    ]
+  },
+  {
+    "personId": "I272780753417",
+    "personName": "Wienandt SCHNITZLER",
+    "bio": "The 1883 Ede death record of Breunis Snitselaar names his father as Wijnand Snitselaar and records Wijnand's occupation as landbouwer, or farmer. This record links the older Schnitzler/Snitselaar spelling variation to the later Snetselaar family that married into the Lourens line.",
+    "occupations": [
+      "Farmer"
+    ],
+    "funFacts": [
+      "In his son Breunis's death record, Wienandt appears in the Dutch form Wijnand Snitselaar and is called a farmer.",
+      "The same record contrasts farmer father Wijnand with laborer son Breunis."
+    ],
+    "records": [
+      "1883 civil death registration of son Breunis Snitselaar, Ede"
+    ],
+    "citations": [
+      {
+        "label": "Open Archives death record for Breunis Snitselaar",
+        "url": "https://www.openarchieven.nl/gld:41121718-62EE-41DB-8A7F-87F5208023FA/json"
+      }
+    ]
+  },
+  {
+    "personId": "I272780753422",
+    "personName": "Geertrui Hendriks Versteeg",
+    "bio": "Geertrui Hendriks is named as the mother of Breunis Snitselaar in Breunis's 1883 Ede death record. The same record places the family in the Lunteren/Ede area, with Breunis born at Lunteren and dying at Ede.",
+    "funFacts": [
+      "Her son's death record gives her name in the shorter form Geertrui Hendriks.",
+      "Through son Breunis, Geertrui connects the Lunteren Snitselaar/Snetselaar family into the later Iowa Lourens branch."
+    ],
+    "records": [
+      "1883 civil death registration of son Breunis Snitselaar, Ede"
+    ],
+    "citations": [
+      {
+        "label": "Open Archives death record for Breunis Snitselaar",
+        "url": "https://www.openarchieven.nl/gld:41121718-62EE-41DB-8A7F-87F5208023FA/json"
+      }
+    ]
+  },
+  {
+    "personId": "I272780755517",
+    "personName": "Aart Evertzen Aartszen",
+    "bio": "Aart Aartsen appears with Jacoba Hartman as the father of Maria Aartsen, born at Veenendaal on 28 September 1834, and as the father of Gerritje Aartsen when Gerritje married Peter Lourens in Ede in 1862. The records place his family in the Veenendaal/Ede area before daughter Gerritje joined the Lourens line.",
+    "funFacts": [
+      "Aart and Jacoba's daughter Maria was born in Veenendaal in 1834, while daughter Gerritje later married in Ede in 1862.",
+      "Gerritje's marriage record gives her birthplace as Stichtsch Veenendaal, preserving a precise local place-name for the family."
+    ],
+    "records": [
+      "1834 civil birth registration of daughter Maria Aartsen, Veenendaal",
+      "1862 civil marriage registration of daughter Gerritje Aartsen, Ede"
+    ],
+    "citations": [
+      {
+        "label": "Open Archives birth record for Maria Aartsen",
+        "url": "https://www.openarchieven.nl/hua:02B9246F-D447-49A0-ADB5-0ACCF6CF69CF/json"
+      },
+      {
+        "label": "Open Archives marriage record for Peter Lourens and Gerritje Aartsen",
+        "url": "https://www.openarchieven.nl/gld:0B781AAF-FDF4-4FB4-91BF-E97D48A62614/json"
+      }
+    ]
+  },
+  {
+    "personId": "I272780755528",
+    "personName": "Jacoba Hartman",
+    "bio": "Jacoba Hartman appears with Aart Aartsen as the mother of Maria Aartsen, born at Veenendaal on 28 September 1834, and as the mother of Gerritje Aartsen in Gerritje's 1862 Ede marriage record to Peter Lourens. The records connect Jacoba directly to the Aartsen children who joined the Lourens line.",
+    "funFacts": [
+      "Jacoba's 1834 and 1862 family records place her household in the Veenendaal/Ede network of the Lourens branch.",
+      "The 1862 marriage record of daughter Gerritje records Jacoba with “zonder beroep,” meaning no occupation was stated."
+    ],
+    "records": [
+      "1834 civil birth registration of daughter Maria Aartsen, Veenendaal",
+      "1862 civil marriage registration of daughter Gerritje Aartsen, Ede"
+    ],
+    "citations": [
+      {
+        "label": "Open Archives birth record for Maria Aartsen",
+        "url": "https://www.openarchieven.nl/hua:02B9246F-D447-49A0-ADB5-0ACCF6CF69CF/json"
+      },
+      {
+        "label": "Open Archives marriage record for Peter Lourens and Gerritje Aartsen",
+        "url": "https://www.openarchieven.nl/gld:0B781AAF-FDF4-4FB4-91BF-E97D48A62614/json"
+      }
+    ]
+  },
+  {
+    "personId": "I272780758681",
+    "personName": "Jan Jacobsen van Kampen",
+    "occupations": [
+      "Farmhand",
+      "Day laborer",
+      "Laborer"
+    ],
+    "bio": "Jan appears under several related name forms in Ede civil records: Jan Jacobsen at his 1817 marriage, Jan Jacobs in the 1822 birth record of son Berend, and Jan van Kampen in his 1857 death record. At marriage he was a 25-year-old farmhand born in Ede, son of Jacob Jansen and Aaltje Woutersen. Later records show a working-class household: he was a day laborer when Berend was born and a laborer when he died at Ede at age 65.",
+    "funFacts": [
+      "The 1857 death record is the clearest source connecting the van Kampen surname form with the Jan Jacobsen/Jan Jacobs records.",
+      "His son Berend Jacobsen was also recorded in laboring occupations, showing continuity in the family’s work status across generations."
+    ],
+    "records": [
+      "1817 civil marriage registration, Ede",
+      "1822 civil birth registration of son Berend Jacobsen, Ede",
+      "1857 civil death registration, Ede"
+    ],
+    "citations": [
+      {
+        "label": "Open Archives marriage record for Jan Jacobsen and Teunissie Berendsen",
+        "url": "https://www.openarchieven.nl/gld:5111EA8F-66D1-4F02-A6B7-186FFB9C91DC/json"
+      },
+      {
+        "label": "Open Archives birth record for Berend Jacobsen",
+        "url": "https://www.openarchieven.nl/gld:04692334-9C96-4581-B329-E97F319D5A7F/json"
+      },
+      {
+        "label": "Open Archives death record for Jan van Kampen",
+        "url": "https://www.openarchieven.nl/gld:2C062E47-2F24-49CC-AB7F-9D893F1B5AC0/json"
+      }
+    ]
+  },
+  {
+    "personId": "I272780758693",
+    "personName": "Teunisje Hessing",
+    "occupations": [
+      "Domestic servant"
+    ],
+    "bio": "Teunisje appears in Ede records under several name forms: Teunissie Berendsen at marriage, Teunisje Berends in child records, and Teunisje Hissink/Hessink in death records. At her 1817 marriage to Jan Jacobsen she was a 24-year-old domestic servant born in Ede, daughter of Berend Petersen and Hendrikjen Egbertsen. Her 1843 death record calls her Teunisje Hissink, age 53, born in Ede, and names Jan Jacobs as her partner.",
+    "funFacts": [
+      "The surname shift from Berendsen/Berends to Hissink/Hessink is documented across records for the same family group rather than inferred from the GEDCOM alone.",
+      "Her mother was recorded as “spinster” in Teunisje’s death record, an occupation meaning spinner rather than marital status in this Dutch context."
+    ],
+    "records": [
+      "1817 civil marriage registration, Ede",
+      "1822 civil birth registration of son Berend Jacobsen, Ede",
+      "1843 civil death registration, Ede"
+    ],
+    "citations": [
+      {
+        "label": "Open Archives marriage record for Jan Jacobsen and Teunissie Berendsen",
+        "url": "https://www.openarchieven.nl/gld:5111EA8F-66D1-4F02-A6B7-186FFB9C91DC/json"
+      },
+      {
+        "label": "Open Archives birth record for Berend Jacobsen",
+        "url": "https://www.openarchieven.nl/gld:04692334-9C96-4581-B329-E97F319D5A7F/json"
+      },
+      {
+        "label": "Open Archives death record for Teunisje Hissink",
+        "url": "https://www.openarchieven.nl/gld:524530A2-D455-410A-99F4-50914E571BC2/json"
+      },
+      {
+        "label": "Open Archives death record for Jan van Kampen",
+        "url": "https://www.openarchieven.nl/gld:2C062E47-2F24-49CC-AB7F-9D893F1B5AC0/json"
+      }
+    ]
+  },
+  {
+    "personId": "I272780758697",
+    "personName": "Berend Petersen Hessing\\Hissink",
+    "bio": "Berend Petersen is named as the father of Teunissie Berendsen in her 1817 Ede marriage record to Jan Jacobsen. He is named again in her 1843 Ede death record, where her surname is recorded as Hissink. These records support the connection between the Petersen patronymic and the later Hessing/Hissink name form in this branch, but they do not state an occupation for Berend.",
+    "funFacts": [
+      "Two independent civil records, twenty-six years apart, identify him as Teunisje’s father."
+    ],
+    "records": [
+      "1817 civil marriage registration of daughter Teunissie Berendsen, Ede",
+      "1843 civil death registration of daughter Teunisje Hissink, Ede"
+    ],
+    "citations": [
+      {
+        "label": "Open Archives marriage record for Jan Jacobsen and Teunissie Berendsen",
+        "url": "https://www.openarchieven.nl/gld:5111EA8F-66D1-4F02-A6B7-186FFB9C91DC/json"
+      },
+      {
+        "label": "Open Archives death record for Teunisje Hissink",
+        "url": "https://www.openarchieven.nl/gld:524530A2-D455-410A-99F4-50914E571BC2/json"
+      }
+    ]
+  },
+  {
+    "personId": "I272780758708",
+    "personName": "Hendrikje Egberts van den Berg",
+    "occupations": [
+      "Spinner"
+    ],
+    "bio": "Hendrikje appears as Hendrikjen Egbertsen in the 1817 Ede marriage record of her daughter Teunissie Berendsen to Jan Jacobsen. In Teunisje’s 1843 death record she appears as Heintje Egbers and is recorded with the occupation “spinster,” meaning spinner. These records securely place her in the Ede family group, though they do not by themselves prove every surname variant attached to her in later compilations.",
+    "funFacts": [
+      "Her records preserve three closely related given-name forms: Hendrikjen, Hendrikje, and Heintje."
+    ],
+    "records": [
+      "1817 civil marriage registration of daughter Teunissie Berendsen, Ede",
+      "1843 civil death registration of daughter Teunisje Hissink, Ede"
+    ],
+    "citations": [
+      {
+        "label": "Open Archives marriage record for Jan Jacobsen and Teunissie Berendsen",
+        "url": "https://www.openarchieven.nl/gld:5111EA8F-66D1-4F02-A6B7-186FFB9C91DC/json"
+      },
+      {
+        "label": "Open Archives death record for Teunisje Hissink",
+        "url": "https://www.openarchieven.nl/gld:524530A2-D455-410A-99F4-50914E571BC2/json"
+      }
+    ]
+  },
+  {
+    "personId": "I272780762168",
+    "personName": "Jacob Jansz van Kampen",
+    "bio": "Jacob Jansen is named as the father of Jan Jacobsen in Jan’s 1817 Ede marriage record to Teunissie Berendsen. He is also named as Jan van Kampen’s father in Jan’s 1857 Ede death record. The records do not state Jacob’s occupation, but they help connect the Jacobsen/van Kampen name forms in the branch.",
+    "records": [
+      "1817 civil marriage registration of son Jan Jacobsen, Ede",
+      "1857 civil death registration of son Jan van Kampen, Ede"
+    ],
+    "citations": [
+      {
+        "label": "Open Archives marriage record for Jan Jacobsen and Teunissie Berendsen",
+        "url": "https://www.openarchieven.nl/gld:5111EA8F-66D1-4F02-A6B7-186FFB9C91DC/json"
+      },
+      {
+        "label": "Open Archives death record for Jan van Kampen",
+        "url": "https://www.openarchieven.nl/gld:2C062E47-2F24-49CC-AB7F-9D893F1B5AC0/json"
+      }
+    ]
+  },
+  {
+    "personId": "I272780762156",
+    "personName": "Aaltje Gerritsdr Woutersen",
+    "bio": "Aaltje Woutersen is named as Jan Jacobsen’s mother in his 1817 Ede marriage record. She is named again as mother of Jan van Kampen in his 1857 death record, providing a second record tying the Jacobsen and van Kampen surname forms to the same family. No occupation is stated for her in these records.",
+    "records": [
+      "1817 civil marriage registration of son Jan Jacobsen, Ede",
+      "1857 civil death registration of son Jan van Kampen, Ede"
+    ],
+    "citations": [
+      {
+        "label": "Open Archives marriage record for Jan Jacobsen and Teunissie Berendsen",
+        "url": "https://www.openarchieven.nl/gld:5111EA8F-66D1-4F02-A6B7-186FFB9C91DC/json"
+      },
+      {
+        "label": "Open Archives death record for Jan van Kampen",
+        "url": "https://www.openarchieven.nl/gld:2C062E47-2F24-49CC-AB7F-9D893F1B5AC0/json"
+      }
+    ]
+  },
+  {
+    "personId": "I272780758662",
+    "personName": "Cornelius MORIA=MORA",
+    "occupations": [
+      "Farmhand",
+      "Laborer"
+    ],
+    "bio": "Cornelis appears with variant surname forms in Ede records: the 1819 marriage record indexes him as Cornelis Mona, while later records use Moria. At his 1819 marriage to Cornelia Hendriksen he was a farmhand born in Amsterdam; by his 1836 remarriage to Cornelia Stevensen he was recorded as a laborer. His 1871 death record says he died at Ede at age 79 and names both Cornelia Hendriksen and Cornelia Stevensen as partners.",
+    "funFacts": [
+      "His 1819 marriage record leaves his parents as unknown (“Nn”), a useful warning not to overstate this line beyond the available evidence.",
+      "The records trace an Amsterdam-born man who spent his adult civil-record life in Ede."
+    ],
+    "records": [
+      "1819 civil marriage registration, Ede",
+      "1836 civil marriage registration, Ede",
+      "1871 civil death registration, Ede"
+    ],
+    "citations": [
+      {
+        "label": "Open Archives marriage record for Cornelis Mona and Cornelia Hendriksen",
+        "url": "https://www.openarchieven.nl/gld:E0975520-BF9D-4153-A741-8469B23C0D05/json"
+      },
+      {
+        "label": "Open Archives marriage record for Cornelis Moria and Cornelia Stevensen",
+        "url": "https://www.openarchieven.nl/gld:5400C9A9-59E1-4313-AF0C-0F3971E3FF88/json"
+      },
+      {
+        "label": "Open Archives death record for Cornelis Moria",
+        "url": "https://www.openarchieven.nl/gld:E8E1B9D6-BB38-43DE-AE77-A615484DFE5D/json"
+      }
+    ]
+  },
+  {
+    "personId": "I272780758664",
+    "personName": "Cornelia Hendrikse",
+    "occupations": [
+      "Domestic servant"
+    ],
+    "bio": "Cornelia Hendriksen was recorded as a 24-year-old domestic servant from Veenendaal when she married Cornelis Mona/Moria at Ede on 12 June 1819. The marriage record names her parents as Hendrik Willemsen and Japikje Jans. Later family records identify her as the mother of Aartje Moria and as one of Cornelis Moria’s partners.",
+    "funFacts": [
+      "Her daughter Aartje’s death record names Cornelis Moria as a laborer and Cornelia Hendrikse with no occupation, preserving both parental names decades later."
+    ],
+    "records": [
+      "1819 civil marriage registration, Ede",
+      "1871 civil death registration of Cornelis Moria, Ede",
+      "1895 civil death registration of daughter Aartje Moria, Ede"
+    ],
+    "citations": [
+      {
+        "label": "Open Archives marriage record for Cornelis Mona and Cornelia Hendriksen",
+        "url": "https://www.openarchieven.nl/gld:E0975520-BF9D-4153-A741-8469B23C0D05/json"
+      },
+      {
+        "label": "Open Archives death record for Cornelis Moria",
+        "url": "https://www.openarchieven.nl/gld:E8E1B9D6-BB38-43DE-AE77-A615484DFE5D/json"
+      },
+      {
+        "label": "Open Archives death record for Aartje Moria",
+        "url": "https://www.openarchieven.nl/gld:07E1A5B1-BFF3-43D2-A998-629D26417D66/json"
+      }
+    ]
+  },
+  {
+    "personId": "I272780759593",
+    "personName": "Liesje \"Lijsje\" Dirks Wisselo",
+    "occupations": [
+      "Farmer"
+    ],
+    "bio": "Lijsje Dirks Wesselo died at Barneveld on 1 May 1833 at age 65; her death record gives her birthplace as Garderen and records her occupation as landbouwster, a female farmer or farm woman. The same record names Dirk Wesselo and Gerritje Dirks as her parents and Willem Klaasen Boshuis as her partner. Two years later, her daughter Willemeijntje’s marriage record again identifies her as Lijsje Dirks Wesselo.",
+    "funFacts": [
+      "Her record uses the patronymic “Dirks” together with the Wesselo surname, a helpful bridge between older patronymic naming and fixed surnames.",
+      "Her daughter’s 1835 marriage record shows the family in Barneveld shortly after Lijsje’s death."
+    ],
+    "records": [
+      "1833 civil death registration, Barneveld",
+      "1835 civil marriage registration of daughter Willemeijntje Boshuis, Barneveld"
+    ],
+    "citations": [
+      {
+        "label": "Open Archives death record for Lijsje Dirks Wesselo",
+        "url": "https://www.openarchieven.nl/gld:ED7093AF-052E-4B98-9810-3A316E69AE49/json"
+      },
+      {
+        "label": "Open Archives marriage record for Gerrit Vonk and Willemeijntje Boshuis",
+        "url": "https://www.openarchieven.nl/gld:05C0ED4D-A53A-45F7-A105-AB9DE460B81E/json"
+      }
+    ]
+  },
+  {
+    "personId": "I272780759600",
+    "personName": "Willem Klaassen Boshuizen",
+    "occupations": [
+      "Day laborer"
+    ],
+    "bio": "Willem appears in Barneveld records as Willem Klaasen/Klaassen Boshuis or Boshuizen. At daughter Willemeijntje’s 1835 marriage he was recorded as a dagloner, or day laborer, and her mother was Lijsje Dirks Wesselo. He is also named as father of sons Willem and Cornelis Boshuizen in 1849 Barneveld marriage records.",
+    "funFacts": [
+      "His children’s records show the surname moving between Boshuis, Boshuisen, and Boshuizen spellings.",
+      "The 1835 marriage record ties him to the Wesselo line through wife Lijsje Dirks Wesselo."
+    ],
+    "records": [
+      "1835 civil marriage registration of daughter Willemeijntje Boshuis, Barneveld",
+      "1849 civil marriage registration of son Willem Boshuizen, Barneveld",
+      "1849 civil marriage registration of son Cornelis Boshuizen, Barneveld"
+    ],
+    "citations": [
+      {
+        "label": "Open Archives marriage record for Gerrit Vonk and Willemeijntje Boshuis",
+        "url": "https://www.openarchieven.nl/gld:05C0ED4D-A53A-45F7-A105-AB9DE460B81E/json"
+      },
+      {
+        "label": "Open Archives marriage record for Willem Boshuizen and Therese Julie Roghair",
+        "url": "https://www.openarchieven.nl/gld:909B64CF-E569-41C5-9E4A-98BA95AB732F/json"
+      },
+      {
+        "label": "Open Archives marriage record for Cornelis Boshuizen and Therese Louise Roghair",
+        "url": "https://www.openarchieven.nl/gld:1B220AC1-9860-4411-BF5C-535288B86E16/json"
+      }
+    ]
+  },
+  {
+    "personId": "I272780758630",
+    "personName": "Evert Aartszen",
+    "bio": "Evert Aartsen is named as the father of Aart Aartsen in Aart’s 1835 Ede marriage record to Jannigje Veldhuijsen. The record says Aart was a farmer born at Garderen and names Grietje Gijsberts as his mother. Evert’s occupation is not stated in this record, so the entry only supports his family connection rather than a fuller biography.",
+    "records": [
+      "1835 civil marriage registration of son Aart Aartsen, Ede"
+    ],
+    "citations": [
+      {
+        "label": "Open Archives marriage record for Aart Aartsen and Jannigje Veldhuijsen",
+        "url": "https://www.openarchieven.nl/gld:249AB133-8AFA-4589-84EB-785CB57945CC/json"
+      }
+    ]
+  },
+  {
+    "personId": "I272780758641",
+    "personName": "Grietje Gijsberts van de Heuvel",
+    "bio": "Grietje Gijsberts is named as the mother of Aart Aartsen in Aart’s 1835 Ede marriage record. That record places the family around Garderen/Ede through Aart, who was born at Garderen and worked as a farmer. The record does not state an occupation for Grietje, but it clearly links her to Evert Aartsen and their son Aart.",
+    "funFacts": [
+      "Her name appears in the civil record in patronymic form, Grietje Gijsberts, rather than with the van de Heuvel surname used in later family-tree data."
+    ],
+    "records": [
+      "1835 civil marriage registration of son Aart Aartsen, Ede"
+    ],
+    "citations": [
+      {
+        "label": "Open Archives marriage record for Aart Aartsen and Jannigje Veldhuijsen",
+        "url": "https://www.openarchieven.nl/gld:249AB133-8AFA-4589-84EB-785CB57945CC/json"
+      }
+    ]
+  },
+  {
+    "personId": "I272780759632",
+    "personName": "Hendrik Wisselo",
+    "bio": "A baptism record matching the GEDCOM baptism date records Hendrik as baptized in Amsterdam on 6 September 1741 in the Dutch Reformed Noorderkerk. The record names Hendrik Wesloo as father, Anna Kempers as mother, and Hendrik Reurix and Rebecca Huijnen as witnesses. Because the record gives only the child’s first name, the surname connection rests on the named father rather than on a full child surname in the baptism entry.",
+    "funFacts": [
+      "Place context: the baptism was recorded at Amsterdam’s Noorderkerk, one of the city’s Dutch Reformed churches."
+    ],
+    "records": [
+      "1741 Dutch Reformed baptism registration, Amsterdam Noorderkerk"
+    ],
+    "citations": [
+      {
+        "label": "Open Archives baptism record for Hendrik, son of Hendrik Wesloo and Anna Kempers",
+        "url": "https://www.openarchieven.nl/saa:53fc3e39-745a-474c-8402-3ba0f565f628/json"
+      }
+    ]
+  },
+  {
+    "personId": "I272780759650",
+    "personName": "Hendrick Wesloo (Wisselo)",
+    "bio": "Hendrik Wesloo and Anna Kempers registered their intended marriage in Amsterdam on 31 July 1739. He appears as father in the 1741 baptism of son Hendrik at the Noorderkerk and again in the 1745 baptism of Anna Katriena. These church records place the Wesloo/Kempers household in Amsterdam’s Dutch Reformed records in the 1739-1745 period.",
+    "funFacts": [
+      "The surname is indexed as Wesloo in the Amsterdam records, close to the later Wesselo/Wisselo forms used in this branch.",
+      "The 1745 baptism record names Barent Geel and Kaatje de Wilde as witnesses, linking the Wesselo and Geel/de Wilde family circles in the same church register."
+    ],
+    "records": [
+      "1739 Amsterdam ondertrouw registration",
+      "1741 Dutch Reformed baptism of son Hendrik, Amsterdam Noorderkerk",
+      "1745 Dutch Reformed baptism of daughter Anna Katriena, Amsterdam Noorderkerk"
+    ],
+    "citations": [
+      {
+        "label": "Open Archives ondertrouw record for Hendrik Wesloo and Anna Kempers",
+        "url": "https://www.openarchieven.nl/saa:19db96e7-24c6-4a02-bf9b-dde8deffeab6/json"
+      },
+      {
+        "label": "Open Archives baptism record for Hendrik, son of Hendrik Wesloo and Anna Kempers",
+        "url": "https://www.openarchieven.nl/saa:53fc3e39-745a-474c-8402-3ba0f565f628/json"
+      },
+      {
+        "label": "Open Archives baptism record for Anna Katriena, daughter of Hendrick Wesloo and Anna Kempers",
+        "url": "https://www.openarchieven.nl/saa:7c16941a-d728-4f56-8a77-457a0ffcf6b0/json"
+      }
+    ]
+  },
+  {
+    "personId": "I272780759655",
+    "personName": "Johanna (Anna) Kempers",
+    "bio": "Anna Kempers registered an Amsterdam intended marriage with Hendrik Wesloo on 31 July 1739. She is recorded as mother in the 1741 Noorderkerk baptism of Hendrik and the 1745 Noorderkerk baptism of Anna Katriena. A 1740 baptism in the Geel/de Wilde family names Johanna Kempe as a witness, likely the same family circle but recorded with a variant form of the name.",
+    "funFacts": [
+      "Her records show the given-name and surname variants Anna Kempers and Johanna Kempe in closely connected Amsterdam church entries."
+    ],
+    "records": [
+      "1739 Amsterdam ondertrouw registration",
+      "1741 Dutch Reformed baptism of son Hendrik, Amsterdam Noorderkerk",
+      "1745 Dutch Reformed baptism of daughter Anna Katriena, Amsterdam Noorderkerk",
+      "1740 Dutch Reformed baptism witness entry, Amsterdam Nieuwe Kerk"
+    ],
+    "citations": [
+      {
+        "label": "Open Archives ondertrouw record for Hendrik Wesloo and Anna Kempers",
+        "url": "https://www.openarchieven.nl/saa:19db96e7-24c6-4a02-bf9b-dde8deffeab6/json"
+      },
+      {
+        "label": "Open Archives baptism record for Hendrik, son of Hendrik Wesloo and Anna Kempers",
+        "url": "https://www.openarchieven.nl/saa:53fc3e39-745a-474c-8402-3ba0f565f628/json"
+      },
+      {
+        "label": "Open Archives baptism record for Anna Katriena, daughter of Hendrick Wesloo and Anna Kempers",
+        "url": "https://www.openarchieven.nl/saa:7c16941a-d728-4f56-8a77-457a0ffcf6b0/json"
+      },
+      {
+        "label": "Open Archives baptism record for Hendrik, child of Barend Geel and Kaatje de Wilde",
+        "url": "https://www.openarchieven.nl/saa:bd2dd520-cb09-79a2-27f6-9d804434ae4b/json"
+      }
+    ]
+  },
+  {
+    "personId": "I272780759685",
+    "personName": "Barent Geel",
+    "bio": "Barent/Barend Geel appears with Kaatje de Wilde in Amsterdam Dutch Reformed baptism records. In 1737 they baptized Anthonij at the Noorderkerk, with Sijmon Ostman and Sara Groen as witnesses; in 1740 they baptized Hendrik at the Nieuwe Kerk, with Hendrik Wesseloo and Johanna Kempe as witnesses. These records place the Geel/de Wilde household in Amsterdam church life and connect it with the Wesselo/Kempers family circle.",
+    "funFacts": [
+      "The 1737 and 1740 baptisms show the family using both Barent and Barend spelling forms.",
+      "The witness list on the 1740 baptism is a useful social-network clue because it names Hendrik Wesseloo and Johanna Kempe."
+    ],
+    "records": [
+      "1737 Dutch Reformed baptism of son Anthonij, Amsterdam Noorderkerk",
+      "1740 Dutch Reformed baptism of son Hendrik, Amsterdam Nieuwe Kerk",
+      "1745 Dutch Reformed baptism witness entry, Amsterdam Noorderkerk"
+    ],
+    "citations": [
+      {
+        "label": "Open Archives baptism record for Anthonij, child of Barent Geel and Kaatje de Wilde",
+        "url": "https://www.openarchieven.nl/saa:15604158-36c4-436a-9086-b9be52d74e0b/json"
+      },
+      {
+        "label": "Open Archives baptism record for Hendrik, child of Barend Geel and Kaatje de Wilde",
+        "url": "https://www.openarchieven.nl/saa:bd2dd520-cb09-79a2-27f6-9d804434ae4b/json"
+      },
+      {
+        "label": "Open Archives baptism record for Anna Katriena, daughter of Hendrick Wesloo and Anna Kempers",
+        "url": "https://www.openarchieven.nl/saa:7c16941a-d728-4f56-8a77-457a0ffcf6b0/json"
+      }
+    ]
+  },
+  {
+    "personId": "I272780759680",
+    "personName": "Catrina de Wilde",
+    "bio": "Catrina de Wilde appears in the Amsterdam baptism records for this family under the common Dutch form Kaatje de Wilde. She and Barent/Barend Geel are named as parents in the 1737 baptism of Anthonij at the Noorderkerk and the 1740 baptism of Hendrik at the Nieuwe Kerk. In 1745, Kaatje de Wilde and Barent Geel served as witnesses for a Wesselo/Kempers baptism, showing the families in the same church network.",
+    "funFacts": [
+      "The records do not spell her as Catrina; they use Kaatje, so the link should be treated as a documented name variant rather than a separate new fact.",
+      "Her family’s baptisms span two Amsterdam churches: Noorderkerk and Nieuwe Kerk."
+    ],
+    "records": [
+      "1737 Dutch Reformed baptism of son Anthonij, Amsterdam Noorderkerk",
+      "1740 Dutch Reformed baptism of son Hendrik, Amsterdam Nieuwe Kerk",
+      "1745 Dutch Reformed baptism witness entry, Amsterdam Noorderkerk"
+    ],
+    "citations": [
+      {
+        "label": "Open Archives baptism record for Anthonij, child of Barent Geel and Kaatje de Wilde",
+        "url": "https://www.openarchieven.nl/saa:15604158-36c4-436a-9086-b9be52d74e0b/json"
+      },
+      {
+        "label": "Open Archives baptism record for Hendrik, child of Barend Geel and Kaatje de Wilde",
+        "url": "https://www.openarchieven.nl/saa:bd2dd520-cb09-79a2-27f6-9d804434ae4b/json"
+      },
+      {
+        "label": "Open Archives baptism record for Anna Katriena, daughter of Hendrick Wesloo and Anna Kempers",
+        "url": "https://www.openarchieven.nl/saa:7c16941a-d728-4f56-8a77-457a0ffcf6b0/json"
+      }
+    ]
+  },
+  {
+    "personId": "I272780762187",
+    "personName": "Jan Wisloo",
+    "bio": "Jan Wisloo appears in Amsterdam marriage records at the start of the 1700s. He registered an intended marriage with Beatrix Claasz Bremmers on 24 September 1701; after her death, his 1703 intended marriage to Anna Lijflant explicitly notes his earlier wife as Beatrix Claasz Bremmers. A 1726 Amsterdam burial for Jan Wisselo likely belongs to the same surname cluster, but the burial index gives no relationships, so it should be treated cautiously.",
+    "funFacts": [
+      "The Amsterdam indexes preserve several spelling variants for the surname, including Wisloo, Wilslo, Visloo, and Wisselo.",
+      "The 1701 and 1703 ondertrouw records are especially useful because they name prior spouses, helping separate repeated marriages in a busy Amsterdam population."
+    ],
+    "records": [
+      "1701 Amsterdam ondertrouw registration with Beatrix Claasz Bremmers",
+      "1703 Amsterdam burial record of wife Beatris Bremmers",
+      "1703 Amsterdam ondertrouw registration with Anna Lijflant",
+      "1726 possible Amsterdam burial record for Jan Wisselo"
+    ],
+    "citations": [
+      {
+        "label": "Open Archives ondertrouw record for Jan Wisloo and Beatrix Claasz Bremmers",
+        "url": "https://www.openarchieven.nl/saa:9e6d4d0c-e6a2-4215-8936-7def966f7d19/json"
+      },
+      {
+        "label": "Open Archives burial record for Beatris Bremmers",
+        "url": "https://www.openarchieven.nl/saa:e76b252c-2660-4734-b544-fc23d3e70fbf/json"
+      },
+      {
+        "label": "Open Archives ondertrouw record for Jan Wisloo and Anna Lijflant",
+        "url": "https://www.openarchieven.nl/saa:57f8b6c6-7dc1-405d-865b-b3e7b779c55b/json"
+      },
+      {
+        "label": "Open Archives burial record for Jan Wisselo",
+        "url": "https://www.openarchieven.nl/saa:5a04e10a-b874-4a51-a399-99ac3e9748cc/json"
+      }
+    ]
+  },
+  {
+    "personId": "I272780762190",
+    "personName": "Beatrix (Beatris) Claas Bremmers",
+    "bio": "Beatrix appears in Amsterdam records as Beatrix Claasz Bremmers and Beatris Bremmers. She registered an intended marriage with Jan Wisloo on 24 September 1701; the record notes her earlier husband as Hendrik Dircksz Smit. She was buried in Amsterdam on 10 January 1703, with the burial index identifying her as the wife of Jan Visloo.",
+    "funFacts": [
+      "Her 1701 marriage record and 1703 burial record preserve two forms of her name: Beatrix Claasz Bremmers and Beatris Bremmers.",
+      "The burial place note names the Heiligewegs- en Leidsche Kerkhof in Amsterdam."
+    ],
+    "records": [
+      "1701 Amsterdam ondertrouw registration with Jan Wisloo",
+      "1703 Amsterdam burial registration"
+    ],
+    "citations": [
+      {
+        "label": "Open Archives ondertrouw record for Jan Wisloo and Beatrix Claasz Bremmers",
+        "url": "https://www.openarchieven.nl/saa:9e6d4d0c-e6a2-4215-8936-7def966f7d19/json"
+      },
+      {
+        "label": "Open Archives burial record for Beatris Bremmers",
+        "url": "https://www.openarchieven.nl/saa:e76b252c-2660-4734-b544-fc23d3e70fbf/json"
       }
     ]
   }
