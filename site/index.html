@@ -15,10 +15,21 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
-			href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap"
+			href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Mulish:wght@400;500;600;700;800&family=Spectral:wght@400;500;600&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700;6..12,800&family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700;12..96,800&display=swap"
 			rel="stylesheet"
 		/>
 		<link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v3.9.0/mapbox-gl.css" />
+		<script>
+			(function () {
+				try {
+					var t = localStorage.getItem('genTheme');
+					if (t !== 'paper' && t !== 'album' && t !== 'hearth') t = 'paper';
+					document.documentElement.setAttribute('data-theme', t);
+				} catch (e) {
+					document.documentElement.setAttribute('data-theme', 'paper');
+				}
+			})();
+		</script>
 	</head>
 	<body>
 		<div id="app">
@@ -38,9 +49,16 @@
 					<button class="tab" data-view="history">History</button>
 					<button class="tab" data-view="connections">Connections</button>
 				</nav>
-				<div class="search">
-					<input id="search-input" type="search" placeholder="Search a name…" autocomplete="off" />
-					<div id="search-results" class="search-results" hidden></div>
+				<div class="topbar-right">
+					<div class="theme-picker" id="theme-picker" role="group" aria-label="Theme">
+						<button class="theme-swatch" type="button" data-theme="paper" title="Heirloom Paper (light)" aria-label="Heirloom Paper theme"></button>
+						<button class="theme-swatch" type="button" data-theme="album" title="Family Album (light)" aria-label="Family Album theme"></button>
+						<button class="theme-swatch" type="button" data-theme="hearth" title="Hearth (dark)" aria-label="Hearth theme"></button>
+					</div>
+					<div class="search">
+						<input id="search-input" type="search" placeholder="Search a name…" autocomplete="off" />
+						<div id="search-results" class="search-results" hidden></div>
+					</div>
 				</div>
 			</header>
 

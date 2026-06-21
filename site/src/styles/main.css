@@ -1,5 +1,127 @@
 :root {
-	/* Heritage dark palette */
+	/* Branch colors (four grandparent lines) — shared across all themes */
+	--branch-lourens: #d98a4e; /* warm amber */
+	--branch-roorda: #5aa9b8; /* frisian teal */
+	--branch-stuenkel: #8a7fc9; /* prussian violet */
+	--branch-brueggemann: #b8657f; /* rose */
+	--branch-root: var(--gold-2);
+
+	/* ============================================================
+	   THEME A — Heirloom Paper (light, default)
+	   ============================================================ */
+	--bg: #f6efe2;
+	--bg-2: #efe6d4;
+	--panel: #fffaf0;
+	--panel-2: #fff6e8;
+	--ink: #3a3026;
+	--ink-soft: #6a5e4d;
+	--muted: #7a6e5d22;
+	--muted-text: #8c7f6b;
+	--gold: #c06a43; /* terracotta accent */
+	--gold-2: #d59a55; /* warm gold */
+	--gold-soft: rgba(192, 106, 67, 0.13);
+	--line: #e6dcc8;
+	--line-strong: #dbcfb6;
+	--shadow: 0 18px 50px -14px rgba(58, 48, 38, 0.22);
+
+	--on-accent: #fffaf0;
+	--tint: rgba(58, 48, 38, 0.05);
+	--tint-2: rgba(58, 48, 38, 0.08);
+	--track: rgba(58, 48, 38, 0.06);
+	--field-bg: #fffaf0;
+	--float-bg: rgba(255, 250, 240, 0.88);
+	--float-border: var(--line-strong);
+	--topbar-bg: linear-gradient(to bottom, rgba(255, 250, 240, 0.65), transparent);
+	--body-bg:
+		radial-gradient(1100px 640px at 85% -10%, rgba(213, 154, 85, 0.14), transparent 60%),
+		radial-gradient(900px 540px at -10% 110%, rgba(120, 150, 140, 0.1), transparent 55%),
+		var(--bg);
+
+	--serif: 'Newsreader', Georgia, 'Times New Roman', serif;
+	--sans: 'Mulish', system-ui, -apple-system, sans-serif;
+	--radius: 16px;
+	--radius-sm: 11px;
+}
+
+/* ============================================================
+   THEME B — Family Album (light, playful)
+   ============================================================ */
+[data-theme='album'] {
+	--bg: #fdf6ea;
+	--bg-2: #f8eedd;
+	--panel: #ffffff;
+	--panel-2: #fffaf3;
+	--ink: #41372c;
+	--ink-soft: #6b5f50;
+	--muted: #8b7d6b22;
+	--muted-text: #8b7d6b;
+	--gold: #e2553f; /* tomato primary */
+	--gold-2: #f0895c;
+	--gold-soft: rgba(226, 85, 63, 0.12);
+	--line: #efe2d2;
+	--line-strong: #e4d4c0;
+	--shadow: 0 20px 52px -14px rgba(65, 55, 44, 0.18);
+
+	--on-accent: #ffffff;
+	--tint: rgba(65, 55, 44, 0.05);
+	--tint-2: rgba(65, 55, 44, 0.08);
+	--track: rgba(65, 55, 44, 0.05);
+	--field-bg: #ffffff;
+	--float-bg: rgba(255, 255, 255, 0.9);
+	--float-border: var(--line-strong);
+	--topbar-bg: linear-gradient(to bottom, rgba(253, 246, 234, 0.7), transparent);
+	--body-bg:
+		radial-gradient(circle at 12% 8%, #fbe7d6 0, transparent 42%),
+		radial-gradient(circle at 92% 4%, #def0ea 0, transparent 38%),
+		#fdf6ea;
+
+	--serif: 'Bricolage Grotesque', system-ui, sans-serif;
+	--sans: 'Nunito Sans', system-ui, -apple-system, sans-serif;
+	--radius: 20px;
+	--radius-sm: 14px;
+}
+
+/* ============================================================
+   THEME C — Hearth (warm dark)
+   ============================================================ */
+[data-theme='hearth'] {
+	--bg: #221a13;
+	--bg-2: #2b2118;
+	--panel: #2f261b;
+	--panel-2: #372c20;
+	--ink: #f1e6d3;
+	--ink-soft: #d8cab2;
+	--muted: #b3a48d22;
+	--muted-text: #b3a48d;
+	--gold: #d99a4a; /* amber */
+	--gold-2: #ecbf6b;
+	--gold-soft: rgba(230, 178, 90, 0.14);
+	--line: #43372a;
+	--line-strong: #564731;
+	--shadow: 0 18px 50px -12px rgba(0, 0, 0, 0.7);
+
+	--on-accent: #2a1f12;
+	--tint: rgba(255, 255, 255, 0.05);
+	--tint-2: rgba(255, 255, 255, 0.07);
+	--track: rgba(0, 0, 0, 0.25);
+	--field-bg: rgba(0, 0, 0, 0.3);
+	--float-bg: rgba(20, 17, 15, 0.82);
+	--float-border: var(--line-strong);
+	--topbar-bg: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), transparent);
+	--body-bg:
+		radial-gradient(120% 80% at 50% -10%, #2e2317 0, transparent 60%),
+		var(--bg);
+
+	--serif: 'Spectral', Georgia, 'Times New Roman', serif;
+	--sans: 'Mulish', system-ui, -apple-system, sans-serif;
+	--radius: 16px;
+	--radius-sm: 10px;
+}
+
+/* The Migration Map is an immersive dark "stage" in every theme — its glowing
+   arcs are designed for a dark basemap. Re-declare the heritage dark tokens
+   locally so the map view and its floating chrome stay dark regardless of theme. */
+.map-view {
 	--bg: #14110f;
 	--bg-2: #1a1613;
 	--panel: #211b16;
@@ -13,19 +135,13 @@
 	--gold-soft: #c9a24b22;
 	--line: rgba(236, 228, 216, 0.1);
 	--line-strong: rgba(236, 228, 216, 0.18);
-	--shadow: 0 18px 50px -12px rgba(0, 0, 0, 0.7);
-
-	/* Branch colors (four grandparent lines) */
-	--branch-lourens: #d98a4e; /* warm amber */
-	--branch-roorda: #5aa9b8; /* frisian teal */
-	--branch-stuenkel: #8a7fc9; /* prussian violet */
-	--branch-brueggemann: #b8657f; /* rose */
-	--branch-root: var(--gold-2);
-
-	--serif: 'Fraunces', Georgia, 'Times New Roman', serif;
-	--sans: 'Inter', system-ui, -apple-system, sans-serif;
-	--radius: 14px;
-	--radius-sm: 9px;
+	--on-accent: #2a1f0c;
+	--tint: rgba(255, 255, 255, 0.05);
+	--tint-2: rgba(255, 255, 255, 0.07);
+	--track: rgba(0, 0, 0, 0.25);
+	--field-bg: rgba(0, 0, 0, 0.3);
+	--float-bg: rgba(20, 17, 15, 0.82);
+	--float-border: var(--line-strong);
 }
 
 * {
@@ -41,10 +157,7 @@ body {
 body {
 	font-family: var(--sans);
 	color: var(--ink);
-	background:
-		radial-gradient(1200px 700px at 80% -10%, #2a201733, transparent 60%),
-		radial-gradient(1000px 600px at -10% 110%, #1f2a2a22, transparent 55%),
-		var(--bg);
+	background: var(--body-bg);
 	-webkit-font-smoothing: antialiased;
 	overflow: hidden;
 }
@@ -63,7 +176,7 @@ body {
 	gap: 18px;
 	padding: 14px 24px;
 	border-bottom: 1px solid var(--line);
-	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), transparent);
+	background: var(--topbar-bg);
 	z-index: 20;
 }
 
@@ -100,7 +213,7 @@ body {
 .tabs {
 	display: flex;
 	gap: 4px;
-	background: rgba(0, 0, 0, 0.25);
+	background: var(--track);
 	padding: 5px;
 	border-radius: 999px;
 	border: 1px solid var(--line);
@@ -128,20 +241,68 @@ body {
 
 .tab.is-active {
 	background: linear-gradient(180deg, var(--gold-2), var(--gold));
-	color: #2a1f0c;
+	color: var(--on-accent);
 	font-weight: 600;
 	box-shadow: 0 4px 14px -4px var(--gold);
 }
 
-.search {
+.topbar-right {
 	justify-self: end;
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	min-width: 0;
+}
+
+.theme-picker {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	padding: 4px;
+	border-radius: 999px;
+	border: 1px solid var(--line);
+	background: var(--track);
+}
+
+.theme-swatch {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	border: 1.5px solid var(--line-strong);
+	cursor: pointer;
+	padding: 0;
+	transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.theme-swatch:hover {
+	transform: scale(1.12);
+}
+
+.theme-swatch[data-theme='paper'] {
+	background: radial-gradient(circle at 35% 30%, #fffaf0, #c06a43);
+}
+
+.theme-swatch[data-theme='album'] {
+	background: radial-gradient(circle at 35% 30%, #ffffff, #e2553f);
+}
+
+.theme-swatch[data-theme='hearth'] {
+	background: radial-gradient(circle at 35% 30%, #ecbf6b, #221a13);
+}
+
+.theme-swatch.is-active {
+	border-color: var(--gold);
+	box-shadow: 0 0 0 2px var(--gold);
+}
+
+.search {
 	position: relative;
 	width: min(240px, 100%);
 }
 
 .search input {
 	width: 100%;
-	background: rgba(0, 0, 0, 0.3);
+	background: var(--field-bg);
 	border: 1px solid var(--line-strong);
 	color: var(--ink);
 	border-radius: 999px;
@@ -318,8 +479,8 @@ body {
 
 .ctrl-btn {
 	appearance: none;
-	border: 1px solid var(--line-strong);
-	background: rgba(20, 17, 15, 0.82);
+	border: 1px solid var(--float-border);
+	background: var(--float-bg);
 	backdrop-filter: blur(8px);
 	color: var(--ink);
 	width: 38px;
@@ -338,9 +499,9 @@ body {
 }
 
 .panel-card {
-	background: rgba(20, 17, 15, 0.86);
+	background: var(--float-bg);
 	backdrop-filter: blur(10px);
-	border: 1px solid var(--line);
+	border: 1px solid var(--float-border);
 	border-radius: var(--radius);
 	box-shadow: var(--shadow);
 	padding: 16px 18px;
@@ -463,7 +624,7 @@ body {
 	height: 34px;
 	border-radius: 9px;
 	border: 1px solid var(--line);
-	background: rgba(0, 0, 0, 0.25);
+	background: var(--tint);
 	color: var(--ink-soft);
 	font-size: 17px;
 	cursor: pointer;
@@ -511,7 +672,7 @@ body {
 	border-radius: 12px;
 	overflow: hidden;
 	border: 1px solid var(--line-strong);
-	background: rgba(0, 0, 0, 0.18);
+	background: var(--tint);
 }
 
 .pp-figure a {
@@ -653,7 +814,7 @@ body {
 }
 
 .chip.person-chip {
-	background: rgba(255, 255, 255, 0.04);
+	background: var(--tint);
 	color: var(--ink-soft);
 	cursor: pointer;
 }
@@ -805,7 +966,7 @@ body {
 
 .bar-track {
 	height: 12px;
-	background: rgba(255, 255, 255, 0.05);
+	background: var(--tint);
 	border-radius: 6px;
 	overflow: hidden;
 }
@@ -834,7 +995,7 @@ body {
 
 .bar-row.is-pop:hover,
 .bar-row.is-pop:focus-visible {
-	background: rgba(255, 255, 255, 0.05);
+	background: var(--tint-2);
 }
 
 .bar-row.is-pop:hover .bl,
@@ -851,7 +1012,7 @@ body {
 
 .histo-col.is-pop:hover,
 .histo-col.is-pop:focus-visible {
-	background: rgba(255, 255, 255, 0.05);
+	background: var(--tint-2);
 }
 
 .histo-col.is-pop:hover .histo-bar,
@@ -906,7 +1067,7 @@ body {
 	font-family: var(--sans);
 	font-size: 11px;
 	font-variant-numeric: tabular-nums;
-	color: var(--bg, #14110d);
+	color: var(--on-accent);
 	background: var(--gold);
 	border-radius: 999px;
 	padding: 1px 8px;
@@ -938,7 +1099,7 @@ body {
 }
 
 .occ-pop-item:hover {
-	background: rgba(255, 255, 255, 0.06);
+	background: var(--tint-2);
 	color: var(--gold-2);
 }
 
@@ -1167,7 +1328,7 @@ body {
 	font-size: 12px;
 	font-variant-numeric: tabular-nums;
 	color: var(--muted-text);
-	background: rgba(255, 255, 255, 0.05);
+	background: var(--tint);
 	border-radius: 999px;
 	padding: 1px 8px;
 	margin-left: auto;
@@ -1287,7 +1448,7 @@ body {
 	border-radius: 10px;
 	overflow: hidden;
 	border: 1px solid var(--line-strong);
-	background: rgba(0, 0, 0, 0.2);
+	background: var(--tint);
 }
 
 .conn-figure img {
@@ -1367,7 +1528,7 @@ body {
 .confidence.speculative {
 	color: var(--muted-text);
 	border-color: var(--line-strong);
-	background: rgba(255, 255, 255, 0.03);
+	background: var(--tint);
 }
 
 .conn-desc {
@@ -1923,7 +2084,7 @@ body {
 	display: inline-flex;
 	align-items: baseline;
 	gap: 8px;
-	background: rgba(255, 255, 255, 0.04);
+	background: var(--tint);
 	border: 1px solid var(--line);
 	border-radius: 999px;
 	padding: 6px 13px;
@@ -2007,7 +2168,7 @@ body {
 	margin: 0;
 }
 .history-note.subtle {
-	background: rgba(255, 255, 255, 0.025);
+	background: var(--tint);
 	border-left-color: var(--line-strong, var(--gold));
 }
 .era-family {

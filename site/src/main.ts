@@ -91,8 +91,33 @@ async function main(): Promise<void> {
 	});
 
 	setupSearch(data, ctx);
+	setupThemePicker();
 	loading.remove();
 	switchView('tree');
+}
+
+function setupThemePicker(): void {
+	const picker = document.getElementById('theme-picker');
+	if (!picker) return;
+	const themes = ['paper', 'album', 'hearth'];
+	const apply = (theme: string): void => {
+		document.documentElement.setAttribute('data-theme', theme);
+		try {
+			localStorage.setItem('genTheme', theme);
+		} catch {
+			/* ignore */
+		}
+		for (const sw of picker.querySelectorAll('.theme-swatch')) {
+			sw.classList.toggle('is-active', (sw as HTMLElement).dataset.theme === theme);
+		}
+	};
+	let current = document.documentElement.getAttribute('data-theme') ?? 'paper';
+	if (!themes.includes(current)) current = 'paper';
+	apply(current);
+	picker.addEventListener('click', (e) => {
+		const btn = (e.target as HTMLElement).closest('.theme-swatch') as HTMLElement | null;
+		if (btn?.dataset.theme) apply(btn.dataset.theme);
+	});
 }
 
 function setupSearch(data: AppData, ctx: AppContext): void {
