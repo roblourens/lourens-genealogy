@@ -185,8 +185,8 @@ export function createStatsView(ctx: AppContext): ViewController {
 	);
 	const oldestParent = [...parentAges].sort((a, b) => b.age - a.age)[0];
 
-	// Life expectancy by birth cohort (half-century).
-	const lifeTrend = averageByPeriod(
+	// Life expectancy by birth cohort (half-century): full distribution, not just the average.
+	const lifeDist = distByPeriod(
 		withAge.filter((p) => p.birthYear).map((p) => ({ year: p.birthYear as number, value: p.ageAtDeath as number })),
 	);
 
@@ -254,8 +254,8 @@ export function createStatsView(ctx: AppContext): ViewController {
 
 			<div class="chart-card wide">
 				<h3>Lifespans Over the Centuries</h3>
-				<p class="chart-sub">Average age at death by the half-century a person was born — life grew longer over time. Hover a point for the count behind it.</p>
-				${trendChart(lifeTrend, { unit: ' yrs' })}
+				<p class="chart-sub">Each half-century's full spread of age at death — the box spans the middle 50% (Q1–Q3), the line inside is the median, the whiskers reach the youngest and oldest, and the dotted gold line tracks the mean as life grew longer. <span class="chart-hint">Hover a column for the min, max, median and mean.</span></p>
+				${distChart(lifeDist, { unit: ' yrs' })}
 			</div>
 
 			<div class="chart-card wide">
@@ -420,17 +420,30 @@ export function createStatsView(ctx: AppContext): ViewController {
 	trendTip.className = 'trend-tip';
 	trendTip.hidden = true;
 	el.appendChild(trendTip);
-	const clearActiveDots = (): void =>
+	const clearActiveDots = (): void => {
 		el.querySelectorAll('.trend-dot.is-active').forEach((d) => d.classList.remove('is-active'));
+		el.querySelectorAll('.dist-box.is-active').forEach((d) => d.classList.remove('is-active'));
+	};
 	const hideTrendTip = (): void => {
 		trendTip.hidden = true;
 		clearActiveDots();
 	};
 	const showTrendTip = (rect: SVGRectElement, ev: MouseEvent): void => {
 		const d = rect.dataset;
-		trendTip.innerHTML = `<strong>${escapeHtml(d.label ?? '')}</strong><span>${escapeHtml(
-			d.value ?? '',
-		)}${escapeHtml(d.unit ?? '')}</span><em>${escapeHtml(d.n ?? '')} people</em>`;
+		if (d.kind === 'dist') {
+			const u = d.unit ?? '';
+			const r = (s?: string): string => (s == null ? '' : String(Math.round(Number(s))));
+			trendTip.innerHTML =
+				`<strong>${escapeHtml(d.label ?? '')}</strong>` +
+				`<span>median ${escapeHtml(r(d.median))}${escapeHtml(u)}</span>` +
+				`<em class="dist-row">range ${escapeHtml(r(d.min))}–${escapeHtml(r(d.max))}${escapeHtml(u)}</em>` +
+				`<em class="dist-row">middle 50% &nbsp;${escapeHtml(r(d.q1))}–${escapeHtml(r(d.q3))}</em>` +
+				`<em>mean ${escapeHtml(r(d.mean))} · ${escapeHtml(d.n ?? '')} people</em>`;
+		} else {
+			trendTip.innerHTML = `<strong>${escapeHtml(d.label ?? '')}</strong><span>${escapeHtml(
+				d.value ?? '',
+			)}${escapeHtml(d.unit ?? '')}</span><em>${escapeHtml(d.n ?? '')} people</em>`;
+		}
 		trendTip.hidden = false;
 		const eb = el.getBoundingClientRect();
 		const tw = trendTip.offsetWidth;
@@ -449,6 +462,7 @@ export function createStatsView(ctx: AppContext): ViewController {
 		const svg = rect.closest('svg');
 		clearActiveDots();
 		svg?.querySelector(`.trend-dot[data-i="${d.i}"]`)?.classList.add('is-active');
+		svg?.querySelector(`.dist-box[data-i="${d.i}"]`)?.classList.add('is-active');
 	};
 	el.querySelectorAll<SVGRectElement>('.trend-hit').forEach((r) => {
 		r.addEventListener('mousemove', (e) => showTrendTip(r, e as MouseEvent));
@@ -695,6 +709,53 @@ function averageByPeriod(items: { year: number; value: number }[], span = 50): T
 	return out;
 }
 
+interface DistPoint {
+	label: string;
+	min: number;
+	q1: number;
+	median: number;
+	q3: number;
+	max: number;
+	mean: number;
+	n: number;
+}
+
+/** Quartile of a pre-sorted ascending array, with linear interpolation. */
+function quantile(sorted: number[], q: number): number {
+	if (sorted.length === 1) return sorted[0];
+	const pos = (sorted.length - 1) * q;
+	const base = Math.floor(pos);
+	const rest = pos - base;
+	const next = sorted[base + 1];
+	return next !== undefined ? sorted[base] + rest * (next - sorted[base]) : sorted[base];
+}
+
+/** Five-number summary (min/Q1/median/Q3/max) + mean of a {year,value} series, binned by period. */
+function distByPeriod(items: { year: number; value: number }[], span = 50): DistPoint[] {
+	if (!items.length) return [];
+	const minY = Math.floor(Math.min(...items.map((i) => i.year)) / span) * span;
+	const maxY = Math.floor(Math.max(...items.map((i) => i.year)) / span) * span;
+	const out: DistPoint[] = [];
+	for (let y = minY; y <= maxY; y += span) {
+		const vals = items
+			.filter((i) => i.year >= y && i.year < y + span)
+			.map((i) => i.value)
+			.sort((a, b) => a - b);
+		if (!vals.length) continue;
+		out.push({
+			label: `${y}s`,
+			min: vals[0],
+			q1: quantile(vals, 0.25),
+			median: quantile(vals, 0.5),
+			q3: quantile(vals, 0.75),
+			max: vals[vals.length - 1],
+			mean: mean(vals),
+			n: vals.length,
+		});
+	}
+	return out;
+}
+
 /** Count people whose birth and death countries differ, plus the most common destination. */
 function crossCountryCount(
 	people: Person[],
@@ -785,6 +846,106 @@ function trendChart(points: TrendPoint[], opts: { unit?: string } = {}): string 
 		grid +
 		`<path class="trend-area" d="${area}" fill="url(#trendFill)"/>` +
 		`<path class="trend-line" d="${line}"/>` +
+		dots +
+		xlabels +
+		`<g class="trend-hits">${hits}</g>` +
+		`</svg>`
+	);
+}
+
+/** Box-and-whisker distribution chart over time: min/max whiskers, IQR box, median, mean trend. */
+function distChart(points: DistPoint[], opts: { unit?: string } = {}): string {
+	if (points.length < 2) return '<p class="chart-empty">Not enough data to chart.</p>';
+	const unit = opts.unit ?? '';
+	const W = 1000;
+	const H = 300;
+	const padL = 60;
+	const padR = 28;
+	const padT = 22;
+	const padB = 48;
+	const lo = Math.min(...points.map((p) => p.min));
+	const hi = Math.max(...points.map((p) => p.max));
+	const yMin = Math.max(0, Math.floor((lo - 4) / 10) * 10);
+	const yMax = Math.ceil((hi + 4) / 10) * 10;
+	const band = (W - padL - padR) / points.length;
+	const xFor = (i: number): number => padL + band * (i + 0.5);
+	const yFor = (v: number): number => padT + (1 - (v - yMin) / (yMax - yMin)) * (H - padT - padB);
+	const halfBox = Math.min(24, band * 0.3);
+	const cap = halfBox * 0.55;
+
+	const ticks = [yMin, Math.round((yMin + yMax) / 2), yMax];
+	const grid = ticks
+		.map((t) => {
+			const y = yFor(t);
+			return (
+				`<line class="trend-grid" x1="${padL}" y1="${y.toFixed(1)}" x2="${W - padR}" y2="${y.toFixed(1)}"></line>` +
+				`<text class="trend-ylabel" x="${padL - 10}" y="${(y + 5).toFixed(1)}">${t}</text>`
+			);
+		})
+		.join('');
+
+	const meanLine = points
+		.map((p, i) => `${i ? 'L' : 'M'}${xFor(i).toFixed(1)},${yFor(p.mean).toFixed(1)}`)
+		.join(' ');
+
+	const boxes = points
+		.map((p, i) => {
+			const x = xFor(i);
+			const yMn = yFor(p.min);
+			const yMx = yFor(p.max);
+			const yQ1 = yFor(p.q1);
+			const yQ3 = yFor(p.q3);
+			const yMed = yFor(p.median);
+			return (
+				`<g class="dist-box" data-i="${i}">` +
+				`<line class="dist-whisker" x1="${x.toFixed(1)}" y1="${yMx.toFixed(1)}" x2="${x.toFixed(1)}" y2="${yMn.toFixed(1)}"/>` +
+				`<line class="dist-cap" x1="${(x - cap).toFixed(1)}" y1="${yMx.toFixed(1)}" x2="${(x + cap).toFixed(1)}" y2="${yMx.toFixed(1)}"/>` +
+				`<line class="dist-cap" x1="${(x - cap).toFixed(1)}" y1="${yMn.toFixed(1)}" x2="${(x + cap).toFixed(1)}" y2="${yMn.toFixed(1)}"/>` +
+				`<rect class="dist-iqr" x="${(x - halfBox).toFixed(1)}" y="${yQ3.toFixed(1)}" width="${(halfBox * 2).toFixed(1)}" height="${Math.max(1, yQ1 - yQ3).toFixed(1)}" rx="3"/>` +
+				`<line class="dist-median" x1="${(x - halfBox).toFixed(1)}" y1="${yMed.toFixed(1)}" x2="${(x + halfBox).toFixed(1)}" y2="${yMed.toFixed(1)}"/>` +
+				`</g>`
+			);
+		})
+		.join('');
+
+	const dots = points
+		.map(
+			(p, i) =>
+				`<circle class="trend-dot" data-i="${i}" cx="${xFor(i).toFixed(1)}" cy="${yFor(
+					p.mean,
+				).toFixed(1)}" r="4"></circle>`,
+		)
+		.join('');
+
+	const xlabels = points
+		.map(
+			(p, i) =>
+				`<text class="trend-xlabel" x="${xFor(i).toFixed(1)}" y="${H - 16}">${escapeHtml(
+					p.label,
+				)}</text>`,
+		)
+		.join('');
+
+	const plotTop = padT;
+	const plotH = H - padT - padB;
+	const hits = points
+		.map((p, i) => {
+			const left = padL + band * i;
+			return (
+				`<rect class="trend-hit" x="${left.toFixed(1)}" y="${plotTop}" width="${band.toFixed(1)}" height="${plotH}" ` +
+				`data-kind="dist" data-i="${i}" data-label="${escapeHtml(p.label)}" ` +
+				`data-min="${p.min}" data-q1="${p.q1.toFixed(1)}" data-median="${p.median.toFixed(1)}" ` +
+				`data-q3="${p.q3.toFixed(1)}" data-max="${p.max}" data-mean="${p.mean.toFixed(1)}" ` +
+				`data-n="${p.n}" data-unit="${escapeHtml(unit)}"></rect>`
+			);
+		})
+		.join('');
+
+	return (
+		`<svg class="trend dist" viewBox="0 0 ${W} ${H}" role="img" aria-label="Lifespan distribution over time">` +
+		grid +
+		`<path class="dist-mean-line" d="${meanLine}"/>` +
+		boxes +
 		dots +
 		xlabels +
 		`<g class="trend-hits">${hits}</g>` +
