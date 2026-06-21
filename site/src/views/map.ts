@@ -397,11 +397,12 @@ export function createMapView(ctx: AppContext): ViewController {
 				'circle-opacity': [
 					'case',
 					['boolean', ['feature-state', 'dim'], false],
-					0.12,
+					0,
 					0.85,
 				],
 				'circle-stroke-color': ['case', ['boolean', ['feature-state', 'sel'], false], '#f3dca0', '#14110f'],
 				'circle-stroke-width': ['case', ['boolean', ['feature-state', 'sel'], false], 2.2, 1.4],
+				'circle-stroke-opacity': ['case', ['boolean', ['feature-state', 'dim'], false], 0, 1],
 			},
 		});
 		map.addLayer({
@@ -420,6 +421,7 @@ export function createMapView(ctx: AppContext): ViewController {
 				'text-color': '#ece4d8',
 				'text-halo-color': '#14110f',
 				'text-halo-width': 1.4,
+				'text-opacity': ['case', ['boolean', ['feature-state', 'dim'], false], 0, 1],
 			},
 		});
 
