@@ -23,6 +23,11 @@
     "Vuren": { "lat": 51.8250, "lng": 5.0483, "displayName": "Vuren, Gelderland, Netherlands" },
     "Theresia, Prussia, Germany": null,
     "Dommerwoud, Pruisen (D)": null,
+    "Onbekend": null,
+    "unbekannt": null,
+    "Unbekannt, Germany": null,
+    "Onbekend or Renswoude, Utrecht, Netherlands": { "lat": 52.0740, "lng": 5.5393, "displayName": "Renswoude, Utrecht, Netherlands" },
+    "Mariënthal (D)": { "lat": 51.7309, "lng": 6.7349, "displayName": "Marienthal, Hamminkeln, Kreis Wesel, Nordrhein-Westfalen, Germany" },
     "Prussia": { "lat": 52.5200, "lng": 13.4050, "displayName": "Berlin (capital of the historic Kingdom of Prussia)", "country": "Germany" }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T06:51:37.364Z",
+  "generatedAt": "2026-06-21T16:02:07.570Z",
   "places": {
     "Altoona, Polk, Iowa, USA": {
       "place": "Altoona, Polk, Iowa, USA",
@@ -667,11 +667,11 @@
     },
     "Mariënthal (D)": {
       "place": "Mariënthal (D)",
-      "lat": 50.1665429,
-      "lng": 16.5614577,
-      "displayName": "Niemojów, gmina Międzylesie, powiat kłodzki, województwo dolnośląskie, Polska",
-      "country": "Polska",
-      "source": "nominatim"
+      "lat": 51.7309,
+      "lng": 6.7349,
+      "displayName": "Marienthal, Hamminkeln, Kreis Wesel, Nordrhein-Westfalen, Germany",
+      "country": "Germany",
+      "source": "override"
     },
     "Metel, Hannover, Germany": {
       "place": "Metel, Hannover, Germany",
@@ -2017,21 +2017,13 @@
       "country": "Nederland",
       "source": "nominatim"
     },
-    "Onbekend": {
-      "place": "Onbekend",
-      "lat": 45.2940359,
-      "lng": 13.6385355,
-      "displayName": "Onbekend, Perci, Općina Tar-Vabriga, Istarska županija, 52465, Hrvatska",
-      "country": "Hrvatska",
-      "source": "nominatim"
-    },
     "Onbekend or Renswoude, Utrecht, Netherlands": {
       "place": "Onbekend or Renswoude, Utrecht, Netherlands",
-      "lat": 52.0907006,
-      "lng": 5.1215634,
-      "displayName": "Utrecht, Nederland",
-      "country": "Nederland",
-      "source": "nominatim"
+      "lat": 52.074,
+      "lng": 5.5393,
+      "displayName": "Renswoude, Utrecht, Netherlands",
+      "country": "Netherlands",
+      "source": "override"
     },
     "Oosterend, Donia State, Littenseradiel, Fryslân | Friesland, Netherlands": {
       "place": "Oosterend, Donia State, Littenseradiel, Fryslân | Friesland, Netherlands",
@@ -2633,14 +2625,6 @@
       "country": "Deutschland",
       "source": "nominatim"
     },
-    "Unbekannt, Germany": {
-      "place": "Unbekannt, Germany",
-      "lat": 49.9849489,
-      "lng": 8.7082455,
-      "displayName": "unbekannt, Bogenschneise, Steinberg, Langen, Landkreis Offenbach, Hessen, 63225, Deutschland",
-      "country": "Deutschland",
-      "source": "nominatim"
-    },
     "Vesbeck, Hannover, Lower Saxony, Germany": {
       "place": "Vesbeck, Hannover, Lower Saxony, Germany",
       "lat": 52.6032894,
@@ -2750,14 +2734,6 @@
       "lat": 50.0955649,
       "lng": 8.4947834,
       "displayName": "Zeilsheim, West, Frankfurt am Main, Hessen, Deutschland",
-      "country": "Deutschland",
-      "source": "nominatim"
-    },
-    "unbekannt": {
-      "place": "unbekannt",
-      "lat": 49.9849489,
-      "lng": 8.7082455,
-      "displayName": "unbekannt, Bogenschneise, Steinberg, Langen, Landkreis Offenbach, Hessen, 63225, Deutschland",
       "country": "Deutschland",
       "source": "nominatim"
     }
