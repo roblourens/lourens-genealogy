@@ -1,5 +1,6 @@
 import type { Person, GeoPoint } from '../../../shared/types';
 import type { AppContext, ViewController } from '../main';
+import { BRANCHES, type BranchKey } from '../data';
 import { escapeHtml, lifespanLabel, shortPlace } from '../util';
 
 const COUNTRY_ALIASES: Record<string, string> = {
@@ -47,6 +48,87 @@ function makeCountryOf(places: Record<string, GeoPoint>): (place?: string) => st
 		if (geo?.country) return normalizeCountry(geo.country);
 		return countryFromString(place);
 	};
+}
+
+interface Crosser {
+	id: string;
+	name: string;
+	birthYear?: number;
+	deathYear?: number;
+	origin: string;
+	dest: string;
+	branch: BranchKey;
+}
+
+const US_STATE = /^(iowa|missouri|kansas|illinois|indiana|wisconsin|nebraska|michigan|minnesota|ohio|texas|california|oregon|washington|colorado|south dakota|north dakota|ia|mo|ks|il|in|wi|ne|mi|mn|oh|tx)\.?$/i;
+
+function usDestination(place?: string): string {
+	if (!place) return 'the United States';
+	const segs = place
+		.split(',')
+		.map((s) => s.trim().replace(/\?+$/, ''))
+		.filter(Boolean)
+		.filter((s) => !/^(usa|u\.?s\.?a?\.?|united states( of america)?|america)$/i.test(s));
+	if (!segs.length) return 'the United States';
+	const town = segs[0];
+	const state = segs.slice(1).find((s) => US_STATE.test(s));
+	return state ? `${town}, ${state}` : town;
+}
+
+// Ancestors born outside the United States who died in it: the ocean-crossing
+// generation. Grouped into the two documented waves and sorted oldest -> youngest.
+function oceanCrossers(
+	people: Person[],
+	countryOf: (place?: string) => string | null,
+	branchOf: Map<string, BranchKey>,
+): { dutch: Crosser[]; german: Crosser[] } {
+	const dutch: Crosser[] = [];
+	const german: Crosser[] = [];
+	for (const p of people) {
+		const from = countryOf(p.birth?.place);
+		const to = countryOf(p.death?.place);
+		if (!from || to !== 'United States' || from === 'United States') continue;
+		const c: Crosser = {
+			id: p.id,
+			name: p.name,
+			birthYear: p.birthYear ?? undefined,
+			deathYear: p.deathYear ?? undefined,
+			origin: shortPlace(p.birth?.place) || from,
+			dest: usDestination(p.death?.place),
+			branch: branchOf.get(p.id) ?? 'root',
+		};
+		if (from === 'Netherlands') dutch.push(c);
+		else german.push(c);
+	}
+	const bySort = (a: Crosser, b: Crosser): number =>
+		(a.birthYear ?? 9999) - (b.birthYear ?? 9999) || a.name.localeCompare(b.name);
+	dutch.sort(bySort);
+	german.sort(bySort);
+	return { dutch, german };
+}
+
+function crosserRows(list: Crosser[]): string {
+	return list
+		.map((c) => {
+			const br = BRANCHES[c.branch];
+			const years =
+				c.birthYear || c.deathYear
+					? `${c.birthYear ?? '?'}\u2013${c.deathYear ?? '?'}`
+					: '';
+			return `<button class="crosser" data-person="${c.id}" title="View ${escapeHtml(
+				c.name,
+			)}">
+				<span class="cx-dot" style="background:${br?.color ?? '#999'}"></span>
+				<span class="cx-name">${escapeHtml(c.name)}</span>
+				<span class="cx-years">${years}</span>
+				<span class="cx-route"><span class="cx-from">${escapeHtml(
+					c.origin,
+				)}</span><span class="cx-arr">\u2192</span><span class="cx-to">${escapeHtml(
+				c.dest,
+			)}</span></span>
+			</button>`;
+		})
+		.join('');
 }
 
 export function createStatsView(ctx: AppContext): ViewController {
@@ -115,6 +197,9 @@ export function createStatsView(ctx: AppContext): ViewController {
 
 	// People who died in a different country than where they were born.
 	const movers = crossCountryCount(people, countryOf);
+
+	// The ocean-crossing generation, grouped by documented wave.
+	const crossers = oceanCrossers(people, countryOf, data.branchOf);
 
 	// People behind each clickable bar/column, grouped per chart and namespaced by prefix
 	// so hovering any bar lists who is in it (click a name to jump to them in the tree).
@@ -217,6 +302,23 @@ export function createStatsView(ctx: AppContext): ViewController {
 					${oldestParent ? superlative(`${oldestParent.age}`, oldestParent.parent, 'Oldest parent at a birth') : ''}
 					${superlative(String(mostChildren?.childIds.length ?? 0), mostChildren, 'Most children recorded')}
 					${superlative(String(earliestPerson?.birthYear ?? '—'), earliestPerson, 'Earliest known ancestor')}
+				</div>
+			</div>
+
+			<div class="chart-card wide">
+				<h3>The Ocean Crossers</h3>
+				<p class="chart-sub">Every ancestor born overseas who died in the United States &mdash; ${crossers.dutch.length + crossers.german.length} in all, oldest to youngest. Click a name to open them. <span class="chart-hint">The tree records birthplaces and deathplaces but not exact arrival dates, so the &ldquo;when&rdquo; is the birth&ndash;death span, not the crossing.</span></p>
+				<div class="crosser-waves">
+					<div class="crosser-col">
+						<h4><span class="cw-dot" style="background:${BRANCHES.roorda.color}"></span>The Dutch wave <span class="cw-ct">${crossers.dutch.length}</span></h4>
+						<p class="cw-sub">Frisian &amp; Gelderland lines &rarr; Pella and Marion County, Iowa</p>
+						<div class="crosser-list">${crosserRows(crossers.dutch)}</div>
+					</div>
+					<div class="crosser-col">
+						<h4><span class="cw-dot" style="background:${BRANCHES.stuenkel.color}"></span>The German wave <span class="cw-ct">${crossers.german.length}</span></h4>
+						<p class="cw-sub">Stuenkel &amp; Brueggemann lines &rarr; Concordia (Lafayette Co.) and St. Louis, Missouri</p>
+						<div class="crosser-list">${crosserRows(crossers.german)}</div>
+					</div>
 				</div>
 			</div>
 		</div>

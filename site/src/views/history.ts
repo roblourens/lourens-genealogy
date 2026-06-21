@@ -1,5 +1,6 @@
 import type { Person } from '../../../shared/types';
 import type { AppContext, ViewController } from '../main';
+import { BRANCHES, type BranchKey } from '../data';
 import { escapeHtml, lifespanLabel } from '../util';
 
 // Canonical Wikipedia sources (all verified to resolve). Kept in one place so the
@@ -66,6 +67,47 @@ function chips(movers: Mover[], limit: number): string {
 		.join('')}</div>`;
 }
 
+interface BranchTally {
+	key: BranchKey;
+	label: string;
+	color: string;
+	count: number;
+}
+
+/** Which family branches a set of movers belong to, biggest first (excluding 'root'). */
+function branchesOf(movers: Mover[], branchOf: Map<string, BranchKey>): BranchTally[] {
+	const counts = new Map<BranchKey, number>();
+	for (const m of movers) {
+		const b = branchOf.get(m.p.id) ?? 'root';
+		if (b === 'root') continue;
+		counts.set(b, (counts.get(b) ?? 0) + 1);
+	}
+	return [...counts.entries()]
+		.sort((a, b) => b[1] - a[1])
+		.map(([key, count]) => ({ key, label: BRANCHES[key].label, color: BRANCHES[key].color, count }));
+}
+
+/** Render the branches as coloured pills naming which lines of the family made this crossing. */
+function branchPills(tallies: BranchTally[]): string {
+	if (!tallies.length) return '';
+	return `<div class="branch-pills"><span class="bp-intro">In our tree:</span>${tallies
+		.map(
+			(t) =>
+				`<span class="branch-pill" style="--bc:${t.color}"><span class="bp-dot"></span>${escapeHtml(
+					t.label,
+				)} <span class="bp-ct">${t.count}</span></span>`,
+		)
+		.join('')}</div>`;
+}
+
+/** A plain-language phrase naming the branches, e.g. "Roorda (Frisian) and Lourens (Dutch)". */
+function branchPhrase(tallies: BranchTally[]): string {
+	const names = tallies.map((t) => `<strong style="color:${t.color}">${escapeHtml(t.label)}</strong>`);
+	if (names.length <= 1) return names[0] ?? 'these';
+	if (names.length === 2) return `${names[0]} and ${names[1]}`;
+	return `${names.slice(0, -1).join(', ')} and ${names[names.length - 1]}`;
+}
+
 export function createHistoryView(ctx: AppContext): ViewController {
 	const { data } = ctx;
 	const el = document.createElement('div');
@@ -86,6 +128,8 @@ export function createHistoryView(ctx: AppContext): ViewController {
 
 	const dutchPeak = peakBirthDecade(dutch);
 	const germanPeak = peakBirthDecade(german);
+	const dutchBranches = branchesOf(dutch, data.branchOf);
+	const germanBranches = branchesOf(german, data.branchOf);
 
 	el.innerHTML = `
 	<div class="history-inner">
@@ -112,7 +156,11 @@ export function createHistoryView(ctx: AppContext): ViewController {
 					'Christian Reformed Church',
 					W.crc,
 				)} and remain one of the most recognizable ${link('Dutch-American', W.dutchAmericans)} communities in the country.</p>
-				${chips(dutch, 5)}
+				<p class="era-family">In <em>this</em> family, the Dutch crossing runs mainly through the ${branchPhrase(
+					dutchBranches,
+				)} ${dutchBranches.length > 1 ? 'lines' : 'line'} &mdash; the Frisian Roordas and the Gelderland Lourenses &mdash; who settled around <strong>Pella and Marion County, Iowa</strong>.</p>
+				${branchPills(dutchBranches)}
+				${chips(dutch, 6)}
 			</div>
 			<aside class="era-side">
 				<div class="era-stat"><span class="es-num">${dutch.length}</span><span class="es-lab">ancestors, Netherlands &rarr; USA</span></div>
@@ -138,7 +186,11 @@ export function createHistoryView(ctx: AppContext): ViewController {
 					'German-American',
 					W.germanAmericans,
 				)} story.</p>
-				${chips(german, 5)}
+				<p class="era-family">Here, the German crossing runs through the ${branchPhrase(
+					germanBranches,
+				)} ${germanBranches.length > 1 ? 'lines' : 'line'}. The Stuenkels settled the German-Lutheran colony of <strong>Concordia, in Lafayette County, Missouri</strong>; the Brueggemanns gathered around <strong>St. Louis</strong>.</p>
+				${branchPills(germanBranches)}
+				${chips(german, 6)}
 			</div>
 			<aside class="era-side">
 				<div class="era-stat"><span class="es-num">${german.length}</span><span class="es-lab">ancestors, Germany &rarr; USA</span></div>
@@ -188,6 +240,10 @@ export function createHistoryView(ctx: AppContext): ViewController {
 			)}, then part of Prussia. They belonged to the same German-Lutheran migration, not a separate Polish one.</p>
 		</section>
 
+		<section class="history-note subtle">
+			<p><strong>A note on dates.</strong> Our tree records where each ancestor was <em>born</em> and <em>died</em>, but not the exact day they stepped off the boat &mdash; so the &ldquo;when&rdquo; above is inferred from birth years and the founding dates of Pella (1847) and Concordia. You can see every ocean-crosser, oldest to youngest, in the <a class="goto-link" data-goto="stats" href="#">Ocean Crossers</a> list on the Statistics page. If exact immigration or naturalization dates are added in Ancestry, this page can plot the real arrivals.</p>
+		</section>
+
 		<section class="reading">
 			<h3>Further Reading</h3>
 			<div class="reading-grid">
@@ -228,6 +284,13 @@ export function createHistoryView(ctx: AppContext): ViewController {
 
 	el.querySelectorAll('[data-person]').forEach((node) =>
 		node.addEventListener('click', () => ctx.openPerson((node as HTMLElement).dataset.person!)),
+	);
+
+	el.querySelectorAll<HTMLElement>('[data-goto]').forEach((node) =>
+		node.addEventListener('click', (e) => {
+			e.preventDefault();
+			ctx.showView(node.dataset.goto as 'stats');
+		}),
 	);
 
 	return { el };

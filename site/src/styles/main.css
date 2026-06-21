@@ -1140,6 +1140,114 @@ body {
 	color: var(--muted-text);
 }
 
+/* ---------- Ocean Crossers ---------- */
+.crosser-waves {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 26px;
+	margin-top: 8px;
+}
+.crosser-col > h4 {
+	display: flex;
+	align-items: center;
+	gap: 9px;
+	font-family: var(--serif);
+	font-size: 17px;
+	color: var(--ink);
+	margin: 0 0 3px;
+}
+.crosser-col .cw-dot {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	flex: none;
+}
+.crosser-col .cw-ct {
+	font-family: var(--sans);
+	font-size: 12px;
+	font-variant-numeric: tabular-nums;
+	color: var(--muted-text);
+	background: rgba(255, 255, 255, 0.05);
+	border-radius: 999px;
+	padding: 1px 8px;
+	margin-left: auto;
+}
+.crosser-col .cw-sub {
+	font-size: 12.5px;
+	color: var(--muted-text);
+	margin: 0 0 12px;
+	line-height: 1.5;
+}
+.crosser-list {
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+}
+.crosser {
+	display: grid;
+	grid-template-columns: auto 1fr auto;
+	align-items: baseline;
+	gap: 10px;
+	width: 100%;
+	text-align: left;
+	background: none;
+	border: 0;
+	border-radius: 7px;
+	padding: 7px 9px;
+	cursor: pointer;
+	color: var(--ink-soft);
+	font-family: var(--sans);
+	transition: background 0.12s ease;
+}
+.crosser:hover {
+	background: rgba(230, 200, 120, 0.09);
+}
+.crosser .cx-dot {
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	flex: none;
+	align-self: center;
+}
+.crosser .cx-name {
+	font-size: 13.5px;
+	color: var(--ink);
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.crosser:hover .cx-name {
+	color: var(--gold-2);
+}
+.crosser .cx-years {
+	font-size: 11.5px;
+	color: var(--muted-text);
+	font-variant-numeric: tabular-nums;
+	justify-self: end;
+}
+.crosser .cx-route {
+	grid-column: 2 / 4;
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	font-size: 11.5px;
+	color: var(--muted-text);
+	margin-top: 1px;
+}
+.crosser .cx-arr {
+	color: var(--gold);
+	opacity: 0.7;
+}
+.crosser .cx-to {
+	color: var(--ink-soft);
+}
+@media (max-width: 760px) {
+	.crosser-waves {
+		grid-template-columns: 1fr;
+		gap: 22px;
+	}
+}
+
 /* ---------- Connections ---------- */
 .conn-view {
 	height: 100%;
@@ -1897,6 +2005,68 @@ body {
 	line-height: 1.65;
 	color: var(--ink-soft);
 	margin: 0;
+}
+.history-note.subtle {
+	background: rgba(255, 255, 255, 0.025);
+	border-left-color: var(--line-strong, var(--gold));
+}
+.era-family {
+	margin-top: 14px;
+	padding-top: 14px;
+	border-top: 1px dashed var(--line);
+	font-size: 15px;
+	line-height: 1.7;
+	color: var(--ink-soft);
+}
+.branch-pills {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 8px;
+	margin: 14px 0 4px;
+}
+.branch-pills .bp-intro {
+	font-family: var(--sans);
+	font-size: 11px;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: var(--muted-text);
+	margin-right: 2px;
+}
+.branch-pill {
+	display: inline-flex;
+	align-items: center;
+	gap: 7px;
+	background: color-mix(in srgb, var(--bc) 14%, transparent);
+	border: 1px solid color-mix(in srgb, var(--bc) 45%, transparent);
+	border-radius: 999px;
+	padding: 4px 11px;
+	font-family: var(--sans);
+	font-size: 12.5px;
+	color: var(--ink);
+}
+.branch-pill .bp-dot {
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: var(--bc);
+	flex: none;
+}
+.branch-pill .bp-ct {
+	font-variant-numeric: tabular-nums;
+	font-weight: 600;
+	color: var(--bc);
+}
+.goto-link {
+	color: var(--gold-2);
+	text-decoration: none;
+	border-bottom: 1px solid rgba(230, 200, 120, 0.35);
+	cursor: pointer;
+	transition: color 0.12s ease, border-color 0.12s ease;
+}
+.goto-link:hover {
+	color: var(--gold);
+	border-bottom-color: var(--gold);
 }
 .reading > h3 {
 	font-family: var(--serif);
