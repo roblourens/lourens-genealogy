@@ -57,21 +57,30 @@ shipped — only the generated JSON. Research is stored append-only in
 ## Step-by-step
 
 ### 0. Locate the genuinely-latest export (do this first)
-The owner exports from Ancestry and the file usually lands in `~/Downloads/Lourens Family Tree.ged`,
-NOT in the repo. The repo copy may already be newer than a stale download. Before importing,
-figure out which file is actually the latest and confirm it really adds something:
+**Ancestry exports as a `.zip`** (containing `Lourens Family Tree.ged` + any media), and it usually
+lands in `~/Downloads`. Repeated exports get numbered: `Lourens Family Tree.zip`,
+`Lourens Family Tree (1).zip`, `(2)`, `(3)`… **The highest number is NOT always newest** — sort by
+mtime and by the `.ged` size inside. The repo copy may already be newer than a stale download.
+Before importing, figure out which file is actually latest and confirm it really adds something:
 ```bash
-# Compare the repo copy against any Downloads copy: mtime, INDI (people) count
-for f in "Lourens Family Tree.ged" ~/Downloads/"Lourens Family Tree.ged"; do
-  [ -f "$f" ] && echo "$(stat -f '%Sm' -t '%Y-%m-%d %H:%M:%S' "$f")  INDI=$(grep -c '^0 @I' "$f")  $f"
+# Inspect every export zip in Downloads: show the .ged size + date inside each
+cd ~/Downloads && for z in "Lourens Family Tree"*.zip; do
+  echo "$z ->"; unzip -l "$z" | grep -i '\.ged'
 done
+# Extract the newest-looking one and compare INDI (people) counts to the repo
+unzip -o -q "Lourens Family Tree (N).zip" -d ./_ged_check
+NEW="./_ged_check/Lourens Family Tree.ged"; REPO="/Users/roblou/code/geneaology/Lourens Family Tree.ged"
+echo "NEW  $(grep -c '^0 @I' "$NEW") people / $(wc -c < "$NEW") bytes"
+echo "REPO $(grep -c '^0 @I' "$REPO") people / $(wc -c < "$REPO") bytes"
+diff <(grep -oE '^0 @I[0-9]+@' "$REPO"|sort) <(grep -oE '^0 @I[0-9]+@' "$NEW"|sort) | grep -c '^>'  # new people
 ```
+(Also check for any bare `~/Downloads/Lourens Family Tree.ged` — an older flow extracted it loose.)
 Decision rules:
 - **The newest, largest export wins.** A *smaller* INDI count than the repo copy almost always
   means an older/partial export — importing it would DELETE people. Never import a smaller file
   without explicit owner confirmation.
-- If the latest file is in `~/Downloads`, copy it into the repo (`cp ~/Downloads/"Lourens Family
-  Tree.ged" .`) before parsing.
+- Once you've identified the genuinely-newest `.ged`, copy it into the repo
+  (`cp "./_ged_check/Lourens Family Tree.ged" .`) before parsing, then clean up `_ged_check`.
 - After parsing, **diff to confirm real change** (Step 2). If `git diff "Lourens Family Tree.ged"`
   is empty and the parsed people are byte-identical (0 added, 0 changed by `hash`), there is
   nothing to import — tell the owner the repo already has the latest (cite the timestamp + count)
